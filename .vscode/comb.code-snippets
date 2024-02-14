@@ -1,0 +1,23 @@
+{
+  "component-with-base": {
+    "prefix": "comb",
+    "description": "Create a TypeScript component with base props (children and className) already implemented.",
+    "scope": "typescriptreact",
+    "body": [
+      "import type { ComponentPropsWithoutRef } from \"react\";",
+      "import { cn } from \"@/lib/utils\";",
+      "",
+      "export type ${1:${TM_FILENAME_BASE/([\\w]+)([-_])([\\w])/${1:/capitalize}${3:/capitalize}/g}}Props = ComponentPropsWithoutRef<\"div\"> & {",
+      "  $2",
+      "}",
+      "",
+      "export const ${1:${TM_FILENAME_BASE/([\\w]+)([-_])([\\w])/${1:/capitalize}${3:/capitalize}/g}} = ({ children, className, ...props }: ${1:${TM_FILENAME_BASE/([\\w]+)([-_])([\\w])/${1:/capitalize}${3:/capitalize}/g}}Props) => {",
+      "  return (",
+      "    <div className={cn(\"\", className)} {...props}>",
+      "      {children}",
+      "    </div>",
+      "  );",
+      "}"
+    ]
+  }
+}

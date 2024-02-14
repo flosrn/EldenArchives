@@ -1,0 +1,312 @@
+html.dark {
+  /**
+ * Github Dark theme for Prism.js
+ * Based on Github: https://github.com
+ * @author Katorly
+ */
+  /* General */
+  pre[class*="language-"],
+  code[class*="language-"] {
+    color: #c9d1d9;
+    font-size: 13px;
+    text-shadow: none;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+  pre[class*="language-"]::selection,
+  code[class*="language-"]::selection,
+  pre[class*="language-"]::mozselection,
+  code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: #234879;
+  }
+  @media print {
+    pre[class*="language-"],
+    code[class*="language-"] {
+      text-shadow: none;
+    }
+  }
+  pre[class*="language-"] {
+    padding: 1em;
+    margin: 0.5em 0;
+    overflow: auto;
+    background: #161b22;
+    border: 2px solid #161b22;
+    @apply ring ring-2 ring-primary/80;
+  }
+  :not(pre) > code[class*="language-"] {
+    padding: 0.1em 0.3em;
+    border-radius: 0.3em;
+    color: #c9d1d9;
+    background: #343942;
+  }
+  /* Line highlighting */
+  pre[data-line] {
+    position: relative;
+  }
+  pre[class*="language-"] > code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+  }
+  .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #2f2a1e;
+    box-shadow: inset 5px 0 0 #674c16;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+  }
+  /* Tokens */
+  .namespace {
+    opacity: 0.7;
+  }
+  .token.comment,
+  .token.prolog,
+  .token.doctype,
+  .token.cdata {
+    color: #8b949e;
+  }
+  .token.punctuation {
+    color: #c9d1d9;
+  }
+  .token.property,
+  .token.tag,
+  .token.boolean,
+  .token.number,
+  .token.constant,
+  .token.symbol,
+  .token.deleted {
+    color: #79c0ff;
+  }
+  .token.selector,
+  .token.attr-name,
+  .token.string,
+  .token.char,
+  .token.builtin,
+  .token.inserted {
+    color: #a5d6ff;
+  }
+  .token.operator,
+  .token.entity,
+  .token.url,
+  .language-css .token.string,
+  .style .token.string {
+    color: #a5d6ff;
+    background: #161b22;
+  }
+  .token.atrule,
+  .token.attr-value,
+  .token.keyword {
+    color: #a5d6ff;
+  }
+  .token.function {
+    color: #d2a8ff;
+  }
+  .token.regex,
+  .token.important,
+  .token.variable {
+    color: #a8daff;
+  }
+  .token.important,
+  .token.bold {
+    font-weight: bold;
+  }
+  .token.italic {
+    font-style: italic;
+  }
+  .token.entity {
+    cursor: help;
+  }
+}
+
+html.light {
+  /**
+ * Github Light theme for Prism.js
+ * Based on Github: https://github.com
+ * @author Katorly
+ */
+  /* General */
+  pre[class*="language-"],
+  code[class*="language-"] {
+    color: #24292f;
+    font-size: 13px;
+    text-shadow: none;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+  pre[class*="language-"]::selection,
+  code[class*="language-"]::selection,
+  pre[class*="language-"]::mozselection,
+  code[class*="language-"]::mozselection {
+    text-shadow: none;
+    background: #9fc6e9;
+  }
+  @media print {
+    pre[class*="language-"],
+    code[class*="language-"] {
+      text-shadow: none;
+    }
+  }
+  pre[class*="language-"] {
+    padding: 1em;
+    margin: 0.5em 0;
+    overflow: auto;
+    background: #f6f8fa;
+    border: 2px solid #f6f8fa;
+    @apply ring ring-2 ring-primary/80;
+  }
+  :not(pre) > code[class*="language-"] {
+    padding: 0.1em 0.3em;
+    border-radius: 0.3em;
+    color: #24292f;
+    background: #eff1f3;
+  }
+  /* Line highlighting */
+  pre[data-line] {
+    position: relative;
+  }
+  pre[class*="language-"] > code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+  }
+  .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #fff8c5;
+    box-shadow: inset 5px 0 0 #eed888;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+  }
+  /* Tokens */
+  .namespace {
+    opacity: 0.7;
+  }
+  .token.comment,
+  .token.prolog,
+  .token.doctype,
+  .token.cdata {
+    color: #6e7781;
+  }
+  .token.punctuation {
+    color: #24292f;
+  }
+  .token.property,
+  .token.tag,
+  .token.boolean,
+  .token.number,
+  .token.constant,
+  .token.symbol,
+  .token.deleted {
+    color: #0550ae;
+  }
+  .token.selector,
+  .token.attr-name,
+  .token.string,
+  .token.char,
+  .token.builtin,
+  .token.inserted {
+    color: #0a3069;
+  }
+  .token.operator,
+  .token.entity,
+  .token.url,
+  .language-css .token.string,
+  .style .token.string {
+    color: #0550ae;
+  }
+  .token.atrule,
+  .token.attr-value,
+  .token.keyword {
+    color: #cf222e;
+  }
+  .token.function {
+    color: #8250df;
+  }
+  .token.regex,
+  .token.important,
+  .token.variable {
+    color: #0a3069;
+  }
+  .token.important,
+  .token.bold {
+    font-weight: bold;
+  }
+  .token.italic {
+    font-style: italic;
+  }
+  .token.entity {
+    cursor: help;
+  }
+}
+
+.prose {
+  & .code-line {
+    @apply lg:text-base;
+  }
+
+  & .highlight-line {
+    width: 100%;
+    display: block;
+    --space: 0px;
+    background-color: hsl(var(--primary) / 0.2) !important;
+    padding-top: var(--space);
+    padding-bottom: var(--space);
+    padding-right: var(--space);
+    margin-top: calc(-1 * var(--space));
+    margin-bottom: calc(-1 * var(--space));
+    margin-right: calc(-1 * var(--space));
+    --space-left: 6px;
+    margin-left: calc(-1 * var(--space-left));
+    padding-left: var(--space-left);
+    border-left: 4px solid hsl(var(--primary) / 0.8);
+  }
+
+  &.code-highlight {
+    width: 100%;
+    display: block;
+  }
+
+  & code:not(.code-highlight):not(.not-prose code) {
+    &::after {
+      content: "";
+    }
+    &::before {
+      content: "";
+    }
+
+    @apply bg-primary/20 -my-1 py-1 px-0.5 border-primary/60 font-mono border rounded-sm;
+  }
+}

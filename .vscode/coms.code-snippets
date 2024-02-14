@@ -1,0 +1,12 @@
+{
+  "server-component": {
+    "prefix": "coms",
+    "description": "Create a Server Component.",
+    "scope": "javascriptreact,typescriptreact",
+    "body": [
+      "export const ${1:${TM_FILENAME_BASE/([\\w]+)([-_])([\\w])/${1:/capitalize}${3:/capitalize}/g}} = async () => {",
+      "  return $2",
+      "}"
+    ]
+  }
+}

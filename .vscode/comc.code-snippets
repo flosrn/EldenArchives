@@ -1,0 +1,18 @@
+{
+  "component-with-children": {
+    "prefix": "comc",
+    "description": "Create base TypeScript component with props children.",
+    "scope": "typescriptreact",
+    "body": [
+      "import type { PropsWithChildren } from \"react\";",
+      "",
+      "export type ${1:${TM_FILENAME_BASE/([\\w]+)([-_])([\\w])/${1:/capitalize}${3:/capitalize}/g}}Props = PropsWithChildren<{",
+      "  $2",
+      "}>",
+      "",
+      "export const ${1:${TM_FILENAME_BASE/([\\w]+)([-_])([\\w])/${1:/capitalize}${3:/capitalize}/g}} = (props: ${1:${TM_FILENAME_BASE/([\\w]+)([-_])([\\w])/${1:/capitalize}${3:/capitalize}/g}}Props) => {",
+      "  return $3",
+      "}"
+    ]
+  }
+}

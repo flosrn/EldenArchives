@@ -1,0 +1,37 @@
+---
+title: Some post demo
+description: Some post description demo
+keywords:
+  - nextjs
+  - boilerplate
+  - meilleur
+  - best
+tags:
+  - tags1
+coverUrl: https://images.unsplash.com/photo-1707305311532-73bd64624a07?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+status: draft
+---
+
+lorem ipsum
+
+```ts {2}
+export async function generateMetadata({
+  params,
+}: PostParams): Promise<Metadata> {
+  const post = await getCurrentPost(params.slug);
+
+  if (!post) {
+    notFound();
+  }
+
+  return {
+    title: post.attributes.title,
+    description: post.attributes.description,
+    keywords: post.attributes.keywords,
+    authors: {
+      name: "Melvynx",
+      url: "https://melvynx.com",
+    },
+  };
+}
+```

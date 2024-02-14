@@ -1,0 +1,14 @@
+{
+  "Next page": {
+    "prefix": "npag",
+    "description": "Create the base of a next page",
+    "scope": "typescriptreact",
+    "body": [
+      "import type { PageParams } from \"@/types/next\";",
+      "",
+      "export default async function RoutePage(props: PageParams<{ $1 }>) {",
+      "  return $2",
+      "}"
+    ]
+  }
+}
