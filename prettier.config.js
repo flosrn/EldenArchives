@@ -21,6 +21,7 @@ module.exports = {
     "^(next/(.*)$)|^(next$)",
     "^next-",
     "^(@tanstack/react-query/(.*)$)|^(@tanstack/react-query$)",
+    "@react-email",
     "@radix-ui/react",
     "<THIRD_PARTY_MODULES>",
     "",
