@@ -1,4 +1,6 @@
 import * as React from "react";
+import type * as LabelPrimitive from "@radix-ui/react-label";
+import { Slot } from "@radix-ui/react-slot";
 import {
   Controller,
   FormProvider,
@@ -15,8 +17,6 @@ import type { TypeOf, ZodSchema } from "zod";
 
 import { cn } from "@/lib/utils";
 import { zodResolver } from "@hookform/resolvers/zod";
-import type * as LabelPrimitive from "@radix-ui/react-label";
-import { Slot } from "@radix-ui/react-slot";
 
 import { Label } from "./label";
 
