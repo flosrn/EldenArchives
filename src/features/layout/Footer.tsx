@@ -1,7 +1,9 @@
+import Link from "next/link";
+
 import { Typography } from "@/components/ui/typography";
 import { Layout, LayoutContent } from "@/features/page/layout";
 import { SiteConfig } from "@/site-config";
-import Link from "next/link";
+
 import { Maker } from "../maker/Maker";
 
 export const Footer = () => {

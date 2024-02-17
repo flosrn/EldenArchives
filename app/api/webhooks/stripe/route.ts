@@ -1,10 +1,11 @@
+import { headers } from "next/dist/client/components/headers";
+import { NextResponse, type NextRequest } from "next/server";
+import type Stripe from "stripe";
+
 import { env } from "@/lib/env";
 import { logger } from "@/lib/logger";
 import { stripe } from "@/lib/stripe";
-import { headers } from "next/dist/client/components/headers";
-import type { NextRequest } from "next/server";
-import { NextResponse } from "next/server";
-import type Stripe from "stripe";
+
 import { findUserFromCustomer } from "./findUserFromCustomer";
 import {
   downgradeUserFromPlan,
@@ -33,7 +34,7 @@ export const POST = async (req: NextRequest) => {
     event = stripe.webhooks.constructEvent(
       body,
       stripeSignature ?? "",
-      env.STRIPE_WEBHOOK_SECRET ?? "",
+      env.STRIPE_WEBHOOK_SECRET ?? ""
     );
   } catch {
     logger.error("Request Failed - STRIPE_WEBHOOK_SECRET may be invalid");
@@ -106,7 +107,7 @@ async function onInvoicePaid(object: Stripe.Invoice) {
   await upgradeUserToPlan(
     user.id,
     // TODO :Verify if it's right values
-    await getPlanFromLineItem(object.lines.data),
+    await getPlanFromLineItem(object.lines.data)
   );
 }
 
@@ -136,7 +137,7 @@ async function onCustomerSubscriptionUpdated(object: Stripe.Subscription) {
 
   await upgradeUserToPlan(
     user.id,
-    await getPlanFromLineItem(object.items.data),
+    await getPlanFromLineItem(object.items.data)
   );
   await notifyUserOfPremiumUpgrade(user);
 }

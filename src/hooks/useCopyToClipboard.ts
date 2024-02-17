@@ -1,5 +1,6 @@
-import { logger } from "@/lib/logger";
 import { useCallback, useState } from "react";
+
+import { logger } from "@/lib/logger";
 
 export const copyToClipboardSafe = (text: string) => {
   // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
@@ -34,7 +35,7 @@ export const useCopyToClipboard = (delay = 5000) => {
         setIsCopied(false);
       }, delay);
     },
-    [delay],
+    [delay]
   );
 
   return { isCopied, copyToClipboard };

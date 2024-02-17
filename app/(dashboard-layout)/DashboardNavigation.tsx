@@ -1,3 +1,7 @@
+import type { PropsWithChildren } from "react";
+import Image from "next/image";
+import Link from "next/link";
+
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { AuthButton } from "@/features/auth/AuthButton";
@@ -6,9 +10,7 @@ import { ContactFeedbackPopover } from "@/features/contact/feedback/ContactFeedb
 import { ThemeToggle } from "@/features/theme/ThemeToggle";
 import { requiredAuth } from "@/lib/auth/helper";
 import { SiteConfig } from "@/site-config";
-import Image from "next/image";
-import Link from "next/link";
-import type { PropsWithChildren } from "react";
+
 import { DesktopVerticalMenu } from "../../src/features/navigation/DesktopVerticalMenu";
 import { MobileDropdownMenu } from "../../src/features/navigation/MobileDropdownMenu";
 import { DASHBOARD_LINKS } from "./dashboard-links";

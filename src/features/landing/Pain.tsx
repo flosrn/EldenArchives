@@ -1,6 +1,7 @@
 "use client";
 
 import { Typography } from "@/components/ui/typography";
+
 import { SectionLayout } from "./SectionLayout";
 
 export const PainSection = () => {

@@ -7,6 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Typography } from "@/components/ui/typography";
+
 import { ClientMarkdown } from "../markdown/ClientMarkdown";
 import { SectionLayout } from "./SectionLayout";
 

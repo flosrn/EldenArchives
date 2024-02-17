@@ -1,11 +1,13 @@
 "use client";
 
+import { cloneElement, Fragment } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+
 import { Separator } from "@/components/ui/separator";
 import { Typography } from "@/components/ui/typography";
 import { cn } from "@/lib/utils";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { Fragment, cloneElement } from "react";
+
 import { DASHBOARD_LINKS } from "../../../app/(dashboard-layout)/dashboard-links";
 import type { NavigationLinkGroups } from "./navigation.type";
 

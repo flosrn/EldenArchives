@@ -1,10 +1,12 @@
 "use client";
 
+import Link from "next/link";
+import { usePlausible } from "next-plausible";
+
 import { buttonVariants } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Typography } from "@/components/ui/typography";
-import { usePlausible } from "next-plausible";
-import Link from "next/link";
+
 import { SectionLayout } from "../SectionLayout";
 
 export default function CTASectionCard() {

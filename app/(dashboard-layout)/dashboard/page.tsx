@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
@@ -7,7 +9,6 @@ import {
   LayoutTitle,
 } from "@/features/page/layout";
 import type { PageParams } from "@/types/next";
-import Link from "next/link";
 
 export default async function RoutePage(props: PageParams<{}>) {
   return (

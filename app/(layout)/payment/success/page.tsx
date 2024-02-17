@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { buttonVariants } from "@/components/ui/button";
 import {
   Layout,
@@ -6,7 +8,6 @@ import {
   LayoutHeader,
   LayoutTitle,
 } from "@/features/page/layout";
-import Link from "next/link";
 
 export default function SuccessPaymentPage() {
   return (

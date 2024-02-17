@@ -1,9 +1,10 @@
+import type { ComponentPropsWithoutRef } from "react";
+
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Typography } from "@/components/ui/typography";
 import { ClientMarkdown } from "@/features/markdown/ClientMarkdown";
 import { cn } from "@/lib/utils";
-import type { ComponentPropsWithoutRef } from "react";
 
 export type ReviewItemProps = {
   /**

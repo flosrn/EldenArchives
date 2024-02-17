@@ -8,7 +8,7 @@
       "",
       "export default async function RouteLayout(props: LayoutParams<{ $1 }>) {",
       "  return $2",
-      "}"
-    ]
-  }
+      "}",
+    ],
+  },
 }

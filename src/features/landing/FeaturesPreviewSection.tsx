@@ -1,11 +1,12 @@
 "use client";
 
+import { useState, type ReactNode } from "react";
+import { AnimatePresence, motion } from "framer-motion";
+
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Typography } from "@/components/ui/typography";
 import { cn } from "@/lib/utils";
-import { AnimatePresence, motion } from "framer-motion";
-import type { ReactNode } from "react";
-import { useState } from "react";
+
 import { SectionLayout } from "./SectionLayout";
 
 type Feature = {
@@ -13,11 +14,11 @@ type Feature = {
   icon: ReactNode;
   gif: string;
   description: string;
-}
+};
 
 export type FeaturesPreviewProps = {
   features: Feature[];
-}
+};
 
 export const FeaturesPreviewSection = (props: FeaturesPreviewProps) => {
   const [currentFeature, setCurrentFeature] = useState<number>(0);

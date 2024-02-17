@@ -1,12 +1,14 @@
+import { Suspense } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { redirect } from "next/navigation";
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Loader } from "@/components/ui/loader";
 import { Typography } from "@/components/ui/typography";
 import { auth } from "@/lib/auth/helper";
 import { SiteConfig } from "@/site-config";
-import Image from "next/image";
-import Link from "next/link";
-import { redirect } from "next/navigation";
-import { Suspense } from "react";
+
 import { SignUpCredentialsForm } from "./SignUpCredentialsForm";
 
 export default async function AuthSignInPage() {

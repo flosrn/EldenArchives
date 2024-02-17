@@ -1,10 +1,11 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import { Loader } from "@/components/ui/loader";
+import { signOut } from "next-auth/react";
 import { useMutation } from "@tanstack/react-query";
 import { LogOut } from "lucide-react";
-import { signOut } from "next-auth/react";
+
+import { Button } from "@/components/ui/button";
+import { Loader } from "@/components/ui/loader";
 
 export const SignOutButton = () => {
   const logout = useMutation({

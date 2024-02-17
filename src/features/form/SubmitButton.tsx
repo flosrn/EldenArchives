@@ -2,8 +2,8 @@
 
 import type { ComponentPropsWithoutRef } from "react";
 import { useFormStatus } from "react-dom";
-import type { ButtonProps } from "../../components/ui/button";
-import { Button } from "../../components/ui/button";
+
+import { Button, type ButtonProps } from "../../components/ui/button";
 import { Loader } from "../../components/ui/loader";
 
 export const SubmitButton = (props: ButtonProps) => {
@@ -34,7 +34,7 @@ export const LoadingButton = ({
 };
 
 export const SubmitButtonUnstyled = (
-  props: ComponentPropsWithoutRef<"button">,
+  props: ComponentPropsWithoutRef<"button">
 ) => {
   const { pending } = useFormStatus();
 

@@ -1,5 +1,7 @@
 "use client";
 
+import { toast } from "sonner";
+
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -9,7 +11,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { enqueueDialog } from "@/features/dialogs-provider/DialogProvider";
-import { toast } from "sonner";
+
 import { deleteAccountAction } from "./delete-account.action";
 
 export default function DeleteProfilePage() {

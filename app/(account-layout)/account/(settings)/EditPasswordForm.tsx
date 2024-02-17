@@ -1,5 +1,7 @@
 "use client";
 
+import { toast } from "sonner";
+
 import {
   Accordion,
   AccordionContent,
@@ -17,10 +19,12 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { SubmitButton } from "@/features/form/SubmitButton";
-import { toast } from "sonner";
+
 import { editPasswordAction } from "./edit-profile.action";
-import type { EditPasswordFormType } from "./edit-profile.schema";
-import { EditPasswordFormSchema } from "./edit-profile.schema";
+import {
+  EditPasswordFormSchema,
+  type EditPasswordFormType,
+} from "./edit-profile.schema";
 
 export const EditPasswordForm = () => {
   const form = useZodForm({

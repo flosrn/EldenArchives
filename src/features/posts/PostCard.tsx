@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import {
   Card,
@@ -6,7 +8,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import Link from "next/link";
+
 import type { Post } from "./post-manager";
 
 type PostCardProps = {

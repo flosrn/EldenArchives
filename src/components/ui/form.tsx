@@ -1,23 +1,23 @@
-import { cn } from "@/lib/utils";
-import { zodResolver } from "@hookform/resolvers/zod";
-import type * as LabelPrimitive from "@radix-ui/react-label";
-import { Slot } from "@radix-ui/react-slot";
 import * as React from "react";
-import type {
-  ControllerProps,
-  FieldPath,
-  FieldValues,
-  SubmitHandler,
-  UseFormProps,
-  UseFormReturn,
-} from "react-hook-form";
 import {
   Controller,
   FormProvider,
   useForm,
   useFormContext,
+  type ControllerProps,
+  type FieldPath,
+  type FieldValues,
+  type SubmitHandler,
+  type UseFormProps,
+  type UseFormReturn,
 } from "react-hook-form";
 import type { TypeOf, ZodSchema } from "zod";
+
+import { cn } from "@/lib/utils";
+import { zodResolver } from "@hookform/resolvers/zod";
+import type * as LabelPrimitive from "@radix-ui/react-label";
+import { Slot } from "@radix-ui/react-slot";
+
 import { Label } from "./label";
 
 type FormProps<T extends FieldValues> = Omit<
@@ -55,10 +55,10 @@ const Form = <T extends FieldValues>({
 
 type FormFieldContextValue<
   TFieldValues extends FieldValues = FieldValues,
-  TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>
+  TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>,
 > = {
   name: TName;
-}
+};
 
 const FormFieldContext = React.createContext<FormFieldContextValue>(
   {} as FormFieldContextValue
@@ -66,7 +66,7 @@ const FormFieldContext = React.createContext<FormFieldContextValue>(
 
 const FormField = <
   TFieldValues extends FieldValues = FieldValues,
-  TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>
+  TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>,
 >({
   ...props
 }: ControllerProps<TFieldValues, TName>) => {
@@ -102,7 +102,7 @@ const useFormField = () => {
 
 type FormItemContextValue = {
   id: string;
-}
+};
 
 const FormItemContext = React.createContext<FormItemContextValue>(
   {} as FormItemContextValue

@@ -1,12 +1,13 @@
 "use client";
 
+import { Check } from "lucide-react";
+
 import { Badge } from "@/components/ui/badge";
 import { Card, CardFooter, CardHeader } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Typography } from "@/components/ui/typography";
 import { BuyButton } from "@/features/stripe/BuyButton";
 import { cn } from "@/lib/utils";
-import { Check } from "lucide-react";
 
 export type PricingCardProps = {
   isPopular?: boolean;
@@ -33,7 +34,7 @@ export const PricingCard = (props: PricingCardProps) => {
           "relative bg-background shadow-2xl": props.isPopular,
           "bg-background/60 sm:mx-8 lg:mx-0": !props.isPopular,
         },
-        props.className,
+        props.className
       )}
     >
       {props.isPopular ? (

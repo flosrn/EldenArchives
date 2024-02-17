@@ -1,10 +1,12 @@
 "use client";
 
+import Link from "next/link";
+import { useQuery } from "@tanstack/react-query";
+
 import { Divider } from "@/components/ui/divider";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Typography } from "@/components/ui/typography";
-import { useQuery } from "@tanstack/react-query";
-import Link from "next/link";
+
 import { MagicLinkForm } from "./MagicLinkForm";
 import { ProviderButton } from "./ProviderButton";
 import { SignInCredentialsAndMagicLinkForm } from "./SignInCredentialsAndMagicLinkForm";

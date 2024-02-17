@@ -1,12 +1,13 @@
 "use server";
 
+import { nanoid } from "nanoid";
+import { z } from "zod";
+
 import { sendEmail } from "@/lib/mail/sendEmail";
 import prisma from "@/lib/prisma";
 import { ActionError, authAction } from "@/lib/server-actions/safe-actions";
 import { getServerUrl } from "@/lib/server-url";
 import VerifyEmail from "@email/VerifyEmail";
-import { nanoid } from "nanoid";
-import { z } from "zod";
 
 export const createVerifyEmailAction = authAction(
   z.string(),

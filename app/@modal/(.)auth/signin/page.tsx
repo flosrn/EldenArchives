@@ -1,5 +1,7 @@
 "use client";
 
+import { usePathname, useRouter } from "next/navigation";
+
 import { LogoSvg } from "@/components/svg/LogoSvg";
 import {
   Dialog,
@@ -7,7 +9,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
-import { usePathname, useRouter } from "next/navigation";
+
 import { SignInProviders } from "../../../auth/signin/SignInProviders";
 
 export default function Page() {

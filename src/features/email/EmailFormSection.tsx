@@ -1,4 +1,5 @@
 import { Typography } from "@/components/ui/typography";
+
 import { SectionLayout } from "../landing/SectionLayout";
 import { EmailForm } from "./EmailForm";
 

@@ -1,7 +1,7 @@
-import { logger } from "@/lib/logger";
-import type { NextRequest } from "next/server";
-import { NextResponse } from "next/server";
+import { NextResponse, type NextRequest } from "next/server";
 import { z } from "zod";
+
+import { logger } from "@/lib/logger";
 
 const StripeWebhookSchema = z.object({
   type: z.string(),

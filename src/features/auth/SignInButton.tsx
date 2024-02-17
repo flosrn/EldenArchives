@@ -1,12 +1,14 @@
 "use client";
 
+import Link from "next/link";
+import { useSession } from "next-auth/react";
+import type { VariantProps } from "class-variance-authority";
+import { useIsClient } from "usehooks-ts";
+
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { displayName } from "@/lib/format/displayName";
-import type { VariantProps } from "class-variance-authority";
-import { useSession } from "next-auth/react";
-import Link from "next/link";
-import { useIsClient } from "usehooks-ts";
+
 import { UserDropdown } from "./UserDropdown";
 
 const useHref = () => {

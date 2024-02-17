@@ -1,5 +1,6 @@
-import type { NavigationLinkGroups } from "@/features/navigation/navigation.type";
 import { LayoutDashboard, User2 } from "lucide-react";
+
+import type { NavigationLinkGroups } from "@/features/navigation/navigation.type";
 
 export const DASHBOARD_LINKS: NavigationLinkGroups[] = [
   {

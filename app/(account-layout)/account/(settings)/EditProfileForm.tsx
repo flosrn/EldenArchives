@@ -1,5 +1,9 @@
 "use client";
 
+import { useRouter } from "next/navigation";
+import { BadgeCheck } from "lucide-react";
+import { toast } from "sonner";
+
 import {
   Form,
   FormControl,
@@ -13,13 +17,10 @@ import { Input } from "@/components/ui/input";
 import { InlineTooltip } from "@/components/ui/tooltip";
 import { SubmitButton } from "@/features/form/SubmitButton";
 import type { User } from "@prisma/client";
-import { BadgeCheck } from "lucide-react";
-import { useRouter } from "next/navigation";
-import { toast } from "sonner";
+
 import { createVerifyEmailAction } from "../verify-email/verify-email.action";
 import { updateProfileAction } from "./edit-profile.action";
-import type { ProfileFormType } from "./edit-profile.schema";
-import { ProfileFormSchema } from "./edit-profile.schema";
+import { ProfileFormSchema, type ProfileFormType } from "./edit-profile.schema";
 
 type SchoolFormProps = {
   defaultValues: User;
@@ -38,7 +39,7 @@ export const EditProfileForm = ({ defaultValues }: SchoolFormProps) => {
     if (values.email !== defaultValues.email) {
       await createVerifyEmailAction(values.email);
       toast.success(
-        "You have updated your email. We have sent you a new email verification link.",
+        "You have updated your email. We have sent you a new email verification link."
       );
       router.push("/");
       return;

@@ -1,7 +1,10 @@
 import { NextResponse } from "next/server";
+
 import { auth } from "../auth/helper";
-import type { HandleReturnedServerErrorFn } from "./createHandler";
-import { createSafeHandler } from "./createHandler";
+import {
+  createSafeHandler,
+  type HandleReturnedServerErrorFn,
+} from "./createHandler";
 
 export class HandlerError extends Error {
   status = 400;
@@ -21,7 +24,7 @@ const handleReturnedServerError: HandleReturnedServerErrorFn = (e) => {
       },
       {
         status: e.status,
-      },
+      }
     );
   }
 

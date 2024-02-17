@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import {
   Card,
   CardDescription,
@@ -7,7 +9,6 @@ import {
 import { Typography } from "@/components/ui/typography";
 import { SiteConfig } from "@/site-config";
 import type { PageParams } from "@/types/next";
-import Image from "next/image";
 
 export default async function AuthNewUserPage(props: PageParams) {
   return (

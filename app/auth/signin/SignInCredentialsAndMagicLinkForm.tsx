@@ -1,5 +1,10 @@
 "use client";
 
+import { useSearchParams } from "next/navigation";
+import { signIn } from "next-auth/react";
+import { useLocalStorage } from "usehooks-ts";
+import { z } from "zod";
+
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -12,10 +17,6 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Typography } from "@/components/ui/typography";
-import { signIn } from "next-auth/react";
-import { useSearchParams } from "next/navigation";
-import { useLocalStorage } from "usehooks-ts";
-import { z } from "zod";
 
 const LoginCredentialsFormScheme = z.object({
   email: z.string().email(),
@@ -31,7 +32,7 @@ export const SignInCredentialsAndMagicLinkForm = () => {
   const searchParams = useSearchParams();
   const [isUsingCredentials, setIsUsingCredentials] = useLocalStorage(
     "sign-in-with-credentials",
-    false,
+    false
   );
 
   async function onSubmit(values: LoginCredentialsFormType) {

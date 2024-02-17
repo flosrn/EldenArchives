@@ -1,8 +1,10 @@
+import Link from "next/link";
+import { Rocket } from "lucide-react";
+
 import { CircleSvg } from "@/components/svg/CircleSvg";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { Rocket } from "lucide-react";
-import Link from "next/link";
+
 import { Typography } from "../../components/ui/typography";
 import { ReviewSmall } from "./review/ReviewSmall";
 

@@ -1,5 +1,6 @@
-import { cn } from "@/lib/utils";
 import type { ComponentPropsWithoutRef } from "react";
+
+import { cn } from "@/lib/utils";
 
 export type SectionLayoutProps = {
   /**
@@ -43,7 +44,7 @@ export const SectionLayout = ({
           "text-foreground backdrop-blur-sm backdrop-brightness-75":
             variant === "image",
         },
-        containerClassName,
+        containerClassName
       )}
       {...props}
     >
@@ -55,7 +56,7 @@ export const SectionLayout = ({
             "max-w-5xl": size === "base",
             "max-w-6xl": size === "lg",
           },
-          className,
+          className
         )}
       >
         {children}

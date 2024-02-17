@@ -1,11 +1,13 @@
+import type { PropsWithChildren } from "react";
+import Image from "next/image";
+import Link from "next/link";
+
 import { Separator } from "@/components/ui/separator";
 import { AuthButton } from "@/features/auth/AuthButton";
 import { Layout } from "@/features/page/layout";
 import { ThemeToggle } from "@/features/theme/ThemeToggle";
 import { SiteConfig } from "@/site-config";
-import Image from "next/image";
-import Link from "next/link";
-import type { PropsWithChildren } from "react";
+
 import { DesktopVerticalMenu } from "../../src/features/navigation/DesktopVerticalMenu";
 import { MobileDropdownMenu } from "../../src/features/navigation/MobileDropdownMenu";
 import { ACCOUNT_LINKS } from "./account-links";

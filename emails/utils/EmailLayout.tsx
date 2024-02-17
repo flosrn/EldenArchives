@@ -1,3 +1,5 @@
+import type { PropsWithChildren } from "react";
+
 import { getServerUrl } from "@/lib/server-url";
 import { SiteConfig } from "@/site-config";
 import {
@@ -11,7 +13,6 @@ import {
   Text,
 } from "@react-email/components";
 import { Tailwind } from "@react-email/tailwind";
-import type { PropsWithChildren } from "react";
 
 export const EmailLayout = ({ children }: PropsWithChildren) => {
   const baseUrl = getServerUrl();

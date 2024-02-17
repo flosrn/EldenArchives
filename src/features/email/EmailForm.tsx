@@ -1,5 +1,10 @@
 "use client";
 
+import { usePlausible } from "next-plausible";
+import { useMutation } from "@tanstack/react-query";
+import { AnimatePresence, motion } from "framer-motion";
+import { AlertCircle, CheckCircle } from "lucide-react";
+
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import {
   Form,
@@ -11,13 +16,9 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { LoadingButton } from "@/features/form/SubmitButton";
-import { useMutation } from "@tanstack/react-query";
-import { AnimatePresence, motion } from "framer-motion";
-import { AlertCircle, CheckCircle } from "lucide-react";
-import { usePlausible } from "next-plausible";
+
 import { addEmailAction } from "./email.action";
-import type { EmailActionSchemaType } from "./email.schema";
-import { EmailActionSchema } from "./email.schema";
+import { EmailActionSchema, type EmailActionSchemaType } from "./email.schema";
 
 export type EmailFormProps = {
   submitButtonLabel?: string;

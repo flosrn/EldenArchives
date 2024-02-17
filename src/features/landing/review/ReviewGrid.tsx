@@ -1,9 +1,8 @@
-import type { ReviewItemProps } from "./ReviewItem";
-import { ReviewItem } from "./ReviewItem";
+import { ReviewItem, type ReviewItemProps } from "./ReviewItem";
 
 export type ReviewGridProps = {
   reviews: ReviewItemProps[];
-}
+};
 
 export const ReviewGrid = (props: ReviewGridProps) => {
   return (

@@ -8,7 +8,7 @@
       "",
       "export default async function RoutePage(props: PageParams<{ $1 }>) {",
       "  return $2",
-      "}"
-    ]
-  }
+      "}",
+    ],
+  },
 }

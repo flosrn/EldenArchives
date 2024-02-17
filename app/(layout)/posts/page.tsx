@@ -1,3 +1,6 @@
+import Link from "next/link";
+import { FileQuestion } from "lucide-react";
+
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
@@ -8,17 +11,12 @@ import {
   LayoutHeader,
   LayoutTitle,
 } from "@/features/page/layout";
+import { getPosts, getPostsTags } from "@/features/posts/post-manager";
+import { PostCard } from "@/features/posts/PostCard";
 import type { PageParams } from "@/types/next";
-import { FileQuestion } from "lucide-react";
-import Link from "next/link";
-import { PostCard } from "../../../src/features/posts/PostCard";
-import {
-  getPosts,
-  getPostsTags,
-} from "../../../src/features/posts/post-manager";
 
 const getTags = (
-  params: string | string[] | undefined,
+  params: string | string[] | undefined
 ): string[] | undefined => {
   if (Array.isArray(params)) {
     return params;

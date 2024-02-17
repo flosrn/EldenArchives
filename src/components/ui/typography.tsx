@@ -1,18 +1,18 @@
-import { cn } from "@/lib/utils";
-import type { VariantProps } from "class-variance-authority";
-import { cva } from "class-variance-authority";
 import type {
   ComponentPropsWithoutRef,
   ElementType,
   PropsWithChildren,
 } from "react";
+import { cva, type VariantProps } from "class-variance-authority";
+
+import { cn } from "@/lib/utils";
 
 type PolymorphicAsProp<E extends ElementType> = {
   as?:
     | E
     | React.ComponentType<Omit<ComponentPropsWithoutRef<E>, "as">>
     | React.FunctionComponent<Omit<ComponentPropsWithoutRef<E>, "as">>;
-}
+};
 
 type PolymorphicProps<E extends ElementType> = PropsWithChildren<
   Omit<ComponentPropsWithoutRef<E>, "as"> & PolymorphicAsProp<E>

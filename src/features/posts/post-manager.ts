@@ -1,8 +1,9 @@
-import type { PageParams } from "@/types/next";
-import fm from "front-matter";
 import fs from "fs/promises";
 import path from "path";
+import fm from "front-matter";
 import { z } from "zod";
+
+import type { PageParams } from "@/types/next";
 
 const postsDirectory = path.join(process.cwd(), "content/posts");
 

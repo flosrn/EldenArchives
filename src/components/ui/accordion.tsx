@@ -1,11 +1,11 @@
 "use client";
 
-import * as AccordionPrimitive from "@radix-ui/react-accordion";
-import { X } from "lucide-react";
 import * as React from "react";
+import clsx from "clsx";
+import { X } from "lucide-react";
 
 import { cn } from "@/lib/utils";
-import clsx from "clsx";
+import * as AccordionPrimitive from "@radix-ui/react-accordion";
 
 const Accordion = AccordionPrimitive.Root;
 

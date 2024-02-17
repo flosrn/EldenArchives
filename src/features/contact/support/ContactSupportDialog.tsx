@@ -1,5 +1,10 @@
 "use client";
 
+import { useState, type PropsWithChildren } from "react";
+import Link from "next/link";
+import { useSession } from "next-auth/react";
+import { toast } from "sonner";
+
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
@@ -21,14 +26,12 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { SiteConfig } from "@/site-config";
-import { useSession } from "next-auth/react";
-import Link from "next/link";
-import type { PropsWithChildren } from "react";
-import { useState } from "react";
-import { toast } from "sonner";
+
 import { contactSupportAction } from "./contact-support.action";
-import type { ContactSupportSchemaType } from "./contact-support.schema";
-import { ContactSupportSchema } from "./contact-support.schema";
+import {
+  ContactSupportSchema,
+  type ContactSupportSchemaType,
+} from "./contact-support.schema";
 
 export type ContactSupportDialogProps = PropsWithChildren<{}>;
 

@@ -8,6 +8,7 @@ import { requiredAuth } from "@/lib/auth/helper";
 import { env } from "@/lib/env";
 import prisma from "@/lib/prisma";
 import { ActionError, authAction } from "@/lib/server-actions/safe-actions";
+
 import {
   EditPasswordFormSchema,
   ProfileFormSchema,
@@ -30,7 +31,7 @@ export const updateProfileAction = authAction(
     });
 
     return user;
-  },
+  }
 );
 
 export const editPasswordAction = authAction(
@@ -59,7 +60,7 @@ export const editPasswordAction = authAction(
 
     if (!validatePassword(input.newPassword)) {
       throw new ActionError(
-        "Invalid new password. Must be at least 8 characters, and contain at least one letter and one number",
+        "Invalid new password. Must be at least 8 characters, and contain at least one letter and one number"
       );
     }
 
@@ -70,7 +71,7 @@ export const editPasswordAction = authAction(
       data: {
         passwordHash: hashStringWithSalt(
           input.newPassword,
-          env.NEXTAUTH_SECRET,
+          env.NEXTAUTH_SECRET
         ),
       },
       select: {
@@ -79,5 +80,5 @@ export const editPasswordAction = authAction(
     });
 
     return updatedUser;
-  },
+  }
 );

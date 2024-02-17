@@ -1,11 +1,17 @@
+import {
+  useEffect,
+  useRef,
+  useState,
+  type Dispatch,
+  type SetStateAction,
+} from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import type { Dispatch, SetStateAction } from "react";
-import { useEffect, useRef, useState } from "react";
+
 import { useDebounceFn } from "./useDebounceFn";
 
 export const useSearchParamsState = <T extends string>(
   key: string,
-  defaultValue: T = "" as T,
+  defaultValue: T = "" as T
 ): [T, Dispatch<SetStateAction<T>>] => {
   const params = useSearchParams();
 

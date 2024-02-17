@@ -1,3 +1,8 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { ArrowLeft } from "lucide-react";
+
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
@@ -13,15 +18,12 @@ import {
 import { formatDate } from "@/lib/format/date";
 import { logger } from "@/lib/logger";
 import { SiteConfig } from "@/site-config";
-import { ArrowLeft } from "lucide-react";
-import type { Metadata } from "next";
-import Link from "next/link";
-import { notFound } from "next/navigation";
+
 import { calculateReadingTime } from "../../../../src/features/posts/calculate-reading-time";
-import type { PostParams } from "../../../../src/features/posts/post-manager";
 import {
   getCurrentPost,
   getPosts,
+  type PostParams,
 } from "../../../../src/features/posts/post-manager";
 
 export async function generateMetadata({

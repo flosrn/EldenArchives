@@ -1,5 +1,10 @@
 "use client";
 
+import { useState, type PropsWithChildren } from "react";
+import { useSession } from "next-auth/react";
+import { Angry, Frown, Meh, SmilePlus } from "lucide-react";
+import { toast } from "sonner";
+
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -19,14 +24,12 @@ import {
 import { Textarea } from "@/components/ui/textarea";
 import { InlineTooltip } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
-import { Angry, Frown, Meh, SmilePlus } from "lucide-react";
-import { useSession } from "next-auth/react";
-import type { PropsWithChildren } from "react";
-import { useState } from "react";
-import { toast } from "sonner";
+
 import { contactSupportAction } from "./contact-feedback.action";
-import type { ContactFeedbackSchemaType } from "./contact-feedback.schema";
-import { ContactFeedbackSchema } from "./contact-feedback.schema";
+import {
+  ContactFeedbackSchema,
+  type ContactFeedbackSchemaType,
+} from "./contact-feedback.schema";
 
 export type ContactFeedbackPopoverProps = PropsWithChildren<{}>;
 

@@ -2,8 +2,11 @@
 
 import { toast } from "sonner";
 import { create } from "zustand";
-import type { ConfirmationDialogProps } from "./DialogProviderDialog";
-import { ProviderConfirmationDialog } from "./DialogProviderDialog";
+
+import {
+  ProviderConfirmationDialog,
+  type ConfirmationDialogProps,
+} from "./DialogProviderDialog";
 
 type DialogType = ConfirmationDialogProps & {
   id: string;

@@ -1,7 +1,9 @@
+import Link from "next/link";
+
 import { getServerUrl } from "@/lib/server-url";
 import { SiteConfig } from "@/site-config";
 import { Preview, Section, Text } from "@react-email/components";
-import Link from "next/link";
+
 import { EmailLayout } from "./utils/EmailLayout";
 
 export default function SubscribtionFailedEmail() {

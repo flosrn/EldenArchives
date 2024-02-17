@@ -1,6 +1,8 @@
-import { cn } from "@/lib/utils";
 import type { ComponentPropsWithoutRef } from "react";
 import Markdown from "react-markdown";
+
+import { cn } from "@/lib/utils";
+
 import { rehypePlugins, remarkPlugins } from "./markdown.config";
 
 export type ClientMarkdownProps = ComponentPropsWithoutRef<typeof Markdown>;

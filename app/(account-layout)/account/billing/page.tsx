@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { buttonVariants } from "@/components/ui/button";
 import {
   Card,
@@ -13,7 +15,6 @@ import { requiredAuth } from "@/lib/auth/helper";
 import { getServerUrl } from "@/lib/server-url";
 import { stripe } from "@/lib/stripe";
 import { cn } from "@/lib/utils";
-import Link from "next/link";
 
 export default async function DeleteProfilePage() {
   const user = await requiredAuth();

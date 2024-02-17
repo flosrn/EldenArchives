@@ -1,16 +1,18 @@
 "use client";
 
+import { useMutation } from "@tanstack/react-query";
+import { toast } from "sonner";
+
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 import { Typography } from "@/components/ui/typography";
 import { cn } from "@/lib/utils";
-import { useMutation } from "@tanstack/react-query";
-import { toast } from "sonner";
+
 import { toggleSubscribedAction } from "./mail-account.action";
 
 type ToggleEmailCheckboxProps = {
   unsubscribed: boolean;
-}
+};
 
 export const ToggleEmailCheckbox = ({
   unsubscribed,

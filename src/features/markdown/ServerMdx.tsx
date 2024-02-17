@@ -1,6 +1,8 @@
-import { cn } from "@/lib/utils";
-import { MDXRemote } from "next-mdx-remote/rsc";
 import { Suspense } from "react";
+import { MDXRemote } from "next-mdx-remote/rsc";
+
+import { cn } from "@/lib/utils";
+
 import { ErrorBoundary } from "../../components/utils/ErrorBoundaries";
 import { rehypePlugins, remarkPlugins } from "./markdown.config";
 

@@ -1,8 +1,9 @@
 "use client";
 
+import { Component, type ErrorInfo, type ReactNode } from "react";
+
 import { logger } from "@/lib/logger";
-import type { ErrorInfo, ReactNode } from "react";
-import { Component } from "react";
+
 import { Button } from "../ui/button";
 import {
   Card,

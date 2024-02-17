@@ -1,3 +1,6 @@
+import Link from "next/link";
+import { redirect } from "next/navigation";
+
 import { buttonVariants } from "@/components/ui/button";
 import { Header } from "@/features/layout/Header";
 import {
@@ -8,8 +11,6 @@ import {
   LayoutTitle,
 } from "@/features/page/layout";
 import type { PageParams } from "@/types/next";
-import Link from "next/link";
-import { redirect } from "next/navigation";
 
 /**
  * This page is show when a user loggin. You can add an onboarding process here.

@@ -1,7 +1,8 @@
 "use client";
 
-import { animate } from "framer-motion";
 import { useEffect, useRef } from "react";
+import { animate } from "framer-motion";
+
 import { SectionLayout } from "./SectionLayout";
 
 type StatProps = {

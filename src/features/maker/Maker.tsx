@@ -1,7 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
+
 import { Typography } from "@/components/ui/typography";
 import { SiteConfig } from "@/site-config";
-import Link from "next/link";
 
 export const Maker = () => {
   return (

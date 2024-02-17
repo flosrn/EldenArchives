@@ -1,12 +1,13 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
+import NextAuth, { type Session } from "next-auth";
+import GitHub from "next-auth/providers/github";
+import Resend from "next-auth/providers/resend";
+
 import { SiteConfig } from "@/site-config";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import MagicLinkMail from "@email/MagicLinkEmail";
 import type { User } from "@prisma/client";
-import type { Session } from "next-auth";
-import NextAuth from "next-auth";
-import GitHub from "next-auth/providers/github";
-import Resend from "next-auth/providers/resend";
+
 import { env } from "../env";
 import { logger } from "../logger";
 import { sendEmail } from "../mail/sendEmail";

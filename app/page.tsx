@@ -1,21 +1,22 @@
+import Image from "next/image";
+
 import { EmailFormSection } from "@/features/email/EmailFormSection";
 import { BentoGridSection } from "@/features/landing/BentoSection";
+import CTASectionCard from "@/features/landing/cta/CTACardSection";
+import { CTAImageSection } from "@/features/landing/cta/CTAImageSection";
+import CtaSection from "@/features/landing/cta/CTASection";
 import { FAQSection } from "@/features/landing/FAQSection";
 import { FeaturesSection } from "@/features/landing/FeatureSection";
 import { Hero } from "@/features/landing/Hero";
 import { LandingHeader } from "@/features/landing/LandingHeader";
 import { PainSection } from "@/features/landing/Pain";
-import { SectionDivider } from "@/features/landing/SectionDivider";
-import StatsSection from "@/features/landing/StatsSection";
-import CTASectionCard from "@/features/landing/cta/CTACardSection";
-import { CTAImageSection } from "@/features/landing/cta/CTAImageSection";
-import CtaSection from "@/features/landing/cta/CTASection";
 import { Pricing } from "@/features/landing/pricing/PricingSection";
 import { ReviewGrid } from "@/features/landing/review/ReviewGrid";
 import { ReviewSingle } from "@/features/landing/review/ReviewSingle";
 import { ReviewTriple } from "@/features/landing/review/ReviewTriple";
+import { SectionDivider } from "@/features/landing/SectionDivider";
+import StatsSection from "@/features/landing/StatsSection";
 import { Footer } from "@/features/layout/Footer";
-import Image from "next/image";
 
 export default function HomePage() {
   return (

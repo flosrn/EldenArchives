@@ -5,7 +5,8 @@ import {
   setupStripeCustomer,
 } from "@/lib/auth/auth-config-setup";
 import prisma from "@/lib/prisma";
-import { ActionError, action } from "@/lib/server-actions/safe-actions";
+import { action, ActionError } from "@/lib/server-actions/safe-actions";
+
 import { EmailActionSchema } from "./email.schema";
 
 export const addEmailAction = action(EmailActionSchema, async ({ email }) => {

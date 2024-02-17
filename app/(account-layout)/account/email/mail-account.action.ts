@@ -1,10 +1,11 @@
 "use server";
 
+import { z } from "zod";
+
 import { requiredAuth } from "@/lib/auth/helper";
 import { env } from "@/lib/env";
 import { resend } from "@/lib/mail/resend";
 import { ActionError, authAction } from "@/lib/server-actions/safe-actions";
-import { z } from "zod";
 
 const ToggleSubscribedActionSchema = z.object({
   unsubscribed: z.boolean(),

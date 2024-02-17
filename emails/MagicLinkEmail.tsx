@@ -1,5 +1,6 @@
 import { SiteConfig } from "@/site-config";
 import { Link, Preview, Section, Text } from "@react-email/components";
+
 import { EmailLayout } from "./utils/EmailLayout";
 
 export default function MagicLinkMail({ url }: { url: string }) {

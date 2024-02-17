@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { requiredAuth } from "@/lib/auth/helper";
 import { displayName } from "@/lib/format/displayName";
 import prisma from "@/lib/prisma";
+
 import { EditPasswordForm } from "./EditPasswordForm";
 import { EditProfileForm } from "./EditProfileForm";
 

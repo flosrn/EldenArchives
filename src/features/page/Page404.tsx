@@ -1,5 +1,7 @@
-import { ContactSupportDialog } from "@/features/contact/support/ContactSupportDialog";
 import Link from "next/link";
+
+import { ContactSupportDialog } from "@/features/contact/support/ContactSupportDialog";
+
 import { buttonVariants } from "../../components/ui/button";
 import { Typography } from "../../components/ui/typography";
 

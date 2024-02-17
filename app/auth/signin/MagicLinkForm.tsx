@@ -1,3 +1,8 @@
+import { useSearchParams } from "next/navigation";
+import { signIn } from "next-auth/react";
+import { useMutation } from "@tanstack/react-query";
+import { z } from "zod";
+
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -9,10 +14,6 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { getServerUrl } from "@/lib/server-url";
-import { useMutation } from "@tanstack/react-query";
-import { signIn } from "next-auth/react";
-import { useSearchParams } from "next/navigation";
-import { z } from "zod";
 
 const FormSchema = z.object({
   email: z.string(),

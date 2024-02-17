@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { buttonVariants } from "@/components/ui/button";
 import {
   Card,
@@ -15,7 +17,7 @@ import {
   LayoutTitle,
 } from "@/features/page/layout";
 import type { PageParams } from "@/types/next";
-import Link from "next/link";
+
 import { getError } from "./auth-error-mapping";
 
 export default async function AuthErrorPage(props: PageParams<{}>) {

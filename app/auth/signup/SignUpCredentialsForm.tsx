@@ -1,5 +1,9 @@
 "use client";
 
+import { signIn } from "next-auth/react";
+import { useMutation } from "@tanstack/react-query";
+import { toast } from "sonner";
+
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -11,12 +15,12 @@ import {
   useZodForm,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { useMutation } from "@tanstack/react-query";
-import { signIn } from "next-auth/react";
-import { toast } from "sonner";
+
 import { signUpAction } from "./signup.action";
-import type { LoginCredentialsFormType } from "./signup.schema";
-import { LoginCredentialsFormScheme } from "./signup.schema";
+import {
+  LoginCredentialsFormScheme,
+  type LoginCredentialsFormType,
+} from "./signup.schema";
 
 export const SignUpCredentialsForm = () => {
   const form = useZodForm({

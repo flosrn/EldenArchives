@@ -1,6 +1,7 @@
-import { SiteConfig } from "@/site-config";
 import Image from "next/image";
 import Link from "next/link";
+
+import { SiteConfig } from "@/site-config";
 
 export const FloatingLegalFooter = () => {
   return (

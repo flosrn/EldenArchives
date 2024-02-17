@@ -1,5 +1,11 @@
 "use client";
 
+import type { PropsWithChildren } from "react";
+import Link from "next/link";
+import { signOut } from "next-auth/react";
+import { useMutation } from "@tanstack/react-query";
+import { LayoutDashboard, LogOut, User2 } from "lucide-react";
+
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -10,11 +16,6 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Loader } from "@/components/ui/loader";
-import { useMutation } from "@tanstack/react-query";
-import { LayoutDashboard, LogOut, User2 } from "lucide-react";
-import { signOut } from "next-auth/react";
-import Link from "next/link";
-import type { PropsWithChildren } from "react";
 
 export const UserDropdown = ({ children }: PropsWithChildren) => {
   const logout = useMutation({

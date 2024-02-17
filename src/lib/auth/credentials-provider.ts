@@ -1,9 +1,10 @@
 import crypto from "crypto";
-import { nanoid } from "nanoid";
-import type { NextAuthConfig } from "next-auth";
-import CredentialsProvider from "next-auth/providers/credentials";
 import { cookies } from "next/headers";
 import type { NextRequest } from "next/server";
+import type { NextAuthConfig } from "next-auth";
+import CredentialsProvider from "next-auth/providers/credentials";
+import { nanoid } from "nanoid";
+
 import { env } from "../env";
 import prisma from "../prisma";
 
@@ -38,7 +39,7 @@ export const getCredentialsProvider = () => {
       // Add logic here to look up the user from the credentials supplied
       const passwordHash = hashStringWithSalt(
         String(credentials.password),
-        env.NEXTAUTH_SECRET,
+        env.NEXTAUTH_SECRET
       );
 
       const user = await prisma.user.findFirst({

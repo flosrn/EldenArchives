@@ -1,6 +1,7 @@
+import type Stripe from "stripe";
+
 import prisma from "@/lib/prisma";
 import { stripe } from "@/lib/stripe";
-import type Stripe from "stripe";
 
 /**
  * This function take a Stripe customer object and find the user in the database
@@ -12,7 +13,7 @@ import type Stripe from "stripe";
  * @returns a valid user from the database
  */
 export const findUserFromCustomer = async (
-  stripeCustomer: string | Stripe.Customer | Stripe.DeletedCustomer | null,
+  stripeCustomer: string | Stripe.Customer | Stripe.DeletedCustomer | null
 ) => {
   let stripeCustomerId: string;
 

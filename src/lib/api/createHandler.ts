@@ -1,5 +1,4 @@
-import type { NextRequest } from "next/server";
-import { NextResponse } from "next/server";
+import { NextResponse, type NextRequest } from "next/server";
 import type { TypeOf, ZodError, ZodSchema } from "zod";
 
 export type HandleReturnedServerErrorFn = (e: unknown) => NextResponse | string;
@@ -53,11 +52,11 @@ export function createSafeHandler<TContext>({
       searchSchema,
       paramsSchema,
     }: HandlerParams<TBody, TParams, TSearchParams>,
-    callback: Callback<TContext, TBody, TParams, TSearchParams>,
+    callback: Callback<TContext, TBody, TParams, TSearchParams>
   ) {
     return async (
       req: NextRequest,
-      { params: baseParams }: { params: Record<string, string | string[]> },
+      { params: baseParams }: { params: Record<string, string | string[]> }
     ) => {
       try {
         const body = await parseBody(req, bodySchema);
@@ -86,7 +85,7 @@ export function createSafeHandler<TContext>({
             },
             {
               status: 400,
-            },
+            }
           );
         }
 
@@ -102,7 +101,7 @@ export function createSafeHandler<TContext>({
           },
           {
             status: 400,
-          },
+          }
         );
       }
     };
@@ -128,7 +127,7 @@ const parseBody = async <T>(req: NextRequest, schema?: ZodSchema<T>) => {
 
 const parseSearchParams = async <T>(
   req: NextRequest,
-  schema?: ZodSchema<T>,
+  schema?: ZodSchema<T>
 ) => {
   const url = new URL(req.url);
   const searchParams = url.searchParams;
@@ -154,7 +153,7 @@ const parseSearchParams = async <T>(
 
 const parseParams = async <T>(
   params: Record<string, string | string[]>,
-  schema?: ZodSchema<T>,
+  schema?: ZodSchema<T>
 ) => {
   let parsedParams: T | undefined = undefined;
   if (schema) {

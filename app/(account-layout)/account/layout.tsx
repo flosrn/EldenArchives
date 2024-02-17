@@ -1,6 +1,7 @@
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { requiredAuth } from "@/lib/auth/helper";
 import type { LayoutParams } from "@/types/next";
+
 import { VerifyEmailButton } from "./verify-email/VerifyEmailButton";
 
 export default async function RouteLayout(props: LayoutParams<{}>) {

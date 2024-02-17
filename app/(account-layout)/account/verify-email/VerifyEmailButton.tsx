@@ -1,9 +1,11 @@
 "use client";
 
-import { LoadingButton } from "@/features/form/SubmitButton";
-import { Check, X } from "lucide-react";
 import { useAction } from "next-safe-action/hooks";
+import { Check, X } from "lucide-react";
 import { toast } from "sonner";
+
+import { LoadingButton } from "@/features/form/SubmitButton";
+
 import { createVerifyEmailAction } from "./verify-email.action";
 
 export const VerifyEmailButton = () => {
