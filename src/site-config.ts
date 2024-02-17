@@ -13,13 +13,13 @@ export const SiteConfig = {
   },
   email: {
     from: "NowTS <contact@nowts.app>",
-    contact: "contact@nowts.app",
+    contact: "florian.seran@gmail.com",
   },
   maker: {
-    image: "https://melvynx.com/images/me/twitter-en.jpg",
-    website: "https://melvynx.com",
-    twitter: "https://twitter.com/melvyn_me",
-    name: "Melvynx",
+    image: "https://avatars.githubusercontent.com/u/12709355?v=4",
+    website: "https://flosrn.com",
+    twitter: "https://twitter.com/flo_srn",
+    name: "Flosrn",
   },
   auth: {
     password: false as boolean,
