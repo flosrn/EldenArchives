@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import type { User } from "@prisma/client";
 import type { ColumnDef } from "@tanstack/react-table";
 import { EyeIcon, MoreHorizontal, PencilIcon, TrashIcon } from "lucide-react";
@@ -47,6 +48,23 @@ export const columns: ColumnDef<User>[] = [
     enableHiding: false,
   },
   {
+    accessorKey: "image",
+    header: "Image",
+    cell: ({ row }) => {
+      const image = row.getValue("image") as string;
+      const prompt = row.getValue("prompt") as string;
+      return (
+        <Image
+          src={image}
+          alt={prompt}
+          width={30}
+          height={30}
+          className="rounded-full object-cover"
+        />
+      );
+    },
+  },
+  {
     accessorKey: "name",
     header: "Name",
   },
@@ -72,8 +90,6 @@ export const columns: ColumnDef<User>[] = [
   {
     id: "actions",
     cell: ({}) => {
-      const handleViewPoster = () => {};
-
       return (
         <div className="flex items-center space-x-2">
           <Button
@@ -93,7 +109,7 @@ export const columns: ColumnDef<User>[] = [
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" className="w-[160px]">
-              <DropdownMenuItem onClick={handleViewPoster}>
+              <DropdownMenuItem>
                 <EyeIcon className="mr-2 size-3.5 text-muted-foreground/70" />
                 View
               </DropdownMenuItem>
