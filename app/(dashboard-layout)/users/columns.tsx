@@ -15,6 +15,14 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
+export const dateOptions: Intl.DateTimeFormatOptions = {
+  year: "numeric",
+  month: "numeric",
+  day: "numeric",
+  hour: "2-digit",
+  minute: "2-digit",
+};
+
 export const columns: ColumnDef<User>[] = [
   {
     id: "select",
@@ -49,20 +57,17 @@ export const columns: ColumnDef<User>[] = [
   {
     accessorKey: "createdAt",
     header: "Created At",
+    cell: ({ row }) => {
+      const createdAt = row.getValue("createdAt") as string;
+      return (
+        <div>
+          {new Date(createdAt).toLocaleDateString("fr-FR", dateOptions)}
+        </div>
+      );
+    },
   },
   {
     accessorKey: "plan",
-    //   header: ({ column }) => {
-    //     return (
-    //       <Button
-    //         variant="ghost"
-    //         onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
-    //       >
-    //         Plan
-    //         <ArrowUpDown className="ml-2 size-4" />
-    //       </Button>
-    //     );
-    //   },
   },
   {
     id: "actions",
