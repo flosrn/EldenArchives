@@ -16,6 +16,8 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
+import { UserDialog } from "./UserDialog";
+
 export const dateOptions: Intl.DateTimeFormatOptions = {
   year: "numeric",
   month: "numeric",
@@ -89,15 +91,11 @@ export const columns: ColumnDef<User>[] = [
   },
   {
     id: "actions",
-    cell: ({}) => {
+    cell: ({ row }) => {
+      const user = row.original;
       return (
         <div className="flex items-center space-x-2">
-          <Button
-            variant="ghost"
-            className="flex size-8 p-0 data-[state=open]:bg-muted"
-          >
-            <EyeIcon className="size-3.5 text-muted-foreground/70" />
-          </Button>
+          <UserDialog {...user} />
           <DropdownMenu modal={false}>
             <DropdownMenuTrigger asChild>
               <Button
