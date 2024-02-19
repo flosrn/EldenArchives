@@ -170,7 +170,10 @@ export default function HomePage() {
             ],
             cta: "Start 7 days trial",
             ctaSubtitle: "Then $49/month",
-            priceId: "",
+            priceId:
+              process.env.NODE_ENV === "production"
+                ? "price_1NJ6DZClFdPeMQbzou138ZWs"
+                : "price_1NJ6DZClFdPeMQbzou138ZWs",
           },
         ]}
       />
