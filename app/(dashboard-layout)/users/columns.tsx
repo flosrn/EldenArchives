@@ -16,6 +16,8 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
+import { DataTableColumnHeader } from "./data-table-column-header";
+import { plans } from "./data-table-toolbar";
 import { UserDialog } from "./UserDialog";
 
 export const dateOptions: Intl.DateTimeFormatOptions = {
@@ -53,12 +55,10 @@ export const columns: ColumnDef<User>[] = [
     accessorKey: "image",
     header: "Image",
     cell: ({ row }) => {
-      const image = row.getValue("image") as string;
-      const prompt = row.getValue("prompt") as string;
       return (
         <Image
-          src={image}
-          alt={prompt}
+          src={row.original.image ?? "/avatar-placeholder.svg"}
+          alt={row.original.name ?? ""}
           width={30}
           height={30}
           className="rounded-full object-cover"
@@ -67,16 +67,22 @@ export const columns: ColumnDef<User>[] = [
     },
   },
   {
+    header: ({ column }) => (
+      <DataTableColumnHeader column={column} title="Name" />
+    ),
     accessorKey: "name",
-    header: "Name",
   },
   {
+    header: ({ column }) => (
+      <DataTableColumnHeader column={column} title="Email" />
+    ),
     accessorKey: "email",
-    header: "Email",
   },
   {
+    header: ({ column }) => (
+      <DataTableColumnHeader column={column} title="Created At" />
+    ),
     accessorKey: "createdAt",
-    header: "Created At",
     cell: ({ row }) => {
       const createdAt = row.getValue("createdAt") as string;
       return (
@@ -88,11 +94,34 @@ export const columns: ColumnDef<User>[] = [
   },
   {
     accessorKey: "plan",
+    header: ({ column }) => (
+      <DataTableColumnHeader column={column} title="Plan" />
+    ),
+    cell: ({ row }) => {
+      const plan = plans.find((plan) => plan.value === row.getValue("plan"));
+
+      if (!plan) {
+        return null;
+      }
+
+      return (
+        <div className="flex w-[100px] items-center">
+          {plan.icon && (
+            <plan.icon className="mr-2 size-4 text-muted-foreground" />
+          )}
+          <span>{plan.label}</span>
+        </div>
+      );
+    },
+    filterFn: (row, id, value) => {
+      return value.includes(row.getValue(id));
+    },
   },
   {
     id: "actions",
     cell: ({ row }) => {
       const user = row.original;
+
       return (
         <div className="flex items-center space-x-2">
           <UserDialog {...user} />

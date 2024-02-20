@@ -17,7 +17,7 @@ export type UserDialogProps = PropsWithChildren<User>;
 export const UserDialog = ({ name, email }: UserDialogProps) => {
   return (
     <Dialog>
-      <DialogTrigger>
+      <DialogTrigger asChild>
         <Button
           variant="ghost"
           className="flex size-8 p-0 data-[state=open]:bg-muted"
