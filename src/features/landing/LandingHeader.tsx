@@ -63,11 +63,11 @@ export function LandingHeader() {
     <motion.header
       style={{
         height: useTransform(scrollYBoundedProgressDelayed, [0, 1], [80, 50]),
-        backgroundColor: useMotionTemplate`rgb(var(--background) / ${useTransform(
-          scrollYBoundedProgressDelayed,
-          [0, 1],
-          [1, 0.1]
-        )})`,
+        // backgroundColor: useMotionTemplate`rgb(var(--background) / ${useTransform(
+        //   scrollYBoundedProgressDelayed,
+        //   [0, 1],
+        //   [1, 0.1]
+        // )})`,
       }}
       className="fixed inset-x-0 z-50 flex h-20 w-screen shadow backdrop-blur-md"
     >
