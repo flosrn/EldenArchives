@@ -1,5 +1,7 @@
 "use server";
 
+import { revalidatePath } from "next/cache";
+
 import { auth } from "@/lib/auth/helper";
 import { sendEmail } from "@/lib/mail/sendEmail";
 import prisma from "@/lib/prisma";
@@ -23,6 +25,8 @@ export const contactSupportAction = action(
         email,
       },
     });
+
+    revalidatePath("/admin/feedbacks");
 
     await sendEmail({
       from: SiteConfig.email.from,

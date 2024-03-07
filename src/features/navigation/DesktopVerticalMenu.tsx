@@ -8,7 +8,7 @@ import { Separator } from "@/components/ui/separator";
 import { Typography } from "@/components/ui/typography";
 import { cn } from "@/lib/utils";
 
-import { DASHBOARD_LINKS } from "../../../app/(dashboard-layout)/dashboard-links";
+import { DASHBOARD_LINKS } from "../../../app/admin/dashboard-links";
 import type { NavigationLinkGroups } from "./navigation.type";
 
 const useCurrentPath = (links: NavigationLinkGroups[]) => {

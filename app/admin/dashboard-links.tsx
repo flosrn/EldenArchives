@@ -13,7 +13,7 @@ export const DASHBOARD_LINKS: NavigationLinkGroups[] = [
       {
         title: "Dashboard",
         icon: <LayoutDashboard />,
-        url: "/dashboard",
+        url: "/admin/dashboard",
       },
     ],
   },
@@ -23,12 +23,12 @@ export const DASHBOARD_LINKS: NavigationLinkGroups[] = [
       {
         title: "Users",
         icon: <User2 />,
-        url: "/users",
+        url: "/admin/users",
       },
       {
         title: "Feedbacks",
         icon: <MessageSquareWarning />,
-        url: "/feedbacks",
+        url: "/admin/feedbacks",
       },
     ],
   },
@@ -38,7 +38,7 @@ export const DASHBOARD_LINKS: NavigationLinkGroups[] = [
       {
         title: "Layout page",
         icon: <LayoutPanelLeft />,
-        url: "/layout-page",
+        url: "/admin/layout-page",
       },
     ],
   },

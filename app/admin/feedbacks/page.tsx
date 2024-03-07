@@ -27,7 +27,6 @@ async function getData(): Promise<FeedbackWithUser[]> {
 
 export default async function RoutePage(props: PageParams<{}>) {
   const data = await getData();
-  console.log("data : ", data);
   return (
     <Layout>
       <LayoutHeader>

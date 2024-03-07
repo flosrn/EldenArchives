@@ -11,6 +11,7 @@ import {
   SmilePlus,
   TrashIcon,
 } from "lucide-react";
+import { toast } from "sonner";
 
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -20,11 +21,12 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuSeparator,
-  DropdownMenuShortcut,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { enqueueDialog } from "@/features/dialogs-provider/DialogProvider";
 import { dateOptions } from "@/lib/format/date";
 
+import { deleteFeedbackAction } from "./delete-feedback.action";
 import type { FeedbackWithUser } from "./page";
 import { UserDialog } from "./UserDialog";
 
@@ -92,13 +94,13 @@ export const columns: ColumnDef<FeedbackWithUser>[] = [
       return (
         <div>
           {review === 1 ? (
-            <SmilePlus />
-          ) : review === 2 ? (
-            <Meh />
-          ) : review === 3 ? (
-            <Frown />
-          ) : review === 4 ? (
             <Angry />
+          ) : review === 2 ? (
+            <Frown />
+          ) : review === 3 ? (
+            <Meh />
+          ) : review === 4 ? (
+            <SmilePlus />
           ) : (
             "No review"
           )}
@@ -134,10 +136,28 @@ export const columns: ColumnDef<FeedbackWithUser>[] = [
                 Edit
               </DropdownMenuItem>
               <DropdownMenuSeparator />
-              <DropdownMenuItem>
-                <TrashIcon className="mr-2 size-3.5 text-muted-foreground/70" />
-                Delete
-                <DropdownMenuShortcut>⌘⌫</DropdownMenuShortcut>
+              <DropdownMenuItem className="py-0">
+                <Button
+                  variant="ghost"
+                  onClick={() => {
+                    enqueueDialog({
+                      title: "Delete this feedback",
+                      description:
+                        "Are you sure you want to delete this feedback?",
+                      action: {
+                        label: "Delete",
+                        onClick: async () => {
+                          await deleteFeedbackAction(feedback.id);
+                          toast.success("Feedback deleted!");
+                        },
+                      },
+                    });
+                  }}
+                  className="h-8 w-full justify-start px-0"
+                >
+                  <TrashIcon className="mr-2 size-3.5 text-muted-foreground/70" />
+                  Delete
+                </Button>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
