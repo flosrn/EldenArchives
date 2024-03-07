@@ -6,14 +6,14 @@ import { X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
-import type { Option, Search } from "./";
+import { type Option, type Search } from "./";
 import { DataTableFacetedFilter } from "./data-table-faceted-filter";
 import { DataTableViewOptions } from "./data-table-view-options";
 
 type DataTableToolbarProps<TData> = {
   table: Table<TData>;
   search?: Search;
-  options?: Option[];
+  options?: Option;
 };
 
 export function DataTableToolbar<TData>({
@@ -37,11 +37,11 @@ export function DataTableToolbar<TData>({
             }
             className="h-8 w-[150px] lg:w-[250px]"
           />
-          {options && table.getColumn("plan") && (
+          {options?.column && table.getColumn(options.column) && (
             <DataTableFacetedFilter
-              column={table.getColumn("plan")}
-              title="Plan"
-              options={options}
+              column={table.getColumn(options.column)}
+              title={options.name}
+              options={options.filters}
             />
           )}
           {isFiltered && (

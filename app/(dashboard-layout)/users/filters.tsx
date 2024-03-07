@@ -2,9 +2,9 @@
 
 import { GemIcon } from "lucide-react";
 
-import type { Option } from "@/components/ui/data-table";
+import type { Filter } from "@/components/ui/data-table";
 
-export const options: Option[] = [
+export const filters: Filter[] = [
   {
     label: "Free",
     value: "FREE",

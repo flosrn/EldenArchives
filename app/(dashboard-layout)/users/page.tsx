@@ -11,7 +11,7 @@ import prisma from "@/lib/prisma";
 import type { PageParams } from "@/types/next";
 
 import { columns } from "./columns";
-import { options } from "./options";
+import { filters } from "./filters";
 
 async function getData(): Promise<User[]> {
   return prisma.user.findMany();
@@ -29,7 +29,7 @@ export default async function RoutePage(props: PageParams<{}>) {
           columns={columns}
           data={data}
           search={{ type: "users", column: "name" }}
-          options={options}
+          options={{ filters, column: "plan", name: "Plan" }}
         />
       </LayoutContent>
     </Layout>

@@ -35,6 +35,12 @@ export type Search = {
 };
 
 export type Option = {
+  name: string;
+  column: string;
+  filters: Filter[];
+};
+
+export type Filter = {
   label: string;
   value: string;
   icon?: LucideIcon;
@@ -44,7 +50,7 @@ type DataTableProps<TData, TValue> = {
   columns: ColumnDef<TData, TValue>[];
   data: TData[];
   search?: Search;
-  options?: Option[];
+  options?: Option;
 };
 
 export function DataTable<TData, TValue>({

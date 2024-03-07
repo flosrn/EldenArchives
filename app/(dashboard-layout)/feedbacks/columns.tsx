@@ -1,8 +1,16 @@
 "use client";
 
-import type { Feedback } from "@prisma/client";
 import type { ColumnDef } from "@tanstack/react-table";
-import { EyeIcon, MoreHorizontal, PencilIcon, TrashIcon } from "lucide-react";
+import {
+  Angry,
+  EyeIcon,
+  Frown,
+  Meh,
+  MoreHorizontal,
+  PencilIcon,
+  SmilePlus,
+  TrashIcon,
+} from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -15,18 +23,12 @@ import {
   DropdownMenuShortcut,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { dateOptions } from "@/lib/format/date";
 
+import type { FeedbackWithUser } from "./page";
 import { UserDialog } from "./UserDialog";
 
-export const dateOptions: Intl.DateTimeFormatOptions = {
-  year: "numeric",
-  month: "numeric",
-  day: "numeric",
-  hour: "2-digit",
-  minute: "2-digit",
-};
-
-export const columns: ColumnDef<Feedback>[] = [
+export const columns: ColumnDef<FeedbackWithUser>[] = [
   {
     id: "select",
     header: ({ table }) => (
@@ -51,15 +53,20 @@ export const columns: ColumnDef<Feedback>[] = [
   },
   {
     header: ({ column }) => (
-      <DataTableColumnHeader column={column} title="Name" />
+      <DataTableColumnHeader column={column} title="Message" />
     ),
     accessorKey: "message",
   },
   {
-    header: ({ column }) => (
-      <DataTableColumnHeader column={column} title="Email" />
-    ),
-    accessorKey: "email",
+    header: ({ column }) => {
+      return <DataTableColumnHeader column={column} title="User name" />;
+    },
+    accessorKey: "user",
+    cell: ({ row }) => {
+      const feedback = row.original;
+      const username = feedback.user?.name || "Unknown";
+      return <div>{username}</div>;
+    },
   },
   {
     header: ({ column }) => (
@@ -71,6 +78,30 @@ export const columns: ColumnDef<Feedback>[] = [
       return (
         <div>
           {new Date(createdAt).toLocaleDateString("fr-FR", dateOptions)}
+        </div>
+      );
+    },
+  },
+  {
+    header: ({ column }) => (
+      <DataTableColumnHeader column={column} title="Review" />
+    ),
+    accessorKey: "review",
+    cell: ({ row }) => {
+      const review = row.getValue("review") as number;
+      return (
+        <div>
+          {review === 1 ? (
+            <SmilePlus />
+          ) : review === 2 ? (
+            <Meh />
+          ) : review === 3 ? (
+            <Frown />
+          ) : review === 4 ? (
+            <Angry />
+          ) : (
+            "No review"
+          )}
         </div>
       );
     },

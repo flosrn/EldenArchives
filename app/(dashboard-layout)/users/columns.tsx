@@ -16,17 +16,10 @@ import {
   DropdownMenuShortcut,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { dateOptions } from "@/lib/format/date";
 
-import { options } from "./options";
+import { filters } from "./filters";
 import { UserDialog } from "./UserDialog";
-
-export const dateOptions: Intl.DateTimeFormatOptions = {
-  year: "numeric",
-  month: "numeric",
-  day: "numeric",
-  hour: "2-digit",
-  minute: "2-digit",
-};
 
 export const columns: ColumnDef<User>[] = [
   {
@@ -98,7 +91,7 @@ export const columns: ColumnDef<User>[] = [
       <DataTableColumnHeader column={column} title="Plan" />
     ),
     cell: ({ row }) => {
-      const plan = options.find(
+      const plan = filters.find(
         (option) => option.value === row.getValue("plan")
       );
 
