@@ -7,12 +7,12 @@ import { Button } from "@/components/ui/button";
 import { AuthButton } from "@/features/auth/AuthButton";
 import { UserDropdown } from "@/features/auth/UserDropdown";
 import { ContactFeedbackPopover } from "@/features/contact/feedback/ContactFeedbackPopover";
+import { DesktopVerticalMenu } from "@/features/navigation/DesktopVerticalMenu";
+import { MobileDropdownMenu } from "@/features/navigation/MobileDropdownMenu";
 import { ThemeToggle } from "@/features/theme/ThemeToggle";
 import { requiredAuth } from "@/lib/auth/helper";
 import { SiteConfig } from "@/site-config";
 
-import { DesktopVerticalMenu } from "../../src/features/navigation/DesktopVerticalMenu";
-import { MobileDropdownMenu } from "../../src/features/navigation/MobileDropdownMenu";
 import { DASHBOARD_LINKS } from "./dashboard-links";
 
 export const DashboardNavigation = async (props: PropsWithChildren) => {
