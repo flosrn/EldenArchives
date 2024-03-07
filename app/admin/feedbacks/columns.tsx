@@ -89,8 +89,9 @@ export const columns: ColumnDef<FeedbackWithUser>[] = [
       <DataTableColumnHeader column={column} title="Review" />
     ),
     accessorKey: "review",
+    filterFn: (row, columnId, value) => row.getValue(columnId) == value,
     cell: ({ row }) => {
-      const review = row.getValue("review") as number;
+      const review = row.getValue("review");
       return (
         <div>
           {review === 1 ? (

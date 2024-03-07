@@ -11,18 +11,18 @@ export const filters: Filter[] = [
     icon: Angry,
   },
   {
+    label: "Somewhat Dissatisfied",
     value: "2",
     icon: Frown,
-    label: "Somewhat Dissatisfied",
   },
   {
+    label: "Neutral",
     value: "3",
     icon: Meh,
-    label: "Neutral",
   },
   {
+    label: "Satisfied",
     value: "4",
     icon: SmilePlus,
-    label: "Satisfied",
   },
 ];
