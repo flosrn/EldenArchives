@@ -1,35 +1,25 @@
 "use client";
 
 import type { Table } from "@tanstack/react-table";
-import { GemIcon, X } from "lucide-react";
+import { X } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
 import { DataTableFacetedFilter } from "./data-table-faceted-filter";
 import { DataTableViewOptions } from "./data-table-view-options";
-
-export const plans = [
-  {
-    label: "Free",
-    value: "FREE",
-    // icon: BirdIcon,
-  },
-  {
-    label: "Pro",
-    value: "PRO",
-    icon: GemIcon,
-  },
-];
+import type { Option } from "./options";
 
 type DataTableToolbarProps<TData> = {
   table: Table<TData>;
   column: string;
+  options: Option[];
 };
 
 export function DataTableToolbar<TData>({
   table,
   column,
+  options,
 }: DataTableToolbarProps<TData>) {
   const isFiltered = table.getState().columnFilters.length > 0;
 
@@ -48,7 +38,7 @@ export function DataTableToolbar<TData>({
           <DataTableFacetedFilter
             column={table.getColumn("plan")}
             title="Plan"
-            options={plans}
+            options={options}
           />
         )}
         {isFiltered && (

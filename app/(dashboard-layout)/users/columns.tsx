@@ -17,7 +17,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 import { DataTableColumnHeader } from "./data-table-column-header";
-import { plans } from "./data-table-toolbar";
+import { options } from "./options";
 import { UserDialog } from "./UserDialog";
 
 export const dateOptions: Intl.DateTimeFormatOptions = {
@@ -98,7 +98,9 @@ export const columns: ColumnDef<User>[] = [
       <DataTableColumnHeader column={column} title="Plan" />
     ),
     cell: ({ row }) => {
-      const plan = plans.find((plan) => plan.value === row.getValue("plan"));
+      const plan = options.find(
+        (option) => option.value === row.getValue("plan")
+      );
 
       if (!plan) {
         return null;
