@@ -15,6 +15,7 @@ import {
   type SortingState,
   type VisibilityState,
 } from "@tanstack/react-table";
+import type { LucideIcon } from "lucide-react";
 
 import {
   Table,
@@ -27,7 +28,12 @@ import {
 
 import { DataTablePagination } from "./data-table-pagination";
 import { DataTableToolbar } from "./data-table-toolbar";
-import type { Option } from "./options";
+
+export type Option = {
+  label: string;
+  value: string;
+  icon?: LucideIcon;
+};
 
 type DataTableProps<TData, TValue> = {
   columns: ColumnDef<TData, TValue>[];
@@ -35,7 +41,7 @@ type DataTableProps<TData, TValue> = {
   options: Option[];
 };
 
-export function DataTable<TData, TValue>({
+export function Index<TData, TValue>({
   columns,
   data,
   options,

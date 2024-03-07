@@ -7,6 +7,7 @@ import { EyeIcon, MoreHorizontal, PencilIcon, TrashIcon } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
+import { DataTableColumnHeader } from "@/components/ui/data-table/data-table-column-header";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -16,7 +17,6 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
-import { DataTableColumnHeader } from "./data-table-column-header";
 import { options } from "./options";
 import { UserDialog } from "./UserDialog";
 

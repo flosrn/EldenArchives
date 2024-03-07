@@ -1,5 +1,6 @@
 import type { User } from "@prisma/client";
 
+import { Index } from "@/components/ui/data-table";
 import {
   Layout,
   LayoutContent,
@@ -10,7 +11,6 @@ import prisma from "@/lib/prisma";
 import type { PageParams } from "@/types/next";
 
 import { columns } from "./columns";
-import { DataTable } from "./data-table";
 import { options } from "./options";
 
 async function getData(): Promise<User[]> {
@@ -25,7 +25,7 @@ export default async function RoutePage(props: PageParams<{}>) {
         <LayoutTitle>Users</LayoutTitle>
       </LayoutHeader>
       <LayoutContent>
-        <DataTable columns={columns} data={data} options={options} />
+        <Index columns={columns} data={data} options={options} />
       </LayoutContent>
     </Layout>
   );

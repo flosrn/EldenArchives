@@ -1,12 +1,8 @@
 "use client";
 
-import { GemIcon, type LucideIcon } from "lucide-react";
+import { GemIcon } from "lucide-react";
 
-export type Option = {
-  label: string;
-  value: string;
-  icon?: LucideIcon;
-};
+import type { Option } from "@/components/ui/data-table";
 
 export const options: Option[] = [
   {
