@@ -1,4 +1,9 @@
-import { LayoutDashboard, LayoutPanelLeft, User2 } from "lucide-react";
+import {
+  LayoutDashboard,
+  LayoutPanelLeft,
+  MessageSquareWarning,
+  User2,
+} from "lucide-react";
 
 import type { NavigationLinkGroups } from "@/features/navigation/navigation.type";
 
@@ -19,6 +24,11 @@ export const DASHBOARD_LINKS: NavigationLinkGroups[] = [
         title: "Users",
         icon: <User2 />,
         url: "/users",
+      },
+      {
+        title: "Feedbacks",
+        icon: <MessageSquareWarning />,
+        url: "/feedbacks",
       },
     ],
   },

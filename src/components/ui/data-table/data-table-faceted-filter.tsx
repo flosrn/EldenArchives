@@ -21,7 +21,7 @@ import {
 import { Separator } from "@/components/ui/separator";
 import { cn } from "@/lib/utils";
 
-import type { Option } from "../../../../app/(dashboard-layout)/users/options";
+import type { Option } from "./";
 
 type DataTableFacetedFilterProps<TData, TValue> = {
   column?: Column<TData, TValue>;

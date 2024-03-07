@@ -29,6 +29,11 @@ import {
 import { DataTablePagination } from "./data-table-pagination";
 import { DataTableToolbar } from "./data-table-toolbar";
 
+export type Search = {
+  type: string;
+  column: string;
+};
+
 export type Option = {
   label: string;
   value: string;
@@ -38,12 +43,14 @@ export type Option = {
 type DataTableProps<TData, TValue> = {
   columns: ColumnDef<TData, TValue>[];
   data: TData[];
-  options: Option[];
+  search?: Search;
+  options?: Option[];
 };
 
-export function Index<TData, TValue>({
+export function DataTable<TData, TValue>({
   columns,
   data,
+  search,
   options,
 }: DataTableProps<TData, TValue>) {
   const [rowSelection, setRowSelection] = React.useState({});
@@ -78,7 +85,7 @@ export function Index<TData, TValue>({
 
   return (
     <div className="space-y-4">
-      <DataTableToolbar table={table} options={options} column="name" />
+      <DataTableToolbar table={table} search={search} options={options} />
       <div className="rounded-md border">
         <Table>
           <TableHeader>

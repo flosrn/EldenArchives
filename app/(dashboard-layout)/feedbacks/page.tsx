@@ -1,4 +1,4 @@
-import type { User } from "@prisma/client";
+import type { Feedback } from "@prisma/client";
 
 import { DataTable } from "@/components/ui/data-table";
 import {
@@ -11,10 +11,9 @@ import prisma from "@/lib/prisma";
 import type { PageParams } from "@/types/next";
 
 import { columns } from "./columns";
-import { options } from "./options";
 
-async function getData(): Promise<User[]> {
-  return prisma.user.findMany();
+async function getData(): Promise<Feedback[]> {
+  return prisma.feedback.findMany();
 }
 
 export default async function RoutePage(props: PageParams<{}>) {
@@ -22,14 +21,13 @@ export default async function RoutePage(props: PageParams<{}>) {
   return (
     <Layout>
       <LayoutHeader>
-        <LayoutTitle>Users</LayoutTitle>
+        <LayoutTitle>Feedbacks</LayoutTitle>
       </LayoutHeader>
       <LayoutContent>
         <DataTable
           columns={columns}
           data={data}
-          search={{ type: "users", column: "name" }}
-          options={options}
+          search={{ type: "feedbacks", column: "message" }}
         />
       </LayoutContent>
     </Layout>
