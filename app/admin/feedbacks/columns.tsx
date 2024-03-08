@@ -26,7 +26,7 @@ import {
 import { enqueueDialog } from "@/features/dialogs-provider/DialogProvider";
 import { dateOptions } from "@/lib/format/date";
 
-import { deleteFeedbackAction } from "./delete-feedback.action";
+import { deleteFeedbacksAction } from "./delete-feedbacks.action";
 import type { FeedbackWithUser } from "./page";
 import { UserDialog } from "./UserDialog";
 
@@ -157,7 +157,7 @@ export const columns: ColumnDef<FeedbackWithUser>[] = [
                       action: {
                         label: "Delete",
                         onClick: async () => {
-                          await deleteFeedbackAction(feedback.id);
+                          await deleteFeedbacksAction([feedback.id]);
                           toast.success("Feedback deleted!");
                         },
                       },

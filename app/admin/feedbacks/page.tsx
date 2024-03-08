@@ -11,6 +11,7 @@ import prisma from "@/lib/prisma";
 import type { PageParams } from "@/types/next";
 
 import { columns } from "./columns";
+import { deleteFeedbacksAction } from "./delete-feedbacks.action";
 import { filters } from "./filters";
 
 export type FeedbackWithUser = Feedback & {
@@ -34,10 +35,12 @@ export default async function RoutePage(props: PageParams<{}>) {
       </LayoutHeader>
       <LayoutContent>
         <DataTable
+          title="Feedbacks"
           columns={columns}
           data={data}
           search={{ type: "feedbacks", column: "message" }}
           options={{ filters, column: "review", name: "Review" }}
+          onDelete={deleteFeedbacksAction}
         />
       </LayoutContent>
     </Layout>
