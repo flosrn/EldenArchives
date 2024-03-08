@@ -58,6 +58,14 @@ export const columns: ColumnDef<FeedbackWithUser>[] = [
       <DataTableColumnHeader column={column} title="Message" />
     ),
     accessorKey: "message",
+    cell: ({ row }) => {
+      const message = row.getValue("message") as string;
+      return (
+        <div title={message} className="line-clamp-1">
+          {message}
+        </div>
+      );
+    },
   },
   {
     header: ({ column }) => {
@@ -89,6 +97,7 @@ export const columns: ColumnDef<FeedbackWithUser>[] = [
       <DataTableColumnHeader column={column} title="Review" />
     ),
     accessorKey: "review",
+    invertSorting: true,
     filterFn: (row, columnId, value) => row.getValue(columnId) == value,
     cell: ({ row }) => {
       const review = row.getValue("review");
