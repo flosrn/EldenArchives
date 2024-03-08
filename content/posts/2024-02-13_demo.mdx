@@ -1,5 +1,5 @@
 ---
-title: Some post demo
+tableName: Some post demo
 description: Some post description demo
 keywords:
   - nextjs
@@ -25,7 +25,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: post.attributes.title,
+    tableName: post.attributes.tableName,
     description: post.attributes.description,
     keywords: post.attributes.keywords,
     authors: {

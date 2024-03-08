@@ -9,9 +9,7 @@ import {
   MoreHorizontal,
   PencilIcon,
   SmilePlus,
-  TrashIcon,
 } from "lucide-react";
-import { toast } from "sonner";
 
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -23,10 +21,9 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { enqueueDialog } from "@/features/dialogs-provider/DialogProvider";
+import { DeleteRowButton } from "@/features/table/DeleteRowButton";
 import { dateOptions } from "@/lib/format/date";
 
-import { deleteFeedbacksAction } from "./delete-feedbacks.action";
 import type { FeedbackWithUser } from "./page";
 import { UserDialog } from "./UserDialog";
 
@@ -147,27 +144,7 @@ export const columns: ColumnDef<FeedbackWithUser>[] = [
               </DropdownMenuItem>
               <DropdownMenuSeparator />
               <DropdownMenuItem className="py-0">
-                <Button
-                  variant="ghost"
-                  onClick={() => {
-                    enqueueDialog({
-                      title: "Delete this feedback",
-                      description:
-                        "Are you sure you want to delete this feedback?",
-                      action: {
-                        label: "Delete",
-                        onClick: async () => {
-                          await deleteFeedbacksAction([feedback.id]);
-                          toast.success("Feedback deleted!");
-                        },
-                      },
-                    });
-                  }}
-                  className="h-8 w-full justify-start px-0"
-                >
-                  <TrashIcon className="mr-2 size-3.5 text-muted-foreground/70" />
-                  Delete
-                </Button>
+                <DeleteRowButton tableName="feedback" ids={[feedback.id]} />
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>

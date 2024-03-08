@@ -4,7 +4,8 @@ import { useRouter } from "next/navigation";
 import { useMutation } from "@tanstack/react-query";
 import { toast } from "sonner";
 
-import { Button, type ButtonProps } from "../../components/ui/button";
+import { Button, type ButtonProps } from "@/components/ui/button";
+
 import { buyButtonAction } from "./buy-button.action";
 
 export type BuyButtonProps = {

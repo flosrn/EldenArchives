@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import type { SafeAction } from "next-safe-action";
 import {
   flexRender,
   getCoreRowModel,
@@ -17,7 +16,6 @@ import {
   type VisibilityState,
 } from "@tanstack/react-table";
 import { type LucideIcon } from "lucide-react";
-import type { z } from "zod";
 
 import { DataTablePagination } from "@/components/ui/data-table/data-table-pagination";
 import {
@@ -49,21 +47,19 @@ export type Filter = {
 };
 
 type DataTableProps<TData, TValue> = {
-  title: string;
+  tableName: string;
   columns: ColumnDef<TData, TValue>[];
   data: TData[];
   search?: Search;
   options?: Option;
-  onDelete: SafeAction<z.ZodArray<z.ZodString, "many">, void>;
 };
 
 export function DataTable<TData, TValue>({
-  title,
+  tableName,
   columns,
   data,
   search,
   options,
-  onDelete,
 }: DataTableProps<TData, TValue>) {
   const [rowSelection, setRowSelection] = React.useState({});
   const [columnVisibility, setColumnVisibility] =
@@ -96,7 +92,6 @@ export function DataTable<TData, TValue>({
     getFacetedUniqueValues: getFacetedUniqueValues(),
   });
 
-  // check if rowSelection is not empty
   const isRowsSelected = Object.keys(rowSelection).length !== 0;
 
   return (
@@ -153,10 +148,9 @@ export function DataTable<TData, TValue>({
         </Table>
       </div>
       <DataTablePagination
-        title={title}
+        tableName={tableName}
         table={table}
         isRowsSelected={isRowsSelected}
-        onDelete={onDelete}
       />
     </div>
   );
