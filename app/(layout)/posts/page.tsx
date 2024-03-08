@@ -10,7 +10,7 @@ import {
   LayoutDescription,
   LayoutHeader,
   LayoutTitle,
-} from "@/features/page/layout";
+} from "@/features/page/Layout";
 import { getPosts, getPostsTags } from "@/features/posts/post-manager";
 import { PostCard } from "@/features/posts/PostCard";
 import type { PageParams } from "@/types/next";

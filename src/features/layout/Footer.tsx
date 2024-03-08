@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import { Typography } from "@/components/ui/typography";
-import { Layout, LayoutContent } from "@/features/page/layout";
+import { Layout, LayoutContent } from "@/features/page/Layout";
 import { SiteConfig } from "@/site-config";
 
 import { Maker } from "../maker/Maker";

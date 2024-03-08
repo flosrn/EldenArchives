@@ -15,7 +15,7 @@ import {
   LayoutContent,
   LayoutHeader,
   LayoutTitle,
-} from "@/features/page/layout";
+} from "@/features/page/Layout";
 import type { PageParams } from "@/types/next";
 
 import { getError } from "./auth-error-mapping";

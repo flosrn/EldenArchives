@@ -9,7 +9,7 @@ import {
   LayoutDescription,
   LayoutHeader,
   LayoutTitle,
-} from "@/features/page/layout";
+} from "@/features/page/Layout";
 import type { PageParams } from "@/types/next";
 
 /**

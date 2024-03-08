@@ -61,7 +61,7 @@ export const columns: ColumnDef<FeedbackWithUser>[] = [
     cell: ({ row }) => {
       const message = row.getValue("message") as string;
       return (
-        <div title={message} className="line-clamp-1">
+        <div title={message} className="max-w-[450px] truncate">
           {message}
         </div>
       );
@@ -75,7 +75,7 @@ export const columns: ColumnDef<FeedbackWithUser>[] = [
     cell: ({ row }) => {
       const feedback = row.original;
       const username = feedback.user?.name || "Unknown";
-      return <div>{username}</div>;
+      return <div className="max-w-[140px] truncate">{username}</div>;
     },
   },
   {

@@ -1,14 +1,14 @@
 import type { ComponentPropsWithoutRef } from "react";
 
-import { Typography } from "../../components/ui/typography";
-import { cn } from "../../lib/utils";
+import { Typography } from "@/components/ui/typography";
+import { cn } from "@/lib/utils";
 
 export const Layout = (props: ComponentPropsWithoutRef<"div">) => {
   return (
     <div
       {...props}
       className={cn(
-        "max-w-4xl flex-wrap w-full flex gap-4 m-auto px-4 mt-4",
+        "max-w-6xl flex-wrap w-full flex gap-4 m-auto px-4 mt-4",
         props.className
       )}
     />

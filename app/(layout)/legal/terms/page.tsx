@@ -1,7 +1,7 @@
 import { MDXRemote } from "next-mdx-remote/rsc";
 
 import { Typography } from "@/components/ui/typography";
-import { Layout, LayoutContent } from "@/features/page/layout";
+import { Layout, LayoutContent } from "@/features/page/Layout";
 
 const markdown = `Terms Markdown`;
 

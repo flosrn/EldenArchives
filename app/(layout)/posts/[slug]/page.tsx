@@ -14,7 +14,7 @@ import {
   LayoutDescription,
   LayoutHeader,
   LayoutTitle,
-} from "@/features/page/layout";
+} from "@/features/page/Layout";
 import { formatDate } from "@/lib/format/date";
 import { logger } from "@/lib/logger";
 import { SiteConfig } from "@/site-config";

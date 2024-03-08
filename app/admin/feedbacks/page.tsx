@@ -6,7 +6,7 @@ import {
   LayoutContent,
   LayoutHeader,
   LayoutTitle,
-} from "@/features/page/layout";
+} from "@/features/page/Layout";
 import prisma from "@/lib/prisma";
 import type { PageParams } from "@/types/next";
 

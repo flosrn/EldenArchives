@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import { Separator } from "@/components/ui/separator";
 import { AuthButton } from "@/features/auth/AuthButton";
-import { Layout } from "@/features/page/layout";
+import { Layout } from "@/features/page/Layout";
 import { ThemeToggle } from "@/features/theme/ThemeToggle";
 import { SiteConfig } from "@/site-config";
 

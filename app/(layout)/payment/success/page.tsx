@@ -7,7 +7,7 @@ import {
   LayoutDescription,
   LayoutHeader,
   LayoutTitle,
-} from "@/features/page/layout";
+} from "@/features/page/Layout";
 
 export default function SuccessPaymentPage() {
   return (
