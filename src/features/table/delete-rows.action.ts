@@ -6,25 +6,19 @@ import { z } from "zod";
 import prisma from "@/lib/prisma";
 import { ActionError, authAction } from "@/lib/server-actions/safe-actions";
 
+const tableNames = ["feedback"];
+
 export const deleteRowsAction = authAction(
   z.object({
     tableName: z.string(),
     ids: z.array(z.string()),
   }),
-  async ({ tableName, ids }, ctx) => {
-    const userId = ctx.user.id;
-
-    const user = await prisma.user.findUnique({
-      where: {
-        id: userId,
-      },
-    });
-
-    if (!user) {
-      throw new ActionError("You don't have an account!");
+  async ({ tableName, ids }) => {
+    if (!tableNames.includes(tableName)) {
+      throw new ActionError("Invalid table name");
     }
 
-    // @ts-expect-error: trust me
+    // @ts-expect-error: expected TypeScript error due to uncertainty in determining type of deleteMany method based on tableName string.
     const deleteMethod = prisma[tableName].deleteMany;
     try {
       await deleteMethod({
@@ -35,8 +29,8 @@ export const deleteRowsAction = authAction(
         },
       });
     } catch (error) {
-      console.log("error : ", error);
-      throw new Error(`Failed to delete ${tableName}s`);
+      console.error("error : ", error);
+      throw new ActionError(`Failed to delete ${tableName}s`);
     }
 
     revalidatePath(`/admin/${tableName}s`);

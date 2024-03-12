@@ -1,5 +1,4 @@
 import { createSafeActionClient } from "next-safe-action";
-
 import type { User } from "@prisma/client";
 
 import { auth } from "../auth/helper";
