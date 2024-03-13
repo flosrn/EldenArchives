@@ -25,10 +25,14 @@ export const DeleteRowButton = ({ tableName, ids }: DeleteRowButtonProps) => {
           action: {
             label: "Delete",
             onClick: async () => {
-              await deleteRowsAction({
+              const { serverError } = await deleteRowsAction({
                 tableName,
                 ids,
               });
+              if (serverError) {
+                toast.error(serverError);
+                return;
+              }
               toast.success(`${tableName} deleted!`);
             },
           },

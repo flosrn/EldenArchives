@@ -6,7 +6,7 @@ import { z } from "zod";
 import prisma from "@/lib/prisma";
 import { ActionError, authAction } from "@/lib/server-actions/safe-actions";
 
-const tableNames = ["feedback"];
+const allowedTableNames = ["feedback"];
 
 export const deleteRowsAction = authAction(
   z.object({
@@ -14,7 +14,7 @@ export const deleteRowsAction = authAction(
     ids: z.array(z.string()),
   }),
   async ({ tableName, ids }) => {
-    if (!tableNames.includes(tableName)) {
+    if (!allowedTableNames.includes(tableName)) {
       throw new ActionError("Invalid table name");
     }
 
