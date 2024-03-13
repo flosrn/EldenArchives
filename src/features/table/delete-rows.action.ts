@@ -29,7 +29,6 @@ export const deleteRowsAction = authAction(
         },
       });
     } catch (error) {
-      console.error("error : ", error);
       throw new ActionError(`Failed to delete ${tableName}s`);
     }
 
