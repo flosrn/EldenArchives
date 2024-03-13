@@ -4,11 +4,11 @@ import { revalidatePath } from "next/cache";
 import { z } from "zod";
 
 import prisma from "@/lib/prisma";
-import { ActionError, authAction } from "@/lib/server-actions/safe-actions";
+import { ActionError, adminAction } from "@/lib/server-actions/safe-actions";
 
 const allowedTableNames = ["feedback"];
 
-export const deleteRowsAction = authAction(
+export const deleteRowsAction = adminAction(
   z.object({
     tableName: z.string(),
     ids: z.array(z.string()),
