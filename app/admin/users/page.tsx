@@ -26,6 +26,7 @@ export default async function RoutePage(props: PageParams<{}>) {
       </LayoutHeader>
       <LayoutContent>
         <DataTable
+          tableName="users"
           columns={columns}
           data={data}
           search={{ type: "users", column: "name" }}
