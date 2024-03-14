@@ -1,5 +1,6 @@
 import type { Feedback, User } from "@prisma/client";
 
+import { Card, CardContent } from "@/components/ui/card";
 import { DataTable } from "@/components/ui/data-table";
 import {
   Layout,
@@ -11,6 +12,7 @@ import prisma from "@/lib/prisma";
 import type { PageParams } from "@/types/next";
 
 import { columns } from "./columns";
+import { FeedbackInfo } from "./FeedbackInfo";
 import { filters } from "./filters";
 
 export type FeedbackWithUser = Feedback & {
@@ -33,6 +35,7 @@ export default async function RoutePage(props: PageParams<{}>) {
         <LayoutTitle>Feedbacks</LayoutTitle>
       </LayoutHeader>
       <LayoutContent>
+        <FeedbackInfo data={data} />
         <DataTable
           tableName="feedback"
           columns={columns}
