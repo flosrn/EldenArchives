@@ -10,8 +10,8 @@ export const filters: Filter[] = [
     value: "FREE",
   },
   {
-    label: "Pro",
-    value: "PRO",
+    label: "Premium",
+    value: "PREMIUM",
     icon: GemIcon,
   },
 ];
