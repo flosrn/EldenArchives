@@ -1,6 +1,5 @@
 import type { Feedback, User } from "@prisma/client";
 
-import { Card, CardContent } from "@/components/ui/card";
 import { DataTable } from "@/components/ui/data-table";
 import {
   Layout,
@@ -29,7 +28,6 @@ async function getData(): Promise<FeedbackWithUser[]> {
 
 export default async function RoutePage(props: PageParams<{}>) {
   const data = await getData();
-  console.log("data : ", data);
   return (
     <Layout>
       <LayoutHeader>
