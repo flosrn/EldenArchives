@@ -1,6 +1,7 @@
 import type { ComponentPropsWithoutRef } from "react";
 
 import { Typography } from "@/components/ui/typography";
+import { BreadcrumbNav } from "@/features/navigation/BreadcrumbNav";
 import { cn } from "@/lib/utils";
 
 export const Layout = (props: ComponentPropsWithoutRef<"div">) => {
@@ -15,15 +16,21 @@ export const Layout = (props: ComponentPropsWithoutRef<"div">) => {
   );
 };
 
-export const LayoutHeader = (props: ComponentPropsWithoutRef<"div">) => {
+export const LayoutHeader = ({
+  withNav,
+  ...props
+}: { withNav?: boolean } & ComponentPropsWithoutRef<"div">) => {
   return (
-    <div
-      {...props}
-      className={cn(
-        "flex items-start gap-2 flex-col w-full md:flex-1 min-w-[200px]",
-        props.className
-      )}
-    />
+    <div className={cn({ "space-y-2 mb-2": withNav })}>
+      <div
+        {...props}
+        className={cn(
+          "flex items-start gap-2 flex-col w-full md:flex-1 min-w-[200px]",
+          props.className
+        )}
+      />
+      {withNav && <BreadcrumbNav />}
+    </div>
   );
 };
 

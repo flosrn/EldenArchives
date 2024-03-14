@@ -15,7 +15,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Typography } from "@/components/ui/typography";
 
-import { DASHBOARD_LINKS } from "../../../app/admin/dashboard-links";
+import { DASHBOARD_LINKS } from "../../../app/dashboard/dashboard-links";
 import type { NavigationLinkGroups } from "./navigation.type";
 
 export const MobileDropdownMenu = ({

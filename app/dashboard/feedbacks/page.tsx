@@ -30,7 +30,7 @@ export default async function RoutePage(props: PageParams<{}>) {
   const data = await getData();
   return (
     <Layout>
-      <LayoutHeader>
+      <LayoutHeader withNav>
         <LayoutTitle>Feedbacks</LayoutTitle>
       </LayoutHeader>
       <LayoutContent>
