@@ -12,9 +12,11 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 
-export type BreadcrumbNavProps = {};
+export type BreadcrumbNavProps = {
+  currentPageName?: string | null;
+};
 
-export const BreadcrumbNav = (props: BreadcrumbNavProps) => {
+export const BreadcrumbNav = ({ currentPageName }: BreadcrumbNavProps) => {
   const pathname = usePathname();
   const paths = pathname.split("/").filter((path) => path !== "");
 
@@ -22,17 +24,24 @@ export const BreadcrumbNav = (props: BreadcrumbNavProps) => {
     <Breadcrumb>
       <BreadcrumbList>
         {paths.map((path, index) => {
-          const pathLabel = path[0].toUpperCase() + path.slice(1);
+          const isLast = index === paths.length - 1;
+          let pathLabel = path[0].toUpperCase() + path.slice(1);
+          const href = `/${paths.slice(0, index + 1).join("/")}`;
+
+          if (isLast && currentPageName) {
+            pathLabel = currentPageName;
+          }
+
           return (
             <React.Fragment key={path}>
               <BreadcrumbItem>
-                {index === paths.length - 1 ? (
+                {isLast ? (
                   <BreadcrumbPage>{pathLabel}</BreadcrumbPage>
                 ) : (
-                  <BreadcrumbLink href={`/${path}`}>{pathLabel}</BreadcrumbLink>
+                  <BreadcrumbLink href={href}>{pathLabel}</BreadcrumbLink>
                 )}
               </BreadcrumbItem>
-              {index < paths.length - 1 && <BreadcrumbSeparator />}
+              {!isLast && <BreadcrumbSeparator />}
             </React.Fragment>
           );
         })}

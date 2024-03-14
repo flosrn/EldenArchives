@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import type { User } from "@prisma/client";
 import type { ColumnDef } from "@tanstack/react-table";
 import { EyeIcon, MoreHorizontal, PencilIcon, TrashIcon } from "lucide-react";
@@ -135,10 +136,12 @@ export const columns: ColumnDef<User>[] = [
                 <EyeIcon className="mr-2 size-3.5 text-muted-foreground/70" />
                 View
               </DropdownMenuItem>
-              <DropdownMenuItem>
-                <PencilIcon className="mr-2 size-3.5 text-muted-foreground/70" />
-                Edit
-              </DropdownMenuItem>
+              <Link href={`/dashboard/users/${user.id}`}>
+                <DropdownMenuItem>
+                  <PencilIcon className="mr-2 size-3.5 text-muted-foreground/70" />
+                  Edit
+                </DropdownMenuItem>
+              </Link>
               <DropdownMenuSeparator />
               <DropdownMenuItem>
                 <TrashIcon className="mr-2 size-3.5 text-muted-foreground/70" />

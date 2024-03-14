@@ -18,8 +18,12 @@ export const Layout = (props: ComponentPropsWithoutRef<"div">) => {
 
 export const LayoutHeader = ({
   withNav,
+  currentPageName,
   ...props
-}: { withNav?: boolean } & ComponentPropsWithoutRef<"div">) => {
+}: {
+  withNav?: boolean;
+  currentPageName?: string | null;
+} & ComponentPropsWithoutRef<"div">) => {
   return (
     <div className={cn({ "space-y-2 mb-2": withNav })}>
       <div
@@ -29,7 +33,7 @@ export const LayoutHeader = ({
           props.className
         )}
       />
-      {withNav && <BreadcrumbNav />}
+      {withNav && <BreadcrumbNav currentPageName={currentPageName} />}
     </div>
   );
 };
