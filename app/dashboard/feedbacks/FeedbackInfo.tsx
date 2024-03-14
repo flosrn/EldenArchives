@@ -14,7 +14,7 @@ export const FeedbackInfo = ({ data }: FeedbackInfoProps) => {
     (feedback) => feedback.review === 1
   );
   return (
-    <Card variant="background" className="mb-5 p-6">
+    <Card variant="background" className="mb-5 p-2">
       <div className="flex justify-between">
         <div>
           <h2 className="text-xl font-bold">Feedbacks</h2>
