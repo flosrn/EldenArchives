@@ -6,12 +6,12 @@ import type { Filter } from "@/components/ui/data-table";
 
 export const filters: Filter[] = [
   {
-    label: "Extremely Dissatisfied",
+    label: "Very Negative",
     value: "1",
     icon: Angry,
   },
   {
-    label: "Somewhat Dissatisfied",
+    label: "Negative",
     value: "2",
     icon: Frown,
   },
@@ -21,7 +21,7 @@ export const filters: Filter[] = [
     icon: Meh,
   },
   {
-    label: "Satisfied",
+    label: "Positive",
     value: "4",
     icon: SmilePlus,
   },
