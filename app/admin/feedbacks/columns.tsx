@@ -80,6 +80,14 @@ export const columns: ColumnDef<FeedbackWithUser>[] = [
       <DataTableColumnHeader column={column} title="Created At" />
     ),
     accessorKey: "createdAt",
+    filterFn: (row, columnId, filterValue) => {
+      const rowValue = row.getValue(columnId) as string;
+      if (!rowValue || !filterValue) return false;
+
+      const rowDate = new Date(rowValue).getTime();
+      const filterDate = new Date(filterValue).getTime();
+      return rowDate >= filterDate;
+    },
     cell: ({ row }) => {
       const createdAt = row.getValue("createdAt") as string;
       return (

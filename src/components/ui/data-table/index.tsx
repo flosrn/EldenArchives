@@ -38,6 +38,7 @@ export type Option = {
   name: string;
   column: string;
   filters: Filter[];
+  hasDateFilter?: boolean;
 };
 
 export type Filter = {
