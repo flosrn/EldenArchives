@@ -24,7 +24,9 @@ export default async function EditProfilePage() {
       <CardHeader>
         <div className="flex items-center gap-2">
           <Avatar className="size-16">
-            <AvatarFallback>{user.email.slice(0, 2)}</AvatarFallback>
+            <AvatarFallback>
+              {user.email.slice(0, 2).toUpperCase()}
+            </AvatarFallback>
             {user.image ? <AvatarImage src={user.image} /> : null}
           </Avatar>
 

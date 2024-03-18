@@ -1,4 +1,5 @@
 import * as React from "react";
+import { zodResolver } from "@hookform/resolvers/zod";
 import type * as LabelPrimitive from "@radix-ui/react-label";
 import { Slot } from "@radix-ui/react-slot";
 import {
@@ -16,7 +17,6 @@ import {
 import type { TypeOf, ZodSchema } from "zod";
 
 import { cn } from "@/lib/utils";
-import { zodResolver } from "@hookform/resolvers/zod";
 
 import { Label } from "./label";
 
@@ -41,7 +41,7 @@ const Form = <T extends FieldValues>({
     <form
       onSubmit={form.handleSubmit(onSubmit)}
       {...props}
-      className={className}
+      // className={className}
     >
       <fieldset
         disabled={disabled || form.formState.isSubmitting}
