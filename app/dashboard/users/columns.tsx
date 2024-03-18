@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { User } from "@prisma/client";
 import type { ColumnDef } from "@tanstack/react-table";
-import { EyeIcon, MoreHorizontal, PencilIcon, TrashIcon } from "lucide-react";
+import { EyeIcon, MoreHorizontal, TrashIcon } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -20,7 +20,6 @@ import {
 import { dateOptions } from "@/lib/format/date";
 
 import { filters } from "./filters";
-import { UserDialog } from "./UserDialog";
 
 export const columns: ColumnDef<User>[] = [
   {
@@ -120,7 +119,15 @@ export const columns: ColumnDef<User>[] = [
 
       return (
         <div className="flex items-center space-x-2">
-          <UserDialog {...user} />
+          {/*<UserDialog {...user} />*/}
+          <Link href={`/dashboard/users/${user.id}`}>
+            <Button
+              variant="ghost"
+              className="flex size-8 p-0 data-[state=open]:bg-muted"
+            >
+              <EyeIcon className="size-3.5 text-muted-foreground/70" />
+            </Button>
+          </Link>
           <DropdownMenu modal={false}>
             <DropdownMenuTrigger asChild>
               <Button
@@ -132,14 +139,10 @@ export const columns: ColumnDef<User>[] = [
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" className="w-[160px]">
-              <DropdownMenuItem>
-                <EyeIcon className="mr-2 size-3.5 text-muted-foreground/70" />
-                View
-              </DropdownMenuItem>
               <Link href={`/dashboard/users/${user.id}`}>
                 <DropdownMenuItem>
-                  <PencilIcon className="mr-2 size-3.5 text-muted-foreground/70" />
-                  Edit
+                  <EyeIcon className="mr-2 size-3.5 text-muted-foreground/70" />
+                  View
                 </DropdownMenuItem>
               </Link>
               <DropdownMenuSeparator />

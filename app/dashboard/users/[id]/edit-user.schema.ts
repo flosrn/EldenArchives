@@ -1,7 +1,7 @@
 import { z } from "zod";
 
 export const UserFormSchema = z.object({
-  emailVerified: z.date().nullable(),
+  emailVerified: z.boolean(),
   role: z.enum(["USER", "ADMIN"]),
 });
 

@@ -21,14 +21,13 @@ export default async function RoutePage({
   params,
 }: PageParams<{ id: string }>) {
   const user = await getCurrentUser(params.id);
-  console.log("user : ", user);
   return (
     <Layout>
       <LayoutHeader withNav currentPageName={user?.name}>
-        <LayoutTitle>Edit</LayoutTitle>
+        <LayoutTitle>User profile</LayoutTitle>
       </LayoutHeader>
       <LayoutContent className="grid grid-cols-12 gap-4">
-        {user && <EditUserForm defaultValues={user} />}
+        {user && <EditUserForm {...user} />}
       </LayoutContent>
     </Layout>
   );

@@ -1,6 +1,8 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import type { User } from "@prisma/client";
+import { toast } from "sonner";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -23,37 +25,51 @@ import {
 import { Switch } from "@/components/ui/switch";
 import { SubmitButton } from "@/features/form/SubmitButton";
 import { formatDate } from "@/lib/format/date";
-import { displayName } from "@/lib/format/displayName";
 
-import { UserFormSchema } from "./edit-user.schema";
+import { updateUserAction } from "./edit-user.action";
+import { UserFormSchema, type UserFormType } from "./edit-user.schema";
 
-export type EditUserFormProps = {
-  defaultValues: User;
-};
+export type EditUserFormProps = User;
 
-export const EditUserForm = ({ defaultValues }: EditUserFormProps) => {
+export const EditUserForm = ({
+  id,
+  name,
+  email,
+  image,
+  createdAt,
+  updatedAt,
+  role,
+  plan,
+  emailVerified,
+  stripeCustomerId,
+  resendContactId,
+}: EditUserFormProps) => {
+  const router = useRouter();
   const form = useZodForm({
     schema: UserFormSchema,
     defaultValues: {
-      emailVerified: defaultValues.emailVerified,
-      role: defaultValues.role,
+      emailVerified: Boolean(emailVerified),
+      role,
     },
   });
-  const {
-    id,
-    email,
-    image,
-    createdAt,
-    updatedAt,
-    role,
-    plan,
-    emailVerified,
-    stripeCustomerId,
-    resendContactId,
-  } = defaultValues;
 
-  const onSubmit = async (values) => {
-    console.log(values);
+  const onSubmit = async (values: UserFormType) => {
+    if (!form.formState.isDirty) return;
+
+    const { data, serverError } = await updateUserAction(values);
+
+    if (!data) {
+      toast.error(serverError);
+      return;
+    }
+
+    form.reset({
+      emailVerified: Boolean(data.emailVerified),
+      role: data.role,
+    });
+
+    toast.success("User updated!");
+    router.refresh();
   };
 
   return (
@@ -70,7 +86,7 @@ export const EditUserForm = ({ defaultValues }: EditUserFormProps) => {
         <CardContent>
           <Form
             form={form}
-            onSubmit={async (v) => onSubmit(v)}
+            onSubmit={async (value) => onSubmit(value)}
             className="flex flex-col items-center gap-6"
           >
             <div className="space-y-3">
@@ -84,10 +100,7 @@ export const EditUserForm = ({ defaultValues }: EditUserFormProps) => {
                         <Switch
                           id="emailVerified"
                           checked={Boolean(field.value)}
-                          onCheckedChange={(value) => {
-                            const date = new Date();
-                            field.onChange(value ? date : null);
-                          }}
+                          onCheckedChange={field.onChange}
                         />
                         <Label htmlFor="emailVerified">Email Verified</Label>
                       </div>
@@ -152,7 +165,7 @@ export const EditUserForm = ({ defaultValues }: EditUserFormProps) => {
       </Card>
       <Card className="col-span-8 py-6">
         <CardHeader>
-          <CardTitle>{displayName(defaultValues)}</CardTitle>
+          <CardTitle>{name}</CardTitle>
         </CardHeader>
         <CardContent>
           <div className="space-y-1">
