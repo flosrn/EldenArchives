@@ -13,6 +13,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { ScrollArea } from "@/components/ui/scroll-area";
 import { Typography } from "@/components/ui/typography";
 
 import { DASHBOARD_LINKS } from "../../../app/dashboard/dashboard-links";
@@ -40,34 +41,38 @@ export const MobileDropdownMenu = ({
           marginRight: "1rem",
         }}
       >
-        {links.map((section, index) => (
-          <Fragment key={index}>
-            {section.title ? (
-              <DropdownMenuLabel className="text-muted-foreground">
-                {section.title}
-              </DropdownMenuLabel>
-            ) : null}
-            {section.links.map((link) => (
-              <DropdownMenuItem key={link.url} asChild>
-                <Typography
-                  as={Link}
-                  variant="large"
-                  className="flex items-center gap-2 text-base"
-                  href={link.url}
-                  onClick={() => setOpen(false)}
-                >
-                  {cloneElement(link.icon, {
-                    className: "h-4 w-4",
-                  })}
-                  <span>{link.title}</span>
-                </Typography>
-              </DropdownMenuItem>
+        <ScrollArea>
+          <div className="max-h-[500px]">
+            {links.map((section, index) => (
+              <Fragment key={index}>
+                {section.title ? (
+                  <DropdownMenuLabel className="text-muted-foreground">
+                    {section.title}
+                  </DropdownMenuLabel>
+                ) : null}
+                {section.links.map((link) => (
+                  <DropdownMenuItem key={link.url} asChild>
+                    <Typography
+                      as={Link}
+                      variant="large"
+                      className="flex items-center gap-2 text-base"
+                      href={link.url}
+                      onClick={() => setOpen(false)}
+                    >
+                      {cloneElement(link.icon, {
+                        className: "h-4 w-4",
+                      })}
+                      <span>{link.title}</span>
+                    </Typography>
+                  </DropdownMenuItem>
+                ))}
+                {index < DASHBOARD_LINKS.length - 1 ? (
+                  <DropdownMenuSeparator />
+                ) : null}
+              </Fragment>
             ))}
-            {index < DASHBOARD_LINKS.length - 1 ? (
-              <DropdownMenuSeparator />
-            ) : null}
-          </Fragment>
-        ))}
+          </div>
+        </ScrollArea>
       </DropdownMenuContent>
     </DropdownMenu>
   );
