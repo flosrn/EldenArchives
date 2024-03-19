@@ -25,8 +25,6 @@ type Translations = {
   descriptions: Translation[];
 };
 
-const translationsDirectory = path.join(process.cwd(), "content/translations");
-
 const loadTranslations = async (
   type: string | string[]
 ): Promise<Translations> => {
@@ -50,17 +48,16 @@ const loadTranslations = async (
   if (type === "ammo") {
     itemType = "armaments";
   }
+  path.join(process.cwd(), "content/translations");
 
   const titlesFile = await fs.readFile(
     `${process.cwd()}/content/translations/titles/${itemType}.json`,
     "utf8"
   );
-  console.log("titlesFile : ", titlesFile);
   const descriptionsFile = await fs.readFile(
     `${process.cwd()}/content/translations/descriptions/${itemType}.json`,
     "utf8"
   );
-  console.log("descriptionsFile : ", descriptionsFile);
   const titles = JSON.parse(titlesFile).Fmg.Entries;
   const descriptions = JSON.parse(descriptionsFile).Fmg.Entries;
   return {
