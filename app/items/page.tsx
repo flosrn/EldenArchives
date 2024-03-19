@@ -8,6 +8,7 @@ import { ItemCategoriesBadges } from "@/features/items/ItemCategoriesBadges";
 import { BreadcrumbNavWithQueryParams } from "@/features/navigation/BreadcrumbNavWithQueryParams";
 import {
   Layout,
+  LayoutActions,
   LayoutContent,
   LayoutHeader,
   LayoutTitle,
@@ -15,6 +16,7 @@ import {
 import type { PageParams } from "@/types/next";
 
 import type { Item } from "./item.types";
+import { ItemsSearch } from "./ItemsSearch";
 import type { Translation } from "./translation.types";
 
 type Translations = {
@@ -112,9 +114,24 @@ const fetchItems = async (
 };
 
 export default async function RoutePage({
-  searchParams: { type, category },
+  searchParams: { type, category, search },
 }: PageParams<{}>) {
   const { items, categories } = await fetchItems(type || "", category || "");
+
+  if (search) {
+    Object.keys(items).forEach((key) => {
+      const item = items[key as keyof typeof items] as Item;
+      if (
+        !item.name.toLowerCase().includes((search as string).toLowerCase()) &&
+        !item.description
+          ?.toLowerCase()
+          .includes((search as string).toLowerCase())
+      ) {
+        delete items[key as keyof typeof items];
+      }
+    });
+  }
+
   const categoryTitle = (category as string | undefined)
     ?.split("-")
     .map((word) => word[0].toUpperCase() + word.slice(1))
@@ -125,13 +142,16 @@ export default async function RoutePage({
     .join(" ");
 
   return (
-    <Layout>
+    <Layout className="justify-between">
       <LayoutHeader>
         <LayoutTitle>{categoryTitle || typeTitle}</LayoutTitle>
         <BreadcrumbNavWithQueryParams
           currentPageName={categoryTitle || typeTitle}
         />
       </LayoutHeader>
+      <LayoutActions className="flex items-end gap-2">
+        <ItemsSearch placeholder="Search items..." />
+      </LayoutActions>
       <LayoutContent className="space-y-5">
         <ItemCategoriesBadges categories={categories} type={type as string} />
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
