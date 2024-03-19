@@ -1,6 +1,6 @@
 import type { NavigationLinkGroups } from "@/features/navigation/navigation.type";
 
-import { ItemsLinksIcon } from "./items-links-icon";
+import { ItemsLinksIcon } from "./ItemsLinksIcon";
 
 export const ITEMS_LINKS: NavigationLinkGroups[] = [
   // {

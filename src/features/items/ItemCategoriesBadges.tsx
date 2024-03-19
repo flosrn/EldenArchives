@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { useCategoriesStore } from "@/features/items/items-categories.store";
 import { cn } from "@/lib/utils";
 
-import { ItemsLinksIcon } from "../../../app/items/items-links-icon";
+import { ItemsLinksIcon } from "../../../app/items/ItemsLinksIcon";
 
 export type ItemCategoryBadgeProps = {
   categories: { name: string; icon: number }[];

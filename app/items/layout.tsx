@@ -1,7 +1,11 @@
-import type { LayoutParams } from "@/types/next";
+import type { ReactNode } from "react";
 
 import { ItemsNavigation } from "./ItemsNavigation";
 
-export default async function RouteLayout(props: LayoutParams) {
-  return <ItemsNavigation>{props.children}</ItemsNavigation>;
+export default async function RouteLayout({
+  children,
+}: {
+  children: ReactNode;
+}) {
+  return <ItemsNavigation>{children}</ItemsNavigation>;
 }
