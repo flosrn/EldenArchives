@@ -17,9 +17,7 @@ export type Resistances = {
   poise: number;
 };
 
-export type Location = {
-  // Définissez les propriétés de l'objet Location selon vos besoins
-};
+export type Location = {};
 
 export type Item = {
   full_hex_id: string;
@@ -29,17 +27,17 @@ export type Item = {
   description?: string;
   is_tradable: boolean;
   price_sold: number;
-  rarity: "Common" | "Rare" | "Epic" | "Legendary"; // Ajustez selon les valeurs possibles
+  rarity: "Common" | "Rare" | "Epic" | "Legendary";
   icon: number;
   max_held: number;
   max_stored: number;
-  locations: Location[]; // Supposant que vous avez une structure définie pour Location
-  remarks: string[]; // Ou le type approprié pour les remarques
-  category: string; // Ou un union type si les catégories sont limitées
+  locations: Location[];
+  remarks: string[];
+  category: string;
   altered: string;
   weight: number;
   icon_fem: number;
   absorptions: Absorptions;
   resistances: Resistances;
-  effects: any[]; // Remplacez `any` par le type approprié si possible
+  effects: never[];
 };
