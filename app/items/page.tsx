@@ -1,6 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
 import React from "react";
+import Image from "next/image";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
@@ -169,16 +170,12 @@ export default async function RoutePage({
                     <Badge className="ml-1">{item.category}</Badge>
                   )}
                   <div className="mt-8 flex justify-center">
-                    <Avatar className="size-28 overflow-visible">
-                      {imageUrl ? <AvatarImage src={imageUrl} /> : null}
-                      <AvatarFallback>
-                        {item.name
-                          .split(" ")
-                          .map((word: string) => word[0])
-                          .join("")
-                          .toUpperCase()}
-                      </AvatarFallback>
-                    </Avatar>
+                    <Image
+                      src={imageUrl}
+                      alt={item.name}
+                      width={130}
+                      height={130}
+                    />
                   </div>
                 </CardTitle>
                 <CardContent>
