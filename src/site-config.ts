@@ -3,7 +3,7 @@ export const SiteConfig = {
   description: "A template description for Now.ts",
   prodUrl: "https://elden-archives.vercel.app",
   domain: "elden-archives.vercel.app",
-  appIcon: "/logo/ER_Logo.webp",
+  appIcon: "/logo/ER_Logo.png",
   company: {
     name: "Elden Archives Inc.",
     address: "1234 Main St, New York, NY 10001",

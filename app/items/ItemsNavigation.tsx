@@ -26,14 +26,14 @@ export const ItemsNavigation = async (props: PropsWithChildren) => {
           <Image
             src={SiteConfig.appIcon}
             alt="app logo"
-            width={32}
-            height={32}
+            width={42}
+            height={42}
           />
           <Link href="/" className="text-xl font-bold">
             {SiteConfig.title}
           </Link>
         </div>
-        <div className="h-10" />
+        <div className="h-6" />
         <ScrollArea className="h-screen w-full">
           <DesktopVerticalMenu links={ITEMS_LINKS} />
         </ScrollArea>

@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Image from "next/image";
 import { motion, useMotionValue, useScroll, useTransform } from "framer-motion";
 
+import { AuthButtonClient } from "@/features/auth/SignInButton";
 import { SiteConfig } from "@/site-config";
 
 function useBoundedScroll(threshold: number) {
@@ -43,6 +44,7 @@ function useBoundedScroll(threshold: number) {
 }
 
 export function LandingHeader() {
+  const isDev = process.env.NODE_ENV === "development";
   const { scrollYBoundedProgress } = useBoundedScroll(400);
   const scrollYBoundedProgressDelayed = useTransform(
     scrollYBoundedProgress,
@@ -67,8 +69,8 @@ export function LandingHeader() {
           <Image
             src={SiteConfig.appIcon}
             alt="app logo"
-            width={32}
-            height={32}
+            width={42}
+            height={42}
           />
           <motion.p
             style={{
@@ -95,7 +97,7 @@ export function LandingHeader() {
         >
           {/*<a href="#features">Features</a>*/}
           {/*<a href="#pricing">Pricing</a>*/}
-          {/*<AuthButtonClient />*/}
+          {isDev && <AuthButtonClient />}
           {/*<ThemeToggle />*/}
         </motion.nav>
       </div>
