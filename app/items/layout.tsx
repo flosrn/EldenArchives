@@ -1,7 +1,7 @@
 import type { LayoutParams } from "@/types/next";
 
-import { DashboardNavigation } from "./DashboardNavigation";
+import { ItemsNavigation } from "./ItemsNavigation";
 
 export default async function RouteLayout(props: LayoutParams<{}>) {
-  return <DashboardNavigation>{props.children}</DashboardNavigation>;
+  return <ItemsNavigation>{props.children}</ItemsNavigation>;
 }

@@ -4,6 +4,7 @@ import Link from "next/link";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
+import { ScrollArea } from "@/components/ui/scroll-area";
 import { AuthButton } from "@/features/auth/AuthButton";
 import { UserDropdown } from "@/features/auth/UserDropdown";
 import { ContactFeedbackPopover } from "@/features/contact/feedback/ContactFeedbackPopover";
@@ -13,9 +14,9 @@ import { ThemeToggle } from "@/features/theme/ThemeToggle";
 import { requiredAuth } from "@/lib/auth/helper";
 import { SiteConfig } from "@/site-config";
 
-import { DASHBOARD_LINKS } from "./dashboard-links";
+import { ITEMS_LINKS } from "./items-links";
 
-export const DashboardNavigation = async (props: PropsWithChildren) => {
+export const ItemsNavigation = async (props: PropsWithChildren) => {
   const user = await requiredAuth();
   return (
     <div className="flex h-full flex-col lg:flex-row lg:overflow-hidden">
@@ -33,7 +34,9 @@ export const DashboardNavigation = async (props: PropsWithChildren) => {
           </Link>
         </div>
         <div className="h-10" />
-        <DesktopVerticalMenu links={DASHBOARD_LINKS} />
+        <ScrollArea className="h-screen w-full">
+          <DesktopVerticalMenu links={ITEMS_LINKS} />
+        </ScrollArea>
         <div className="flex-1" />
         <UserDropdown>
           <Button variant="outline" size="sm">
@@ -69,7 +72,7 @@ export const DashboardNavigation = async (props: PropsWithChildren) => {
               <nav className="flex items-center space-x-1 lg:hidden">
                 <AuthButton />
                 <ThemeToggle />
-                <MobileDropdownMenu links={DASHBOARD_LINKS} />
+                <MobileDropdownMenu links={ITEMS_LINKS} />
               </nav>
               {/* Desktop header */}
               <nav className="flex items-center space-x-1 max-lg:hidden">

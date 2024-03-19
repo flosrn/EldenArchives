@@ -26,7 +26,7 @@ export type Item = {
   id: number;
   name: string;
   summary: string;
-  description: string;
+  description?: string;
   is_tradable: boolean;
   price_sold: number;
   rarity: "Common" | "Rare" | "Epic" | "Legendary"; // Ajustez selon les valeurs possibles

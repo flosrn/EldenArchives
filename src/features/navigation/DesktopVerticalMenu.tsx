@@ -71,7 +71,7 @@ export const DesktopVerticalMenu = ({
                   {cloneElement(link.icon, {
                     className: "h-4 w-4",
                   })}
-                  <span className="flex h-8 items-center gap-2 rounded-md px-2 text-sm">
+                  <span className="flex h-8 items-center gap-2 truncate rounded-md px-2 text-sm">
                     {link.title}
                   </span>
                 </Link>

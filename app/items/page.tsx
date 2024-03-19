@@ -20,7 +20,9 @@ type Translations = {
   descriptions: Translation[];
 };
 
-const loadTranslations = async (type: string): Promise<Translations> => {
+const loadTranslations = async (
+  type: string | string[]
+): Promise<Translations> => {
   let itemType = type;
   if (
     type === "spells" ||
@@ -57,7 +59,10 @@ const loadTranslations = async (type: string): Promise<Translations> => {
   };
 };
 
-const fetchItems = async (type: string, category: string): Promise<Item[]> => {
+const fetchItems = async (
+  type: string | string[],
+  category: string | string[]
+): Promise<Item[]> => {
   const response = await fetch(
     `https://api.erdb.wiki/v1/latest/${type}/${
       category ? `?query=category%3A${category}` : ""
@@ -71,7 +76,7 @@ const fetchItems = async (type: string, category: string): Promise<Item[]> => {
   );
 
   const items = await response.json();
-  console.log("items : ", items);
+  // console.log("items : ", items);
   const { titles, descriptions } = await loadTranslations(type);
 
   const itemsWithTranslation = Object.keys(items).map((key) => {
@@ -99,8 +104,7 @@ const fetchItems = async (type: string, category: string): Promise<Item[]> => {
 export default async function RoutePage({
   searchParams: { type, category },
 }: PageParams<{}>) {
-  console.log("type : ", type);
-  const items = await fetchItems(type, category);
+  const items = await fetchItems(type || "", category || "");
   // console.log("items : ", items);
   return (
     <Layout>
@@ -110,19 +114,20 @@ export default async function RoutePage({
       <LayoutContent>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {Object.keys(items).map((key) => {
-            const item = items[key];
+            const item = items[key as keyof typeof items] as Item;
+            if (!item.name && !item.description) return null;
             const imageUrl = `https://assets.erdb.workers.dev/icons/${type}/${item.icon}/low`;
             return (
               <Card key={key} className="space-y-8">
                 <CardTitle>
-                  <Badge>{item.id}</Badge>
+                  <Badge className="ml-1">{item.category}</Badge>
                   <div className="mt-8 flex justify-center">
                     <Avatar className="size-28 overflow-visible">
                       {imageUrl ? <AvatarImage src={imageUrl} /> : null}
                       <AvatarFallback>
-                        {item?.name
-                          ?.split(" ")
-                          .map((word) => word[0])
+                        {item.name
+                          .split(" ")
+                          .map((word: string) => word[0])
                           .join("")
                           .toUpperCase()}
                       </AvatarFallback>
@@ -137,7 +142,7 @@ export default async function RoutePage({
                     <div className="space-y-1 text-center text-sm">
                       {item.description
                         ?.split("\n\n")
-                        .map((paragraph, index) => (
+                        .map((paragraph: string, index: number) => (
                           <p key={index} className="my-2">
                             {paragraph}
                           </p>

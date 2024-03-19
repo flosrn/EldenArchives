@@ -11,6 +11,9 @@ const nextConfig = withPlausibleProxy()({
       {
         hostname: "*.googleusercontent.com",
       },
+      {
+        hostname: "assets.erdb.workers.dev",
+      },
     ],
   },
 });
