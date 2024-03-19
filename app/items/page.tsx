@@ -4,6 +4,8 @@ import React from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
+import { ItemCategoriesBadges } from "@/features/items/ItemCategoriesBadges";
+import { BreadcrumbNavWithQueryParams } from "@/features/navigation/BreadcrumbNavWithQueryParams";
 import {
   Layout,
   LayoutContent,
@@ -85,7 +87,6 @@ const fetchItems = async (
       return index === self.findIndex((t) => t.name === item.name);
     });
 
-  // console.log("items : ", items);
   const { titles, descriptions } = await loadTranslations(type);
 
   const itemsWithTranslation = Object.keys(items).map((key) => {
@@ -107,17 +108,13 @@ const fetchItems = async (
     };
   });
 
-  // console.log("categories : ", categories);
-
   return { items: itemsWithTranslation, categories };
 };
 
 export default async function RoutePage({
   searchParams: { type, category },
 }: PageParams<{}>) {
-  const { items } = await fetchItems(type || "", category || "");
-  // console.log("items : ", items);
-
+  const { items, categories } = await fetchItems(type || "", category || "");
   const categoryTitle = (category as string | undefined)
     ?.split("-")
     .map((word) => word[0].toUpperCase() + word.slice(1))
@@ -131,8 +128,12 @@ export default async function RoutePage({
     <Layout>
       <LayoutHeader>
         <LayoutTitle>{categoryTitle || typeTitle}</LayoutTitle>
+        <BreadcrumbNavWithQueryParams
+          currentPageName={categoryTitle || typeTitle}
+        />
       </LayoutHeader>
-      <LayoutContent>
+      <LayoutContent className="space-y-5">
+        <ItemCategoriesBadges categories={categories} type={type as string} />
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {Object.keys(items).map((key) => {
             const item = items[key as keyof typeof items] as Item;
@@ -141,7 +142,7 @@ export default async function RoutePage({
             return (
               <Card key={key} className="space-y-8">
                 <CardTitle>
-                  {item.category && (
+                  {item.category && categories.length > 1 && (
                     <Badge className="ml-1">{item.category}</Badge>
                   )}
                   <div className="mt-8 flex justify-center">

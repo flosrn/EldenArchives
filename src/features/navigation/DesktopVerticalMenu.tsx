@@ -51,6 +51,7 @@ export const DesktopVerticalMenu = ({
       category ? `&category=${category}` : ""
     }`;
   } else {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     currentPath = useCurrentPath(pathname, links);
   }
 

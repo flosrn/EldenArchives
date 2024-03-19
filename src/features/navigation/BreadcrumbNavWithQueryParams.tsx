@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 
 import {
   Breadcrumb,
@@ -17,9 +17,15 @@ export type BreadcrumbNavProps = {
   currentPageName?: string | null;
 };
 
-export const BreadcrumbNav = ({ currentPageName }: BreadcrumbNavProps) => {
+export const BreadcrumbNavWithQueryParams = ({
+  currentPageName,
+}: BreadcrumbNavProps) => {
   const pathname = usePathname();
-  const paths = pathname.split("/").filter((path) => path !== "");
+  const path = pathname.split("/")[1];
+  const searchParams = useSearchParams();
+  const type = searchParams.get("type");
+  const category = searchParams.get("category");
+  const paths = [path, type, category].filter(Boolean) as string[];
 
   return (
     <Breadcrumb>
@@ -27,7 +33,7 @@ export const BreadcrumbNav = ({ currentPageName }: BreadcrumbNavProps) => {
         {paths.map((path, index) => {
           const isLast = index === paths.length - 1;
           let pathLabel = path[0].toUpperCase() + path.slice(1);
-          const href = `/${paths.slice(0, index + 1).join("/")}`;
+          const href = `${pathname}?type=${type}`;
 
           if (isLast && currentPageName) {
             pathLabel = currentPageName;
