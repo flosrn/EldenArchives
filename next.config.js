@@ -3,15 +3,6 @@
 const { withPlausibleProxy } = require("next-plausible");
 
 const nextConfig = withPlausibleProxy()({
-  // redirects: async () => {
-  //   return [
-  //     {
-  //       source: "/",
-  //       destination: "/items?type=armor",
-  //       permanent: true,
-  //     },
-  //   ];
-  // },
   images: {
     remotePatterns: [
       {

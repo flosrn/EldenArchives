@@ -1,5 +1,4 @@
 import fs from "fs/promises";
-import path from "path";
 import React from "react";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -25,8 +24,6 @@ type Translations = {
   descriptions: Translation[];
 };
 
-const translationsDirectory = path.join(process.cwd(), "content/translations");
-
 const loadTranslations = async (
   type: string | string[]
 ): Promise<Translations> => {
@@ -51,23 +48,14 @@ const loadTranslations = async (
     itemType = "armaments";
   }
 
-  // const fileName = await fs.readdir(`${translationsDirectory}/titles`);
-  // const fullPath = path.join(translationsDirectory, fileName);
-  // const fileContents = await fs.readFile(fullPath, "utf8");
-  //
-  // console.log("fileNames : ", fileName);
-  // console.log("fileContents : ", fileContents);
-
   const titlesFile = await fs.readFile(
     `${process.cwd()}/content/translations/titles/${itemType}.json`,
     "utf8"
   );
-  console.log("titlesFile : ", titlesFile);
   const descriptionsFile = await fs.readFile(
     `${process.cwd()}/content/translations/descriptions/${itemType}.json`,
     "utf8"
   );
-  console.log("descriptionsFile : ", descriptionsFile);
   const titles = JSON.parse(titlesFile).Fmg.Entries;
   const descriptions = JSON.parse(descriptionsFile).Fmg.Entries;
   return {

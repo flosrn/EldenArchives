@@ -1,18 +1,18 @@
 export const SiteConfig = {
-  title: "Now.ts",
+  title: "Elden Archives",
   description: "A template description for Now.ts",
-  prodUrl: "https://nowts.app",
-  domain: "nowts.app",
-  appIcon: "/images/icon.png",
+  prodUrl: "https://elden-archives.vercel.app",
+  domain: "elden-archives.vercel.app",
+  appIcon: "/logo/ER_Logo.webp",
   company: {
-    name: "NowTS Inc.",
+    name: "Elden Archives Inc.",
     address: "1234 Main St, New York, NY 10001",
   },
   brand: {
     primary: "#007291",
   },
   email: {
-    from: "NowTS <contact@nowts.app>",
+    from: "Elden Archives <contact@eldenarchives.com>",
     contact: "florian.seran@gmail.com",
   },
   maker: {

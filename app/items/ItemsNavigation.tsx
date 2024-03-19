@@ -26,8 +26,8 @@ export const ItemsNavigation = async (props: PropsWithChildren) => {
           <Image
             src={SiteConfig.appIcon}
             alt="app logo"
-            width={24}
-            height={24}
+            width={32}
+            height={32}
           />
           <Link href="/" className="text-xl font-bold">
             {SiteConfig.title}
