@@ -11,13 +11,13 @@ import { ContactFeedbackPopover } from "@/features/contact/feedback/ContactFeedb
 import { DesktopVerticalMenu } from "@/features/navigation/DesktopVerticalMenu";
 import { MobileDropdownMenu } from "@/features/navigation/MobileDropdownMenu";
 import { ThemeToggle } from "@/features/theme/ThemeToggle";
-import { requiredAuth } from "@/lib/auth/helper";
+import { auth } from "@/lib/auth/helper";
 import { SiteConfig } from "@/site-config";
 
 import { ITEMS_LINKS } from "./items-links";
 
 export const ItemsNavigation = async (props: PropsWithChildren) => {
-  const user = await requiredAuth();
+  const user = await auth();
   return (
     <div className="flex h-full flex-col lg:flex-row lg:overflow-hidden">
       {/* Desktop ONLY Navigation bar */}
@@ -38,17 +38,19 @@ export const ItemsNavigation = async (props: PropsWithChildren) => {
           <DesktopVerticalMenu links={ITEMS_LINKS} />
         </ScrollArea>
         <div className="flex-1" />
-        <UserDropdown>
-          <Button variant="outline" size="sm">
-            <Avatar className="mr-2 size-6">
-              <AvatarFallback>
-                {user.email ? user.email.slice(0, 2) : "??"}
-              </AvatarFallback>
-              {user.image && <AvatarImage src={user.image} />}
-            </Avatar>
-            <span className="max-lg:hidden">{user.name}</span>
-          </Button>
-        </UserDropdown>
+        {user && (
+          <UserDropdown>
+            <Button variant="outline" size="sm">
+              <Avatar className="mr-2 size-6">
+                <AvatarFallback>
+                  {user.email ? user.email.slice(0, 2) : "??"}
+                </AvatarFallback>
+                {user.image && <AvatarImage src={user.image} />}
+              </Avatar>
+              <span className="max-lg:hidden">{user.name}</span>
+            </Button>
+          </UserDropdown>
+        )}
       </div>
       {/* Main container */}
       <div className="flex-1">
