@@ -1,0 +1,3067 @@
+{
+  "Fmg": {
+    "Entries": [
+      {
+        "ID": 1,
+        "Text": null
+      },
+      {
+        "ID": 2,
+        "Text": null
+      },
+      {
+        "ID": 100,
+        "Text": "Appel \u00E0 l\u0027aide"
+      },
+      {
+        "ID": 101,
+        "Text": "Contrat de Pisteur de Doigt cass\u00E9"
+      },
+      {
+        "ID": 1000,
+        "Text": "M\u00E9daillon d\u0027ambre pourpre"
+      },
+      {
+        "ID": 1001,
+        "Text": "M\u00E9daillon d\u0027ambre pourpre \u002B1"
+      },
+      {
+        "ID": 1002,
+        "Text": "M\u00E9daillon d\u0027ambre pourpre \u002B2"
+      },
+      {
+        "ID": 1003,
+        "Text": null
+      },
+      {
+        "ID": 1004,
+        "Text": null
+      },
+      {
+        "ID": 1005,
+        "Text": null
+      },
+      {
+        "ID": 1006,
+        "Text": null
+      },
+      {
+        "ID": 1007,
+        "Text": null
+      },
+      {
+        "ID": 1008,
+        "Text": null
+      },
+      {
+        "ID": 1009,
+        "Text": null
+      },
+      {
+        "ID": 1010,
+        "Text": "M\u00E9daillon d\u0027ambre c\u00E9rul\u00E9en"
+      },
+      {
+        "ID": 1011,
+        "Text": "M\u00E9daillon d\u0027ambre c\u00E9rul\u00E9en \u002B1"
+      },
+      {
+        "ID": 1012,
+        "Text": "M\u00E9daillon d\u0027ambre c\u00E9rul\u00E9en \u002B2"
+      },
+      {
+        "ID": 1013,
+        "Text": null
+      },
+      {
+        "ID": 1014,
+        "Text": null
+      },
+      {
+        "ID": 1015,
+        "Text": null
+      },
+      {
+        "ID": 1016,
+        "Text": null
+      },
+      {
+        "ID": 1017,
+        "Text": null
+      },
+      {
+        "ID": 1018,
+        "Text": null
+      },
+      {
+        "ID": 1019,
+        "Text": null
+      },
+      {
+        "ID": 1020,
+        "Text": "M\u00E9daillon d\u0027ambre vert \u00E9meraude"
+      },
+      {
+        "ID": 1021,
+        "Text": "M\u00E9daillon d\u0027ambre vert \u00E9meraude \u002B1"
+      },
+      {
+        "ID": 1022,
+        "Text": "M\u00E9daillon d\u0027ambre vert \u00E9meraude \u002B2"
+      },
+      {
+        "ID": 1023,
+        "Text": null
+      },
+      {
+        "ID": 1024,
+        "Text": null
+      },
+      {
+        "ID": 1025,
+        "Text": null
+      },
+      {
+        "ID": 1026,
+        "Text": null
+      },
+      {
+        "ID": 1027,
+        "Text": null
+      },
+      {
+        "ID": 1028,
+        "Text": null
+      },
+      {
+        "ID": 1029,
+        "Text": null
+      },
+      {
+        "ID": 1030,
+        "Text": "Talisman d\u0027arsenal"
+      },
+      {
+        "ID": 1031,
+        "Text": "Talisman d\u0027arsenal \u002B1"
+      },
+      {
+        "ID": 1032,
+        "Text": "Arsenal de la Grande jarre"
+      },
+      {
+        "ID": 1033,
+        "Text": null
+      },
+      {
+        "ID": 1034,
+        "Text": null
+      },
+      {
+        "ID": 1035,
+        "Text": null
+      },
+      {
+        "ID": 1036,
+        "Text": null
+      },
+      {
+        "ID": 1037,
+        "Text": null
+      },
+      {
+        "ID": 1038,
+        "Text": null
+      },
+      {
+        "ID": 1039,
+        "Text": null
+      },
+      {
+        "ID": 1040,
+        "Text": "Faveur de l\u0027Arbre-Monde"
+      },
+      {
+        "ID": 1041,
+        "Text": "Faveur de l\u0027Arbre-Monde \u002B1"
+      },
+      {
+        "ID": 1042,
+        "Text": "Faveur de l\u0027Arbre-Monde \u002B2"
+      },
+      {
+        "ID": 1043,
+        "Text": null
+      },
+      {
+        "ID": 1044,
+        "Text": null
+      },
+      {
+        "ID": 1045,
+        "Text": null
+      },
+      {
+        "ID": 1046,
+        "Text": null
+      },
+      {
+        "ID": 1047,
+        "Text": null
+      },
+      {
+        "ID": 1048,
+        "Text": null
+      },
+      {
+        "ID": 1049,
+        "Text": null
+      },
+      {
+        "ID": 1050,
+        "Text": "Sceau scarifi\u00E9 de Radagon"
+      },
+      {
+        "ID": 1051,
+        "Text": "Sceau meurtri de Radagon"
+      },
+      {
+        "ID": 1052,
+        "Text": null
+      },
+      {
+        "ID": 1053,
+        "Text": null
+      },
+      {
+        "ID": 1054,
+        "Text": null
+      },
+      {
+        "ID": 1055,
+        "Text": null
+      },
+      {
+        "ID": 1056,
+        "Text": null
+      },
+      {
+        "ID": 1057,
+        "Text": null
+      },
+      {
+        "ID": 1058,
+        "Text": null
+      },
+      {
+        "ID": 1059,
+        "Text": null
+      },
+      {
+        "ID": 1060,
+        "Text": "H\u00E9ritage du Fl\u00E9au des astres"
+      },
+      {
+        "ID": 1061,
+        "Text": null
+      },
+      {
+        "ID": 1062,
+        "Text": null
+      },
+      {
+        "ID": 1063,
+        "Text": null
+      },
+      {
+        "ID": 1064,
+        "Text": null
+      },
+      {
+        "ID": 1065,
+        "Text": null
+      },
+      {
+        "ID": 1066,
+        "Text": null
+      },
+      {
+        "ID": 1067,
+        "Text": null
+      },
+      {
+        "ID": 1068,
+        "Text": null
+      },
+      {
+        "ID": 1069,
+        "Text": null
+      },
+      {
+        "ID": 1070,
+        "Text": "H\u00E9ritage de l\u0027\u00E9p\u00E9iste amput\u00E9e"
+      },
+      {
+        "ID": 1071,
+        "Text": null
+      },
+      {
+        "ID": 1072,
+        "Text": null
+      },
+      {
+        "ID": 1073,
+        "Text": null
+      },
+      {
+        "ID": 1074,
+        "Text": null
+      },
+      {
+        "ID": 1075,
+        "Text": null
+      },
+      {
+        "ID": 1076,
+        "Text": null
+      },
+      {
+        "ID": 1077,
+        "Text": null
+      },
+      {
+        "ID": 1078,
+        "Text": null
+      },
+      {
+        "ID": 1079,
+        "Text": null
+      },
+      {
+        "ID": 1080,
+        "Text": "H\u00E9ritage de l\u0027astrologue"
+      },
+      {
+        "ID": 1081,
+        "Text": null
+      },
+      {
+        "ID": 1082,
+        "Text": null
+      },
+      {
+        "ID": 1083,
+        "Text": null
+      },
+      {
+        "ID": 1084,
+        "Text": null
+      },
+      {
+        "ID": 1085,
+        "Text": null
+      },
+      {
+        "ID": 1086,
+        "Text": null
+      },
+      {
+        "ID": 1087,
+        "Text": null
+      },
+      {
+        "ID": 1088,
+        "Text": null
+      },
+      {
+        "ID": 1089,
+        "Text": null
+      },
+      {
+        "ID": 1090,
+        "Text": "H\u00E9ritage des Deux Doigts"
+      },
+      {
+        "ID": 1091,
+        "Text": null
+      },
+      {
+        "ID": 1092,
+        "Text": null
+      },
+      {
+        "ID": 1093,
+        "Text": null
+      },
+      {
+        "ID": 1094,
+        "Text": null
+      },
+      {
+        "ID": 1095,
+        "Text": null
+      },
+      {
+        "ID": 1096,
+        "Text": null
+      },
+      {
+        "ID": 1097,
+        "Text": null
+      },
+      {
+        "ID": 1098,
+        "Text": null
+      },
+      {
+        "ID": 1099,
+        "Text": null
+      },
+      {
+        "ID": 1100,
+        "Text": "Scarab\u00E9e d\u0027argent"
+      },
+      {
+        "ID": 1101,
+        "Text": null
+      },
+      {
+        "ID": 1102,
+        "Text": null
+      },
+      {
+        "ID": 1103,
+        "Text": null
+      },
+      {
+        "ID": 1104,
+        "Text": null
+      },
+      {
+        "ID": 1105,
+        "Text": null
+      },
+      {
+        "ID": 1106,
+        "Text": null
+      },
+      {
+        "ID": 1107,
+        "Text": null
+      },
+      {
+        "ID": 1108,
+        "Text": null
+      },
+      {
+        "ID": 1109,
+        "Text": null
+      },
+      {
+        "ID": 1110,
+        "Text": "Scarab\u00E9e d\u0027or"
+      },
+      {
+        "ID": 1140,
+        "Text": "Lune de Nokstella"
+      },
+      {
+        "ID": 1141,
+        "Text": null
+      },
+      {
+        "ID": 1142,
+        "Text": null
+      },
+      {
+        "ID": 1143,
+        "Text": null
+      },
+      {
+        "ID": 1144,
+        "Text": null
+      },
+      {
+        "ID": 1145,
+        "Text": null
+      },
+      {
+        "ID": 1146,
+        "Text": null
+      },
+      {
+        "ID": 1147,
+        "Text": null
+      },
+      {
+        "ID": 1148,
+        "Text": null
+      },
+      {
+        "ID": 1149,
+        "Text": null
+      },
+      {
+        "ID": 1150,
+        "Text": "Talisman de tortue verte"
+      },
+      {
+        "ID": 1151,
+        "Text": null
+      },
+      {
+        "ID": 1152,
+        "Text": null
+      },
+      {
+        "ID": 1153,
+        "Text": null
+      },
+      {
+        "ID": 1154,
+        "Text": null
+      },
+      {
+        "ID": 1155,
+        "Text": null
+      },
+      {
+        "ID": 1156,
+        "Text": null
+      },
+      {
+        "ID": 1157,
+        "Text": null
+      },
+      {
+        "ID": 1158,
+        "Text": null
+      },
+      {
+        "ID": 1159,
+        "Text": null
+      },
+      {
+        "ID": 1160,
+        "Text": "Corne de robustesse"
+      },
+      {
+        "ID": 1161,
+        "Text": "Corne de robustesse \u002B1"
+      },
+      {
+        "ID": 1162,
+        "Text": null
+      },
+      {
+        "ID": 1163,
+        "Text": null
+      },
+      {
+        "ID": 1164,
+        "Text": null
+      },
+      {
+        "ID": 1165,
+        "Text": null
+      },
+      {
+        "ID": 1166,
+        "Text": null
+      },
+      {
+        "ID": 1167,
+        "Text": null
+      },
+      {
+        "ID": 1168,
+        "Text": null
+      },
+      {
+        "ID": 1169,
+        "Text": null
+      },
+      {
+        "ID": 1170,
+        "Text": "Corne d\u0027immunit\u00E9"
+      },
+      {
+        "ID": 1171,
+        "Text": "Corne d\u0027immunit\u00E9 \u002B1"
+      },
+      {
+        "ID": 1172,
+        "Text": null
+      },
+      {
+        "ID": 1173,
+        "Text": null
+      },
+      {
+        "ID": 1174,
+        "Text": null
+      },
+      {
+        "ID": 1175,
+        "Text": null
+      },
+      {
+        "ID": 1176,
+        "Text": null
+      },
+      {
+        "ID": 1177,
+        "Text": null
+      },
+      {
+        "ID": 1178,
+        "Text": null
+      },
+      {
+        "ID": 1179,
+        "Text": null
+      },
+      {
+        "ID": 1180,
+        "Text": "Corne de focalisation"
+      },
+      {
+        "ID": 1181,
+        "Text": "Corne de focalisation \u002B1"
+      },
+      {
+        "ID": 1182,
+        "Text": null
+      },
+      {
+        "ID": 1183,
+        "Text": null
+      },
+      {
+        "ID": 1184,
+        "Text": null
+      },
+      {
+        "ID": 1185,
+        "Text": null
+      },
+      {
+        "ID": 1186,
+        "Text": null
+      },
+      {
+        "ID": 1187,
+        "Text": null
+      },
+      {
+        "ID": 1188,
+        "Text": null
+      },
+      {
+        "ID": 1189,
+        "Text": null
+      },
+      {
+        "ID": 1190,
+        "Text": "Excroissance du Prince de la Mort"
+      },
+      {
+        "ID": 1191,
+        "Text": "Kyste du Prince de la Mort"
+      },
+      {
+        "ID": 1192,
+        "Text": null
+      },
+      {
+        "ID": 1193,
+        "Text": null
+      },
+      {
+        "ID": 1194,
+        "Text": null
+      },
+      {
+        "ID": 1195,
+        "Text": null
+      },
+      {
+        "ID": 1196,
+        "Text": null
+      },
+      {
+        "ID": 1197,
+        "Text": null
+      },
+      {
+        "ID": 1198,
+        "Text": null
+      },
+      {
+        "ID": 1199,
+        "Text": null
+      },
+      {
+        "ID": 1200,
+        "Text": "Pendentif bariol\u00E9"
+      },
+      {
+        "ID": 1201,
+        "Text": "Pendentif bariol\u00E9 \u002B1"
+      },
+      {
+        "ID": 1202,
+        "Text": null
+      },
+      {
+        "ID": 1203,
+        "Text": null
+      },
+      {
+        "ID": 1204,
+        "Text": null
+      },
+      {
+        "ID": 1205,
+        "Text": null
+      },
+      {
+        "ID": 1206,
+        "Text": null
+      },
+      {
+        "ID": 1207,
+        "Text": null
+      },
+      {
+        "ID": 1208,
+        "Text": null
+      },
+      {
+        "ID": 1209,
+        "Text": null
+      },
+      {
+        "ID": 1210,
+        "Text": "Talisman du mouflon"
+      },
+      {
+        "ID": 1211,
+        "Text": null
+      },
+      {
+        "ID": 1212,
+        "Text": null
+      },
+      {
+        "ID": 1213,
+        "Text": null
+      },
+      {
+        "ID": 1214,
+        "Text": null
+      },
+      {
+        "ID": 1215,
+        "Text": null
+      },
+      {
+        "ID": 1216,
+        "Text": null
+      },
+      {
+        "ID": 1217,
+        "Text": null
+      },
+      {
+        "ID": 1218,
+        "Text": null
+      },
+      {
+        "ID": 1219,
+        "Text": null
+      },
+      {
+        "ID": 1220,
+        "Text": "Sceau scarifi\u00E9 de Marika"
+      },
+      {
+        "ID": 1221,
+        "Text": "Sceau meurtri de Marika"
+      },
+      {
+        "ID": 1222,
+        "Text": null
+      },
+      {
+        "ID": 1223,
+        "Text": null
+      },
+      {
+        "ID": 1224,
+        "Text": null
+      },
+      {
+        "ID": 1225,
+        "Text": null
+      },
+      {
+        "ID": 1226,
+        "Text": null
+      },
+      {
+        "ID": 1227,
+        "Text": null
+      },
+      {
+        "ID": 1228,
+        "Text": null
+      },
+      {
+        "ID": 1229,
+        "Text": null
+      },
+      {
+        "ID": 1230,
+        "Text": "Fragment de guerrier-jarre"
+      },
+      {
+        "ID": 1231,
+        "Text": "Fragment d\u0027Alexander"
+      },
+      {
+        "ID": 1232,
+        "Text": null
+      },
+      {
+        "ID": 1233,
+        "Text": null
+      },
+      {
+        "ID": 1234,
+        "Text": null
+      },
+      {
+        "ID": 1235,
+        "Text": null
+      },
+      {
+        "ID": 1236,
+        "Text": null
+      },
+      {
+        "ID": 1237,
+        "Text": null
+      },
+      {
+        "ID": 1238,
+        "Text": null
+      },
+      {
+        "ID": 1239,
+        "Text": null
+      },
+      {
+        "ID": 1240,
+        "Text": null
+      },
+      {
+        "ID": 1241,
+        "Text": null
+      },
+      {
+        "ID": 1242,
+        "Text": null
+      },
+      {
+        "ID": 1243,
+        "Text": null
+      },
+      {
+        "ID": 1244,
+        "Text": null
+      },
+      {
+        "ID": 1245,
+        "Text": null
+      },
+      {
+        "ID": 1246,
+        "Text": null
+      },
+      {
+        "ID": 1247,
+        "Text": null
+      },
+      {
+        "ID": 1248,
+        "Text": null
+      },
+      {
+        "ID": 1249,
+        "Text": null
+      },
+      {
+        "ID": 1250,
+        "Text": "Proth\u00E8se de Millicent"
+      },
+      {
+        "ID": 2000,
+        "Text": "Talisman du scorpion magique"
+      },
+      {
+        "ID": 2001,
+        "Text": null
+      },
+      {
+        "ID": 2002,
+        "Text": null
+      },
+      {
+        "ID": 2003,
+        "Text": null
+      },
+      {
+        "ID": 2004,
+        "Text": null
+      },
+      {
+        "ID": 2005,
+        "Text": null
+      },
+      {
+        "ID": 2006,
+        "Text": null
+      },
+      {
+        "ID": 2007,
+        "Text": null
+      },
+      {
+        "ID": 2008,
+        "Text": null
+      },
+      {
+        "ID": 2009,
+        "Text": null
+      },
+      {
+        "ID": 2010,
+        "Text": "Talisman du scorpion de foudre"
+      },
+      {
+        "ID": 2011,
+        "Text": null
+      },
+      {
+        "ID": 2012,
+        "Text": null
+      },
+      {
+        "ID": 2013,
+        "Text": null
+      },
+      {
+        "ID": 2014,
+        "Text": null
+      },
+      {
+        "ID": 2015,
+        "Text": null
+      },
+      {
+        "ID": 2016,
+        "Text": null
+      },
+      {
+        "ID": 2017,
+        "Text": null
+      },
+      {
+        "ID": 2018,
+        "Text": null
+      },
+      {
+        "ID": 2019,
+        "Text": null
+      },
+      {
+        "ID": 2020,
+        "Text": "Talisman du scorpion de feu"
+      },
+      {
+        "ID": 2021,
+        "Text": null
+      },
+      {
+        "ID": 2022,
+        "Text": null
+      },
+      {
+        "ID": 2023,
+        "Text": null
+      },
+      {
+        "ID": 2024,
+        "Text": null
+      },
+      {
+        "ID": 2025,
+        "Text": null
+      },
+      {
+        "ID": 2026,
+        "Text": null
+      },
+      {
+        "ID": 2027,
+        "Text": null
+      },
+      {
+        "ID": 2028,
+        "Text": null
+      },
+      {
+        "ID": 2029,
+        "Text": null
+      },
+      {
+        "ID": 2030,
+        "Text": "Talisman du scorpion sacr\u00E9"
+      },
+      {
+        "ID": 2031,
+        "Text": null
+      },
+      {
+        "ID": 2032,
+        "Text": null
+      },
+      {
+        "ID": 2033,
+        "Text": null
+      },
+      {
+        "ID": 2034,
+        "Text": null
+      },
+      {
+        "ID": 2035,
+        "Text": null
+      },
+      {
+        "ID": 2036,
+        "Text": null
+      },
+      {
+        "ID": 2037,
+        "Text": null
+      },
+      {
+        "ID": 2038,
+        "Text": null
+      },
+      {
+        "ID": 2039,
+        "Text": null
+      },
+      {
+        "ID": 2040,
+        "Text": "Lame cornue aux plumes rouges"
+      },
+      {
+        "ID": 2041,
+        "Text": null
+      },
+      {
+        "ID": 2042,
+        "Text": null
+      },
+      {
+        "ID": 2043,
+        "Text": null
+      },
+      {
+        "ID": 2044,
+        "Text": null
+      },
+      {
+        "ID": 2045,
+        "Text": null
+      },
+      {
+        "ID": 2046,
+        "Text": null
+      },
+      {
+        "ID": 2047,
+        "Text": null
+      },
+      {
+        "ID": 2048,
+        "Text": null
+      },
+      {
+        "ID": 2049,
+        "Text": null
+      },
+      {
+        "ID": 2050,
+        "Text": "Talisman d\u0027\u00E9p\u00E9e rituelle"
+      },
+      {
+        "ID": 2051,
+        "Text": null
+      },
+      {
+        "ID": 2052,
+        "Text": null
+      },
+      {
+        "ID": 2053,
+        "Text": null
+      },
+      {
+        "ID": 2054,
+        "Text": null
+      },
+      {
+        "ID": 2055,
+        "Text": null
+      },
+      {
+        "ID": 2056,
+        "Text": null
+      },
+      {
+        "ID": 2057,
+        "Text": null
+      },
+      {
+        "ID": 2058,
+        "Text": null
+      },
+      {
+        "ID": 2059,
+        "Text": null
+      },
+      {
+        "ID": 2060,
+        "Text": "Talisman de la lance"
+      },
+      {
+        "ID": 2061,
+        "Text": null
+      },
+      {
+        "ID": 2062,
+        "Text": null
+      },
+      {
+        "ID": 2063,
+        "Text": null
+      },
+      {
+        "ID": 2064,
+        "Text": null
+      },
+      {
+        "ID": 2065,
+        "Text": null
+      },
+      {
+        "ID": 2066,
+        "Text": null
+      },
+      {
+        "ID": 2067,
+        "Text": null
+      },
+      {
+        "ID": 2068,
+        "Text": null
+      },
+      {
+        "ID": 2069,
+        "Text": null
+      },
+      {
+        "ID": 2070,
+        "Text": "Talisman du marteau"
+      },
+      {
+        "ID": 2071,
+        "Text": null
+      },
+      {
+        "ID": 2072,
+        "Text": null
+      },
+      {
+        "ID": 2073,
+        "Text": null
+      },
+      {
+        "ID": 2074,
+        "Text": null
+      },
+      {
+        "ID": 2075,
+        "Text": null
+      },
+      {
+        "ID": 2076,
+        "Text": null
+      },
+      {
+        "ID": 2077,
+        "Text": null
+      },
+      {
+        "ID": 2078,
+        "Text": null
+      },
+      {
+        "ID": 2079,
+        "Text": null
+      },
+      {
+        "ID": 2080,
+        "Text": "Insigne d\u0027\u00E9p\u00E9e ail\u00E9e"
+      },
+      {
+        "ID": 2081,
+        "Text": "Insigne d\u0027\u00E9p\u00E9e ail\u00E9e putr\u00E9fi\u00E9e"
+      },
+      {
+        "ID": 2082,
+        "Text": null
+      },
+      {
+        "ID": 2083,
+        "Text": null
+      },
+      {
+        "ID": 2084,
+        "Text": null
+      },
+      {
+        "ID": 2085,
+        "Text": null
+      },
+      {
+        "ID": 2086,
+        "Text": null
+      },
+      {
+        "ID": 2087,
+        "Text": null
+      },
+      {
+        "ID": 2088,
+        "Text": null
+      },
+      {
+        "ID": 2089,
+        "Text": null
+      },
+      {
+        "ID": 2090,
+        "Text": "Talisman de la dague"
+      },
+      {
+        "ID": 2091,
+        "Text": null
+      },
+      {
+        "ID": 2092,
+        "Text": null
+      },
+      {
+        "ID": 2093,
+        "Text": null
+      },
+      {
+        "ID": 2094,
+        "Text": null
+      },
+      {
+        "ID": 2095,
+        "Text": null
+      },
+      {
+        "ID": 2096,
+        "Text": null
+      },
+      {
+        "ID": 2097,
+        "Text": null
+      },
+      {
+        "ID": 2098,
+        "Text": null
+      },
+      {
+        "ID": 2099,
+        "Text": null
+      },
+      {
+        "ID": 2100,
+        "Text": "Talisman des fl\u00E8ches filantes"
+      },
+      {
+        "ID": 2101,
+        "Text": null
+      },
+      {
+        "ID": 2102,
+        "Text": null
+      },
+      {
+        "ID": 2103,
+        "Text": null
+      },
+      {
+        "ID": 2104,
+        "Text": null
+      },
+      {
+        "ID": 2105,
+        "Text": null
+      },
+      {
+        "ID": 2106,
+        "Text": null
+      },
+      {
+        "ID": 2107,
+        "Text": null
+      },
+      {
+        "ID": 2108,
+        "Text": null
+      },
+      {
+        "ID": 2109,
+        "Text": null
+      },
+      {
+        "ID": 2110,
+        "Text": "Talisman de la danseuse bleue"
+      },
+      {
+        "ID": 2111,
+        "Text": null
+      },
+      {
+        "ID": 2112,
+        "Text": null
+      },
+      {
+        "ID": 2113,
+        "Text": null
+      },
+      {
+        "ID": 2114,
+        "Text": null
+      },
+      {
+        "ID": 2115,
+        "Text": null
+      },
+      {
+        "ID": 2116,
+        "Text": null
+      },
+      {
+        "ID": 2117,
+        "Text": null
+      },
+      {
+        "ID": 2118,
+        "Text": null
+      },
+      {
+        "ID": 2119,
+        "Text": null
+      },
+      {
+        "ID": 2120,
+        "Text": "Talisman de la lame double"
+      },
+      {
+        "ID": 2121,
+        "Text": null
+      },
+      {
+        "ID": 2122,
+        "Text": null
+      },
+      {
+        "ID": 2123,
+        "Text": null
+      },
+      {
+        "ID": 2124,
+        "Text": null
+      },
+      {
+        "ID": 2125,
+        "Text": null
+      },
+      {
+        "ID": 2126,
+        "Text": null
+      },
+      {
+        "ID": 2127,
+        "Text": null
+      },
+      {
+        "ID": 2128,
+        "Text": null
+      },
+      {
+        "ID": 2129,
+        "Text": null
+      },
+      {
+        "ID": 2130,
+        "Text": "Talisman de la hache"
+      },
+      {
+        "ID": 2131,
+        "Text": null
+      },
+      {
+        "ID": 2132,
+        "Text": null
+      },
+      {
+        "ID": 2133,
+        "Text": null
+      },
+      {
+        "ID": 2134,
+        "Text": null
+      },
+      {
+        "ID": 2135,
+        "Text": null
+      },
+      {
+        "ID": 2136,
+        "Text": null
+      },
+      {
+        "ID": 2137,
+        "Text": null
+      },
+      {
+        "ID": 2138,
+        "Text": null
+      },
+      {
+        "ID": 2139,
+        "Text": null
+      },
+      {
+        "ID": 2140,
+        "Text": "Talisman de la lance de cavalerie"
+      },
+      {
+        "ID": 2141,
+        "Text": null
+      },
+      {
+        "ID": 2142,
+        "Text": null
+      },
+      {
+        "ID": 2143,
+        "Text": null
+      },
+      {
+        "ID": 2144,
+        "Text": null
+      },
+      {
+        "ID": 2145,
+        "Text": null
+      },
+      {
+        "ID": 2146,
+        "Text": null
+      },
+      {
+        "ID": 2147,
+        "Text": null
+      },
+      {
+        "ID": 2148,
+        "Text": null
+      },
+      {
+        "ID": 2149,
+        "Text": null
+      },
+      {
+        "ID": 2150,
+        "Text": "Talisman des fl\u00E8ches mordantes"
+      },
+      {
+        "ID": 2151,
+        "Text": null
+      },
+      {
+        "ID": 2152,
+        "Text": null
+      },
+      {
+        "ID": 2153,
+        "Text": null
+      },
+      {
+        "ID": 2154,
+        "Text": null
+      },
+      {
+        "ID": 2155,
+        "Text": null
+      },
+      {
+        "ID": 2156,
+        "Text": null
+      },
+      {
+        "ID": 2157,
+        "Text": null
+      },
+      {
+        "ID": 2158,
+        "Text": null
+      },
+      {
+        "ID": 2159,
+        "Text": null
+      },
+      {
+        "ID": 2160,
+        "Text": "Exultation du seigneur du sang"
+      },
+      {
+        "ID": 2161,
+        "Text": null
+      },
+      {
+        "ID": 2162,
+        "Text": null
+      },
+      {
+        "ID": 2163,
+        "Text": null
+      },
+      {
+        "ID": 2164,
+        "Text": null
+      },
+      {
+        "ID": 2165,
+        "Text": null
+      },
+      {
+        "ID": 2166,
+        "Text": null
+      },
+      {
+        "ID": 2167,
+        "Text": null
+      },
+      {
+        "ID": 2168,
+        "Text": null
+      },
+      {
+        "ID": 2169,
+        "Text": null
+      },
+      {
+        "ID": 2170,
+        "Text": "Exultation des adeptes de la putr\u00E9faction"
+      },
+      {
+        "ID": 2171,
+        "Text": null
+      },
+      {
+        "ID": 2172,
+        "Text": null
+      },
+      {
+        "ID": 2173,
+        "Text": null
+      },
+      {
+        "ID": 2174,
+        "Text": null
+      },
+      {
+        "ID": 2175,
+        "Text": null
+      },
+      {
+        "ID": 2176,
+        "Text": null
+      },
+      {
+        "ID": 2177,
+        "Text": null
+      },
+      {
+        "ID": 2178,
+        "Text": null
+      },
+      {
+        "ID": 2179,
+        "Text": null
+      },
+      {
+        "ID": 2180,
+        "Text": "Talisman de la griffe"
+      },
+      {
+        "ID": 2181,
+        "Text": null
+      },
+      {
+        "ID": 2182,
+        "Text": null
+      },
+      {
+        "ID": 2183,
+        "Text": null
+      },
+      {
+        "ID": 2184,
+        "Text": null
+      },
+      {
+        "ID": 2185,
+        "Text": null
+      },
+      {
+        "ID": 2186,
+        "Text": null
+      },
+      {
+        "ID": 2187,
+        "Text": null
+      },
+      {
+        "ID": 2188,
+        "Text": null
+      },
+      {
+        "ID": 2189,
+        "Text": null
+      },
+      {
+        "ID": 2190,
+        "Text": "M\u00E9daillon de cri"
+      },
+      {
+        "ID": 2191,
+        "Text": null
+      },
+      {
+        "ID": 2192,
+        "Text": null
+      },
+      {
+        "ID": 2193,
+        "Text": null
+      },
+      {
+        "ID": 2194,
+        "Text": null
+      },
+      {
+        "ID": 2195,
+        "Text": null
+      },
+      {
+        "ID": 2196,
+        "Text": null
+      },
+      {
+        "ID": 2197,
+        "Text": null
+      },
+      {
+        "ID": 2198,
+        "Text": null
+      },
+      {
+        "ID": 2199,
+        "Text": null
+      },
+      {
+        "ID": 2200,
+        "Text": "Talisman d\u0027\u00E9p\u00E9e courb\u00E9e"
+      },
+      {
+        "ID": 2201,
+        "Text": null
+      },
+      {
+        "ID": 2202,
+        "Text": null
+      },
+      {
+        "ID": 2203,
+        "Text": null
+      },
+      {
+        "ID": 2204,
+        "Text": null
+      },
+      {
+        "ID": 2205,
+        "Text": null
+      },
+      {
+        "ID": 2206,
+        "Text": null
+      },
+      {
+        "ID": 2207,
+        "Text": null
+      },
+      {
+        "ID": 2208,
+        "Text": null
+      },
+      {
+        "ID": 2209,
+        "Text": null
+      },
+      {
+        "ID": 2210,
+        "Text": "Jarre de compagnie"
+      },
+      {
+        "ID": 2211,
+        "Text": null
+      },
+      {
+        "ID": 2212,
+        "Text": null
+      },
+      {
+        "ID": 2213,
+        "Text": null
+      },
+      {
+        "ID": 2214,
+        "Text": null
+      },
+      {
+        "ID": 2215,
+        "Text": null
+      },
+      {
+        "ID": 2216,
+        "Text": null
+      },
+      {
+        "ID": 2217,
+        "Text": null
+      },
+      {
+        "ID": 2218,
+        "Text": null
+      },
+      {
+        "ID": 2219,
+        "Text": null
+      },
+      {
+        "ID": 2220,
+        "Text": "Talisman de Parfumeur"
+      },
+      {
+        "ID": 3000,
+        "Text": "Talisman de l\u0027amalgame sculpt\u00E9"
+      },
+      {
+        "ID": 3001,
+        "Text": "Talisman de l\u0027amas sculpt\u00E9"
+      },
+      {
+        "ID": 3040,
+        "Text": "Talisman en toile des fid\u00E8les"
+      },
+      {
+        "ID": 3041,
+        "Text": null
+      },
+      {
+        "ID": 3042,
+        "Text": null
+      },
+      {
+        "ID": 3043,
+        "Text": null
+      },
+      {
+        "ID": 3044,
+        "Text": null
+      },
+      {
+        "ID": 3045,
+        "Text": null
+      },
+      {
+        "ID": 3046,
+        "Text": null
+      },
+      {
+        "ID": 3047,
+        "Text": null
+      },
+      {
+        "ID": 3048,
+        "Text": null
+      },
+      {
+        "ID": 3049,
+        "Text": null
+      },
+      {
+        "ID": 3050,
+        "Text": "Talisman en toile des ouailles"
+      },
+      {
+        "ID": 3051,
+        "Text": null
+      },
+      {
+        "ID": 3052,
+        "Text": null
+      },
+      {
+        "ID": 3053,
+        "Text": null
+      },
+      {
+        "ID": 3054,
+        "Text": null
+      },
+      {
+        "ID": 3055,
+        "Text": null
+      },
+      {
+        "ID": 3056,
+        "Text": null
+      },
+      {
+        "ID": 3057,
+        "Text": null
+      },
+      {
+        "ID": 3058,
+        "Text": null
+      },
+      {
+        "ID": 3059,
+        "Text": null
+      },
+      {
+        "ID": 3060,
+        "Text": "Talisman d\u0027ancien seigneur"
+      },
+      {
+        "ID": 3061,
+        "Text": null
+      },
+      {
+        "ID": 3062,
+        "Text": null
+      },
+      {
+        "ID": 3063,
+        "Text": null
+      },
+      {
+        "ID": 3064,
+        "Text": null
+      },
+      {
+        "ID": 3065,
+        "Text": null
+      },
+      {
+        "ID": 3066,
+        "Text": null
+      },
+      {
+        "ID": 3067,
+        "Text": null
+      },
+      {
+        "ID": 3068,
+        "Text": null
+      },
+      {
+        "ID": 3069,
+        "Text": null
+      },
+      {
+        "ID": 3070,
+        "Text": "Ic\u00F4ne de Radagon"
+      },
+      {
+        "ID": 3071,
+        "Text": null
+      },
+      {
+        "ID": 3072,
+        "Text": null
+      },
+      {
+        "ID": 3073,
+        "Text": null
+      },
+      {
+        "ID": 3074,
+        "Text": null
+      },
+      {
+        "ID": 3075,
+        "Text": null
+      },
+      {
+        "ID": 3076,
+        "Text": null
+      },
+      {
+        "ID": 3077,
+        "Text": null
+      },
+      {
+        "ID": 3078,
+        "Text": null
+      },
+      {
+        "ID": 3079,
+        "Text": null
+      },
+      {
+        "ID": 3080,
+        "Text": "Lame de pierre d\u0027\u00E9clat primordiale"
+      },
+      {
+        "ID": 3081,
+        "Text": null
+      },
+      {
+        "ID": 3082,
+        "Text": null
+      },
+      {
+        "ID": 3083,
+        "Text": null
+      },
+      {
+        "ID": 3084,
+        "Text": null
+      },
+      {
+        "ID": 3085,
+        "Text": null
+      },
+      {
+        "ID": 3086,
+        "Text": null
+      },
+      {
+        "ID": 3087,
+        "Text": null
+      },
+      {
+        "ID": 3088,
+        "Text": null
+      },
+      {
+        "ID": 3089,
+        "Text": null
+      },
+      {
+        "ID": 3090,
+        "Text": "Ic\u00F4ne de Godfrey"
+      },
+      {
+        "ID": 4000,
+        "Text": "Talisman de bouclier draconique"
+      },
+      {
+        "ID": 4001,
+        "Text": "Talisman de bouclier draconique \u002B1"
+      },
+      {
+        "ID": 4002,
+        "Text": "Talisman de bouclier draconique \u002B2"
+      },
+      {
+        "ID": 4003,
+        "Text": "Talisman de pavois draconique"
+      },
+      {
+        "ID": 4004,
+        "Text": null
+      },
+      {
+        "ID": 4005,
+        "Text": null
+      },
+      {
+        "ID": 4006,
+        "Text": null
+      },
+      {
+        "ID": 4007,
+        "Text": null
+      },
+      {
+        "ID": 4008,
+        "Text": null
+      },
+      {
+        "ID": 4009,
+        "Text": null
+      },
+      {
+        "ID": 4010,
+        "Text": "Talisman de dragon magique"
+      },
+      {
+        "ID": 4011,
+        "Text": "Talisman de dragon magique\u00A0\u002B1"
+      },
+      {
+        "ID": 4012,
+        "Text": "Talisman de dragon magique\u00A0\u002B2"
+      },
+      {
+        "ID": 4013,
+        "Text": null
+      },
+      {
+        "ID": 4014,
+        "Text": null
+      },
+      {
+        "ID": 4015,
+        "Text": null
+      },
+      {
+        "ID": 4016,
+        "Text": null
+      },
+      {
+        "ID": 4017,
+        "Text": null
+      },
+      {
+        "ID": 4018,
+        "Text": null
+      },
+      {
+        "ID": 4019,
+        "Text": null
+      },
+      {
+        "ID": 4020,
+        "Text": "Talisman de dragon de feu"
+      },
+      {
+        "ID": 4021,
+        "Text": "Talisman de dragon de feu\u00A0\u002B1"
+      },
+      {
+        "ID": 4022,
+        "Text": "Talisman de dragon de feu\u00A0\u002B2"
+      },
+      {
+        "ID": 4023,
+        "Text": null
+      },
+      {
+        "ID": 4024,
+        "Text": null
+      },
+      {
+        "ID": 4025,
+        "Text": null
+      },
+      {
+        "ID": 4026,
+        "Text": null
+      },
+      {
+        "ID": 4027,
+        "Text": null
+      },
+      {
+        "ID": 4028,
+        "Text": null
+      },
+      {
+        "ID": 4029,
+        "Text": null
+      },
+      {
+        "ID": 4030,
+        "Text": "Talisman de dragon de foudre"
+      },
+      {
+        "ID": 4031,
+        "Text": "Talisman de dragon de foudre\u00A0\u002B1"
+      },
+      {
+        "ID": 4032,
+        "Text": "Talisman de dragon de foudre\u00A0\u002B2"
+      },
+      {
+        "ID": 4033,
+        "Text": null
+      },
+      {
+        "ID": 4034,
+        "Text": null
+      },
+      {
+        "ID": 4035,
+        "Text": null
+      },
+      {
+        "ID": 4036,
+        "Text": null
+      },
+      {
+        "ID": 4037,
+        "Text": null
+      },
+      {
+        "ID": 4038,
+        "Text": null
+      },
+      {
+        "ID": 4039,
+        "Text": null
+      },
+      {
+        "ID": 4040,
+        "Text": "Talisman de dragon sacr\u00E9"
+      },
+      {
+        "ID": 4041,
+        "Text": "Talisman de dragon sacr\u00E9\u00A0\u002B1"
+      },
+      {
+        "ID": 4042,
+        "Text": "Talisman de dragon sacr\u00E9\u00A0\u002B2"
+      },
+      {
+        "ID": 4043,
+        "Text": null
+      },
+      {
+        "ID": 4044,
+        "Text": null
+      },
+      {
+        "ID": 4045,
+        "Text": null
+      },
+      {
+        "ID": 4046,
+        "Text": null
+      },
+      {
+        "ID": 4047,
+        "Text": null
+      },
+      {
+        "ID": 4048,
+        "Text": null
+      },
+      {
+        "ID": 4049,
+        "Text": null
+      },
+      {
+        "ID": 4050,
+        "Text": "Talisman de dragon de perle"
+      },
+      {
+        "ID": 4051,
+        "Text": "Talisman de dragon de perle\u00A0\u002B1"
+      },
+      {
+        "ID": 4052,
+        "Text": "Talisman de dragon de perle\u00A0\u002B2"
+      },
+      {
+        "ID": 4053,
+        "Text": null
+      },
+      {
+        "ID": 4054,
+        "Text": null
+      },
+      {
+        "ID": 4055,
+        "Text": null
+      },
+      {
+        "ID": 4056,
+        "Text": null
+      },
+      {
+        "ID": 4057,
+        "Text": null
+      },
+      {
+        "ID": 4058,
+        "Text": null
+      },
+      {
+        "ID": 4059,
+        "Text": null
+      },
+      {
+        "ID": 4060,
+        "Text": "Talisman \u00E0 \u00E9caille du Creuset"
+      },
+      {
+        "ID": 4061,
+        "Text": null
+      },
+      {
+        "ID": 4062,
+        "Text": null
+      },
+      {
+        "ID": 4063,
+        "Text": null
+      },
+      {
+        "ID": 4064,
+        "Text": null
+      },
+      {
+        "ID": 4065,
+        "Text": null
+      },
+      {
+        "ID": 4066,
+        "Text": null
+      },
+      {
+        "ID": 4067,
+        "Text": null
+      },
+      {
+        "ID": 4068,
+        "Text": null
+      },
+      {
+        "ID": 4069,
+        "Text": null
+      },
+      {
+        "ID": 4070,
+        "Text": "Talisman \u00E0 plume du Creuset"
+      },
+      {
+        "ID": 4071,
+        "Text": null
+      },
+      {
+        "ID": 4072,
+        "Text": null
+      },
+      {
+        "ID": 4073,
+        "Text": null
+      },
+      {
+        "ID": 4074,
+        "Text": null
+      },
+      {
+        "ID": 4075,
+        "Text": null
+      },
+      {
+        "ID": 4076,
+        "Text": null
+      },
+      {
+        "ID": 4077,
+        "Text": null
+      },
+      {
+        "ID": 4078,
+        "Text": null
+      },
+      {
+        "ID": 4079,
+        "Text": null
+      },
+      {
+        "ID": 4080,
+        "Text": "Lame cornue aux plumes bleues"
+      },
+      {
+        "ID": 4081,
+        "Text": null
+      },
+      {
+        "ID": 4082,
+        "Text": null
+      },
+      {
+        "ID": 4083,
+        "Text": null
+      },
+      {
+        "ID": 4084,
+        "Text": null
+      },
+      {
+        "ID": 4085,
+        "Text": null
+      },
+      {
+        "ID": 4086,
+        "Text": null
+      },
+      {
+        "ID": 4087,
+        "Text": null
+      },
+      {
+        "ID": 4088,
+        "Text": null
+      },
+      {
+        "ID": 4089,
+        "Text": null
+      },
+      {
+        "ID": 4090,
+        "Text": "Talisman de bouclier rituel"
+      },
+      {
+        "ID": 4091,
+        "Text": null
+      },
+      {
+        "ID": 4092,
+        "Text": null
+      },
+      {
+        "ID": 4093,
+        "Text": null
+      },
+      {
+        "ID": 4094,
+        "Text": null
+      },
+      {
+        "ID": 4095,
+        "Text": null
+      },
+      {
+        "ID": 4096,
+        "Text": null
+      },
+      {
+        "ID": 4097,
+        "Text": null
+      },
+      {
+        "ID": 4098,
+        "Text": null
+      },
+      {
+        "ID": 4099,
+        "Text": null
+      },
+      {
+        "ID": 4100,
+        "Text": "Talisman de pavois"
+      },
+      {
+        "ID": 4101,
+        "Text": null
+      },
+      {
+        "ID": 4102,
+        "Text": null
+      },
+      {
+        "ID": 4103,
+        "Text": null
+      },
+      {
+        "ID": 4104,
+        "Text": null
+      },
+      {
+        "ID": 4105,
+        "Text": null
+      },
+      {
+        "ID": 4106,
+        "Text": null
+      },
+      {
+        "ID": 4107,
+        "Text": null
+      },
+      {
+        "ID": 4108,
+        "Text": null
+      },
+      {
+        "ID": 4109,
+        "Text": null
+      },
+      {
+        "ID": 4110,
+        "Text": "Talisman \u00E0 n\u0153ud du Creuset"
+      },
+      {
+        "ID": 5000,
+        "Text": "Talisman de la graine pourpre"
+      },
+      {
+        "ID": 5001,
+        "Text": null
+      },
+      {
+        "ID": 5002,
+        "Text": null
+      },
+      {
+        "ID": 5003,
+        "Text": null
+      },
+      {
+        "ID": 5004,
+        "Text": null
+      },
+      {
+        "ID": 5005,
+        "Text": null
+      },
+      {
+        "ID": 5006,
+        "Text": null
+      },
+      {
+        "ID": 5007,
+        "Text": null
+      },
+      {
+        "ID": 5008,
+        "Text": null
+      },
+      {
+        "ID": 5009,
+        "Text": null
+      },
+      {
+        "ID": 5010,
+        "Text": "Talisman de la graine c\u00E9rul\u00E9enne"
+      },
+      {
+        "ID": 5011,
+        "Text": null
+      },
+      {
+        "ID": 5012,
+        "Text": null
+      },
+      {
+        "ID": 5013,
+        "Text": null
+      },
+      {
+        "ID": 5014,
+        "Text": null
+      },
+      {
+        "ID": 5015,
+        "Text": null
+      },
+      {
+        "ID": 5016,
+        "Text": null
+      },
+      {
+        "ID": 5017,
+        "Text": null
+      },
+      {
+        "ID": 5018,
+        "Text": null
+      },
+      {
+        "ID": 5019,
+        "Text": null
+      },
+      {
+        "ID": 5020,
+        "Text": "Talisman de la larme b\u00E9nie"
+      },
+      {
+        "ID": 5021,
+        "Text": null
+      },
+      {
+        "ID": 5022,
+        "Text": null
+      },
+      {
+        "ID": 5023,
+        "Text": null
+      },
+      {
+        "ID": 5024,
+        "Text": null
+      },
+      {
+        "ID": 5025,
+        "Text": null
+      },
+      {
+        "ID": 5026,
+        "Text": null
+      },
+      {
+        "ID": 5027,
+        "Text": null
+      },
+      {
+        "ID": 5028,
+        "Text": null
+      },
+      {
+        "ID": 5029,
+        "Text": null
+      },
+      {
+        "ID": 5030,
+        "Text": "Cam\u00E9e de pillard"
+      },
+      {
+        "ID": 5031,
+        "Text": null
+      },
+      {
+        "ID": 5032,
+        "Text": null
+      },
+      {
+        "ID": 5033,
+        "Text": null
+      },
+      {
+        "ID": 5034,
+        "Text": null
+      },
+      {
+        "ID": 5035,
+        "Text": null
+      },
+      {
+        "ID": 5036,
+        "Text": null
+      },
+      {
+        "ID": 5037,
+        "Text": null
+      },
+      {
+        "ID": 5038,
+        "Text": null
+      },
+      {
+        "ID": 5039,
+        "Text": null
+      },
+      {
+        "ID": 5040,
+        "Text": "Lange sanctechair"
+      },
+      {
+        "ID": 5041,
+        "Text": null
+      },
+      {
+        "ID": 5042,
+        "Text": null
+      },
+      {
+        "ID": 5043,
+        "Text": null
+      },
+      {
+        "ID": 5044,
+        "Text": null
+      },
+      {
+        "ID": 5045,
+        "Text": null
+      },
+      {
+        "ID": 5046,
+        "Text": null
+      },
+      {
+        "ID": 5047,
+        "Text": null
+      },
+      {
+        "ID": 5048,
+        "Text": null
+      },
+      {
+        "ID": 5049,
+        "Text": null
+      },
+      {
+        "ID": 5050,
+        "Text": "Dague pourpre de l\u0027assassin"
+      },
+      {
+        "ID": 5051,
+        "Text": null
+      },
+      {
+        "ID": 5052,
+        "Text": null
+      },
+      {
+        "ID": 5053,
+        "Text": null
+      },
+      {
+        "ID": 5054,
+        "Text": null
+      },
+      {
+        "ID": 5055,
+        "Text": null
+      },
+      {
+        "ID": 5056,
+        "Text": null
+      },
+      {
+        "ID": 5057,
+        "Text": null
+      },
+      {
+        "ID": 5058,
+        "Text": null
+      },
+      {
+        "ID": 5059,
+        "Text": null
+      },
+      {
+        "ID": 5060,
+        "Text": "Dague c\u00E9rul\u00E9enne de l\u0027assassin"
+      },
+      {
+        "ID": 6000,
+        "Text": "Fiole de Crepus"
+      },
+      {
+        "ID": 6001,
+        "Text": null
+      },
+      {
+        "ID": 6002,
+        "Text": null
+      },
+      {
+        "ID": 6003,
+        "Text": null
+      },
+      {
+        "ID": 6004,
+        "Text": null
+      },
+      {
+        "ID": 6005,
+        "Text": null
+      },
+      {
+        "ID": 6006,
+        "Text": null
+      },
+      {
+        "ID": 6007,
+        "Text": null
+      },
+      {
+        "ID": 6008,
+        "Text": null
+      },
+      {
+        "ID": 6009,
+        "Text": null
+      },
+      {
+        "ID": 6010,
+        "Text": "Cape dissimulatrice"
+      },
+      {
+        "ID": 6011,
+        "Text": null
+      },
+      {
+        "ID": 6012,
+        "Text": null
+      },
+      {
+        "ID": 6013,
+        "Text": null
+      },
+      {
+        "ID": 6014,
+        "Text": null
+      },
+      {
+        "ID": 6015,
+        "Text": null
+      },
+      {
+        "ID": 6016,
+        "Text": null
+      },
+      {
+        "ID": 6017,
+        "Text": null
+      },
+      {
+        "ID": 6018,
+        "Text": null
+      },
+      {
+        "ID": 6019,
+        "Text": null
+      },
+      {
+        "ID": 6020,
+        "Text": "Embl\u00E8me de Caria \u00E0 filigrane"
+      },
+      {
+        "ID": 6040,
+        "Text": "Talisman du chat \u00E0 longue queue"
+      },
+      {
+        "ID": 6041,
+        "Text": null
+      },
+      {
+        "ID": 6042,
+        "Text": null
+      },
+      {
+        "ID": 6043,
+        "Text": null
+      },
+      {
+        "ID": 6044,
+        "Text": null
+      },
+      {
+        "ID": 6045,
+        "Text": null
+      },
+      {
+        "ID": 6046,
+        "Text": null
+      },
+      {
+        "ID": 6047,
+        "Text": null
+      },
+      {
+        "ID": 6048,
+        "Text": null
+      },
+      {
+        "ID": 6049,
+        "Text": null
+      },
+      {
+        "ID": 6050,
+        "Text": "Malheur de Shabriri"
+      },
+      {
+        "ID": 6051,
+        "Text": null
+      },
+      {
+        "ID": 6052,
+        "Text": null
+      },
+      {
+        "ID": 6053,
+        "Text": null
+      },
+      {
+        "ID": 6054,
+        "Text": null
+      },
+      {
+        "ID": 6055,
+        "Text": null
+      },
+      {
+        "ID": 6056,
+        "Text": null
+      },
+      {
+        "ID": 6057,
+        "Text": null
+      },
+      {
+        "ID": 6058,
+        "Text": null
+      },
+      {
+        "ID": 6059,
+        "Text": null
+      },
+      {
+        "ID": 6060,
+        "Text": "Malheur de Daedicar"
+      },
+      {
+        "ID": 6061,
+        "Text": null
+      },
+      {
+        "ID": 6062,
+        "Text": null
+      },
+      {
+        "ID": 6063,
+        "Text": null
+      },
+      {
+        "ID": 6064,
+        "Text": null
+      },
+      {
+        "ID": 6065,
+        "Text": null
+      },
+      {
+        "ID": 6066,
+        "Text": null
+      },
+      {
+        "ID": 6067,
+        "Text": null
+      },
+      {
+        "ID": 6068,
+        "Text": null
+      },
+      {
+        "ID": 6069,
+        "Text": null
+      },
+      {
+        "ID": 6070,
+        "Text": "Branche sacrificielle"
+      },
+      {
+        "ID": 6071,
+        "Text": null
+      },
+      {
+        "ID": 6072,
+        "Text": null
+      },
+      {
+        "ID": 6073,
+        "Text": null
+      },
+      {
+        "ID": 6074,
+        "Text": null
+      },
+      {
+        "ID": 6075,
+        "Text": null
+      },
+      {
+        "ID": 6076,
+        "Text": null
+      },
+      {
+        "ID": 6077,
+        "Text": null
+      },
+      {
+        "ID": 6078,
+        "Text": null
+      },
+      {
+        "ID": 6079,
+        "Text": null
+      },
+      {
+        "ID": 6080,
+        "Text": "Miroir retors de Doigt crochu"
+      },
+      {
+        "ID": 6081,
+        "Text": null
+      },
+      {
+        "ID": 6082,
+        "Text": null
+      },
+      {
+        "ID": 6083,
+        "Text": null
+      },
+      {
+        "ID": 6084,
+        "Text": null
+      },
+      {
+        "ID": 6085,
+        "Text": null
+      },
+      {
+        "ID": 6086,
+        "Text": null
+      },
+      {
+        "ID": 6087,
+        "Text": null
+      },
+      {
+        "ID": 6088,
+        "Text": null
+      },
+      {
+        "ID": 6089,
+        "Text": null
+      },
+      {
+        "ID": 6090,
+        "Text": "Miroir retors d\u0027h\u00F4te"
+      },
+      {
+        "ID": 6091,
+        "Text": null
+      },
+      {
+        "ID": 6092,
+        "Text": null
+      },
+      {
+        "ID": 6093,
+        "Text": null
+      },
+      {
+        "ID": 6094,
+        "Text": null
+      },
+      {
+        "ID": 6095,
+        "Text": null
+      },
+      {
+        "ID": 6096,
+        "Text": null
+      },
+      {
+        "ID": 6097,
+        "Text": null
+      },
+      {
+        "ID": 6098,
+        "Text": null
+      },
+      {
+        "ID": 6099,
+        "Text": null
+      },
+      {
+        "ID": 6100,
+        "Text": "[ERROR]Cordon ombilical enroul\u00E9"
+      },
+      {
+        "ID": 6101,
+        "Text": null
+      },
+      {
+        "ID": 6102,
+        "Text": null
+      },
+      {
+        "ID": 6103,
+        "Text": null
+      },
+      {
+        "ID": 6104,
+        "Text": null
+      },
+      {
+        "ID": 6105,
+        "Text": null
+      },
+      {
+        "ID": 6106,
+        "Text": null
+      },
+      {
+        "ID": 6107,
+        "Text": null
+      },
+      {
+        "ID": 6108,
+        "Text": null
+      },
+      {
+        "ID": 6109,
+        "Text": null
+      },
+      {
+        "ID": 6110,
+        "Text": "Corne de l\u0027esprit ancestral"
+      }
+    
+],
+    "Version": 2,
+    "BigEndian": false,
+    "Compression": 1
+  },
+  "FmgID": 13
+}

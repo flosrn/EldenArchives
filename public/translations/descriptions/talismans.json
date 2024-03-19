@@ -1,0 +1,3067 @@
+{
+  "Fmg": {
+    "Entries": [
+      {
+        "ID": 1,
+        "Text": null
+      },
+      {
+        "ID": 2,
+        "Text": null
+      },
+      {
+        "ID": 100,
+        "Text": "Objet multijoueur en ligne. R\u00E9sultat d\u0027un appel \u00E0 l\u0027aide des Servantes de l\u0027Augure des Doigts.\n\nInvoque un Pisteur de Doigt cass\u00E9 d\u0027un autre monde pour s\u0027opposer \u00E0 un Doigt cass\u00E9 envahisseur.\n\nLes Servantes de l\u0027Augure des Doigts parlent \u00E0 demi-mot des tra\u00EEtres parmi les Doigts cass\u00E9s et des dangers de leurs invasions primitives."
+      },
+      {
+        "ID": 101,
+        "Text": "Brume onirique arrach\u00E9e \u00E0 un Chevalier de Voilorage.\n\nOn raconte que les Chevaliers de Voilorage, le ch\u00E2teau sur la falaise, descendent de Godfrey, le premier Seigneur d\u0027Elden en personne. Que peuvent-ils donc bien penser de Godrick, leur nouveau seigneur, responsable du d\u00E9shonneur qu\u0027a caus\u00E9 leur d\u00E9faite\u00A0?"
+      },
+      {
+        "ID": 1000,
+        "Text": "Talisman incrust\u00E9 d\u0027ambre pourpre.\nAugmente les PV maximums.\n\nLa s\u00E8ve ancienne p\u00E9trifi\u00E9e de l\u0027Arbre-Monde se transforme en ambre, une pierre \u00E9lev\u00E9e au rang de joyau pendant l\u0027\u00E8re de Godfrey, premier Seigneur d\u0027Elden.\n\nIl renferme une \u00E9nergie vitale primordiale."
+      },
+      {
+        "ID": 1001,
+        "Text": "Talisman incrust\u00E9 d\u0027ambre pourpre.\nAugmente grandement les PV maximums.\n\nLa s\u00E8ve ancienne p\u00E9trifi\u00E9e de l\u0027Arbre-Monde se transforme en ambre, une pierre \u00E9lev\u00E9e au rang de joyau pendant l\u0027\u00E8re de Godfrey, premier Seigneur d\u0027Elden.\n\nIl renferme une \u00E9nergie vitale primordiale."
+      },
+      {
+        "ID": 1002,
+        "Text": "Talisman incrust\u00E9 d\u0027ambre pourpre.\nAugmente \u00E9norm\u00E9ment les PV maximums.\n\nLa s\u00E8ve ancienne p\u00E9trifi\u00E9e de l\u0027Arbre-Monde se transforme en ambre, une pierre \u00E9lev\u00E9e au rang de joyau pendant l\u0027\u00E8re de Godfrey, premier Seigneur d\u0027Elden.\n\nIl renferme une \u00E9nergie vitale primordiale."
+      },
+      {
+        "ID": 1003,
+        "Text": null
+      },
+      {
+        "ID": 1004,
+        "Text": null
+      },
+      {
+        "ID": 1005,
+        "Text": null
+      },
+      {
+        "ID": 1006,
+        "Text": null
+      },
+      {
+        "ID": 1007,
+        "Text": null
+      },
+      {
+        "ID": 1008,
+        "Text": null
+      },
+      {
+        "ID": 1009,
+        "Text": null
+      },
+      {
+        "ID": 1010,
+        "Text": "M\u00E9daillon incrust\u00E9 d\u0027ambre c\u00E9rul\u00E9en.\nAugmente les PC maximums.\n\nLa s\u00E8ve ancienne p\u00E9trifi\u00E9e de l\u0027Arbre-Monde se transforme en ambre, une pierre \u00E9lev\u00E9e au rang de joyau pendant l\u0027\u00E8re de Godfrey, premier Seigneur d\u0027Elden.\n\nIl renferme une \u00E9nergie vitale primordiale."
+      },
+      {
+        "ID": 1011,
+        "Text": "M\u00E9daillon incrust\u00E9 d\u0027ambre c\u00E9rul\u00E9en.\nAugmente grandement les PC maximums.\n\nLa s\u00E8ve ancienne p\u00E9trifi\u00E9e de l\u0027Arbre-Monde se transforme en ambre, une pierre \u00E9lev\u00E9e au rang de joyau pendant l\u0027\u00E8re de Godfrey, premier Seigneur d\u0027Elden.\n\nIl renferme une \u00E9nergie vitale primordiale."
+      },
+      {
+        "ID": 1012,
+        "Text": "M\u00E9daillon incrust\u00E9 d\u0027ambre c\u00E9rul\u00E9en.\nAugmente \u00E9norm\u00E9ment les PC maximums.\n\nLa s\u00E8ve ancienne p\u00E9trifi\u00E9e de l\u0027Arbre-Monde se transforme en ambre, une pierre \u00E9lev\u00E9e au rang de joyau pendant l\u0027\u00E8re de Godfrey, premier Seigneur d\u0027Elden.\n\nIl renferme une \u00E9nergie vitale primordiale."
+      },
+      {
+        "ID": 1013,
+        "Text": null
+      },
+      {
+        "ID": 1014,
+        "Text": null
+      },
+      {
+        "ID": 1015,
+        "Text": null
+      },
+      {
+        "ID": 1016,
+        "Text": null
+      },
+      {
+        "ID": 1017,
+        "Text": null
+      },
+      {
+        "ID": 1018,
+        "Text": null
+      },
+      {
+        "ID": 1019,
+        "Text": null
+      },
+      {
+        "ID": 1020,
+        "Text": "M\u00E9daillon incrust\u00E9 d\u0027ambre vert \u00E9meraude.\nAugmente l\u0027endurance maximum.\n\nLa s\u00E8ve ancienne p\u00E9trifi\u00E9e de l\u0027Arbre-Monde se transforme en ambre, une pierre \u00E9lev\u00E9e au rang de joyau pendant l\u0027\u00E8re de Godfrey, premier Seigneur d\u0027Elden.\n\nIl renferme une \u00E9nergie vitale primordiale."
+      },
+      {
+        "ID": 1021,
+        "Text": "M\u00E9daillon incrust\u00E9 d\u0027ambre vert \u00E9meraude.\nAugmente grandement l\u0027endurance maximum.\n\nLa s\u00E8ve ancienne p\u00E9trifi\u00E9e de l\u0027Arbre-Monde se transforme en ambre, une pierre \u00E9lev\u00E9e au rang de joyau pendant l\u0027\u00E8re de Godfrey, premier Seigneur d\u0027Elden.\n\nIl renferme une \u00E9nergie vitale primordiale."
+      },
+      {
+        "ID": 1022,
+        "Text": "M\u00E9daillon incrust\u00E9 d\u0027ambre vert \u00E9meraude.\nAugmente \u00E9norm\u00E9ment l\u0027endurance maximum.\n\nLa s\u00E8ve ancienne p\u00E9trifi\u00E9e de l\u0027Arbre-Monde se transforme en ambre, une pierre \u00E9lev\u00E9e au rang de joyau pendant l\u0027\u00E8re de Godfrey, premier Seigneur d\u0027Elden.\n\nIl renferme une \u00E9nergie vitale primordiale."
+      },
+      {
+        "ID": 1023,
+        "Text": null
+      },
+      {
+        "ID": 1024,
+        "Text": null
+      },
+      {
+        "ID": 1025,
+        "Text": null
+      },
+      {
+        "ID": 1026,
+        "Text": null
+      },
+      {
+        "ID": 1027,
+        "Text": null
+      },
+      {
+        "ID": 1028,
+        "Text": null
+      },
+      {
+        "ID": 1029,
+        "Text": null
+      },
+      {
+        "ID": 1030,
+        "Text": "Talisman de fer repr\u00E9sentant un amas d\u0027armes.\nAugmente la charge d\u0027\u00E9quipement maximum.\n\nCelui qui l\u0027a forg\u00E9 s\u0027est inspir\u00E9 d\u0027un espadon autrefois mani\u00E9 par un h\u00E9ros assoiff\u00E9 de vengeance."
+      },
+      {
+        "ID": 1031,
+        "Text": "Talisman de fer repr\u00E9sentant un amas d\u0027armes.\nAugmente grandement la charge d\u0027\u00E9quipement maximum.\n\nCelui qui l\u0027a forg\u00E9 s\u0027est inspir\u00E9 d\u0027un espadon autrefois mani\u00E9 par un h\u00E9ros assoiff\u00E9 de vengeance."
+      },
+      {
+        "ID": 1032,
+        "Text": "Talisman repr\u00E9sentant une Grande jarre d\u00E9bordant d\u0027armes.\nAugmente \u00E9norm\u00E9ment la charge d\u0027\u00E9quipement maximum.\n\nLa Grande jarre offre ce talisman \u00E0 ses guerriers.\nTransporte autant que possible. Sois grand et fort."
+      },
+      {
+        "ID": 1033,
+        "Text": null
+      },
+      {
+        "ID": 1034,
+        "Text": null
+      },
+      {
+        "ID": 1035,
+        "Text": null
+      },
+      {
+        "ID": 1036,
+        "Text": null
+      },
+      {
+        "ID": 1037,
+        "Text": null
+      },
+      {
+        "ID": 1038,
+        "Text": null
+      },
+      {
+        "ID": 1039,
+        "Text": null
+      },
+      {
+        "ID": 1040,
+        "Text": "Talisman repr\u00E9sentant une b\u00E9n\u00E9diction sp\u00E9ciale de l\u0027Arbre-Monde.\nAugmente l\u00E9g\u00E8rement les PV, l\u0027endurance et la charge d\u0027\u00E9quipement maximums.\n\nOn raconte qu\u0027\u00E0 l\u0027aube de l\u0027\u00E8re de l\u0027Arbre-Monde, la reine Marika en personne d\u00E9cernait ce genre de b\u00E9n\u00E9diction."
+      },
+      {
+        "ID": 1041,
+        "Text": "Talisman repr\u00E9sentant une b\u00E9n\u00E9diction sp\u00E9ciale de l\u0027Arbre-Monde.\nAugmente les PV, l\u0027endurance et la charge d\u0027\u00E9quipement maximums.\n\nOn raconte qu\u0027\u00E0 l\u0027aube de l\u0027\u00E8re de l\u0027Arbre-Monde, la reine Marika en personne d\u00E9cernait ce genre de b\u00E9n\u00E9diction."
+      },
+      {
+        "ID": 1042,
+        "Text": "Talisman l\u00E9gendaire repr\u00E9sentant une b\u00E9n\u00E9diction sp\u00E9ciale de l\u0027Arbre-Monde.\nAugmente grandement les PV, l\u0027endurance et la charge d\u0027\u00E9quipement maximums.\n\nOn raconte qu\u0027\u00E0 l\u0027aube de l\u0027\u00E8re de l\u0027Arbre-Monde, la reine Marika en personne d\u00E9cernait ce genre de b\u00E9n\u00E9diction."
+      },
+      {
+        "ID": 1043,
+        "Text": null
+      },
+      {
+        "ID": 1044,
+        "Text": null
+      },
+      {
+        "ID": 1045,
+        "Text": null
+      },
+      {
+        "ID": 1046,
+        "Text": null
+      },
+      {
+        "ID": 1047,
+        "Text": null
+      },
+      {
+        "ID": 1048,
+        "Text": null
+      },
+      {
+        "ID": 1049,
+        "Text": null
+      },
+      {
+        "ID": 1050,
+        "Text": "\u0152il grav\u00E9 d\u0027une rune d\u0027Elden.\nD\u0027aucuns disent qu\u0027il s\u0027agirait du sceau du roi consort Radagon.\n\nAugmente la vigueur, l\u0027endurance, la force et la dext\u00E9rit\u00E9, mais \u00E9galement les d\u00E9g\u00E2ts subis.\n\nCes objets narrent le devoir \u00E9ternel impos\u00E9 aux \u00E9lus des dieux."
+      },
+      {
+        "ID": 1051,
+        "Text": "Talisman l\u00E9gendaire compos\u00E9 d\u0027un \u0153il grav\u00E9 d\u0027une rune d\u0027Elden.\nD\u0027aucuns disent qu\u0027il s\u0027agirait du sceau du roi consort Radagon.\n\nAugmente grandement la vigueur, l\u0027endurance, la force et la dext\u00E9rit\u00E9, mais \u00E9galement les d\u00E9g\u00E2ts subis.\n\nLe poids du devoir ronge ceux qui en sont accabl\u00E9s, telle une mal\u00E9diction dont on ne peut s\u0027affranchir."
+      },
+      {
+        "ID": 1052,
+        "Text": null
+      },
+      {
+        "ID": 1053,
+        "Text": null
+      },
+      {
+        "ID": 1054,
+        "Text": null
+      },
+      {
+        "ID": 1055,
+        "Text": null
+      },
+      {
+        "ID": 1056,
+        "Text": null
+      },
+      {
+        "ID": 1057,
+        "Text": null
+      },
+      {
+        "ID": 1058,
+        "Text": null
+      },
+      {
+        "ID": 1059,
+        "Text": null
+      },
+      {
+        "ID": 1060,
+        "Text": "Talisman grav\u00E9 avec une sc\u00E8ne repr\u00E9sentant un moment d\u0027h\u00E9ro\u00EFsme l\u00E9gendaire.\nAugmente la force.\n\nLe plus puissant h\u00E9ros des demi-dieux affronta les \u00E9toiles filantes en combat singulier. Il les an\u00E9antit, et sa victoire scella le destin m\u00EAme du firmament."
+      },
+      {
+        "ID": 1061,
+        "Text": null
+      },
+      {
+        "ID": 1062,
+        "Text": null
+      },
+      {
+        "ID": 1063,
+        "Text": null
+      },
+      {
+        "ID": 1064,
+        "Text": null
+      },
+      {
+        "ID": 1065,
+        "Text": null
+      },
+      {
+        "ID": 1066,
+        "Text": null
+      },
+      {
+        "ID": 1067,
+        "Text": null
+      },
+      {
+        "ID": 1068,
+        "Text": null
+      },
+      {
+        "ID": 1069,
+        "Text": null
+      },
+      {
+        "ID": 1070,
+        "Text": "Talisman grav\u00E9 avec une sc\u00E8ne repr\u00E9sentant un moment d\u0027h\u00E9ro\u00EFsme l\u00E9gendaire.\nAugmente la dext\u00E9rit\u00E9.\n\nBien que n\u00E9e au c\u0153ur de la maudite putr\u00E9faction, lorsqu\u0027elle rencontra son mentor et sa lame pleine de gr\u00E2ce, la jeune fille fut pourvue d\u0027ailes d\u0027une force in\u00E9gal\u00E9e."
+      },
+      {
+        "ID": 1071,
+        "Text": null
+      },
+      {
+        "ID": 1072,
+        "Text": null
+      },
+      {
+        "ID": 1073,
+        "Text": null
+      },
+      {
+        "ID": 1074,
+        "Text": null
+      },
+      {
+        "ID": 1075,
+        "Text": null
+      },
+      {
+        "ID": 1076,
+        "Text": null
+      },
+      {
+        "ID": 1077,
+        "Text": null
+      },
+      {
+        "ID": 1078,
+        "Text": null
+      },
+      {
+        "ID": 1079,
+        "Text": null
+      },
+      {
+        "ID": 1080,
+        "Text": "Talisman grav\u00E9 avec la l\u00E9gende d\u0027une reine.\nAugmente l\u0027intelligence.\n\nLa jeune astrologue d\u00E9ambulait en contemplant le ciel nocturne. Elle avait poursuivi les \u00E9toiles \u00E0 chaque instant de son p\u00E9riple. Puis elle fit la rencontre de la pleine lune. C\u0027est alors qu\u0027elle fut couronn\u00E9e reine."
+      },
+      {
+        "ID": 1081,
+        "Text": null
+      },
+      {
+        "ID": 1082,
+        "Text": null
+      },
+      {
+        "ID": 1083,
+        "Text": null
+      },
+      {
+        "ID": 1084,
+        "Text": null
+      },
+      {
+        "ID": 1085,
+        "Text": null
+      },
+      {
+        "ID": 1086,
+        "Text": null
+      },
+      {
+        "ID": 1087,
+        "Text": null
+      },
+      {
+        "ID": 1088,
+        "Text": null
+      },
+      {
+        "ID": 1089,
+        "Text": null
+      },
+      {
+        "ID": 1090,
+        "Text": "Talisman grav\u00E9 avec la l\u00E9gende des Deux Doigts.\nAugmente la foi.\n\nLes Doigts ne peuvent parler, pourtant ceux-ci \u00E9taient tr\u00E8s \u00E9loquents.\nIls se tortillaient en permanence, \u00E9non\u00E7ant des myst\u00E8res dans les airs.\nAinsi nous firent-ils don des mots, ceux de notre foi."
+      },
+      {
+        "ID": 1091,
+        "Text": null
+      },
+      {
+        "ID": 1092,
+        "Text": null
+      },
+      {
+        "ID": 1093,
+        "Text": null
+      },
+      {
+        "ID": 1094,
+        "Text": null
+      },
+      {
+        "ID": 1095,
+        "Text": null
+      },
+      {
+        "ID": 1096,
+        "Text": null
+      },
+      {
+        "ID": 1097,
+        "Text": null
+      },
+      {
+        "ID": 1098,
+        "Text": null
+      },
+      {
+        "ID": 1099,
+        "Text": null
+      },
+      {
+        "ID": 1100,
+        "Text": "Talisman imitant \u00E0 la perfection un scarab\u00E9e, porteur de tr\u00E9sors et d\u0027objets pr\u00E9cieux.\n\nCet insecte argent\u00E9 augmente la d\u00E9couverte d\u0027objets."
+      },
+      {
+        "ID": 1101,
+        "Text": null
+      },
+      {
+        "ID": 1102,
+        "Text": null
+      },
+      {
+        "ID": 1103,
+        "Text": null
+      },
+      {
+        "ID": 1104,
+        "Text": null
+      },
+      {
+        "ID": 1105,
+        "Text": null
+      },
+      {
+        "ID": 1106,
+        "Text": null
+      },
+      {
+        "ID": 1107,
+        "Text": null
+      },
+      {
+        "ID": 1108,
+        "Text": null
+      },
+      {
+        "ID": 1109,
+        "Text": null
+      },
+      {
+        "ID": 1110,
+        "Text": "Talisman imitant \u00E0 la perfection un scarab\u00E9e, porteur de tr\u00E9sors et d\u0027objets pr\u00E9cieux.\n\nCet insecte dor\u00E9 augmente la quantit\u00E9 de runes obtenues apr\u00E8s avoir vaincu des ennemis."
+      },
+      {
+        "ID": 1140,
+        "Text": "Talisman l\u00E9gendaire consid\u00E9r\u00E9 comme un tr\u00E9sor de Nokstella, la Ville \u00E9ternelle.\n\nAugmente les emplacements de m\u00E9moire.\n\nCe talisman repr\u00E9sente la lune noire perdue.\nLa lune de Nokstella guidait d\u0027innombrables \u00E9toiles."
+      },
+      {
+        "ID": 1141,
+        "Text": null
+      },
+      {
+        "ID": 1142,
+        "Text": null
+      },
+      {
+        "ID": 1143,
+        "Text": null
+      },
+      {
+        "ID": 1144,
+        "Text": null
+      },
+      {
+        "ID": 1145,
+        "Text": null
+      },
+      {
+        "ID": 1146,
+        "Text": null
+      },
+      {
+        "ID": 1147,
+        "Text": null
+      },
+      {
+        "ID": 1148,
+        "Text": null
+      },
+      {
+        "ID": 1149,
+        "Text": null
+      },
+      {
+        "ID": 1150,
+        "Text": "Talisman repr\u00E9sentant une tortue verte.\nAcc\u00E9l\u00E8re la r\u00E9cup\u00E9ration d\u0027endurance.\n\nLa viande de tortue est r\u00E9put\u00E9e pour ses qualit\u00E9s nutritives, faisant de cet animal un symbole d\u0027\u00E9nergie in\u00E9puisable.\n\nToutefois, ceux qui les consid\u00E8rent comme des b\u00EAtes dou\u00E9es de sagesse jugent cette coutume barbare."
+      },
+      {
+        "ID": 1151,
+        "Text": null
+      },
+      {
+        "ID": 1152,
+        "Text": null
+      },
+      {
+        "ID": 1153,
+        "Text": null
+      },
+      {
+        "ID": 1154,
+        "Text": null
+      },
+      {
+        "ID": 1155,
+        "Text": null
+      },
+      {
+        "ID": 1156,
+        "Text": null
+      },
+      {
+        "ID": 1157,
+        "Text": null
+      },
+      {
+        "ID": 1158,
+        "Text": null
+      },
+      {
+        "ID": 1159,
+        "Text": null
+      },
+      {
+        "ID": 1160,
+        "Text": "Accessoire port\u00E9 par les disciples ancestraux.\nAugmente la robustesse.\n(La robustesse d\u00E9termine la r\u00E9sistance au saignement et \u00E0 la cong\u00E9lation.)\n\nOn raconte qu\u0027il s\u0027agit d\u0027un bourgeon de corne. Les disciples ancestraux pensent que les cornes des b\u00EAtes d\u0027une grande long\u00E9vit\u00E9 tombent et repoussent dans un cycle perp\u00E9tuel jusqu\u0027\u00E0 ce qu\u0027elles deviennent des esprits ancestraux."
+      },
+      {
+        "ID": 1161,
+        "Text": "Accessoire port\u00E9 par les disciples ancestraux.\nAugmente grandement la robustesse.\n(La robustesse d\u00E9termine la r\u00E9sistance au saignement et \u00E0 la cong\u00E9lation.)\n\nOn raconte qu\u0027il s\u0027agit d\u0027un bourgeon de corne. Les disciples ancestraux pensent que les cornes des b\u00EAtes d\u0027une grande long\u00E9vit\u00E9 tombent et repoussent dans un cycle perp\u00E9tuel jusqu\u0027\u00E0 ce qu\u0027elles deviennent des esprits ancestraux."
+      },
+      {
+        "ID": 1162,
+        "Text": null
+      },
+      {
+        "ID": 1163,
+        "Text": null
+      },
+      {
+        "ID": 1164,
+        "Text": null
+      },
+      {
+        "ID": 1165,
+        "Text": null
+      },
+      {
+        "ID": 1166,
+        "Text": null
+      },
+      {
+        "ID": 1167,
+        "Text": null
+      },
+      {
+        "ID": 1168,
+        "Text": null
+      },
+      {
+        "ID": 1169,
+        "Text": null
+      },
+      {
+        "ID": 1170,
+        "Text": "Accessoire port\u00E9 par les disciples ancestraux.\nAugmente l\u0027immunit\u00E9.\n(L\u0027immunit\u00E9 d\u00E9termine la r\u00E9sistance au poison et \u00E0 la putr\u00E9faction \u00E9carlate.)\n\nOn raconte qu\u0027il s\u0027agit d\u0027un bourgeon de corne. Les disciples ancestraux pensent que les cornes des b\u00EAtes d\u0027une grande long\u00E9vit\u00E9 tombent et repoussent dans un cycle perp\u00E9tuel jusqu\u0027\u00E0 ce qu\u0027elles deviennent des esprits ancestraux."
+      },
+      {
+        "ID": 1171,
+        "Text": "Accessoire port\u00E9 par les disciples ancestraux.\nAugmente grandement l\u0027immunit\u00E9.\n(L\u0027immunit\u00E9 d\u00E9termine la r\u00E9sistance au poison et \u00E0 la putr\u00E9faction \u00E9carlate.)\n\nOn raconte qu\u0027il s\u0027agit d\u0027un bourgeon de corne. Les disciples ancestraux pensent que les cornes des b\u00EAtes d\u0027une grande long\u00E9vit\u00E9 tombent et repoussent dans un cycle perp\u00E9tuel jusqu\u0027\u00E0 ce qu\u0027elles deviennent des esprits ancestraux."
+      },
+      {
+        "ID": 1172,
+        "Text": null
+      },
+      {
+        "ID": 1173,
+        "Text": null
+      },
+      {
+        "ID": 1174,
+        "Text": null
+      },
+      {
+        "ID": 1175,
+        "Text": null
+      },
+      {
+        "ID": 1176,
+        "Text": null
+      },
+      {
+        "ID": 1177,
+        "Text": null
+      },
+      {
+        "ID": 1178,
+        "Text": null
+      },
+      {
+        "ID": 1179,
+        "Text": null
+      },
+      {
+        "ID": 1180,
+        "Text": "Accessoire port\u00E9 par les disciples ancestraux.\nAugmente la focalisation.\n(La focalisation d\u00E9termine la r\u00E9sistance au sommeil et \u00E0 la d\u00E9mence.)\n\nOn raconte qu\u0027il s\u0027agit d\u0027un bourgeon de corne. Les disciples ancestraux pensent que les cornes des b\u00EAtes d\u0027une grande long\u00E9vit\u00E9 tombent et repoussent dans un cycle perp\u00E9tuel jusqu\u0027\u00E0 ce qu\u0027elles deviennent des esprits ancestraux."
+      },
+      {
+        "ID": 1181,
+        "Text": "Accessoire port\u00E9 par les disciples ancestraux.\nAugmente grandement la focalisation.\n(La focalisation d\u00E9termine la r\u00E9sistance au sommeil et \u00E0 la d\u00E9mence.)\n\nOn raconte qu\u0027il s\u0027agit d\u0027un bourgeon de corne. Les disciples ancestraux pensent que les cornes des b\u00EAtes d\u0027une grande long\u00E9vit\u00E9 tombent et repoussent dans un cycle perp\u00E9tuel jusqu\u0027\u00E0 ce qu\u0027elles deviennent des esprits ancestraux."
+      },
+      {
+        "ID": 1182,
+        "Text": null
+      },
+      {
+        "ID": 1183,
+        "Text": null
+      },
+      {
+        "ID": 1184,
+        "Text": null
+      },
+      {
+        "ID": 1185,
+        "Text": null
+      },
+      {
+        "ID": 1186,
+        "Text": null
+      },
+      {
+        "ID": 1187,
+        "Text": null
+      },
+      {
+        "ID": 1188,
+        "Text": null
+      },
+      {
+        "ID": 1189,
+        "Text": null
+      },
+      {
+        "ID": 1190,
+        "Text": "Pustule f\u00E9tide arrach\u00E9e \u00E0 un visage.\nAugmente la vitalit\u00E9.\n(La vitalit\u00E9 d\u00E9termine la r\u00E9sistance \u00E0 la malemort.)\n\nOn raconte que cette pustule proviendrait du visage du Prince de la Mort, celui que l\u0027on appelait autrefois Godwyn. Premier des demi-dieux \u00E0 avoir p\u00E9ri, il se murmure que sa d\u00E9pouille reposerait loin sous la capitale, pr\u00E8s des racines de l\u0027Arbre-Monde."
+      },
+      {
+        "ID": 1191,
+        "Text": "Kyste f\u00E9tide d\u00E9mesur\u00E9 arrach\u00E9 \u00E0 un visage.\nAugmente grandement la vitalit\u00E9.\n(La vitalit\u00E9 d\u00E9termine la r\u00E9sistance \u00E0 la malemort.)\n\nOn raconte que ce kyste proviendrait du visage corrompu d\u0027un \u00EAtre \u00E0 qui fut refus\u00E9 le v\u00E9ritable tr\u00E9pas. En effet, son propri\u00E9taire n\u0027est autre que le Prince de la Mort, rejeton de la branche dor\u00E9e et premier des demi-dieux \u00E0 p\u00E9rir."
+      },
+      {
+        "ID": 1192,
+        "Text": null
+      },
+      {
+        "ID": 1193,
+        "Text": null
+      },
+      {
+        "ID": 1194,
+        "Text": null
+      },
+      {
+        "ID": 1195,
+        "Text": null
+      },
+      {
+        "ID": 1196,
+        "Text": null
+      },
+      {
+        "ID": 1197,
+        "Text": null
+      },
+      {
+        "ID": 1198,
+        "Text": null
+      },
+      {
+        "ID": 1199,
+        "Text": null
+      },
+      {
+        "ID": 1200,
+        "Text": "Accessoire pr\u00E9cieux aux couleurs vives port\u00E9 par les disciples ancestraux.\n\nAugmente l\u0027immunit\u00E9, la robustesse et la focalisation.\n\nOn raconte qu\u0027il s\u0027agit d\u0027un bourgeon de corne. Les disciples ancestraux pensent que les cornes des b\u00EAtes d\u0027une grande long\u00E9vit\u00E9 tombent et repoussent dans un cycle perp\u00E9tuel jusqu\u0027\u00E0 ce qu\u0027elles deviennent des esprits ancestraux."
+      },
+      {
+        "ID": 1201,
+        "Text": "Accessoire pr\u00E9cieux aux couleurs vives port\u00E9 par les disciples ancestraux.\n\nAugmente grandement l\u0027immunit\u00E9, la robustesse et la focalisation.\n\nOn raconte qu\u0027il s\u0027agit d\u0027un bourgeon de corne. Les disciples ancestraux pensent que les cornes des b\u00EAtes d\u0027une grande long\u00E9vit\u00E9 tombent et repoussent dans un cycle perp\u00E9tuel jusqu\u0027\u00E0 ce qu\u0027elles deviennent des esprits ancestraux."
+      },
+      {
+        "ID": 1202,
+        "Text": null
+      },
+      {
+        "ID": 1203,
+        "Text": null
+      },
+      {
+        "ID": 1204,
+        "Text": null
+      },
+      {
+        "ID": 1205,
+        "Text": null
+      },
+      {
+        "ID": 1206,
+        "Text": null
+      },
+      {
+        "ID": 1207,
+        "Text": null
+      },
+      {
+        "ID": 1208,
+        "Text": null
+      },
+      {
+        "ID": 1209,
+        "Text": null
+      },
+      {
+        "ID": 1210,
+        "Text": "Talisman repr\u00E9sentant les cornes d\u0027un mouflon.\nAugmente l\u0027\u00E9quilibre.\n\nLes mouflons sont associ\u00E9s au robuste et puissant Tragoth, que l\u0027on pr\u00E9tend in\u00E9branlable au combat, d\u00E9sormais consid\u00E9r\u00E9 comme le compagnon silencieux de tous les guerriers."
+      },
+      {
+        "ID": 1211,
+        "Text": null
+      },
+      {
+        "ID": 1212,
+        "Text": null
+      },
+      {
+        "ID": 1213,
+        "Text": null
+      },
+      {
+        "ID": 1214,
+        "Text": null
+      },
+      {
+        "ID": 1215,
+        "Text": null
+      },
+      {
+        "ID": 1216,
+        "Text": null
+      },
+      {
+        "ID": 1217,
+        "Text": null
+      },
+      {
+        "ID": 1218,
+        "Text": null
+      },
+      {
+        "ID": 1219,
+        "Text": null
+      },
+      {
+        "ID": 1220,
+        "Text": "\u0152il grav\u00E9 d\u0027une rune d\u0027Elden.\nD\u0027aucuns disent qu\u0027il s\u0027agirait du sceau de la reine Marika.\n\nAugmente l\u0027esprit, l\u0027intelligence, la foi et l\u0027\u00E9sot\u00E9risme, mais \u00E9galement les d\u00E9g\u00E2ts subis.\n\nCes objets narrent le devoir \u00E9ternel impos\u00E9 aux \u00E9lus des dieux."
+      },
+      {
+        "ID": 1221,
+        "Text": "Talisman l\u00E9gendaire compos\u00E9 d\u0027un \u0153il grav\u00E9 d\u0027une rune d\u0027Elden.\nD\u0027aucuns disent qu\u0027il s\u0027agirait du sceau de la reine Marika.\n\nAugmente grandement l\u0027esprit, l\u0027intelligence, la foi et l\u0027\u00E9sot\u00E9risme, mais \u00E9galement les d\u00E9g\u00E2ts subis.\n\nLe poids du devoir ronge ceux qui en sont accabl\u00E9s, telle une mal\u00E9diction dont on ne peut s\u0027affranchir."
+      },
+      {
+        "ID": 1222,
+        "Text": null
+      },
+      {
+        "ID": 1223,
+        "Text": null
+      },
+      {
+        "ID": 1224,
+        "Text": null
+      },
+      {
+        "ID": 1225,
+        "Text": null
+      },
+      {
+        "ID": 1226,
+        "Text": null
+      },
+      {
+        "ID": 1227,
+        "Text": null
+      },
+      {
+        "ID": 1228,
+        "Text": null
+      },
+      {
+        "ID": 1229,
+        "Text": null
+      },
+      {
+        "ID": 1230,
+        "Text": "\u00C9clat provenant d\u0027un guerrier-jarre bris\u00E9.\n\nAugmente la puissance d\u0027attaque des comp\u00E9tences.\n\nDes lambeaux de peau mac\u00E9r\u00E9e adh\u00E8rent au fragment et on distingue des morceaux d\u0027ornements dans la mixture inf\u00E2me. Peut-\u00EAtre les restes d\u0027antiques guerriers royaux."
+      },
+      {
+        "ID": 1231,
+        "Text": "\u00C9clat du d\u00E9funt Alexander, guerrier-jarre bris\u00E9.\n\nAugmente grandement la puissance d\u0027attaque des comp\u00E9tences.\n\nDes lambeaux de peau mac\u00E9r\u00E9e adh\u00E8rent au fragment et on distingue des morceaux d\u0027ornements dans la mixture inf\u00E2me. Les restes d\u0027un champion \u00E0 la chevelure rousse, semble-t-il."
+      },
+      {
+        "ID": 1232,
+        "Text": null
+      },
+      {
+        "ID": 1233,
+        "Text": null
+      },
+      {
+        "ID": 1234,
+        "Text": null
+      },
+      {
+        "ID": 1235,
+        "Text": null
+      },
+      {
+        "ID": 1236,
+        "Text": null
+      },
+      {
+        "ID": 1237,
+        "Text": null
+      },
+      {
+        "ID": 1238,
+        "Text": null
+      },
+      {
+        "ID": 1239,
+        "Text": null
+      },
+      {
+        "ID": 1240,
+        "Text": null
+      },
+      {
+        "ID": 1241,
+        "Text": null
+      },
+      {
+        "ID": 1242,
+        "Text": null
+      },
+      {
+        "ID": 1243,
+        "Text": null
+      },
+      {
+        "ID": 1244,
+        "Text": null
+      },
+      {
+        "ID": 1245,
+        "Text": null
+      },
+      {
+        "ID": 1246,
+        "Text": null
+      },
+      {
+        "ID": 1247,
+        "Text": null
+      },
+      {
+        "ID": 1248,
+        "Text": null
+      },
+      {
+        "ID": 1249,
+        "Text": null
+      },
+      {
+        "ID": 1250,
+        "Text": "Morceau de la proth\u00E8se dor\u00E9e port\u00E9e par Millicent.\nSa main est fig\u00E9e en un poing qui brandissait jadis une \u00E9p\u00E9e.\n\nAugmente la dext\u00E9rit\u00E9 ainsi que la puissance des attaques successives.\n\nLe d\u00E9sespoir n\u00E9 d\u0027une am\u00E8re trahison transfigura Millicent, simple bourgeon qui se mua en une fleur majestueuse. Et un jour, elle rena\u00EEtra sous la forme d\u0027une splendide valkyrie \u00E9carlate."
+      },
+      {
+        "ID": 2000,
+        "Text": "Talisman port\u00E9 par des assassins qui frappent sans pr\u00E9venir.\nRepr\u00E9sente un scorpion venant d\u0027effectuer sa mue, dont les pinces enserrent un c\u0153ur empli de magie.\n\nAugmente la puissance d\u0027attaque magique, mais r\u00E9duit la r\u00E9sistance aux d\u00E9g\u00E2ts."
+      },
+      {
+        "ID": 2001,
+        "Text": null
+      },
+      {
+        "ID": 2002,
+        "Text": null
+      },
+      {
+        "ID": 2003,
+        "Text": null
+      },
+      {
+        "ID": 2004,
+        "Text": null
+      },
+      {
+        "ID": 2005,
+        "Text": null
+      },
+      {
+        "ID": 2006,
+        "Text": null
+      },
+      {
+        "ID": 2007,
+        "Text": null
+      },
+      {
+        "ID": 2008,
+        "Text": null
+      },
+      {
+        "ID": 2009,
+        "Text": null
+      },
+      {
+        "ID": 2010,
+        "Text": "Talisman port\u00E9 par des assassins qui frappent sans pr\u00E9venir.\nRepr\u00E9sente un scorpion venant d\u0027effectuer sa mue, dont les pinces enserrent un c\u0153ur empli de foudre.\n\nAugmente la puissance d\u0027attaque de foudre, mais r\u00E9duit la r\u00E9sistance aux d\u00E9g\u00E2ts."
+      },
+      {
+        "ID": 2011,
+        "Text": null
+      },
+      {
+        "ID": 2012,
+        "Text": null
+      },
+      {
+        "ID": 2013,
+        "Text": null
+      },
+      {
+        "ID": 2014,
+        "Text": null
+      },
+      {
+        "ID": 2015,
+        "Text": null
+      },
+      {
+        "ID": 2016,
+        "Text": null
+      },
+      {
+        "ID": 2017,
+        "Text": null
+      },
+      {
+        "ID": 2018,
+        "Text": null
+      },
+      {
+        "ID": 2019,
+        "Text": null
+      },
+      {
+        "ID": 2020,
+        "Text": "Talisman port\u00E9 par des assassins qui frappent sans pr\u00E9venir.\nRepr\u00E9sente un scorpion venant d\u0027effectuer sa mue, dont les pinces enserrent un c\u0153ur empli de feu.\n\nAugmente la puissance d\u0027attaque de feu, mais r\u00E9duit la r\u00E9sistance aux d\u00E9g\u00E2ts."
+      },
+      {
+        "ID": 2021,
+        "Text": null
+      },
+      {
+        "ID": 2022,
+        "Text": null
+      },
+      {
+        "ID": 2023,
+        "Text": null
+      },
+      {
+        "ID": 2024,
+        "Text": null
+      },
+      {
+        "ID": 2025,
+        "Text": null
+      },
+      {
+        "ID": 2026,
+        "Text": null
+      },
+      {
+        "ID": 2027,
+        "Text": null
+      },
+      {
+        "ID": 2028,
+        "Text": null
+      },
+      {
+        "ID": 2029,
+        "Text": null
+      },
+      {
+        "ID": 2030,
+        "Text": "Talisman port\u00E9 par des assassins qui frappent sans pr\u00E9venir.\nRepr\u00E9sente un scorpion venant d\u0027effectuer sa mue, dont les pinces enserrent un c\u0153ur \u00E9mettant une lueur sacr\u00E9e.\n\nAugmente la puissance d\u0027attaque sacr\u00E9e, mais r\u00E9duit la r\u00E9sistance aux d\u00E9g\u00E2ts."
+      },
+      {
+        "ID": 2031,
+        "Text": null
+      },
+      {
+        "ID": 2032,
+        "Text": null
+      },
+      {
+        "ID": 2033,
+        "Text": null
+      },
+      {
+        "ID": 2034,
+        "Text": null
+      },
+      {
+        "ID": 2035,
+        "Text": null
+      },
+      {
+        "ID": 2036,
+        "Text": null
+      },
+      {
+        "ID": 2037,
+        "Text": null
+      },
+      {
+        "ID": 2038,
+        "Text": null
+      },
+      {
+        "ID": 2039,
+        "Text": null
+      },
+      {
+        "ID": 2040,
+        "Text": "Talisman orn\u00E9 de plumes rouges utilis\u00E9 nagu\u00E8re dans d\u0027antiques rituels fun\u00E9raires.\nAugmente la puissance d\u0027attaque quand vos PV sont bas.\n\nLe c\u0153ur chante lorsqu\u0027un \u00EAtre s\u0027appr\u00EAte \u00E0 rencontrer son destin. Une mort glorieuse attend ceux qui s\u0027accrochent avec pugnacit\u00E9 \u00E0 la vie."
+      },
+      {
+        "ID": 2041,
+        "Text": null
+      },
+      {
+        "ID": 2042,
+        "Text": null
+      },
+      {
+        "ID": 2043,
+        "Text": null
+      },
+      {
+        "ID": 2044,
+        "Text": null
+      },
+      {
+        "ID": 2045,
+        "Text": null
+      },
+      {
+        "ID": 2046,
+        "Text": null
+      },
+      {
+        "ID": 2047,
+        "Text": null
+      },
+      {
+        "ID": 2048,
+        "Text": null
+      },
+      {
+        "ID": 2049,
+        "Text": null
+      },
+      {
+        "ID": 2050,
+        "Text": "Talisman fabriqu\u00E9 \u00E0 l\u0027image des \u00E9p\u00E9es utilis\u00E9es lors de combats rituels visant \u00E0 honorer l\u0027Arbre-Monde.\n\nAugmente la puissance d\u0027attaque quand vos PV sont au maximum.\n\nCette pratique avait disparu sous le r\u00E8gne du roi consort Radagon, mais, \u00E0 ce jour, l\u0027on peut encore trouver de par le monde les ruines des ar\u00E8nes o\u00F9 avaient lieu ces affrontements."
+      },
+      {
+        "ID": 2051,
+        "Text": null
+      },
+      {
+        "ID": 2052,
+        "Text": null
+      },
+      {
+        "ID": 2053,
+        "Text": null
+      },
+      {
+        "ID": 2054,
+        "Text": null
+      },
+      {
+        "ID": 2055,
+        "Text": null
+      },
+      {
+        "ID": 2056,
+        "Text": null
+      },
+      {
+        "ID": 2057,
+        "Text": null
+      },
+      {
+        "ID": 2058,
+        "Text": null
+      },
+      {
+        "ID": 2059,
+        "Text": null
+      },
+      {
+        "ID": 2060,
+        "Text": "Talisman repr\u00E9sentant une lance et un soldat.\nAm\u00E9liore les contre-attaques ex\u00E9cut\u00E9es avec des armes d\u0027estoc.\n\nLa lance est une arme tr\u00E8s r\u00E9pandue chez les soldats de l\u0027Entre-terre. Gr\u00E2ce \u00E0 elle, il est possible de r\u00E9pondre aux assauts d\u0027un ennemi par une contre-attaque d\u00E9vastatrice."
+      },
+      {
+        "ID": 2061,
+        "Text": null
+      },
+      {
+        "ID": 2062,
+        "Text": null
+      },
+      {
+        "ID": 2063,
+        "Text": null
+      },
+      {
+        "ID": 2064,
+        "Text": null
+      },
+      {
+        "ID": 2065,
+        "Text": null
+      },
+      {
+        "ID": 2066,
+        "Text": null
+      },
+      {
+        "ID": 2067,
+        "Text": null
+      },
+      {
+        "ID": 2068,
+        "Text": null
+      },
+      {
+        "ID": 2069,
+        "Text": null
+      },
+      {
+        "ID": 2070,
+        "Text": "Talisman repr\u00E9sentant un marteau et un chevalier.\nAugmente la perte d\u0027endurance des ennemis bloquant les attaques du porteur.\n\nLes marteaux sont redoutables face aux ennemis arm\u00E9s de boucliers, \u00E0 tel point qu\u0027on les surnomme \u0022pourfendeurs de chevaliers\u0022."
+      },
+      {
+        "ID": 2071,
+        "Text": null
+      },
+      {
+        "ID": 2072,
+        "Text": null
+      },
+      {
+        "ID": 2073,
+        "Text": null
+      },
+      {
+        "ID": 2074,
+        "Text": null
+      },
+      {
+        "ID": 2075,
+        "Text": null
+      },
+      {
+        "ID": 2076,
+        "Text": null
+      },
+      {
+        "ID": 2077,
+        "Text": null
+      },
+      {
+        "ID": 2078,
+        "Text": null
+      },
+      {
+        "ID": 2079,
+        "Text": null
+      },
+      {
+        "ID": 2080,
+        "Text": "Talisman repr\u00E9sentant une lame proth\u00E9tique brandie.\nObjet que l\u0027on d\u00E9cernait aux chevaliers qui combattaient aux c\u00F4t\u00E9s de Malenia l\u0027Amput\u00E9e.\n\nAugmente la puissance des attaques successives.\n\nLes ailes repr\u00E9sentent Malenia et ses prouesses martiales in\u00E9gal\u00E9es. Bien que la putr\u00E9faction la tourmenta sans r\u00E9pit d\u00E8s sa naissance, sa lame n\u0027en resta pas moins magnifique et impitoyable."
+      },
+      {
+        "ID": 2081,
+        "Text": "Talisman repr\u00E9sentant une lame proth\u00E9tique brandie.\nDistinction d\u00E9cern\u00E9e aux valkyries au service de la d\u00E9esse de la putr\u00E9faction.\n\nAugmente grandement la puissance des attaques successives.\n\nLes quatre s\u0153urs virent le jour dans le marais d\u0027Ivoine, puis voyag\u00E8rent vers l\u0027Arbre-Sacr\u00E9 sous l\u0027\u00E9gide de Gowry. H\u00E9las, jamais ces bourgeons ne devaient s\u0027\u00E9panouir."
+      },
+      {
+        "ID": 2082,
+        "Text": null
+      },
+      {
+        "ID": 2083,
+        "Text": null
+      },
+      {
+        "ID": 2084,
+        "Text": null
+      },
+      {
+        "ID": 2085,
+        "Text": null
+      },
+      {
+        "ID": 2086,
+        "Text": null
+      },
+      {
+        "ID": 2087,
+        "Text": null
+      },
+      {
+        "ID": 2088,
+        "Text": null
+      },
+      {
+        "ID": 2089,
+        "Text": null
+      },
+      {
+        "ID": 2090,
+        "Text": "Talisman repr\u00E9sentant une dague et un m\u00E9decin.\nAm\u00E9liore les coups critiques.\n\nLes m\u00E9decins de guerre v\u00EAtus de blanc volent au secours des alli\u00E9s comme des ennemis, en portant un ultime et fatal coup d\u0027estoc pour leur \u00E9pargner les interminables souffrances d\u0027une blessure mortelle. Cette d\u00E9monstration de piti\u00E9 stimule leur soif de sang."
+      },
+      {
+        "ID": 2091,
+        "Text": null
+      },
+      {
+        "ID": 2092,
+        "Text": null
+      },
+      {
+        "ID": 2093,
+        "Text": null
+      },
+      {
+        "ID": 2094,
+        "Text": null
+      },
+      {
+        "ID": 2095,
+        "Text": null
+      },
+      {
+        "ID": 2096,
+        "Text": null
+      },
+      {
+        "ID": 2097,
+        "Text": null
+      },
+      {
+        "ID": 2098,
+        "Text": null
+      },
+      {
+        "ID": 2099,
+        "Text": null
+      },
+      {
+        "ID": 2100,
+        "Text": "Talisman repr\u00E9sentant trois fl\u00E8ches.\nObjet port\u00E9 par les chasseurs de b\u00EAtes.\n\nAugmente la port\u00E9e effective des arcs."
+      },
+      {
+        "ID": 2101,
+        "Text": null
+      },
+      {
+        "ID": 2102,
+        "Text": null
+      },
+      {
+        "ID": 2103,
+        "Text": null
+      },
+      {
+        "ID": 2104,
+        "Text": null
+      },
+      {
+        "ID": 2105,
+        "Text": null
+      },
+      {
+        "ID": 2106,
+        "Text": null
+      },
+      {
+        "ID": 2107,
+        "Text": null
+      },
+      {
+        "ID": 2108,
+        "Text": null
+      },
+      {
+        "ID": 2109,
+        "Text": null
+      },
+      {
+        "ID": 2110,
+        "Text": "Poup\u00E9e en tissu repr\u00E9sentant une danseuse toute de bleu v\u00EAtue.\nUne sorte d\u0027h\u00E9ritage ancien.\n\nAugmente la puissance d\u0027attaque quand la charge d\u0027\u00E9quipement est faible.\n\nLa danseuse en bleue d\u00E9peint une f\u00E9e qui, selon la l\u00E9gende, aurait conf\u00E9r\u00E9 une \u00E9p\u00E9e pleine de gr\u00E2ce \u00E0 un \u00E9p\u00E9iste aveugle. Arme en main, ce dernier pourfendit un dieu ancien qui \u00E9tait la putr\u00E9faction incarn\u00E9e."
+      },
+      {
+        "ID": 2111,
+        "Text": null
+      },
+      {
+        "ID": 2112,
+        "Text": null
+      },
+      {
+        "ID": 2113,
+        "Text": null
+      },
+      {
+        "ID": 2114,
+        "Text": null
+      },
+      {
+        "ID": 2115,
+        "Text": null
+      },
+      {
+        "ID": 2116,
+        "Text": null
+      },
+      {
+        "ID": 2117,
+        "Text": null
+      },
+      {
+        "ID": 2118,
+        "Text": null
+      },
+      {
+        "ID": 2119,
+        "Text": null
+      },
+      {
+        "ID": 2120,
+        "Text": "Talisman repr\u00E9sentant une lame double et un confesseur.\nAm\u00E9liore le coup final des encha\u00EEnements d\u0027attaques.\n\nLa technique de la lame double est une tradition des confesseurs, lesquels gardent jalousement la m\u00E9thode leur permettant de pr\u00E9server l\u0027\u00E9lan de leurs attaques afin d\u0027ass\u00E9ner un coup final d\u00E9vastateur."
+      },
+      {
+        "ID": 2121,
+        "Text": null
+      },
+      {
+        "ID": 2122,
+        "Text": null
+      },
+      {
+        "ID": 2123,
+        "Text": null
+      },
+      {
+        "ID": 2124,
+        "Text": null
+      },
+      {
+        "ID": 2125,
+        "Text": null
+      },
+      {
+        "ID": 2126,
+        "Text": null
+      },
+      {
+        "ID": 2127,
+        "Text": null
+      },
+      {
+        "ID": 2128,
+        "Text": null
+      },
+      {
+        "ID": 2129,
+        "Text": null
+      },
+      {
+        "ID": 2130,
+        "Text": "Talisman repr\u00E9sentant une hache et un guerrier.\nAm\u00E9liore les attaques charg\u00E9es.\n\nLes guerriers du Plateau tiennent encore en haute estime le seigneur qui les guida lors du P\u00E8lerinage. C\u0027est pour cette raison qu\u0027ils privil\u00E9gient la hache, arme qu\u0027ils manient avec une expertise redoutable."
+      },
+      {
+        "ID": 2131,
+        "Text": null
+      },
+      {
+        "ID": 2132,
+        "Text": null
+      },
+      {
+        "ID": 2133,
+        "Text": null
+      },
+      {
+        "ID": 2134,
+        "Text": null
+      },
+      {
+        "ID": 2135,
+        "Text": null
+      },
+      {
+        "ID": 2136,
+        "Text": null
+      },
+      {
+        "ID": 2137,
+        "Text": null
+      },
+      {
+        "ID": 2138,
+        "Text": null
+      },
+      {
+        "ID": 2139,
+        "Text": null
+      },
+      {
+        "ID": 2140,
+        "Text": "Talisman repr\u00E9sentant une lance de cavalerie et un chevalier.\nAm\u00E9liore les attaques \u00E0 dos de monture.\n\nSur leur monture, les chevaliers font de f\u00E9roces adversaires. Ils surplombent le champ de bataille et ne rencontrent que peu de r\u00E9sistance lorsqu\u0027ils lancent la charge."
+      },
+      {
+        "ID": 2141,
+        "Text": null
+      },
+      {
+        "ID": 2142,
+        "Text": null
+      },
+      {
+        "ID": 2143,
+        "Text": null
+      },
+      {
+        "ID": 2144,
+        "Text": null
+      },
+      {
+        "ID": 2145,
+        "Text": null
+      },
+      {
+        "ID": 2146,
+        "Text": null
+      },
+      {
+        "ID": 2147,
+        "Text": null
+      },
+      {
+        "ID": 2148,
+        "Text": null
+      },
+      {
+        "ID": 2149,
+        "Text": null
+      },
+      {
+        "ID": 2150,
+        "Text": "Talisman repr\u00E9sentant trois fl\u00E8ches de fer.\nUn objet que portaient des soldats il y a fort longtemps.\n\nAugmente la puissance d\u0027attaque des fl\u00E8ches et carreaux."
+      },
+      {
+        "ID": 2151,
+        "Text": null
+      },
+      {
+        "ID": 2152,
+        "Text": null
+      },
+      {
+        "ID": 2153,
+        "Text": null
+      },
+      {
+        "ID": 2154,
+        "Text": null
+      },
+      {
+        "ID": 2155,
+        "Text": null
+      },
+      {
+        "ID": 2156,
+        "Text": null
+      },
+      {
+        "ID": 2157,
+        "Text": null
+      },
+      {
+        "ID": 2158,
+        "Text": null
+      },
+      {
+        "ID": 2159,
+        "Text": null
+      },
+      {
+        "ID": 2160,
+        "Text": "Talisman repr\u00E9sentant l\u0027exultation du seigneur du sang.\n\nAugmente la puissance d\u0027attaque en cas de saignement caus\u00E9 \u00E0 proximit\u00E9.\n\n\u0022Pr\u00E9sentez vos offrandes de sang \u00E0 votre seigneur. Inondez-en la chambre de mon consort. Abreuvez-en son cocon. Son \u00E9veil sonnera l\u0027av\u00E8nement de notre dynastie.\u0022"
+      },
+      {
+        "ID": 2161,
+        "Text": null
+      },
+      {
+        "ID": 2162,
+        "Text": null
+      },
+      {
+        "ID": 2163,
+        "Text": null
+      },
+      {
+        "ID": 2164,
+        "Text": null
+      },
+      {
+        "ID": 2165,
+        "Text": null
+      },
+      {
+        "ID": 2166,
+        "Text": null
+      },
+      {
+        "ID": 2167,
+        "Text": null
+      },
+      {
+        "ID": 2168,
+        "Text": null
+      },
+      {
+        "ID": 2169,
+        "Text": null
+      },
+      {
+        "ID": 2170,
+        "Text": "Talisman repr\u00E9sentant l\u0027exultation des vermines.\n\nAugmente la puissance d\u0027attaque en cas d\u0027empoisonnement ou de putr\u00E9faction \u00E9carlate caus\u00E9s \u00E0 proximit\u00E9.\n\n\u0022R\u00E9pandez la putr\u00E9faction au nom de la d\u00E9esse \u00E9carlate. \u00D4 fleurs \u00E9carlates, \u00E9panouissez-vous en des terres lointaines et revenez \u00E0 nous, les enfants non d\u00E9sir\u00E9s.\u0022"
+      },
+      {
+        "ID": 2171,
+        "Text": null
+      },
+      {
+        "ID": 2172,
+        "Text": null
+      },
+      {
+        "ID": 2173,
+        "Text": null
+      },
+      {
+        "ID": 2174,
+        "Text": null
+      },
+      {
+        "ID": 2175,
+        "Text": null
+      },
+      {
+        "ID": 2176,
+        "Text": null
+      },
+      {
+        "ID": 2177,
+        "Text": null
+      },
+      {
+        "ID": 2178,
+        "Text": null
+      },
+      {
+        "ID": 2179,
+        "Text": null
+      },
+      {
+        "ID": 2180,
+        "Text": "Talisman repr\u00E9sentant une griffe et un assassin.\nAm\u00E9liore les attaques saut\u00E9es.\n\nLes assassins de Corbemont ont fait de la mort leur gagne-pain. Ils se v\u00EAtent tels de dangereux oiseaux de proie avant de fondre sur leurs victimes."
+      },
+      {
+        "ID": 2181,
+        "Text": null
+      },
+      {
+        "ID": 2182,
+        "Text": null
+      },
+      {
+        "ID": 2183,
+        "Text": null
+      },
+      {
+        "ID": 2184,
+        "Text": null
+      },
+      {
+        "ID": 2185,
+        "Text": null
+      },
+      {
+        "ID": 2186,
+        "Text": null
+      },
+      {
+        "ID": 2187,
+        "Text": null
+      },
+      {
+        "ID": 2188,
+        "Text": null
+      },
+      {
+        "ID": 2189,
+        "Text": null
+      },
+      {
+        "ID": 2190,
+        "Text": "M\u00E9daillon de bronze repr\u00E9sentant un G\u00E9ant hurlant \u00E0 pleins poumons.\nAm\u00E9liore les cris et les souffles.\n\nAutrefois, les G\u00E9ants incarnaient les ennemis jur\u00E9s de l\u0027Arbre-Monde. Leurs hurlements d\u00E9truisaient la nature, provoquaient des avalanches et d\u00E9clenchaient des temp\u00EAtes de feu."
+      },
+      {
+        "ID": 2191,
+        "Text": null
+      },
+      {
+        "ID": 2192,
+        "Text": null
+      },
+      {
+        "ID": 2193,
+        "Text": null
+      },
+      {
+        "ID": 2194,
+        "Text": null
+      },
+      {
+        "ID": 2195,
+        "Text": null
+      },
+      {
+        "ID": 2196,
+        "Text": null
+      },
+      {
+        "ID": 2197,
+        "Text": null
+      },
+      {
+        "ID": 2198,
+        "Text": null
+      },
+      {
+        "ID": 2199,
+        "Text": null
+      },
+      {
+        "ID": 2200,
+        "Text": "Talisman repr\u00E9sentant une \u00E9p\u00E9e courb\u00E9e et un \u00E9p\u00E9iste.\nAm\u00E9liore les contre-attaques.\n\nOn raconte qu\u0027un \u00E9p\u00E9iste aveugle aurait invent\u00E9 cette technique consistant \u00E0 laisser son adversaire attaquer afin de le rendre vuln\u00E9rable \u00E0 un contre bien plac\u00E9."
+      },
+      {
+        "ID": 2201,
+        "Text": null
+      },
+      {
+        "ID": 2202,
+        "Text": null
+      },
+      {
+        "ID": 2203,
+        "Text": null
+      },
+      {
+        "ID": 2204,
+        "Text": null
+      },
+      {
+        "ID": 2205,
+        "Text": null
+      },
+      {
+        "ID": 2206,
+        "Text": null
+      },
+      {
+        "ID": 2207,
+        "Text": null
+      },
+      {
+        "ID": 2208,
+        "Text": null
+      },
+      {
+        "ID": 2209,
+        "Text": null
+      },
+      {
+        "ID": 2210,
+        "Text": "Talisman qu\u0027offrent les jarres \u00E0 leurs amis.\nAugmente la puissance des jarres de lancer.\n\nBien que les jarres soient cr\u00E9\u00E9es \u00E0 partir de chair et de sang humains, elles n\u0027en restent pas moins sympathiques. Peut-\u00EAtre furent-elles con\u00E7ues pour surpasser les entrailles qu\u0027elles contiennent."
+      },
+      {
+        "ID": 2211,
+        "Text": null
+      },
+      {
+        "ID": 2212,
+        "Text": null
+      },
+      {
+        "ID": 2213,
+        "Text": null
+      },
+      {
+        "ID": 2214,
+        "Text": null
+      },
+      {
+        "ID": 2215,
+        "Text": null
+      },
+      {
+        "ID": 2216,
+        "Text": null
+      },
+      {
+        "ID": 2217,
+        "Text": null
+      },
+      {
+        "ID": 2218,
+        "Text": null
+      },
+      {
+        "ID": 2219,
+        "Text": null
+      },
+      {
+        "ID": 2220,
+        "Text": "Talisman repr\u00E9sentant un ensemble de flacons de parfum.\nAugmente la puissance des parfums.\n\nCertains jardins ne sont connus que des Parfumeurs. Dissimul\u00E9s aux confins des r\u00E9gions montagneuses ou dans les profondeurs de certaines grottes, ils abritent des fleurs qui n\u0027attendent que de diffuser leurs ar\u00F4mes."
+      },
+      {
+        "ID": 3000,
+        "Text": "Talisman repr\u00E9sentant un amalgame de mages grav\u00E9s, cauchemar de l\u0027Acad\u00E9mie.\n\nAugmente la puissance des sorcelleries.\n\nLe courant originel est une tradition interdite de la sorcellerie des pierres d\u0027\u00E9clat. Mais aux yeux de ceux qui suivent ses enseignements, capturer des sorciers pour en faire des graines d\u0027\u00E9toiles n\u0027est qu\u0027une m\u00E9thode scientifique parmi tant d\u0027autres."
+      },
+      {
+        "ID": 3001,
+        "Text": "Talisman repr\u00E9sentant le premier amalgame de mages grav\u00E9s, un cauchemar qui ne cessa de tourmenter l\u0027Acad\u00E9mie.\n\nAugmente grandement la puissance des sorcelleries.\n\nLe courant originel est une tradition interdite de la sorcellerie des pierres d\u0027\u00E9clat. Mais aux yeux de ceux qui suivent ses enseignements, capturer des sorciers pour en faire des graines d\u0027\u00E9toiles n\u0027est qu\u0027une m\u00E9thode scientifique parmi tant d\u0027autres."
+      },
+      {
+        "ID": 3040,
+        "Text": "Talisman pourvu d\u0027une ic\u00F4ne repr\u00E9sentant un ensemble de silhouettes masqu\u00E9es.\nAugmente la puissance des incantations.\n\nCe motif repr\u00E9sente des fid\u00E8les en pleine pri\u00E8re, fid\u00E8les dont la foi aveugle en l\u0027intangible inspire jusqu\u0027au fondateur m\u00EAme de leur religion.\n\nQue peut bien \u00EAtre la foi si ce n\u0027est une affirmation\u00A0?"
+      },
+      {
+        "ID": 3041,
+        "Text": null
+      },
+      {
+        "ID": 3042,
+        "Text": null
+      },
+      {
+        "ID": 3043,
+        "Text": null
+      },
+      {
+        "ID": 3044,
+        "Text": null
+      },
+      {
+        "ID": 3045,
+        "Text": null
+      },
+      {
+        "ID": 3046,
+        "Text": null
+      },
+      {
+        "ID": 3047,
+        "Text": null
+      },
+      {
+        "ID": 3048,
+        "Text": null
+      },
+      {
+        "ID": 3049,
+        "Text": null
+      },
+      {
+        "ID": 3050,
+        "Text": "Talisman pourvu d\u0027une ic\u00F4ne repr\u00E9sentant une foule de silhouettes masqu\u00E9es.\nAugmente grandement la puissance des incantations.\n\nCe motif repr\u00E9sente des fid\u00E8les en pleine pri\u00E8re, fid\u00E8les dont la foi aveugle en l\u0027intangible inspire jusqu\u0027au fondateur m\u00EAme de leur religion.\n\nQue peut bien \u00EAtre la foi si ce n\u0027est une affirmation\u00A0?"
+      },
+      {
+        "ID": 3051,
+        "Text": null
+      },
+      {
+        "ID": 3052,
+        "Text": null
+      },
+      {
+        "ID": 3053,
+        "Text": null
+      },
+      {
+        "ID": 3054,
+        "Text": null
+      },
+      {
+        "ID": 3055,
+        "Text": null
+      },
+      {
+        "ID": 3056,
+        "Text": null
+      },
+      {
+        "ID": 3057,
+        "Text": null
+      },
+      {
+        "ID": 3058,
+        "Text": null
+      },
+      {
+        "ID": 3059,
+        "Text": null
+      },
+      {
+        "ID": 3060,
+        "Text": "Talisman l\u00E9gendaire repr\u00E9sentant un roi antique dont le tr\u00F4ne si\u00E8ge, hors du temps, au c\u0153ur d\u0027une temp\u00EAte.\n\nAugmente la dur\u00E9e des sorcelleries et des incantations.\n\nOn raconte que l\u0027ancienne cit\u00E9 royale de Farum Azula s\u0027effondre peu \u00E0 peu depuis des temps imm\u00E9moriaux."
+      },
+      {
+        "ID": 3061,
+        "Text": null
+      },
+      {
+        "ID": 3062,
+        "Text": null
+      },
+      {
+        "ID": 3063,
+        "Text": null
+      },
+      {
+        "ID": 3064,
+        "Text": null
+      },
+      {
+        "ID": 3065,
+        "Text": null
+      },
+      {
+        "ID": 3066,
+        "Text": null
+      },
+      {
+        "ID": 3067,
+        "Text": null
+      },
+      {
+        "ID": 3068,
+        "Text": null
+      },
+      {
+        "ID": 3069,
+        "Text": null
+      },
+      {
+        "ID": 3070,
+        "Text": "Talisman l\u00E9gendaire repr\u00E9sentant Radagon, le Seigneur d\u0027Elden.\nR\u00E9duit le temps de canalisation des sorcelleries et des incantations.\n\nRadagon, le roi \u00E0 la chevelure de braise, \u00E9tudia la sorcellerie lorsqu\u0027il \u00E9tait mari\u00E9 \u00E0 Rennala de Caria, puis les incantations apr\u00E8s son union avec la reine Marika. Preuve s\u0027il en faut que ce h\u00E9ros aspirait \u00E0 la perfection."
+      },
+      {
+        "ID": 3071,
+        "Text": null
+      },
+      {
+        "ID": 3072,
+        "Text": null
+      },
+      {
+        "ID": 3073,
+        "Text": null
+      },
+      {
+        "ID": 3074,
+        "Text": null
+      },
+      {
+        "ID": 3075,
+        "Text": null
+      },
+      {
+        "ID": 3076,
+        "Text": null
+      },
+      {
+        "ID": 3077,
+        "Text": null
+      },
+      {
+        "ID": 3078,
+        "Text": null
+      },
+      {
+        "ID": 3079,
+        "Text": null
+      },
+      {
+        "ID": 3080,
+        "Text": "Ancienne lame de pierre d\u0027\u00E9clat macul\u00E9e de sang.\n\nR\u00E9duit le co\u00FBt en PC des sorcelleries et des incantations, mais r\u00E9duit les PV maximums.\n\nLes sorciers de jadis ouvraient leur c\u0153ur en deux \u00E0 l\u0027aide de ce genre de lames, afin de transf\u00E9rer leur \u00E2me dans une pierre d\u0027\u00E9clat primordiale. Ce proc\u00E9d\u00E9 leur co\u00FBtait la vie."
+      },
+      {
+        "ID": 3081,
+        "Text": null
+      },
+      {
+        "ID": 3082,
+        "Text": null
+      },
+      {
+        "ID": 3083,
+        "Text": null
+      },
+      {
+        "ID": 3084,
+        "Text": null
+      },
+      {
+        "ID": 3085,
+        "Text": null
+      },
+      {
+        "ID": 3086,
+        "Text": null
+      },
+      {
+        "ID": 3087,
+        "Text": null
+      },
+      {
+        "ID": 3088,
+        "Text": null
+      },
+      {
+        "ID": 3089,
+        "Text": null
+      },
+      {
+        "ID": 3090,
+        "Text": "Talisman l\u00E9gendaire repr\u00E9sentant Godfrey, le Seigneur d\u0027Elden.\nAugmente la puissance d\u0027attaque des sorcelleries, des incantations et des comp\u00E9tences charg\u00E9es.\n\nGodfrey \u00E9tait un farouche combattant. Lorsqu\u0027il obtint le titre de Seigneur, il prit la B\u00EAte r\u00E9gente Serosh sur son dos pour canaliser ses pulsions guerri\u00E8res."
+      },
+      {
+        "ID": 4000,
+        "Text": "Talisman en fer forg\u00E9 repr\u00E9sentant un dragon ancien.\nAm\u00E9liore la r\u00E9sistance aux d\u00E9g\u00E2ts physiques.\n\nDurant l\u0027\u00E2ge primitif qui pr\u00E9c\u00E9da l\u0027Arbre-Monde, les dragons anciens r\u00E9gnaient en ma\u00EEtre, et on raconte qu\u0027ils prot\u00E9geaient leur roi en formant un v\u00E9ritable mur de pierre.\nAinsi, une silhouette de dragon est de nos jours un symbole de protection universel."
+      },
+      {
+        "ID": 4001,
+        "Text": "Talisman en fer forg\u00E9 repr\u00E9sentant un duo de dragons anciens.\nAm\u00E9liore grandement la r\u00E9sistance aux d\u00E9g\u00E2ts physiques.\n\nDurant l\u0027\u00E2ge primitif qui pr\u00E9c\u00E9da l\u0027Arbre-Monde, les dragons anciens r\u00E9gnaient en ma\u00EEtre, et on raconte qu\u0027ils prot\u00E9geaient leur roi en formant un v\u00E9ritable mur de pierre.\nAinsi, une silhouette de dragon est de nos jours un symbole de protection universel."
+      },
+      {
+        "ID": 4002,
+        "Text": "Talisman en fer forg\u00E9 repr\u00E9sentant un trio de dragons anciens.\nAm\u00E9liore \u00E9norm\u00E9ment la r\u00E9sistance aux d\u00E9g\u00E2ts physiques.\n\nDurant l\u0027\u00E2ge primitif qui pr\u00E9c\u00E9da l\u0027Arbre-Monde, les dragons anciens r\u00E9gnaient en ma\u00EEtre, et on raconte qu\u0027ils prot\u00E9geaient leur roi en formant un v\u00E9ritable mur de pierre.\nAinsi, une silhouette de dragon est de nos jours un symbole de protection universel."
+      },
+      {
+        "ID": 4003,
+        "Text": "Talisman l\u00E9gendaire en fer forg\u00E9 repr\u00E9sentant un gigantesque dragon ancien.\nAm\u00E9liore prodigieusement la r\u00E9sistance aux d\u00E9g\u00E2ts physiques.\n\nDurant l\u0027\u00E2ge primitif qui pr\u00E9c\u00E9da l\u0027Arbre-Monde, les dragons anciens r\u00E9gnaient en ma\u00EEtre, et on raconte qu\u0027ils prot\u00E9geaient leur roi en formant un v\u00E9ritable mur de pierre.\nAinsi, une silhouette de dragon est de nos jours un symbole de protection universel."
+      },
+      {
+        "ID": 4004,
+        "Text": null
+      },
+      {
+        "ID": 4005,
+        "Text": null
+      },
+      {
+        "ID": 4006,
+        "Text": null
+      },
+      {
+        "ID": 4007,
+        "Text": null
+      },
+      {
+        "ID": 4008,
+        "Text": null
+      },
+      {
+        "ID": 4009,
+        "Text": null
+      },
+      {
+        "ID": 4010,
+        "Text": "Talisman repr\u00E9sentant un dragon ancien bleu.\nAm\u00E9liore la r\u00E9sistance aux d\u00E9g\u00E2ts magiques.\n\nDurant l\u0027\u00E2ge primitif qui pr\u00E9c\u00E9da l\u0027Arbre-Monde, les dragons anciens r\u00E9gnaient en ma\u00EEtre, et on raconte qu\u0027ils prot\u00E9geaient leur roi en formant un v\u00E9ritable mur de pierre.\nAinsi, une silhouette de dragon est de nos jours un symbole de protection universel."
+      },
+      {
+        "ID": 4011,
+        "Text": "Talisman repr\u00E9sentant un duo de dragons anciens bleus.\nAm\u00E9liore grandement la r\u00E9sistance aux d\u00E9g\u00E2ts magiques.\n\nDurant l\u0027\u00E2ge primitif qui pr\u00E9c\u00E9da l\u0027Arbre-Monde, les dragons anciens r\u00E9gnaient en ma\u00EEtre, et on raconte qu\u0027ils prot\u00E9geaient leur roi en formant un v\u00E9ritable mur de pierre.\nAinsi, une silhouette de dragon est de nos jours un symbole de protection universel."
+      },
+      {
+        "ID": 4012,
+        "Text": "Talisman repr\u00E9sentant un trio de dragons anciens bleus.\nAm\u00E9liore \u00E9norm\u00E9ment la r\u00E9sistance aux d\u00E9g\u00E2ts magiques.\n\nDurant l\u0027\u00E2ge primitif qui pr\u00E9c\u00E9da l\u0027Arbre-Monde, les dragons anciens r\u00E9gnaient en ma\u00EEtre, et on raconte qu\u0027ils prot\u00E9geaient leur roi en formant un v\u00E9ritable mur de pierre.\nAinsi, une silhouette de dragon est de nos jours un symbole de protection universel."
+      },
+      {
+        "ID": 4013,
+        "Text": null
+      },
+      {
+        "ID": 4014,
+        "Text": null
+      },
+      {
+        "ID": 4015,
+        "Text": null
+      },
+      {
+        "ID": 4016,
+        "Text": null
+      },
+      {
+        "ID": 4017,
+        "Text": null
+      },
+      {
+        "ID": 4018,
+        "Text": null
+      },
+      {
+        "ID": 4019,
+        "Text": null
+      },
+      {
+        "ID": 4020,
+        "Text": "Talisman repr\u00E9sentant un dragon ancien rouge.\nAm\u00E9liore la r\u00E9sistance aux d\u00E9g\u00E2ts de feu.\n\nDurant l\u0027\u00E2ge primitif qui pr\u00E9c\u00E9da l\u0027Arbre-Monde, les dragons anciens r\u00E9gnaient en ma\u00EEtre, et on raconte qu\u0027ils prot\u00E9geaient leur roi en formant un v\u00E9ritable mur de pierre.\nAinsi, une silhouette de dragon est de nos jours un symbole de protection universel."
+      },
+      {
+        "ID": 4021,
+        "Text": "Talisman repr\u00E9sentant un duo de dragons anciens rouges.\nAm\u00E9liore grandement la r\u00E9sistance aux d\u00E9g\u00E2ts de feu.\n\nDurant l\u0027\u00E2ge primitif qui pr\u00E9c\u00E9da l\u0027Arbre-Monde, les dragons anciens r\u00E9gnaient en ma\u00EEtre, et on raconte qu\u0027ils prot\u00E9geaient leur roi en formant un v\u00E9ritable mur de pierre.\nAinsi, une silhouette de dragon est de nos jours un symbole de protection universel."
+      },
+      {
+        "ID": 4022,
+        "Text": "Talisman repr\u00E9sentant un trio dragons anciens rouges.\nAm\u00E9liore \u00E9norm\u00E9ment la r\u00E9sistance aux d\u00E9g\u00E2ts de feu.\n\nDurant l\u0027\u00E2ge primitif qui pr\u00E9c\u00E9da l\u0027Arbre-Monde, les dragons anciens r\u00E9gnaient en ma\u00EEtre, et on raconte qu\u0027ils prot\u00E9geaient leur roi en formant un v\u00E9ritable mur de pierre.\nAinsi, une silhouette de dragon est de nos jours un symbole de protection universel."
+      },
+      {
+        "ID": 4023,
+        "Text": null
+      },
+      {
+        "ID": 4024,
+        "Text": null
+      },
+      {
+        "ID": 4025,
+        "Text": null
+      },
+      {
+        "ID": 4026,
+        "Text": null
+      },
+      {
+        "ID": 4027,
+        "Text": null
+      },
+      {
+        "ID": 4028,
+        "Text": null
+      },
+      {
+        "ID": 4029,
+        "Text": null
+      },
+      {
+        "ID": 4030,
+        "Text": "Talisman repr\u00E9sentant un dragon ancien jaune.\nAm\u00E9liore la r\u00E9sistance aux d\u00E9g\u00E2ts de foudre.\n\nDurant l\u0027\u00E2ge primitif qui pr\u00E9c\u00E9da l\u0027Arbre-Monde, les dragons anciens r\u00E9gnaient en ma\u00EEtre, et on raconte qu\u0027ils prot\u00E9geaient leur roi en formant un v\u00E9ritable mur de pierre.\nAinsi, une silhouette de dragon est de nos jours un symbole de protection universel."
+      },
+      {
+        "ID": 4031,
+        "Text": "Talisman repr\u00E9sentant un duo de dragons anciens jaunes.\nAm\u00E9liore grandement la r\u00E9sistance aux d\u00E9g\u00E2ts de foudre.\n\nDurant l\u0027\u00E2ge primitif qui pr\u00E9c\u00E9da l\u0027Arbre-Monde, les dragons anciens r\u00E9gnaient en ma\u00EEtre, et on raconte qu\u0027ils prot\u00E9geaient leur roi en formant un v\u00E9ritable mur de pierre.\nAinsi, une silhouette de dragon est de nos jours un symbole de protection universel."
+      },
+      {
+        "ID": 4032,
+        "Text": "Talisman repr\u00E9sentant un trio de dragons anciens jaunes.\nAm\u00E9liore \u00E9norm\u00E9ment la r\u00E9sistance aux d\u00E9g\u00E2ts de foudre.\n\nDurant l\u0027\u00E2ge primitif qui pr\u00E9c\u00E9da l\u0027Arbre-Monde, les dragons anciens r\u00E9gnaient en ma\u00EEtre, et on raconte qu\u0027ils prot\u00E9geaient leur roi en formant un v\u00E9ritable mur de pierre.\nAinsi, une silhouette de dragon est de nos jours un symbole de protection universel."
+      },
+      {
+        "ID": 4033,
+        "Text": null
+      },
+      {
+        "ID": 4034,
+        "Text": null
+      },
+      {
+        "ID": 4035,
+        "Text": null
+      },
+      {
+        "ID": 4036,
+        "Text": null
+      },
+      {
+        "ID": 4037,
+        "Text": null
+      },
+      {
+        "ID": 4038,
+        "Text": null
+      },
+      {
+        "ID": 4039,
+        "Text": null
+      },
+      {
+        "ID": 4040,
+        "Text": "Talisman repr\u00E9sentant un dragon ancien dor\u00E9.\nAm\u00E9liore la r\u00E9sistance aux d\u00E9g\u00E2ts sacr\u00E9s.\n\nDurant l\u0027\u00E2ge primitif qui pr\u00E9c\u00E9da l\u0027Arbre-Monde, les dragons anciens r\u00E9gnaient en ma\u00EEtre, et on raconte qu\u0027ils prot\u00E9geaient leur roi en formant un v\u00E9ritable mur de pierre.\nAinsi, une silhouette de dragon est de nos jours un symbole de protection universel."
+      },
+      {
+        "ID": 4041,
+        "Text": "Talisman repr\u00E9sentant un duo de dragons anciens dor\u00E9s.\nAm\u00E9liore grandement la r\u00E9sistance aux d\u00E9g\u00E2ts sacr\u00E9s.\n\nDurant l\u0027\u00E2ge primitif qui pr\u00E9c\u00E9da l\u0027Arbre-Monde, les dragons anciens r\u00E9gnaient en ma\u00EEtre, et on raconte qu\u0027ils prot\u00E9geaient leur roi en formant un v\u00E9ritable mur de pierre.\nAinsi, une silhouette de dragon est de nos jours un symbole de protection universel."
+      },
+      {
+        "ID": 4042,
+        "Text": "Talisman repr\u00E9sentant un trio de dragons anciens dor\u00E9s.\nAm\u00E9liore \u00E9norm\u00E9ment la r\u00E9sistance aux d\u00E9g\u00E2ts sacr\u00E9s.\n\nDurant l\u0027\u00E2ge primitif qui pr\u00E9c\u00E9da l\u0027Arbre-Monde, les dragons anciens r\u00E9gnaient en ma\u00EEtre, et on raconte qu\u0027ils prot\u00E9geaient leur roi en formant un v\u00E9ritable mur de pierre.\nAinsi, une silhouette de dragon est de nos jours un symbole de protection universel."
+      },
+      {
+        "ID": 4043,
+        "Text": null
+      },
+      {
+        "ID": 4044,
+        "Text": null
+      },
+      {
+        "ID": 4045,
+        "Text": null
+      },
+      {
+        "ID": 4046,
+        "Text": null
+      },
+      {
+        "ID": 4047,
+        "Text": null
+      },
+      {
+        "ID": 4048,
+        "Text": null
+      },
+      {
+        "ID": 4049,
+        "Text": null
+      },
+      {
+        "ID": 4050,
+        "Text": "Talisman repr\u00E9sentant un dragon ancien perl\u00E9.\nAm\u00E9liore la r\u00E9sistance aux d\u00E9g\u00E2ts non physiques.\n\nDurant l\u0027\u00E2ge primitif qui pr\u00E9c\u00E9da l\u0027Arbre-Monde, les dragons anciens r\u00E9gnaient en ma\u00EEtre, et on raconte qu\u0027ils prot\u00E9geaient leur roi en formant un v\u00E9ritable mur de pierre.\nAinsi, une silhouette de dragon est de nos jours un symbole de protection universel."
+      },
+      {
+        "ID": 4051,
+        "Text": "Talisman repr\u00E9sentant un duo de dragons anciens perl\u00E9s.\nAm\u00E9liore grandement la r\u00E9sistance aux d\u00E9g\u00E2ts non physiques.\n\nDurant l\u0027\u00E2ge primitif qui pr\u00E9c\u00E9da l\u0027Arbre-Monde, les dragons anciens r\u00E9gnaient en ma\u00EEtre, et on raconte qu\u0027ils prot\u00E9geaient leur roi en formant un v\u00E9ritable mur de pierre.\nAinsi, une silhouette de dragon est de nos jours un symbole de protection universel."
+      },
+      {
+        "ID": 4052,
+        "Text": "Talisman repr\u00E9sentant un trio de dragons anciens perl\u00E9s.\nAm\u00E9liore \u00E9norm\u00E9ment la r\u00E9sistance aux d\u00E9g\u00E2ts non physiques.\n\nDurant l\u0027\u00E2ge primitif qui pr\u00E9c\u00E9da l\u0027Arbre-Monde, les dragons anciens r\u00E9gnaient en ma\u00EEtre, et on raconte qu\u0027ils prot\u00E9geaient leur roi en formant un v\u00E9ritable mur de pierre.\nAinsi, une silhouette de dragon est de nos jours un symbole de protection universel."
+      },
+      {
+        "ID": 4053,
+        "Text": null
+      },
+      {
+        "ID": 4054,
+        "Text": null
+      },
+      {
+        "ID": 4055,
+        "Text": null
+      },
+      {
+        "ID": 4056,
+        "Text": null
+      },
+      {
+        "ID": 4057,
+        "Text": null
+      },
+      {
+        "ID": 4058,
+        "Text": null
+      },
+      {
+        "ID": 4059,
+        "Text": null
+      },
+      {
+        "ID": 4060,
+        "Text": "Talisman r\u00E9alis\u00E9 \u00E0 partir d\u0027une \u00E9caille repr\u00E9sentant les aspects de diverses cr\u00E9atures.\nIl se murmure que certains humains arboraient jadis pareilles \u00E9cailles.\n\nR\u00E9duit les d\u00E9g\u00E2ts subis en cas de coup critique.\n\nUn vestige du Creuset de la vie primordiale. Issu en partie d\u0027un processus de d\u00E9croissance, on le consid\u00E9rait jadis comme une manifestation de forces divines. Mais de nos jours, face \u00E0 l\u0027avanc\u00E9e de la civilisation, il inspire de plus en plus le m\u00E9pris et est vu comme une impuret\u00E9."
+      },
+      {
+        "ID": 4061,
+        "Text": null
+      },
+      {
+        "ID": 4062,
+        "Text": null
+      },
+      {
+        "ID": 4063,
+        "Text": null
+      },
+      {
+        "ID": 4064,
+        "Text": null
+      },
+      {
+        "ID": 4065,
+        "Text": null
+      },
+      {
+        "ID": 4066,
+        "Text": null
+      },
+      {
+        "ID": 4067,
+        "Text": null
+      },
+      {
+        "ID": 4068,
+        "Text": null
+      },
+      {
+        "ID": 4069,
+        "Text": null
+      },
+      {
+        "ID": 4070,
+        "Text": "Talisman r\u00E9alis\u00E9 \u00E0 partir de plumes repr\u00E9sentant les aspects de diverses cr\u00E9atures.\nIl se murmure que certains humains arboraient jadis pareilles plumes.\n\nAm\u00E9liore l\u0027efficacit\u00E9 des roulades, mais augmente les d\u00E9g\u00E2ts subis.\n\nUn vestige du Creuset de la vie primordiale. Issu en partie d\u0027un processus de d\u00E9croissance, on le consid\u00E9rait jadis comme une manifestation de forces divines. Mais de nos jours, face \u00E0 l\u0027avanc\u00E9e de la civilisation, il inspire de plus en plus le m\u00E9pris et est vu comme une impuret\u00E9."
+      },
+      {
+        "ID": 4071,
+        "Text": null
+      },
+      {
+        "ID": 4072,
+        "Text": null
+      },
+      {
+        "ID": 4073,
+        "Text": null
+      },
+      {
+        "ID": 4074,
+        "Text": null
+      },
+      {
+        "ID": 4075,
+        "Text": null
+      },
+      {
+        "ID": 4076,
+        "Text": null
+      },
+      {
+        "ID": 4077,
+        "Text": null
+      },
+      {
+        "ID": 4078,
+        "Text": null
+      },
+      {
+        "ID": 4079,
+        "Text": null
+      },
+      {
+        "ID": 4080,
+        "Text": "Talisman orn\u00E9 de plumes bleues utilis\u00E9 nagu\u00E8re dans d\u0027antiques rituels fun\u00E9raires.\nAugmente la d\u00E9fense quand vos PV sont bas.\n\nLe c\u0153ur chante lorsque le tr\u00E9pas est imminent et l\u0027on s\u0027accroche alors avec d\u0027autant plus de t\u00E9nacit\u00E9 \u00E0 la vie. S\u0027il faut mourir, autant partir avec panache."
+      },
+      {
+        "ID": 4081,
+        "Text": null
+      },
+      {
+        "ID": 4082,
+        "Text": null
+      },
+      {
+        "ID": 4083,
+        "Text": null
+      },
+      {
+        "ID": 4084,
+        "Text": null
+      },
+      {
+        "ID": 4085,
+        "Text": null
+      },
+      {
+        "ID": 4086,
+        "Text": null
+      },
+      {
+        "ID": 4087,
+        "Text": null
+      },
+      {
+        "ID": 4088,
+        "Text": null
+      },
+      {
+        "ID": 4089,
+        "Text": null
+      },
+      {
+        "ID": 4090,
+        "Text": "Talisman fabriqu\u00E9 \u00E0 l\u0027image des boucliers utilis\u00E9s lors de combats rituels visant \u00E0 honorer l\u0027Arbre-Monde.\n\nAugmente la d\u00E9fense quand vos PV sont au maximum.\n\nCette pratique avait disparu sous le r\u00E8gne du roi consort Radagon, mais, \u00E0 ce jour, l\u0027on peut encore trouver de par le monde les ruines des ar\u00E8nes o\u00F9 avaient lieu ces affrontements."
+      },
+      {
+        "ID": 4091,
+        "Text": null
+      },
+      {
+        "ID": 4092,
+        "Text": null
+      },
+      {
+        "ID": 4093,
+        "Text": null
+      },
+      {
+        "ID": 4094,
+        "Text": null
+      },
+      {
+        "ID": 4095,
+        "Text": null
+      },
+      {
+        "ID": 4096,
+        "Text": null
+      },
+      {
+        "ID": 4097,
+        "Text": null
+      },
+      {
+        "ID": 4098,
+        "Text": null
+      },
+      {
+        "ID": 4099,
+        "Text": null
+      },
+      {
+        "ID": 4100,
+        "Text": "Talisman repr\u00E9sentant un chevalier brandissant un pavois.\nAm\u00E9liore la garde.\n\nL\u0027apparence des chevaliers de Leyndell \u00E9tait inspir\u00E9e de celle des Sentinelles de l\u0027Arbre. Leur devoir est de prot\u00E9ger ce qui m\u00E9rite d\u0027\u00EAtre pr\u00E9serv\u00E9, c\u0027est pourquoi le bouclier pr\u00E9c\u00E8de toujours l\u0027\u00E9p\u00E9e."
+      },
+      {
+        "ID": 4101,
+        "Text": null
+      },
+      {
+        "ID": 4102,
+        "Text": null
+      },
+      {
+        "ID": 4103,
+        "Text": null
+      },
+      {
+        "ID": 4104,
+        "Text": null
+      },
+      {
+        "ID": 4105,
+        "Text": null
+      },
+      {
+        "ID": 4106,
+        "Text": null
+      },
+      {
+        "ID": 4107,
+        "Text": null
+      },
+      {
+        "ID": 4108,
+        "Text": null
+      },
+      {
+        "ID": 4109,
+        "Text": null
+      },
+      {
+        "ID": 4110,
+        "Text": "Talisman r\u00E9alis\u00E9 \u00E0 partir d\u0027un n\u0153ud en os repr\u00E9sentant les aspects de diverses cr\u00E9atures.\nIl se murmure que certains humains arboraient jadis pareils os.\n\nR\u00E9duit les d\u00E9g\u00E2ts et l\u0027impact des tirs \u00E0 la t\u00EAte subis.\n\nUn vestige du Creuset de la vie primordiale. Issu en partie d\u0027un processus de d\u00E9croissance, on le consid\u00E9rait jadis comme une manifestation de forces divines. Mais de nos jours, face \u00E0 l\u0027avanc\u00E9e de la civilisation, il inspire de plus en plus le m\u00E9pris et est vu comme une impuret\u00E9."
+      },
+      {
+        "ID": 5000,
+        "Text": "Talisman pourpre repr\u00E9sentant une graine de l\u0027Arbre-Monde.\nAugmente les PV rendus par la Fiole de larmes pourpres.\n\nJadis, quand l\u0027Arbre-Monde \u00E9tait encore consid\u00E9r\u00E9 comme parfait et \u00E9ternel, personne n\u0027aurait pu croire qu\u0027il pouvait produire des graines. Et pourtant."
+      },
+      {
+        "ID": 5001,
+        "Text": null
+      },
+      {
+        "ID": 5002,
+        "Text": null
+      },
+      {
+        "ID": 5003,
+        "Text": null
+      },
+      {
+        "ID": 5004,
+        "Text": null
+      },
+      {
+        "ID": 5005,
+        "Text": null
+      },
+      {
+        "ID": 5006,
+        "Text": null
+      },
+      {
+        "ID": 5007,
+        "Text": null
+      },
+      {
+        "ID": 5008,
+        "Text": null
+      },
+      {
+        "ID": 5009,
+        "Text": null
+      },
+      {
+        "ID": 5010,
+        "Text": "Talisman c\u00E9rul\u00E9en repr\u00E9sentant une graine de l\u0027Arbre-Monde.\nAugmente les PC rendus par la Fiole de larmes c\u00E9rul\u00E9ennes.\n\nJadis, quand l\u0027Arbre-Monde \u00E9tait encore consid\u00E9r\u00E9 comme parfait et \u00E9ternel, personne n\u0027aurait pu croire qu\u0027il pouvait produire des graines. Et pourtant."
+      },
+      {
+        "ID": 5011,
+        "Text": null
+      },
+      {
+        "ID": 5012,
+        "Text": null
+      },
+      {
+        "ID": 5013,
+        "Text": null
+      },
+      {
+        "ID": 5014,
+        "Text": null
+      },
+      {
+        "ID": 5015,
+        "Text": null
+      },
+      {
+        "ID": 5016,
+        "Text": null
+      },
+      {
+        "ID": 5017,
+        "Text": null
+      },
+      {
+        "ID": 5018,
+        "Text": null
+      },
+      {
+        "ID": 5019,
+        "Text": null
+      },
+      {
+        "ID": 5020,
+        "Text": "Talisman repr\u00E9sentant une goutte de la s\u00E8ve de l\u0027Arbre-Monde, consid\u00E9r\u00E9e comme une b\u00E9n\u00E9diction.\n\nRestaure progressivement des PV.\n\nOn pensait autrefois que la s\u00E8ve b\u00E9nie de l\u0027Arbre-Monde s\u0027\u00E9coulerait de ses branches pour l\u0027\u00E9ternit\u00E9, mais cette \u00E8re d\u0027abondance fut de courte dur\u00E9e. Au fil du temps, l\u0027Arbre-Monde devint un simple objet de v\u00E9n\u00E9ration."
+      },
+      {
+        "ID": 5021,
+        "Text": null
+      },
+      {
+        "ID": 5022,
+        "Text": null
+      },
+      {
+        "ID": 5023,
+        "Text": null
+      },
+      {
+        "ID": 5024,
+        "Text": null
+      },
+      {
+        "ID": 5025,
+        "Text": null
+      },
+      {
+        "ID": 5026,
+        "Text": null
+      },
+      {
+        "ID": 5027,
+        "Text": null
+      },
+      {
+        "ID": 5028,
+        "Text": null
+      },
+      {
+        "ID": 5029,
+        "Text": null
+      },
+      {
+        "ID": 5030,
+        "Text": "Talisman grav\u00E9 \u00E0 l\u0027effigie du pr\u00E9teur Rykard, ma\u00EEtre du Manoir du volcan.\n\nRestaure des PV \u00E0 chaque ennemi vaincu.\n\nLorsque Rykard sombra dans l\u0027h\u00E9r\u00E9sie, la loi du plus fort devint la norme. Apr\u00E8s tout, les dieux ne sont pas si diff\u00E9rents des Hommes."
+      },
+      {
+        "ID": 5031,
+        "Text": null
+      },
+      {
+        "ID": 5032,
+        "Text": null
+      },
+      {
+        "ID": 5033,
+        "Text": null
+      },
+      {
+        "ID": 5034,
+        "Text": null
+      },
+      {
+        "ID": 5035,
+        "Text": null
+      },
+      {
+        "ID": 5036,
+        "Text": null
+      },
+      {
+        "ID": 5037,
+        "Text": null
+      },
+      {
+        "ID": 5038,
+        "Text": null
+      },
+      {
+        "ID": 5039,
+        "Text": null
+      },
+      {
+        "ID": 5040,
+        "Text": "Tissu sacr\u00E9 des ap\u00F4tres sanctechair, r\u00E9alis\u00E9 \u00E0 partir de lambeaux de peau cousus ensemble.\n\nLes attaques successives restaurent des PV.\n\nLa reine aux yeux cr\u00E9pusculaires berce les ap\u00F4tres nouveau-n\u00E9s en les emmaillotant dans ce tissu. Bient\u00F4t, ils endosseront le r\u00F4le de pourfendeur des dieux."
+      },
+      {
+        "ID": 5041,
+        "Text": null
+      },
+      {
+        "ID": 5042,
+        "Text": null
+      },
+      {
+        "ID": 5043,
+        "Text": null
+      },
+      {
+        "ID": 5044,
+        "Text": null
+      },
+      {
+        "ID": 5045,
+        "Text": null
+      },
+      {
+        "ID": 5046,
+        "Text": null
+      },
+      {
+        "ID": 5047,
+        "Text": null
+      },
+      {
+        "ID": 5048,
+        "Text": null
+      },
+      {
+        "ID": 5049,
+        "Text": null
+      },
+      {
+        "ID": 5050,
+        "Text": "Dague d\u0027assassin difforme aux reflets \u00E9carlates.\n\nLes coups critiques restaurent des PV.\n\nCe talisman est con\u00E7u sur le mod\u00E8le des lames d\u0027\u00E9b\u00E8ne reluisantes qui furent utilis\u00E9es lors de la Nuit des Couteaux noirs. Celles-l\u00E0 m\u00EAmes qui, pour la premi\u00E8re fois, firent go\u00FBter la mort aux demi-dieux."
+      },
+      {
+        "ID": 5051,
+        "Text": null
+      },
+      {
+        "ID": 5052,
+        "Text": null
+      },
+      {
+        "ID": 5053,
+        "Text": null
+      },
+      {
+        "ID": 5054,
+        "Text": null
+      },
+      {
+        "ID": 5055,
+        "Text": null
+      },
+      {
+        "ID": 5056,
+        "Text": null
+      },
+      {
+        "ID": 5057,
+        "Text": null
+      },
+      {
+        "ID": 5058,
+        "Text": null
+      },
+      {
+        "ID": 5059,
+        "Text": null
+      },
+      {
+        "ID": 5060,
+        "Text": "Dague d\u0027assassin difforme aux reflets c\u00E9rul\u00E9ens.\n\nLes coups critiques restaurent des PC.\n\nCe talisman est con\u00E7u sur le mod\u00E8le des lames d\u0027\u00E9b\u00E8ne reluisantes qui furent utilis\u00E9es lors de la Nuit des Couteaux noirs. Celles-l\u00E0 m\u00EAmes qui, pour la premi\u00E8re fois, firent go\u00FBter la mort aux demi-dieux."
+      },
+      {
+        "ID": 6000,
+        "Text": "Petit flacon myst\u00E9rieux renfermant une brume noire.\n\n\u00C9touffe tous les sons \u00E9mis par son porteur lors des d\u00E9placements.\n\nUn objet rituel employ\u00E9 par les assassins du Bastion de la Table ronde. Il fut un temps, rien ne terrifiait davantage les Sans-\u00E9clat ayant cess\u00E9 de suivre la gr\u00E2ce que le silence complet."
+      },
+      {
+        "ID": 6001,
+        "Text": null
+      },
+      {
+        "ID": 6002,
+        "Text": null
+      },
+      {
+        "ID": 6003,
+        "Text": null
+      },
+      {
+        "ID": 6004,
+        "Text": null
+      },
+      {
+        "ID": 6005,
+        "Text": null
+      },
+      {
+        "ID": 6006,
+        "Text": null
+      },
+      {
+        "ID": 6007,
+        "Text": null
+      },
+      {
+        "ID": 6008,
+        "Text": null
+      },
+      {
+        "ID": 6009,
+        "Text": null
+      },
+      {
+        "ID": 6010,
+        "Text": "Talisman compos\u00E9 de tissu sombre aux reflets \u00E9clatants.\n\nCamoufle int\u00E9gralement son porteur lorsqu\u0027il s\u0027accroupit \u00E0 une certaine distance des ennemis.\n\nMorceau d\u0027une des cape dissimulatrices qu\u0027employ\u00E8rent les assassins lors de la Nuit des Couteaux noirs."
+      },
+      {
+        "ID": 6011,
+        "Text": null
+      },
+      {
+        "ID": 6012,
+        "Text": null
+      },
+      {
+        "ID": 6013,
+        "Text": null
+      },
+      {
+        "ID": 6014,
+        "Text": null
+      },
+      {
+        "ID": 6015,
+        "Text": null
+      },
+      {
+        "ID": 6016,
+        "Text": null
+      },
+      {
+        "ID": 6017,
+        "Text": null
+      },
+      {
+        "ID": 6018,
+        "Text": null
+      },
+      {
+        "ID": 6019,
+        "Text": null
+      },
+      {
+        "ID": 6020,
+        "Text": "Talisman portant l\u0027embl\u00E8me royal.\n\nR\u00E9duit la quantit\u00E9 de PC consomm\u00E9e par les comp\u00E9tences.\n\nCet insigne honorifique aurait \u00E9t\u00E9 autrefois d\u00E9cern\u00E9 aux chevaliers de Caria au service des princesses du royaume. De nos jours, seule une princesse demeure\u00A0: Ranni, fille de Rennala."
+      },
+      {
+        "ID": 6040,
+        "Text": "Broche repr\u00E9sentant Lacrima, la chatte \u00E0 la longue queue.\n\nRend son porteur invuln\u00E9rable aux d\u00E9g\u00E2ts de chute mais ne prot\u00E8ge pas des chutes fatales.\n\nLacrima figure dans nombre de fables de Raya Lucaria, qui la d\u00E9crivent comme un f\u00E9lin f\u00E9erique passant son temps \u00E0 jouer dans le grand beffroi."
+      },
+      {
+        "ID": 6041,
+        "Text": null
+      },
+      {
+        "ID": 6042,
+        "Text": null
+      },
+      {
+        "ID": 6043,
+        "Text": null
+      },
+      {
+        "ID": 6044,
+        "Text": null
+      },
+      {
+        "ID": 6045,
+        "Text": null
+      },
+      {
+        "ID": 6046,
+        "Text": null
+      },
+      {
+        "ID": 6047,
+        "Text": null
+      },
+      {
+        "ID": 6048,
+        "Text": null
+      },
+      {
+        "ID": 6049,
+        "Text": null
+      },
+      {
+        "ID": 6050,
+        "Text": "Effigie troublante d\u0027un homme d\u00E9pourvu d\u0027yeux.\nLes commissures de ses l\u00E8vres sont relev\u00E9es, lui conf\u00E9rant un air presque charmeur.\n\nSuscite constamment l\u0027agression des ennemis.\n\nOn raconte que cet homme, nomm\u00E9 Shabriri, aurait eu les yeux crev\u00E9s pour s\u0027\u00EAtre rendu coupable de calomnies, et que la Flamme exalt\u00E9e aurait fini par se loger au creux de ses orbites vides."
+      },
+      {
+        "ID": 6051,
+        "Text": null
+      },
+      {
+        "ID": 6052,
+        "Text": null
+      },
+      {
+        "ID": 6053,
+        "Text": null
+      },
+      {
+        "ID": 6054,
+        "Text": null
+      },
+      {
+        "ID": 6055,
+        "Text": null
+      },
+      {
+        "ID": 6056,
+        "Text": null
+      },
+      {
+        "ID": 6057,
+        "Text": null
+      },
+      {
+        "ID": 6058,
+        "Text": null
+      },
+      {
+        "ID": 6059,
+        "Text": null
+      },
+      {
+        "ID": 6060,
+        "Text": "Effigie troublante d\u0027une femme qui fut \u00E9corch\u00E9e.\nSon sourire est empreint de tendresse et de s\u00E9r\u00E9nit\u00E9.\n\nAugmente les d\u00E9g\u00E2ts subis.\n\nOn murmure que cette femme, nomm\u00E9e Daedicar, s\u0027adonnait \u00E0 toutes les formes d\u0027adult\u00E8re et de plaisir pervers imaginables, et donna naissance \u00E0 une myriade de rejetons grotesques."
+      },
+      {
+        "ID": 6061,
+        "Text": null
+      },
+      {
+        "ID": 6062,
+        "Text": null
+      },
+      {
+        "ID": 6063,
+        "Text": null
+      },
+      {
+        "ID": 6064,
+        "Text": null
+      },
+      {
+        "ID": 6065,
+        "Text": null
+      },
+      {
+        "ID": 6066,
+        "Text": null
+      },
+      {
+        "ID": 6067,
+        "Text": null
+      },
+      {
+        "ID": 6068,
+        "Text": null
+      },
+      {
+        "ID": 6069,
+        "Text": null
+      },
+      {
+        "ID": 6070,
+        "Text": "Talisman r\u00E9alis\u00E9 \u00E0 partir d\u0027une petite branche dess\u00E9ch\u00E9e, si fine qu\u0027elle risque de se briser au moindre toucher.\n\nEmp\u00EAche la perte de runes en cas de mort, mais l\u0027objet est perdu en contrepartie.\n\nOn pr\u00E9tend qu\u0027il s\u0027agit d\u0027un rameau pr\u00E9lev\u00E9 sur l\u0027Arbre-Monde dans des temps imm\u00E9moriaux."
+      },
+      {
+        "ID": 6071,
+        "Text": null
+      },
+      {
+        "ID": 6072,
+        "Text": null
+      },
+      {
+        "ID": 6073,
+        "Text": null
+      },
+      {
+        "ID": 6074,
+        "Text": null
+      },
+      {
+        "ID": 6075,
+        "Text": null
+      },
+      {
+        "ID": 6076,
+        "Text": null
+      },
+      {
+        "ID": 6077,
+        "Text": null
+      },
+      {
+        "ID": 6078,
+        "Text": null
+      },
+      {
+        "ID": 6079,
+        "Text": null
+      },
+      {
+        "ID": 6080,
+        "Text": "Petit miroir n\u00E9buleux renvoyant l\u0027image d\u0027une silhouette dor\u00E9e.\n\nConf\u00E8re \u00E0 son porteur l\u0027apparence d\u0027un H\u00F4te des Doigts lorsqu\u0027il est invoqu\u00E9 dans un autre monde.\n\nLes Sans-\u00E9clat con\u00E7urent ce genre d\u0027objet rituel pour duper les envahisseurs."
+      },
+      {
+        "ID": 6081,
+        "Text": null
+      },
+      {
+        "ID": 6082,
+        "Text": null
+      },
+      {
+        "ID": 6083,
+        "Text": null
+      },
+      {
+        "ID": 6084,
+        "Text": null
+      },
+      {
+        "ID": 6085,
+        "Text": null
+      },
+      {
+        "ID": 6086,
+        "Text": null
+      },
+      {
+        "ID": 6087,
+        "Text": null
+      },
+      {
+        "ID": 6088,
+        "Text": null
+      },
+      {
+        "ID": 6089,
+        "Text": null
+      },
+      {
+        "ID": 6090,
+        "Text": "Petit miroir n\u00E9buleux renvoyant l\u0027image d\u0027une personne de chair et de sang.\n\nConf\u00E8re \u00E0 son porteur l\u0027apparence d\u0027un alli\u00E9 invoqu\u00E9.\n\nLes Sans-\u00E9clat con\u00E7urent ce genre d\u0027objet rituel pour duper les envahisseurs."
+      },
+      {
+        "ID": 6091,
+        "Text": null
+      },
+      {
+        "ID": 6092,
+        "Text": null
+      },
+      {
+        "ID": 6093,
+        "Text": null
+      },
+      {
+        "ID": 6094,
+        "Text": null
+      },
+      {
+        "ID": 6095,
+        "Text": null
+      },
+      {
+        "ID": 6096,
+        "Text": null
+      },
+      {
+        "ID": 6097,
+        "Text": null
+      },
+      {
+        "ID": 6098,
+        "Text": null
+      },
+      {
+        "ID": 6099,
+        "Text": null
+      },
+      {
+        "ID": 6100,
+        "Text": "Myst\u00E9rieux objet circulaire \u00E9trangement d\u00E9form\u00E9.\nModifie l\u0027apparence des actions du porteur."
+      },
+      {
+        "ID": 6101,
+        "Text": null
+      },
+      {
+        "ID": 6102,
+        "Text": null
+      },
+      {
+        "ID": 6103,
+        "Text": null
+      },
+      {
+        "ID": 6104,
+        "Text": null
+      },
+      {
+        "ID": 6105,
+        "Text": null
+      },
+      {
+        "ID": 6106,
+        "Text": null
+      },
+      {
+        "ID": 6107,
+        "Text": null
+      },
+      {
+        "ID": 6108,
+        "Text": null
+      },
+      {
+        "ID": 6109,
+        "Text": null
+      },
+      {
+        "ID": 6110,
+        "Text": "Corne pr\u00E9lev\u00E9e sur l\u0027Esprit ancestral royal.\n\nRestaure des PC pour chaque ennemi vaincu.\n\nDe nouveaux bourgeons poussent d\u00E9j\u00E0 sur les ramures du roi d\u00E9funt, chacun \u00E9mettant sa propre lueur. Ainsi, la vie na\u00EEt de la mort, et la mort est source de pouvoir."
+      }
+    
+],
+    "Version": 2,
+    "BigEndian": false,
+    "Compression": 1
+  },
+  "FmgID": 27
+}

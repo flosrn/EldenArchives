@@ -1,0 +1,2639 @@
+{
+  "Fmg": {
+    "Entries": [
+      {
+        "ID": 200,
+        "Text": null
+      },
+      {
+        "ID": 1000,
+        "Text": "[ERROR]Ras\u00E9s"
+      },
+      {
+        "ID": 1100,
+        "Text": "[ERROR]D\u00E9garni"
+      },
+      {
+        "ID": 1200,
+        "Text": "[ERROR]Courts"
+      },
+      {
+        "ID": 1300,
+        "Text": "[ERROR]Vers l\u0027arri\u00E8re"
+      },
+      {
+        "ID": 1400,
+        "Text": "[ERROR]Queue de cheval"
+      },
+      {
+        "ID": 1500,
+        "Text": "[ERROR]Libres"
+      },
+      {
+        "ID": 1600,
+        "Text": "[ERROR]Raie au milieu"
+      },
+      {
+        "ID": 1700,
+        "Text": "[ERROR]Mi-Longs"
+      },
+      {
+        "ID": 1800,
+        "Text": "[ERROR]Boucl\u00E9s"
+      },
+      {
+        "ID": 1900,
+        "Text": "[ERROR]Au carr\u00E9"
+      },
+      {
+        "ID": 2000,
+        "Text": "[ERROR]Homme 11"
+      },
+      {
+        "ID": 2100,
+        "Text": "[ERROR]Homme 12"
+      },
+      {
+        "ID": 2200,
+        "Text": "[ERROR]Homme 13"
+      },
+      {
+        "ID": 2300,
+        "Text": "[ERROR]Homme 14"
+      },
+      {
+        "ID": 2400,
+        "Text": "[ERROR]Homme 15"
+      },
+      {
+        "ID": 2500,
+        "Text": "[ERROR]Homme 16"
+      },
+      {
+        "ID": 2600,
+        "Text": "[ERROR]Homme 17"
+      },
+      {
+        "ID": 2700,
+        "Text": "[ERROR]Homme 18"
+      },
+      {
+        "ID": 2800,
+        "Text": "[ERROR]Homme 19"
+      },
+      {
+        "ID": 2900,
+        "Text": "[ERROR]Homme 20"
+      },
+      {
+        "ID": 3000,
+        "Text": "[ERROR]Ras\u00E9s"
+      },
+      {
+        "ID": 3100,
+        "Text": "[ERROR]Ras"
+      },
+      {
+        "ID": 3200,
+        "Text": "[ERROR]Ondul\u00E9s"
+      },
+      {
+        "ID": 3300,
+        "Text": "[ERROR]Raides A"
+      },
+      {
+        "ID": 3400,
+        "Text": "[ERROR]Raides B"
+      },
+      {
+        "ID": 3500,
+        "Text": "[ERROR]Queue de cheval A"
+      },
+      {
+        "ID": 3600,
+        "Text": "[ERROR]Queue de cheval B"
+      },
+      {
+        "ID": 3700,
+        "Text": "[ERROR]Couettes"
+      },
+      {
+        "ID": 3800,
+        "Text": "[ERROR]Chignon"
+      },
+      {
+        "ID": 3900,
+        "Text": "[ERROR]Tress\u00E9s"
+      },
+      {
+        "ID": 4000,
+        "Text": "[ERROR]Femme 11"
+      },
+      {
+        "ID": 4100,
+        "Text": "[ERROR]Femme 12"
+      },
+      {
+        "ID": 4200,
+        "Text": "[ERROR]Femme 13"
+      },
+      {
+        "ID": 4300,
+        "Text": "[ERROR]Femme 14"
+      },
+      {
+        "ID": 4400,
+        "Text": "[ERROR]Femme 15"
+      },
+      {
+        "ID": 4500,
+        "Text": "[ERROR]Femme 16"
+      },
+      {
+        "ID": 4600,
+        "Text": "[ERROR]Femme 17"
+      },
+      {
+        "ID": 4700,
+        "Text": "[ERROR]Femme 18"
+      },
+      {
+        "ID": 4800,
+        "Text": "[ERROR]Femme 19"
+      },
+      {
+        "ID": 4900,
+        "Text": "[ERROR]Femme 20"
+      },
+      {
+        "ID": 5000,
+        "Text": "[ERROR]Coiff\u00E9-d\u00E9coiff\u00E9"
+      },
+      {
+        "ID": 10000,
+        "Text": "T\u00EAte"
+      },
+      {
+        "ID": 10100,
+        "Text": "Corps"
+      },
+      {
+        "ID": 10200,
+        "Text": "Bras"
+      },
+      {
+        "ID": 10300,
+        "Text": "Jambes"
+      },
+      {
+        "ID": 40000,
+        "Text": "Casque en fer"
+      },
+      {
+        "ID": 40100,
+        "Text": "Armure d\u0027\u00E9cailles"
+      },
+      {
+        "ID": 40200,
+        "Text": "Gantelets en fer"
+      },
+      {
+        "ID": 40300,
+        "Text": "Pantalon en cuir"
+      },
+      {
+        "ID": 50000,
+        "Text": "Casque de Kaiden"
+      },
+      {
+        "ID": 50100,
+        "Text": "Armure de Kaiden"
+      },
+      {
+        "ID": 50200,
+        "Text": "Gantelets de Kaiden"
+      },
+      {
+        "ID": 50300,
+        "Text": "Pantalon de Kaiden"
+      },
+      {
+        "ID": 60000,
+        "Text": "Casque de chevalier draconique"
+      },
+      {
+        "ID": 60100,
+        "Text": "Armure de chevalier draconique"
+      },
+      {
+        "ID": 60200,
+        "Text": "Gantelets de chevalier draconique"
+      },
+      {
+        "ID": 60300,
+        "Text": "Jambi\u00E8res de chevalier draconique"
+      },
+      {
+        "ID": 61000,
+        "Text": "Casque de chevalier draconique (alt\u00E9r\u00E9)"
+      },
+      {
+        "ID": 61100,
+        "Text": "Armure de chevalier draconique (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 80000,
+        "Text": "Heaume en \u00E9cailles"
+      },
+      {
+        "ID": 80100,
+        "Text": "Armure en \u00E9cailles"
+      },
+      {
+        "ID": 80200,
+        "Text": "Gantelets en \u00E9cailles"
+      },
+      {
+        "ID": 80300,
+        "Text": "Jambi\u00E8res en \u00E9cailles"
+      },
+      {
+        "ID": 81100,
+        "Text": "Armure en \u00E9cailles (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 90000,
+        "Text": "Capuche de Parfumeur"
+      },
+      {
+        "ID": 90100,
+        "Text": "Toge de Parfumeur"
+      },
+      {
+        "ID": 90200,
+        "Text": "Gants de Parfumeur"
+      },
+      {
+        "ID": 90300,
+        "Text": "Sarong de Parfumeur"
+      },
+      {
+        "ID": 91100,
+        "Text": "Toge de Parfumeur (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 100000,
+        "Text": "Chapeau de voyageur"
+      },
+      {
+        "ID": 100100,
+        "Text": "Tenue de voyage de Parfumeur"
+      },
+      {
+        "ID": 100200,
+        "Text": "Gants de voyageur"
+      },
+      {
+        "ID": 100300,
+        "Text": "Pantalon de voyageur"
+      },
+      {
+        "ID": 101100,
+        "Text": "Tenue de voyage de Parfumeur (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 120000,
+        "Text": "Chapeau pointu d\u0027Alberich"
+      },
+      {
+        "ID": 120100,
+        "Text": "Robe d\u0027Alberich"
+      },
+      {
+        "ID": 120200,
+        "Text": "Brassards d\u0027Alberich"
+      },
+      {
+        "ID": 120300,
+        "Text": "Pantalon d\u0027Alberich"
+      },
+      {
+        "ID": 121000,
+        "Text": "Chapeau pointu d\u0027Alberich (alt\u00E9r\u00E9)"
+      },
+      {
+        "ID": 121100,
+        "Text": "Robe d\u0027Alberich (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 130000,
+        "Text": "Chapeau pointu de lamesort"
+      },
+      {
+        "ID": 130100,
+        "Text": "Tenue de voyage de lamesort"
+      },
+      {
+        "ID": 130200,
+        "Text": "Gants de lamesort"
+      },
+      {
+        "ID": 130300,
+        "Text": "Pantalon de lamesort"
+      },
+      {
+        "ID": 131100,
+        "Text": "Tenue de voyage de lamesort (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 140000,
+        "Text": "Casque du mouflon"
+      },
+      {
+        "ID": 140100,
+        "Text": "Armure du mouflon"
+      },
+      {
+        "ID": 140200,
+        "Text": "Gantelets du mouflon"
+      },
+      {
+        "ID": 140300,
+        "Text": "Jambi\u00E8res du mouflon"
+      },
+      {
+        "ID": 150000,
+        "Text": "Kasa en fer"
+      },
+      {
+        "ID": 150100,
+        "Text": "Armure de ronin"
+      },
+      {
+        "ID": 150200,
+        "Text": "Gantelets de ronin"
+      },
+      {
+        "ID": 150300,
+        "Text": "Jambi\u00E8res de ronin"
+      },
+      {
+        "ID": 151100,
+        "Text": "Armure de ronin (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 160000,
+        "Text": "Capuche de coupable"
+      },
+      {
+        "ID": 160100,
+        "Text": "Costume en tissu"
+      },
+      {
+        "ID": 160200,
+        "Text": null
+      },
+      {
+        "ID": 160300,
+        "Text": "Pantalon en tissu"
+      },
+      {
+        "ID": 170000,
+        "Text": "Masque lupin noir"
+      },
+      {
+        "ID": 170100,
+        "Text": "Armure de Blaidd"
+      },
+      {
+        "ID": 170200,
+        "Text": "Gantelets de Blaidd"
+      },
+      {
+        "ID": 170300,
+        "Text": "Jambi\u00E8res de Blaidd"
+      },
+      {
+        "ID": 171100,
+        "Text": "Armure de Blaidd (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 180000,
+        "Text": "Capuche des Couteaux noirs"
+      },
+      {
+        "ID": 180100,
+        "Text": "Armure des Couteaux noirs"
+      },
+      {
+        "ID": 180200,
+        "Text": "Gantelets des Couteaux noirs"
+      },
+      {
+        "ID": 180300,
+        "Text": "Jambi\u00E8res des Couteaux noirs"
+      },
+      {
+        "ID": 181100,
+        "Text": "Armure des Couteaux noirs (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 190000,
+        "Text": "Capuche d\u0027exil\u00E9"
+      },
+      {
+        "ID": 190100,
+        "Text": "Armure d\u0027exil\u00E9"
+      },
+      {
+        "ID": 190200,
+        "Text": "Gantelets d\u0027exil\u00E9"
+      },
+      {
+        "ID": 190300,
+        "Text": "Jambi\u00E8res d\u0027exil\u00E9"
+      },
+      {
+        "ID": 200000,
+        "Text": "Casque de chevalier banni"
+      },
+      {
+        "ID": 200100,
+        "Text": "Armure de chevalier banni"
+      },
+      {
+        "ID": 200200,
+        "Text": "Gantelets de chevalier banni"
+      },
+      {
+        "ID": 200300,
+        "Text": "Jambi\u00E8res de chevalier banni"
+      },
+      {
+        "ID": 201000,
+        "Text": "Casque de chevalier banni (alt\u00E9r\u00E9)"
+      },
+      {
+        "ID": 201100,
+        "Text": "Armure de chevalier banni (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 202100,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 210000,
+        "Text": "Heaume du Roncier"
+      },
+      {
+        "ID": 210100,
+        "Text": "Armure du Roncier"
+      },
+      {
+        "ID": 210200,
+        "Text": "Gantelets du Roncier"
+      },
+      {
+        "ID": 210300,
+        "Text": "Jambi\u00E8res du Roncier"
+      },
+      {
+        "ID": 211100,
+        "Text": "Armure du Roncier (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 220000,
+        "Text": "Capuchon de page"
+      },
+      {
+        "ID": 220100,
+        "Text": "Costume de page"
+      },
+      {
+        "ID": 220300,
+        "Text": "Pantalon de page"
+      },
+      {
+        "ID": 221100,
+        "Text": "Costume de page (alt\u00E9r\u00E9)"
+      },
+      {
+        "ID": 230000,
+        "Text": "Heaume de cavalier cr\u00E9pusculaire"
+      },
+      {
+        "ID": 230100,
+        "Text": "Armure de cavalier cr\u00E9pusculaire"
+      },
+      {
+        "ID": 230200,
+        "Text": "Gantelets de cavalier cr\u00E9pusculaire"
+      },
+      {
+        "ID": 230300,
+        "Text": "Jambi\u00E8res de cavalier cr\u00E9pusculaire"
+      },
+      {
+        "ID": 231000,
+        "Text": "Heaume de cavalier cr\u00E9pusculaire (alt\u00E9r\u00E9)"
+      },
+      {
+        "ID": 231100,
+        "Text": "Armure de cavalier cr\u00E9pusculaire (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 240000,
+        "Text": "Capuchon de mailles en argent bleut\u00E9"
+      },
+      {
+        "ID": 240100,
+        "Text": "Armure de mailles en argent bleut\u00E9"
+      },
+      {
+        "ID": 240200,
+        "Text": "Bracelets en argent bleut\u00E9"
+      },
+      {
+        "ID": 240300,
+        "Text": "Jupe de mailles en argent bleut\u00E9"
+      },
+      {
+        "ID": 241100,
+        "Text": "Armure de mailles en argent bleut\u00E9 (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 250000,
+        "Text": "Chapeau de marchand nomade"
+      },
+      {
+        "ID": 250100,
+        "Text": "Atours de marchand nomade"
+      },
+      {
+        "ID": 250300,
+        "Text": "Pantalon de marchand nomade"
+      },
+      {
+        "ID": 251100,
+        "Text": "Atours de marchand nomade (alt\u00E9r\u00E9s)"
+      },
+      {
+        "ID": 260000,
+        "Text": "Heaume draconique difforme"
+      },
+      {
+        "ID": 260100,
+        "Text": "Armure draconique difforme"
+      },
+      {
+        "ID": 260200,
+        "Text": "Gantelets draconiques difformes"
+      },
+      {
+        "ID": 260300,
+        "Text": "Jambi\u00E8res draconiques difformes"
+      },
+      {
+        "ID": 270000,
+        "Text": "Heaume de Sentinelle de l\u0027Arbre"
+      },
+      {
+        "ID": 270100,
+        "Text": "Armure de Sentinelle de l\u0027Arbre"
+      },
+      {
+        "ID": 270200,
+        "Text": "Gantelets de Sentinelle de l\u0027Arbre"
+      },
+      {
+        "ID": 270300,
+        "Text": "Jambi\u00E8res de Sentinelle de l\u0027Arbre"
+      },
+      {
+        "ID": 271100,
+        "Text": "Armure de Sentinelle de l\u0027Arbre (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 280000,
+        "Text": "Heaume de chevalier royal"
+      },
+      {
+        "ID": 280100,
+        "Text": "Armure de chevalier royal"
+      },
+      {
+        "ID": 280200,
+        "Text": "Gantelets de chevalier royal"
+      },
+      {
+        "ID": 280300,
+        "Text": "Jambi\u00E8res de chevalier royal"
+      },
+      {
+        "ID": 281100,
+        "Text": "Armure de chevalier royal (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 290000,
+        "Text": "Capuche de moine nokrien"
+      },
+      {
+        "ID": 290100,
+        "Text": "Armure de moine nokrien"
+      },
+      {
+        "ID": 290200,
+        "Text": "Bracelets nokriens"
+      },
+      {
+        "ID": 290300,
+        "Text": "Jambi\u00E8res nokriennes"
+      },
+      {
+        "ID": 291000,
+        "Text": "Capuche de moine nokrien (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 291100,
+        "Text": "Armure de moine nokrien (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 292000,
+        "Text": "Hennin d\u0027\u00E9p\u00E9iste nokrienne"
+      },
+      {
+        "ID": 292100,
+        "Text": "Armure d\u0027\u00E9p\u00E9iste nokrienne"
+      },
+      {
+        "ID": 293000,
+        "Text": "Double hennin de noctedame"
+      },
+      {
+        "ID": 293100,
+        "Text": "Armure de noctedame"
+      },
+      {
+        "ID": 294000,
+        "Text": "Hennin de \u00E9p\u00E9iste nokrienne (alt\u00E9r\u00E9)"
+      },
+      {
+        "ID": 294100,
+        "Text": "Armure d\u0027\u00E9p\u00E9iste nokrienne (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 300000,
+        "Text": "Grand bandeau \u00E0 cornes"
+      },
+      {
+        "ID": 300100,
+        "Text": "Tunique en fourrure"
+      },
+      {
+        "ID": 300300,
+        "Text": "Pantalon en fourrure"
+      },
+      {
+        "ID": 301000,
+        "Text": "Bandeau \u00E0 cornes lumineux"
+      },
+      {
+        "ID": 301100,
+        "Text": "Peaux de chaman"
+      },
+      {
+        "ID": 301300,
+        "Text": "Bottes de chaman"
+      },
+      {
+        "ID": 310000,
+        "Text": "Casque de Duelliste"
+      },
+      {
+        "ID": 310100,
+        "Text": "Cape de gardien des tombes"
+      },
+      {
+        "ID": 310300,
+        "Text": "Jambi\u00E8res de Duelliste"
+      },
+      {
+        "ID": 311100,
+        "Text": "Atour de gardien des tombes (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 320000,
+        "Text": "Capuchon de noble sanglant"
+      },
+      {
+        "ID": 320100,
+        "Text": "Toge de noble sanglant"
+      },
+      {
+        "ID": 320300,
+        "Text": "Couvre-jambes de noble sanglant"
+      },
+      {
+        "ID": 330000,
+        "Text": "Masque de gardien"
+      },
+      {
+        "ID": 330100,
+        "Text": "Costume de gardien (en fleur)"
+      },
+      {
+        "ID": 330200,
+        "Text": "Brassards de gardien"
+      },
+      {
+        "ID": 330300,
+        "Text": "Jambi\u00E8res de gardien"
+      },
+      {
+        "ID": 331100,
+        "Text": "Costume de gardien"
+      },
+      {
+        "ID": 340000,
+        "Text": "Heaume de la Noble putr\u00E9faction"
+      },
+      {
+        "ID": 340100,
+        "Text": "Armure de la Noble putr\u00E9faction"
+      },
+      {
+        "ID": 340200,
+        "Text": "Gantelets de la Noble putr\u00E9faction"
+      },
+      {
+        "ID": 340300,
+        "Text": "Jambi\u00E8res de la Noble putr\u00E9faction"
+      },
+      {
+        "ID": 341000,
+        "Text": "Heaume de la Noble putr\u00E9faction (alt\u00E9r\u00E9)"
+      },
+      {
+        "ID": 341100,
+        "Text": "Armure de la Noble putr\u00E9faction (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 350000,
+        "Text": "Capuchon de moine-gardien du feu"
+      },
+      {
+        "ID": 350100,
+        "Text": "Armure de moine-gardien du feu"
+      },
+      {
+        "ID": 350200,
+        "Text": "Gantelets de moine-gardien du feu"
+      },
+      {
+        "ID": 350300,
+        "Text": "Jambi\u00E8res de moine-gardien du feu"
+      },
+      {
+        "ID": 351000,
+        "Text": "Capuchon de moine de la Flamme noire"
+      },
+      {
+        "ID": 351100,
+        "Text": "Armure de moine de la Flamme noire"
+      },
+      {
+        "ID": 351200,
+        "Text": "Gantelets de moine de Flamme noire"
+      },
+      {
+        "ID": 351300,
+        "Text": "Jambi\u00E8res de moine de la Flamme noire"
+      },
+      {
+        "ID": 360000,
+        "Text": "Heaume de pr\u00E9lat de feu"
+      },
+      {
+        "ID": 360100,
+        "Text": "Armure de pr\u00E9lat de feu"
+      },
+      {
+        "ID": 360200,
+        "Text": "Gantelets de pr\u00E9lat de feu"
+      },
+      {
+        "ID": 360300,
+        "Text": "Jambi\u00E8res de pr\u00E9lat de feu"
+      },
+      {
+        "ID": 361100,
+        "Text": "Armure de pr\u00E9lat de feu (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 370000,
+        "Text": "Bandeau d\u0027aristocrate"
+      },
+      {
+        "ID": 370100,
+        "Text": "Costume d\u0027aristocrate"
+      },
+      {
+        "ID": 370300,
+        "Text": "Bottes d\u0027aristocrate"
+      },
+      {
+        "ID": 371100,
+        "Text": "Costume d\u0027aristocrate (alt\u00E9r\u00E9)"
+      },
+      {
+        "ID": 380000,
+        "Text": "Chapeau d\u0027aristocrate"
+      },
+      {
+        "ID": 380100,
+        "Text": "Manteau d\u0027aristocrate"
+      },
+      {
+        "ID": 390000,
+        "Text": "Vieux chapeau d\u0027aristocrate"
+      },
+      {
+        "ID": 390100,
+        "Text": "Vieille tenue d\u0027aristocrate"
+      },
+      {
+        "ID": 390300,
+        "Text": "Vieilles chaussures d\u0027aristocrate"
+      },
+      {
+        "ID": 420000,
+        "Text": "Casque de milicien vulgaire"
+      },
+      {
+        "ID": 420100,
+        "Text": "Armure de milicien vulgaire"
+      },
+      {
+        "ID": 420200,
+        "Text": "Gantelets de milicien vulgaire"
+      },
+      {
+        "ID": 420300,
+        "Text": "Jambi\u00E8res de milicien vulgaire"
+      },
+      {
+        "ID": 430000,
+        "Text": "Capuche de sage"
+      },
+      {
+        "ID": 430100,
+        "Text": "Robe de sage"
+      },
+      {
+        "ID": 430300,
+        "Text": "Pantalon de sage"
+      },
+      {
+        "ID": 440000,
+        "Text": "Casque de citrouille"
+      },
+      {
+        "ID": 460000,
+        "Text": "Couronne de Seigneur d\u0027Elden"
+      },
+      {
+        "ID": 460100,
+        "Text": "Armure de Seigneur d\u0027Elden"
+      },
+      {
+        "ID": 460200,
+        "Text": "Brassards de Seigneur d\u0027Elden"
+      },
+      {
+        "ID": 460300,
+        "Text": "Jambi\u00E8res de Seigneur d\u0027Elden"
+      },
+      {
+        "ID": 461100,
+        "Text": "Armure de Seigneur d\u0027Elden (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 470000,
+        "Text": "Crini\u00E8re rouge de Radahn"
+      },
+      {
+        "ID": 470100,
+        "Text": "Armure l\u00E9onine de Radahn"
+      },
+      {
+        "ID": 470200,
+        "Text": "Gantelets de Radahn"
+      },
+      {
+        "ID": 470300,
+        "Text": "Jambi\u00E8res de Radahn"
+      },
+      {
+        "ID": 471100,
+        "Text": "Armure l\u00E9onine de Radahn (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 480100,
+        "Text": "Robe du seigneur du sang"
+      },
+      {
+        "ID": 481100,
+        "Text": "Robe du seigneur du sang (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 510000,
+        "Text": "Couronne lunaire de la reine"
+      },
+      {
+        "ID": 510100,
+        "Text": "Robe de la reine"
+      },
+      {
+        "ID": 510200,
+        "Text": "Bracelets de la reine"
+      },
+      {
+        "ID": 510300,
+        "Text": "Pantalon de la reine"
+      },
+      {
+        "ID": 520000,
+        "Text": "Capuche d\u0027ap\u00F4tre sanctechair"
+      },
+      {
+        "ID": 520100,
+        "Text": "Robe d\u0027ap\u00F4tre sanctechair"
+      },
+      {
+        "ID": 520200,
+        "Text": "Bracelets d\u0027ap\u00F4tre sanctechair"
+      },
+      {
+        "ID": 520300,
+        "Text": "Pantalon d\u0027ap\u00F4tre sanctechair"
+      },
+      {
+        "ID": 530000,
+        "Text": "Capuche de noble sanctechair"
+      },
+      {
+        "ID": 530100,
+        "Text": "Robe de noble sanctechair"
+      },
+      {
+        "ID": 530200,
+        "Text": "Bracelets de noble sanctechair"
+      },
+      {
+        "ID": 530300,
+        "Text": "Pantalon de noble sanctechair"
+      },
+      {
+        "ID": 540000,
+        "Text": "Couvre-chef de Parfumeur d\u00E9chu"
+      },
+      {
+        "ID": 540100,
+        "Text": "Robe de Parfumeur d\u00E9chu"
+      },
+      {
+        "ID": 540200,
+        "Text": "Gants de Parfumeur d\u00E9chu"
+      },
+      {
+        "ID": 540300,
+        "Text": "Pantalon de Parfumeur d\u00E9chu"
+      },
+      {
+        "ID": 541100,
+        "Text": "Robe de Parfumeur d\u00E9chu (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 570000,
+        "Text": "Heaume-hache du Creuset"
+      },
+      {
+        "ID": 570100,
+        "Text": "Armure-hache du Creuset"
+      },
+      {
+        "ID": 570200,
+        "Text": "Gantelets du Creuset"
+      },
+      {
+        "ID": 570300,
+        "Text": "Jambi\u00E8res du Creuset"
+      },
+      {
+        "ID": 571000,
+        "Text": "Heaume arboriforme du Creuset"
+      },
+      {
+        "ID": 571100,
+        "Text": "Armure arboriforme du Creuset"
+      },
+      {
+        "ID": 572100,
+        "Text": "Armure-hache du Creuset (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 573100,
+        "Text": "Armure arboriforme du Creuset (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 580000,
+        "Text": "Masque de pierre d\u0027\u00E9clat de Lusat"
+      },
+      {
+        "ID": 580100,
+        "Text": "Robe de Lusat"
+      },
+      {
+        "ID": 580200,
+        "Text": "Manchettes de Lusat"
+      },
+      {
+        "ID": 580300,
+        "Text": "Jambards de vieux sorcier"
+      },
+      {
+        "ID": 581000,
+        "Text": "Masque de pierre d\u0027\u00E9clat d\u0027Azur"
+      },
+      {
+        "ID": 581100,
+        "Text": "Robe de pierre d\u0027\u00E9clat d\u0027Azur"
+      },
+      {
+        "ID": 581200,
+        "Text": "Manchettes d\u0027Azur"
+      },
+      {
+        "ID": 590000,
+        "Text": "Casque de l\u0027Omniscient"
+      },
+      {
+        "ID": 590100,
+        "Text": "Armure de l\u0027Omniscient"
+      },
+      {
+        "ID": 590200,
+        "Text": "Gantelets de l\u0027Omniscient"
+      },
+      {
+        "ID": 590300,
+        "Text": "Jambi\u00E8res de l\u0027Omniscient"
+      },
+      {
+        "ID": 591100,
+        "Text": "Armure de l\u0027Omniscient (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 600000,
+        "Text": "Casque g\u00E9min\u00E9"
+      },
+      {
+        "ID": 600100,
+        "Text": "Cuirasse g\u00E9min\u00E9e"
+      },
+      {
+        "ID": 600200,
+        "Text": "Gantelets g\u00E9min\u00E9s"
+      },
+      {
+        "ID": 600300,
+        "Text": "Jambi\u00E8res g\u00E9min\u00E9es"
+      },
+      {
+        "ID": 601100,
+        "Text": "Cuirasse g\u00E9min\u00E9e (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 601300,
+        "Text": "Jambi\u00E8res g\u00E9min\u00E9es (alt\u00E9r\u00E9es)"
+      },
+      {
+        "ID": 610000,
+        "Text": "Chapeau \u00E9lim\u00E9"
+      },
+      {
+        "ID": 610100,
+        "Text": "Armure \u00E9lim\u00E9e"
+      },
+      {
+        "ID": 610200,
+        "Text": "Gants \u00E9lim\u00E9s"
+      },
+      {
+        "ID": 610300,
+        "Text": "Pagne \u00E9lim\u00E9"
+      },
+      {
+        "ID": 611000,
+        "Text": "Chapeau \u00E9lim\u00E9 (alt\u00E9r\u00E9)"
+      },
+      {
+        "ID": 611100,
+        "Text": "Armure \u00E9lim\u00E9e (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 620000,
+        "Text": "Bandeau de proph\u00E8te"
+      },
+      {
+        "ID": 620100,
+        "Text": "Robe de Corhyn"
+      },
+      {
+        "ID": 620300,
+        "Text": "Pantalon de proph\u00E8te"
+      },
+      {
+        "ID": 621100,
+        "Text": "Robe de proph\u00E8te (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 622100,
+        "Text": "Robe de proph\u00E8te"
+      },
+      {
+        "ID": 630000,
+        "Text": "Capuche d\u0027astrologue"
+      },
+      {
+        "ID": 630100,
+        "Text": "Robe d\u0027astrologue"
+      },
+      {
+        "ID": 630200,
+        "Text": "Gants d\u0027astrologue"
+      },
+      {
+        "ID": 630300,
+        "Text": "Pantalon d\u0027astrologue"
+      },
+      {
+        "ID": 631100,
+        "Text": "Robe d\u0027astrologue (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 640000,
+        "Text": "Heaume de Lionel"
+      },
+      {
+        "ID": 640100,
+        "Text": "Armure de Lionel"
+      },
+      {
+        "ID": 640200,
+        "Text": "Gantelets de Lionel"
+      },
+      {
+        "ID": 640300,
+        "Text": "Jambi\u00E8res de Lionel"
+      },
+      {
+        "ID": 641100,
+        "Text": "Armure de Lionel (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 650000,
+        "Text": "Heaume des Hoslow"
+      },
+      {
+        "ID": 650100,
+        "Text": "Armure des Hoslow"
+      },
+      {
+        "ID": 650200,
+        "Text": "Gantelets des Hoslow"
+      },
+      {
+        "ID": 650300,
+        "Text": "Jambi\u00E8res des Hoslow"
+      },
+      {
+        "ID": 651000,
+        "Text": "Masque de Diallos"
+      },
+      {
+        "ID": 652100,
+        "Text": "Armure des Hoslow (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 660000,
+        "Text": "Heaume de chevalier errant"
+      },
+      {
+        "ID": 660100,
+        "Text": "Armure de chevalier errant"
+      },
+      {
+        "ID": 660200,
+        "Text": "Gantelets de chevalier errant"
+      },
+      {
+        "ID": 660300,
+        "Text": "Jambi\u00E8res de chevalier errant"
+      },
+      {
+        "ID": 661100,
+        "Text": "Armure de chevalier errant (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 670000,
+        "Text": "Capuche en tissu bleu"
+      },
+      {
+        "ID": 670100,
+        "Text": "Gilet en tissu bleu"
+      },
+      {
+        "ID": 670200,
+        "Text": "Gantelets de guerrier"
+      },
+      {
+        "ID": 670300,
+        "Text": "Bottes de guerrier"
+      },
+      {
+        "ID": 680000,
+        "Text": "Masque blanc"
+      },
+      {
+        "ID": 680100,
+        "Text": "Tenue de m\u00E9decin de guerre"
+      },
+      {
+        "ID": 680200,
+        "Text": "Gants de m\u00E9decin de guerre"
+      },
+      {
+        "ID": 680300,
+        "Text": "Pantalon de m\u00E9decin de guerre"
+      },
+      {
+        "ID": 681100,
+        "Text": "Tenue de m\u00E9decin de guerre (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 690000,
+        "Text": "Casque de la d\u00E9pouille royale"
+      },
+      {
+        "ID": 690100,
+        "Text": "Armure de la d\u00E9pouille royale"
+      },
+      {
+        "ID": 690200,
+        "Text": "Gantelets de la d\u00E9pouille royale"
+      },
+      {
+        "ID": 690300,
+        "Text": "Jambi\u00E8res de la d\u00E9pouille royale"
+      },
+      {
+        "ID": 700000,
+        "Text": "[ERROR]Bandeau en corde de brave"
+      },
+      {
+        "ID": 700100,
+        "Text": "[ERROR]Tenue de combat de brave"
+      },
+      {
+        "ID": 700200,
+        "Text": "[ERROR]Brassards de brave"
+      },
+      {
+        "ID": 700300,
+        "Text": "[ERROR]Gu\u00EAtres de brave"
+      },
+      {
+        "ID": 701000,
+        "Text": "[ERROR]Casque en cuir de brave"
+      },
+      {
+        "ID": 702000,
+        "Text": "[ERROR]Tenue de combat de brave (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 720000,
+        "Text": "Heaume du champion bestial"
+      },
+      {
+        "ID": 720100,
+        "Text": "Armure du champion bestial"
+      },
+      {
+        "ID": 720200,
+        "Text": "Gantelets du champion bestial"
+      },
+      {
+        "ID": 720300,
+        "Text": "Jambi\u00E8res du champion bestial"
+      },
+      {
+        "ID": 721100,
+        "Text": "Armure du champion bestial (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 730000,
+        "Text": "Bandeau de champion"
+      },
+      {
+        "ID": 730100,
+        "Text": "Spali\u00E8re de champion"
+      },
+      {
+        "ID": 730200,
+        "Text": "Brassards de champion"
+      },
+      {
+        "ID": 730300,
+        "Text": "Gu\u00EAtres de champion"
+      },
+      {
+        "ID": 740000,
+        "Text": "Capuche pourpre"
+      },
+      {
+        "ID": 740100,
+        "Text": "Costume de voyage de noble"
+      },
+      {
+        "ID": 740200,
+        "Text": "Gants de noble"
+      },
+      {
+        "ID": 740300,
+        "Text": "Pantalon de noble"
+      },
+      {
+        "ID": 741000,
+        "Text": "Capuche bleu marine"
+      },
+      {
+        "ID": 742000,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 760000,
+        "Text": "Casque de Maliketh"
+      },
+      {
+        "ID": 760100,
+        "Text": "Armure de Maliketh"
+      },
+      {
+        "ID": 760200,
+        "Text": "Gantelets de Maliketh"
+      },
+      {
+        "ID": 760300,
+        "Text": "Jambi\u00E8res de Maliketh"
+      },
+      {
+        "ID": 761100,
+        "Text": "Armure de Maliketh (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 770000,
+        "Text": "Casque ail\u00E9 de Malenia"
+      },
+      {
+        "ID": 770100,
+        "Text": "Armure de Malenia"
+      },
+      {
+        "ID": 770200,
+        "Text": "Gantelet de Malenia"
+      },
+      {
+        "ID": 770300,
+        "Text": "Jambi\u00E8res de Malenia"
+      },
+      {
+        "ID": 771100,
+        "Text": "Armure de Malenia (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 780000,
+        "Text": "Casque de v\u00E9t\u00E9ran"
+      },
+      {
+        "ID": 780100,
+        "Text": "Armure de v\u00E9t\u00E9ran"
+      },
+      {
+        "ID": 780200,
+        "Text": "Gantelets de v\u00E9t\u00E9ran"
+      },
+      {
+        "ID": 780300,
+        "Text": "Jambi\u00E8res de v\u00E9t\u00E9ran"
+      },
+      {
+        "ID": 781100,
+        "Text": "Armure de v\u00E9t\u00E9ran (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 790000,
+        "Text": "Heaume de Chevalier-limier"
+      },
+      {
+        "ID": 790100,
+        "Text": "Armure de Chevalier-limier"
+      },
+      {
+        "ID": 790200,
+        "Text": "Gantelets de Chevalier-limier"
+      },
+      {
+        "ID": 790300,
+        "Text": "Jambi\u00E8res de Chevalier-limier"
+      },
+      {
+        "ID": 791100,
+        "Text": "Armure de Chevalier-limier (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 800000,
+        "Text": "Capuche festive"
+      },
+      {
+        "ID": 800100,
+        "Text": "Costume festif"
+      },
+      {
+        "ID": 801000,
+        "Text": "Capuche festive (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 801100,
+        "Text": "Costume festif (alt\u00E9r\u00E9)"
+      },
+      {
+        "ID": 802000,
+        "Text": "Capuche festive bleue"
+      },
+      {
+        "ID": 802100,
+        "Text": "Costume festif bleu"
+      },
+      {
+        "ID": 810000,
+        "Text": "Bandeau de sujet"
+      },
+      {
+        "ID": 810100,
+        "Text": "V\u00EAtements de sujet"
+      },
+      {
+        "ID": 810300,
+        "Text": "Chaussures de sujet"
+      },
+      {
+        "ID": 811000,
+        "Text": "Bandeau de sujet (alt\u00E9r\u00E9)"
+      },
+      {
+        "ID": 811100,
+        "Text": "V\u00EAtements de sujet (alt\u00E9r\u00E9s)"
+      },
+      {
+        "ID": 812000,
+        "Text": "Chemise ordinaire de sujet"
+      },
+      {
+        "ID": 812100,
+        "Text": "Chemise ordinaire de sujet (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 820000,
+        "Text": "Turban d\u0027\u00E9missaire"
+      },
+      {
+        "ID": 830000,
+        "Text": "Masque de pierre d\u0027\u00E9clat de sorcier bic\u00E9phale"
+      },
+      {
+        "ID": 830100,
+        "Text": "Toge de Raya Lucaria"
+      },
+      {
+        "ID": 830200,
+        "Text": "Manchettes de sorcier"
+      },
+      {
+        "ID": 830300,
+        "Text": "Pantalon de sorcier"
+      },
+      {
+        "ID": 831000,
+        "Text": "Masque de pierre d\u0027\u00E9clat d\u0027Olivinus"
+      },
+      {
+        "ID": 832000,
+        "Text": "Masque de pierre d\u0027\u00E9clat de Lazuli"
+      },
+      {
+        "ID": 833000,
+        "Text": "Masque de pierre d\u0027\u00E9clat de Karolos"
+      },
+      {
+        "ID": 834000,
+        "Text": "Masque de pierre d\u0027\u00E9clat de sorci\u00E8re"
+      },
+      {
+        "ID": 834100,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 835000,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 835100,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 835200,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 835300,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 840000,
+        "Text": "Heaume de soldat pantin"
+      },
+      {
+        "ID": 840100,
+        "Text": "Armure de soldat pantin"
+      },
+      {
+        "ID": 850000,
+        "Text": "Heaume de soldat pantin aviaire"
+      },
+      {
+        "ID": 860000,
+        "Text": "Casque du Loup enrag\u00E9"
+      },
+      {
+        "ID": 860100,
+        "Text": "Armure du Loup enrag\u00E9"
+      },
+      {
+        "ID": 860200,
+        "Text": "Gantelets du Loup enrag\u00E9"
+      },
+      {
+        "ID": 860300,
+        "Text": "Jambi\u00E8res du Loup enrag\u00E9"
+      },
+      {
+        "ID": 861100,
+        "Text": "Armure du Loup enrag\u00E9 (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 870000,
+        "Text": "Casque des Terres des roseaux"
+      },
+      {
+        "ID": 870100,
+        "Text": "Armure des Terres des roseaux"
+      },
+      {
+        "ID": 870200,
+        "Text": "Gantelets des Terres des roseaux"
+      },
+      {
+        "ID": 870300,
+        "Text": "Jambi\u00E8res des Terres des roseaux"
+      },
+      {
+        "ID": 871100,
+        "Text": "Armure des Terres des roseaux (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 872000,
+        "Text": "Masque d\u0027Okina"
+      },
+      {
+        "ID": 872100,
+        "Text": "Armure blanche des Terres des roseaux"
+      },
+      {
+        "ID": 872200,
+        "Text": "Gantelets blancs des Terres des roseaux"
+      },
+      {
+        "ID": 872300,
+        "Text": "Jambi\u00E8res blanches des Terres des roseaux"
+      },
+      {
+        "ID": 873000,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 880000,
+        "Text": "Capuche de confesseur"
+      },
+      {
+        "ID": 880100,
+        "Text": "Armure de confesseur"
+      },
+      {
+        "ID": 880200,
+        "Text": "Gants de confesseur"
+      },
+      {
+        "ID": 880300,
+        "Text": "Bottes de confesseur"
+      },
+      {
+        "ID": 881000,
+        "Text": "Capuche de confesseur (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 881100,
+        "Text": "Armure de confesseur (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 890000,
+        "Text": "Masque en fer de prisonnier"
+      },
+      {
+        "ID": 890100,
+        "Text": "Habits de prisonnier"
+      },
+      {
+        "ID": 890300,
+        "Text": "Pantalon de prisonnier"
+      },
+      {
+        "ID": 891000,
+        "Text": "Masque en fer de malfrat"
+      },
+      {
+        "ID": 892100,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 900000,
+        "Text": "Capuche de Servante itin\u00E9rante"
+      },
+      {
+        "ID": 900100,
+        "Text": "Robe de Servante itin\u00E9rante"
+      },
+      {
+        "ID": 900200,
+        "Text": "Gants de Servante itin\u00E9rante"
+      },
+      {
+        "ID": 900300,
+        "Text": "Bottes de Servante itin\u00E9rante"
+      },
+      {
+        "ID": 901100,
+        "Text": "Robe de Servante itin\u00E9rante (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 901200,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 901600,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 902000,
+        "Text": "Toque de Servante"
+      },
+      {
+        "ID": 902100,
+        "Text": "Robe de Servante"
+      },
+      {
+        "ID": 902300,
+        "Text": "Chaussures de Servante"
+      },
+      {
+        "ID": 903100,
+        "Text": "Robe de Servante (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 904100,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 910000,
+        "Text": "Galurin de pr\u00E9cepteur"
+      },
+      {
+        "ID": 910100,
+        "Text": "Longue robe de pr\u00E9cepteur"
+      },
+      {
+        "ID": 910200,
+        "Text": "Gants de pr\u00E9cepteur"
+      },
+      {
+        "ID": 910300,
+        "Text": "Pantalon de pr\u00E9cepteur"
+      },
+      {
+        "ID": 911000,
+        "Text": "Masque de confiance"
+      },
+      {
+        "ID": 911100,
+        "Text": "Longue robe de pr\u00E9cepteur (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 912000,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 912100,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 912200,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 912300,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 913000,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 920000,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 930000,
+        "Text": "Masque squelettique"
+      },
+      {
+        "ID": 930100,
+        "Text": "Plumes noires de rapace"
+      },
+      {
+        "ID": 930200,
+        "Text": "Manchettes de bandit"
+      },
+      {
+        "ID": 930300,
+        "Text": "Bottes de bandit"
+      },
+      {
+        "ID": 931100,
+        "Text": "Tenue de bandit"
+      },
+      {
+        "ID": 940000,
+        "Text": "Capuche d\u0027excentrique"
+      },
+      {
+        "ID": 940100,
+        "Text": "Armure d\u0027excentrique"
+      },
+      {
+        "ID": 940200,
+        "Text": "Manchettes d\u0027excentrique"
+      },
+      {
+        "ID": 940300,
+        "Text": "Hauts-de-chausses d\u0027excentrique"
+      },
+      {
+        "ID": 941000,
+        "Text": "Capuche d\u0027excentrique (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 950000,
+        "Text": "Heaume des Doigts"
+      },
+      {
+        "ID": 950100,
+        "Text": "Armure des Doigts"
+      },
+      {
+        "ID": 950200,
+        "Text": "Gantelets des Doigts"
+      },
+      {
+        "ID": 950300,
+        "Text": "Jambi\u00E8res des Doigts"
+      },
+      {
+        "ID": 951100,
+        "Text": "Armure des Doigts (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 960000,
+        "Text": "Masque de consort"
+      },
+      {
+        "ID": 960100,
+        "Text": "Robe de consort"
+      },
+      {
+        "ID": 960300,
+        "Text": "Pantalon de consort"
+      },
+      {
+        "ID": 961000,
+        "Text": "Masque de suzerain"
+      },
+      {
+        "ID": 961100,
+        "Text": "Robe de suzerain"
+      },
+      {
+        "ID": 962100,
+        "Text": "Robe bourgeoise"
+      },
+      {
+        "ID": 963000,
+        "Text": "Masque des Tourbier"
+      },
+      {
+        "ID": 963100,
+        "Text": "Robe des Tourbier"
+      },
+      {
+        "ID": 963200,
+        "Text": "Manchettes gorg\u00E9es de sang"
+      },
+      {
+        "ID": 964000,
+        "Text": "Masque gorg\u00E9 de sang"
+      },
+      {
+        "ID": 964100,
+        "Text": "Atours de dignitaire"
+      },
+      {
+        "ID": 965000,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 965100,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 965300,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 966000,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 967000,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 970000,
+        "Text": "Casque de R\u00E9prouv\u00E9"
+      },
+      {
+        "ID": 970100,
+        "Text": "Armure de R\u00E9prouv\u00E9"
+      },
+      {
+        "ID": 970200,
+        "Text": "Gantelets de R\u00E9prouv\u00E9"
+      },
+      {
+        "ID": 970300,
+        "Text": "Jambi\u00E8res de R\u00E9prouv\u00E9"
+      },
+      {
+        "ID": 980000,
+        "Text": "Casque de chevalier de Caria"
+      },
+      {
+        "ID": 980100,
+        "Text": "Armure de chevalier de Caria"
+      },
+      {
+        "ID": 980200,
+        "Text": "Gantelets de chevalier de Caria"
+      },
+      {
+        "ID": 980300,
+        "Text": "Bottes de chevalier de Caria"
+      },
+      {
+        "ID": 981100,
+        "Text": "Armure de chevalier de Caria (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 990000,
+        "Text": "Masque de pierre d\u0027\u00E9clat de Hierodas"
+      },
+      {
+        "ID": 990100,
+        "Text": "Robe de sorcier errant"
+      },
+      {
+        "ID": 990200,
+        "Text": "Manchettes de sorcier errant"
+      },
+      {
+        "ID": 990300,
+        "Text": "Bottes de sorcier errant"
+      },
+      {
+        "ID": 991100,
+        "Text": "Robe de sorcier errant (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 992000,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 1000000,
+        "Text": "Masque de pierre d\u0027\u00E9clat de Haima"
+      },
+      {
+        "ID": 1000100,
+        "Text": "Robe de mage de bataille"
+      },
+      {
+        "ID": 1000200,
+        "Text": "Manchettes de mage de bataille"
+      },
+      {
+        "ID": 1000300,
+        "Text": "Gu\u00EAtres de mage de bataille"
+      },
+      {
+        "ID": 1010000,
+        "Text": "Chapeau de sorci\u00E8re des neiges"
+      },
+      {
+        "ID": 1010100,
+        "Text": "Robe de sorci\u00E8re des neiges"
+      },
+      {
+        "ID": 1010300,
+        "Text": "Jupe de sorci\u00E8re des neiges"
+      },
+      {
+        "ID": 1011100,
+        "Text": "Robe de sorci\u00E8re des neiges (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 1020100,
+        "Text": "V\u00EAtements de voyageur"
+      },
+      {
+        "ID": 1020200,
+        "Text": "Manchettes de voyageur"
+      },
+      {
+        "ID": 1020300,
+        "Text": "Bottes de voyageur"
+      },
+      {
+        "ID": 1030000,
+        "Text": "Couvre-chef d\u0027\u00E9rudit n\u00E9ophyte"
+      },
+      {
+        "ID": 1030100,
+        "Text": "Robe d\u0027\u00E9rudit n\u00E9ophyte"
+      },
+      {
+        "ID": 1040000,
+        "Text": "Masque d\u0027or radieux"
+      },
+      {
+        "ID": 1040100,
+        "Text": "Guenilles du Masque d\u0027or"
+      },
+      {
+        "ID": 1040200,
+        "Text": "Bracelets dor\u00E9s"
+      },
+      {
+        "ID": 1040300,
+        "Text": "\u00C9charpe dor\u00E9e"
+      },
+      {
+        "ID": 1050100,
+        "Text": "Cape du D\u00E9chu"
+      },
+      {
+        "ID": 1060000,
+        "Text": "Masque d\u0027Albinaurique"
+      },
+      {
+        "ID": 1060100,
+        "Text": "Cotte de mailles crasseuse"
+      },
+      {
+        "ID": 1070000,
+        "Text": "Masque de Zamor"
+      },
+      {
+        "ID": 1070100,
+        "Text": "Armure de Zamor"
+      },
+      {
+        "ID": 1070200,
+        "Text": "Bracelets de Zamor"
+      },
+      {
+        "ID": 1070300,
+        "Text": "Gu\u00EAtres de Zamor"
+      },
+      {
+        "ID": 1080000,
+        "Text": "T\u00EAte de diablotin (chat)"
+      },
+      {
+        "ID": 1081000,
+        "Text": "T\u00EAte de diablotin \u00E0 crocs"
+      },
+      {
+        "ID": 1082000,
+        "Text": "T\u00EAte de diablotin \u00E0 langue"
+      },
+      {
+        "ID": 1083000,
+        "Text": "T\u00EAte de diablotin (cadavre)"
+      },
+      {
+        "ID": 1084000,
+        "Text": "T\u00EAte de diablotin (loup)"
+      },
+      {
+        "ID": 1085000,
+        "Text": "T\u00EAte de diablotin (ancien)"
+      },
+      {
+        "ID": 1090000,
+        "Text": "Masque de larme d\u0027argent"
+      },
+      {
+        "ID": 1100000,
+        "Text": "Coiffe de mailles"
+      },
+      {
+        "ID": 1100100,
+        "Text": "Cotte de mailles"
+      },
+      {
+        "ID": 1100200,
+        "Text": "Gantelets"
+      },
+      {
+        "ID": 1100300,
+        "Text": "Jambi\u00E8res de mailles"
+      },
+      {
+        "ID": 1101000,
+        "Text": "Grand heaume"
+      },
+      {
+        "ID": 1101100,
+        "Text": "Tunique frapp\u00E9e d\u0027un \u0153il"
+      },
+      {
+        "ID": 1102100,
+        "Text": "Tunique frapp\u00E9e d\u0027un arbre"
+      },
+      {
+        "ID": 1110000,
+        "Text": "T\u00EAte de pieuvre"
+      },
+      {
+        "ID": 1120000,
+        "Text": "Jarre"
+      },
+      {
+        "ID": 1130000,
+        "Text": "T\u00EAte fongique"
+      },
+      {
+        "ID": 1130100,
+        "Text": "Corps fongique"
+      },
+      {
+        "ID": 1130200,
+        "Text": "Bras fongiques"
+      },
+      {
+        "ID": 1130300,
+        "Text": "Jambes fongiques"
+      },
+      {
+        "ID": 1300000,
+        "Text": "Heaume-miroir nokrien"
+      },
+      {
+        "ID": 1301000,
+        "Text": "Heaume-miroir d\u0027Iji"
+      },
+      {
+        "ID": 1400000,
+        "Text": "Capuche noire"
+      },
+      {
+        "ID": 1400100,
+        "Text": "Armure de cuir"
+      },
+      {
+        "ID": 1400200,
+        "Text": "Gants de cuir"
+      },
+      {
+        "ID": 1400300,
+        "Text": "Bottes de cuir"
+      },
+      {
+        "ID": 1401000,
+        "Text": "Masque de bandit"
+      },
+      {
+        "ID": 1500000,
+        "Text": "Heaume de chevalier"
+      },
+      {
+        "ID": 1500100,
+        "Text": "Armure de chevalier"
+      },
+      {
+        "ID": 1500200,
+        "Text": "Gantelets de chevalier"
+      },
+      {
+        "ID": 1500300,
+        "Text": "Jambi\u00E8res de chevalier"
+      },
+      {
+        "ID": 1600000,
+        "Text": "Grande capuche"
+      },
+      {
+        "ID": 1610000,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 1700000,
+        "Text": "Casque de soldat de Godrick"
+      },
+      {
+        "ID": 1700100,
+        "Text": "Tunique avec arbre et b\u00EAte"
+      },
+      {
+        "ID": 1700200,
+        "Text": "Gantelets de soldat de Godrick"
+      },
+      {
+        "ID": 1700300,
+        "Text": "Jambi\u00E8res de soldat de Godrick"
+      },
+      {
+        "ID": 1710000,
+        "Text": "Casque de Raya Lucaria"
+      },
+      {
+        "ID": 1710100,
+        "Text": "Tunique du Coucou"
+      },
+      {
+        "ID": 1710200,
+        "Text": "Gantelets de Raya Lucaria"
+      },
+      {
+        "ID": 1710300,
+        "Text": "Jambi\u00E8res de Raya Lucaria"
+      },
+      {
+        "ID": 1720000,
+        "Text": "Casque de soldat de Leyndell"
+      },
+      {
+        "ID": 1720100,
+        "Text": "Tunique de l\u0027Arbre-Monde"
+      },
+      {
+        "ID": 1720200,
+        "Text": "Gantelets de soldat de Leyndell"
+      },
+      {
+        "ID": 1720300,
+        "Text": "Jambi\u00E8res de soldat de Leyndell"
+      },
+      {
+        "ID": 1730000,
+        "Text": "Casque de soldat de Radahn"
+      },
+      {
+        "ID": 1730100,
+        "Text": "Tunique du Lion rouge"
+      },
+      {
+        "ID": 1730200,
+        "Text": "Gantelets de soldat de Radahn"
+      },
+      {
+        "ID": 1730300,
+        "Text": "Jambi\u00E8res de soldat de Radahn"
+      },
+      {
+        "ID": 1740100,
+        "Text": "Tunique du Mausol\u00E9e"
+      },
+      {
+        "ID": 1740200,
+        "Text": "Gantelets du Mausol\u00E9e"
+      },
+      {
+        "ID": 1740300,
+        "Text": "Jambi\u00E8res du Mausol\u00E9e"
+      },
+      {
+        "ID": 1750000,
+        "Text": "Casque de l\u0027Arbre-Sacr\u00E9"
+      },
+      {
+        "ID": 1750100,
+        "Text": "Tunique de l\u0027Arbre-Sacr\u00E9"
+      },
+      {
+        "ID": 1750200,
+        "Text": "Gantelets de l\u0027Arbre-Sacr\u00E9"
+      },
+      {
+        "ID": 1750300,
+        "Text": "Jambi\u00E8res de l\u0027Arbre-Sacr\u00E9"
+      },
+      {
+        "ID": 1760000,
+        "Text": "Heaume de chevalier de Gelmir"
+      },
+      {
+        "ID": 1760100,
+        "Text": "Armure de chevalier de Gelmir"
+      },
+      {
+        "ID": 1760200,
+        "Text": "Gantelets de chevalier de Gelmir"
+      },
+      {
+        "ID": 1760300,
+        "Text": "Jambi\u00E8res de chevalier de Gelmir"
+      },
+      {
+        "ID": 1761100,
+        "Text": "Armure de chevalier de Gelmir (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 1770000,
+        "Text": "Heaume de chevalier de Godrick"
+      },
+      {
+        "ID": 1770100,
+        "Text": "Armure de chevalier de Godrick"
+      },
+      {
+        "ID": 1770200,
+        "Text": "Gantelets de chevalier de Godrick"
+      },
+      {
+        "ID": 1770300,
+        "Text": "Jambi\u00E8res de chevalier de Godrick"
+      },
+      {
+        "ID": 1771100,
+        "Text": "Armure de chevalier de Godrick (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 1780000,
+        "Text": "Heaume de chevalier du Coucou"
+      },
+      {
+        "ID": 1780100,
+        "Text": "Armure de chevalier du Coucou"
+      },
+      {
+        "ID": 1780200,
+        "Text": "Gantelets de chevalier du Coucou"
+      },
+      {
+        "ID": 1780300,
+        "Text": "Jambi\u00E8res de chevalier du Coucou"
+      },
+      {
+        "ID": 1781100,
+        "Text": "Armure de chevalier du Coucou (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 1790000,
+        "Text": "Heaume de chevalier de Leyndell"
+      },
+      {
+        "ID": 1790100,
+        "Text": "Armure de chevalier de Leyndell"
+      },
+      {
+        "ID": 1790200,
+        "Text": "Gantelets de chevalier de Leyndell"
+      },
+      {
+        "ID": 1790300,
+        "Text": "Jambi\u00E8res de chevalier de Leyndell"
+      },
+      {
+        "ID": 1791100,
+        "Text": "Armure de chevalier de Leyndell (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 1800000,
+        "Text": "Heaume de chevalier du Lion rouge"
+      },
+      {
+        "ID": 1800100,
+        "Text": "Armure de chevalier du Lion rouge"
+      },
+      {
+        "ID": 1800200,
+        "Text": "Gantelets de chevalier du Lion rouge"
+      },
+      {
+        "ID": 1800300,
+        "Text": "Jambi\u00E8res de chevalier du Lion rouge"
+      },
+      {
+        "ID": 1801100,
+        "Text": "Armure de chevalier du Lion rouge (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 1810100,
+        "Text": "Armure de chevalier du Mausol\u00E9e"
+      },
+      {
+        "ID": 1810200,
+        "Text": "Gantelets de chevalier du Mausol\u00E9e"
+      },
+      {
+        "ID": 1810300,
+        "Text": "Jambi\u00E8res de chevalier du Mausol\u00E9e"
+      },
+      {
+        "ID": 1811100,
+        "Text": "Armure de chevalier du Mausol\u00E9e (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 1820000,
+        "Text": "Heaume de chevalier de l\u0027Arbre-Sacr\u00E9"
+      },
+      {
+        "ID": 1820100,
+        "Text": "Armure de chevalier de l\u0027Arbre-Sacr\u00E9"
+      },
+      {
+        "ID": 1820200,
+        "Text": "Gantelets de chevalier de l\u0027Arbre-Sacr\u00E9"
+      },
+      {
+        "ID": 1820300,
+        "Text": "Jambi\u00E8res de chevalier l\u0027Arbre-Sacr\u00E9"
+      },
+      {
+        "ID": 1821100,
+        "Text": "Armure de chevalier de l\u0027Arbre-Sacr\u00E9 (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 1830000,
+        "Text": "Chapel de fantassin"
+      },
+      {
+        "ID": 1830100,
+        "Text": "Tabard drap\u00E9 de mailles"
+      },
+      {
+        "ID": 1830200,
+        "Text": "Gantelets de fantassin"
+      },
+      {
+        "ID": 1830300,
+        "Text": "Jambi\u00E8res de fantassin"
+      },
+      {
+        "ID": 1840000,
+        "Text": "Cerveli\u00E8re de fantassin"
+      },
+      {
+        "ID": 1840100,
+        "Text": "Tabard de fantassin"
+      },
+      {
+        "ID": 1850000,
+        "Text": "Morion dor\u00E9 de fantassin"
+      },
+      {
+        "ID": 1850100,
+        "Text": "Tabard drap\u00E9 de cuir"
+      },
+      {
+        "ID": 1860000,
+        "Text": "Barbute de fantassin"
+      },
+      {
+        "ID": 1860100,
+        "Text": "Tabard \u00E9carlate"
+      },
+      {
+        "ID": 1870100,
+        "Text": "Tabard macul\u00E9 de sang"
+      },
+      {
+        "ID": 1880000,
+        "Text": "Morion sacr\u00E9"
+      },
+      {
+        "ID": 1880100,
+        "Text": "Tabard drap\u00E9 d\u0027ivoire"
+      },
+      {
+        "ID": 1890000,
+        "Text": "Cauchemar des R\u00E9prouv\u00E9s"
+      },
+      {
+        "ID": 1890100,
+        "Text": "Robe de tueur de R\u00E9prouv\u00E9s"
+      },
+      {
+        "ID": 1890200,
+        "Text": "Gants longs de tueur de R\u00E9prouv\u00E9s"
+      },
+      {
+        "ID": 1890300,
+        "Text": "Bottes de tueur de R\u00E9prouv\u00E9s"
+      },
+      {
+        "ID": 1900000,
+        "Text": "Scarab\u00E9e cendreux de guerre"
+      },
+      {
+        "ID": 1901000,
+        "Text": "Scarab\u00E9e incantatoire"
+      },
+      {
+        "ID": 1902000,
+        "Text": "Scarab\u00E9e de pierre d\u0027\u00E9clat"
+      },
+      {
+        "ID": 1910000,
+        "Text": "Scarab\u00E9e larmoyant pourpre"
+      },
+      {
+        "ID": 1920000,
+        "Text": "Scarab\u00E9e larmoyant c\u00E9rul\u00E9en"
+      },
+      {
+        "ID": 1930100,
+        "Text": "Robe mortuaire"
+      },
+      {
+        "ID": 1930300,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 1932100,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 1940000,
+        "Text": "Capuche de Fia"
+      },
+      {
+        "ID": 1940100,
+        "Text": "Robe de Fia"
+      },
+      {
+        "ID": 1941100,
+        "Text": "Robe de Fia (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 1950000,
+        "Text": null
+      },
+      {
+        "ID": 1950100,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 1950200,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 1950300,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 1960000,
+        "Text": null
+      },
+      {
+        "ID": 1960100,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 1960200,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 1970100,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 1970200,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 1971100,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 1971200,
+        "Text": "[ERROR]"
+      },
+      {
+        "ID": 1980000,
+        "Text": "Capuche de brigand"
+      },
+      {
+        "ID": 1980100,
+        "Text": "Armure en tissu de brigand"
+      },
+      {
+        "ID": 1980200,
+        "Text": "Gantelets de brigand"
+      },
+      {
+        "ID": 1990000,
+        "Text": "Capuche de page noble"
+      },
+      {
+        "ID": 1990100,
+        "Text": "Atours de page noble"
+      },
+      {
+        "ID": 1991100,
+        "Text": "Atours de page noble (alt\u00E9r\u00E9s)"
+      },
+      {
+        "ID": 2000000,
+        "Text": "Casque de Duelliste putr\u00E9fi\u00E9"
+      },
+      {
+        "ID": 2000100,
+        "Text": "Cape de gardien des tombes putr\u00E9fi\u00E9e"
+      },
+      {
+        "ID": 2000300,
+        "Text": "Jambi\u00E8res de Duelliste putr\u00E9fi\u00E9"
+      },
+      {
+        "ID": 2001100,
+        "Text": "Atour de gardien des tombes putr\u00E9fi\u00E9e (alt\u00E9r\u00E9e)"
+      },
+      {
+        "ID": 2010000,
+        "Text": "Couronne fongique"
+      },
+      {
+        "ID": 2020000,
+        "Text": "Paupiette noire"
+      },
+      {
+        "ID": 2030000,
+        "Text": "Robe de Lazuli"
+      }
+    
+],
+    "Version": 2,
+    "BigEndian": false,
+    "Compression": 1
+  },
+  "FmgID": 12
+}

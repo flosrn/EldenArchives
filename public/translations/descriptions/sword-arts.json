@@ -1,0 +1,815 @@
+{
+  "Fmg": {
+    "Entries": [
+      {
+        "ID": 1,
+        "Text": null
+      },
+      {
+        "ID": 2,
+        "Text": null
+      },
+      {
+        "ID": 3,
+        "Text": null
+      },
+      {
+        "ID": 4,
+        "Text": null
+      },
+      {
+        "ID": 5,
+        "Text": null
+      },
+      {
+        "ID": 6,
+        "Text": null
+      },
+      {
+        "ID": 7,
+        "Text": null
+      },
+      {
+        "ID": 8,
+        "Text": null
+      },
+      {
+        "ID": 9,
+        "Text": null
+      },
+      {
+        "ID": 10,
+        "Text": "Aucune comp\u00E9tence\n\nCette arme ne dispose d\u0027aucune comp\u00E9tence.\nSi l\u0027arme tenue dans votre autre main poss\u00E8de une comp\u00E9tence, c\u0027est celle-ci qui sera utilis\u00E9e."
+      },
+      {
+        "ID": 100,
+        "Text": "Comp\u00E9tence\u00A0: Griffe du lion\n\nComp\u00E9tence des vaillants chevaliers du Lion rouge qui combattirent aux c\u00F4t\u00E9s du g\u00E9n\u00E9ral Radahn.\nVous bondissez en avant et frappez l\u0027ennemi avec votre arme."
+      },
+      {
+        "ID": 101,
+        "Text": "Comp\u00E9tence\u00A0: Empalement\n\nComp\u00E9tence permettant de contrer les boucliers avec une arme per\u00E7ante. Vous concentrez votre force, puis portez un puissant coup en avant capable de transpercer la garde de l\u0027ennemi."
+      },
+      {
+        "ID": 102,
+        "Text": "Comp\u00E9tence\u00A0: Croc per\u00E7ant\n\nComp\u00E9tence employ\u00E9e par Yura, chasseur de Doigts sanglants.\nVous tenez votre lame \u00E0 l\u0027horizontale, puis portez une puissante attaque d\u0027estoc impossible \u00E0 bloquer."
+      },
+      {
+        "ID": 103,
+        "Text": "Comp\u00E9tence\u00A0: Entaille tournoyante\n\nComp\u00E9tence appr\u00E9ci\u00E9e des guerriers les plus adroits.\nVous tournez sur vous-m\u00EAme pour taillader vos ennemis. Encha\u00EEnez cette comp\u00E9tence pour effectuer plusieurs attaques d\u0027affil\u00E9e."
+      },
+      {
+        "ID": 104,
+        "Text": null
+      },
+      {
+        "ID": 105,
+        "Text": "Comp\u00E9tence\u00A0: Charge\n\nUne vive charge en avant avec l\u0027arme tenue \u00E0 hauteur de hanche, l\u0027\u00E9lan se terminant par un coup d\u0027estoc.\nMaintenez la commande enfonc\u00E9e pour charger sur une plus grande distance."
+      },
+      {
+        "ID": 106,
+        "Text": "Comp\u00E9tence\u00A0: Entaille ascendante\n\nVous tenez fermement votre arme et vous campez sur vos appuis, encaissant sans fl\u00E9chir la plupart des attaques ennemies.\nEncha\u00EEnez avec une attaque puissante pour ex\u00E9cuter une frappe montante."
+      },
+      {
+        "ID": 107,
+        "Text": "Comp\u00E9tence\u00A0: Balayage tournoyant\n\nVous tenez fermement votre arme et vous campez sur vos appuis, encaissant sans fl\u00E9chir la plupart des attaques ennemies.\nEncha\u00EEnez avec une attaque puissante pour ex\u00E9cuter une frappe horizontale."
+      },
+      {
+        "ID": 108,
+        "Text": "Comp\u00E9tence\u00A0: D\u00EEme de sang\n\nComp\u00E9tence du Serment sanglant accord\u00E9e par le seigneur du sang.\nVous tournoyez pour emmagasiner de la puissance, puis lib\u00E9rez une s\u00E9rie de frappes d\u0027estoc qui drainent le sang et les PV de votre cible."
+      },
+      {
+        "ID": 109,
+        "Text": "Comp\u00E9tence\u00A0: Estoc r\u00E9p\u00E9t\u00E9\n\nVous tournoyez pour emmagasiner de la puissance, puis portez une succession rapide de coups d\u0027estoc."
+      },
+      {
+        "ID": 110,
+        "Text": "Comp\u00E9tence\u00A0: Frappes d\u00E9cha\u00EEn\u00E9es\n\nVous faites tournoyer votre arme avec brutalit\u00E9.\nTant que vous maintenez la commande enfonc\u00E9e, vous continuez d\u0027attaquer. Encha\u00EEnez avec une attaque normale ou puissante."
+      },
+      {
+        "ID": 111,
+        "Text": "Comp\u00E9tence\u00A0: Frappes tournoyantes\n\nComp\u00E9tence \u00E0 l\u0027arme d\u0027hast qui vous permet d\u0027effectuer des attaques tournoyantes en continu. Maintenez la commande enfonc\u00E9e pour continuer de tournoyer. Encha\u00EEnez avec une attaque normale ou puissante. Tant que l\u0027arme tournoie, vous d\u00E9viez les projectiles telles que les fl\u00E8ches."
+      },
+      {
+        "ID": 112,
+        "Text": "Comp\u00E9tence\u00A0: Encha\u00EEnement de tailles\n\nComp\u00E9tence d\u0027\u00E9p\u00E9istes exp\u00E9riment\u00E9s.\nVous vous baissez sur vos appuis et effectuez une attaque de taille crois\u00E9e.\nEncha\u00EEnez cette comp\u00E9tence pour ass\u00E9ner jusqu\u0027\u00E0 deux attaques suppl\u00E9mentaires."
+      },
+      {
+        "ID": 113,
+        "Text": "Comp\u00E9tence\u00A0: Charge du pr\u00E9lat\n\nVous abattez votre arme au sol et cr\u00E9ez une vague de flammes, avant de charger.\nMaintenez la commande enfonc\u00E9e pour continuer de charger."
+      },
+      {
+        "ID": 114,
+        "Text": "Comp\u00E9tence\u00A0: D\u00E9gainer\n\nComp\u00E9tence des \u00E9p\u00E9istes des Terres des roseaux.\nVous rengainez votre arme et la portez \u00E0 votre hanche pour vous pr\u00E9parer \u00E0 frapper.\nEffectuez ensuite une vive attaque de taille, normale ou puissante."
+      },
+      {
+        "ID": 115,
+        "Text": "Comp\u00E9tence\u00A0: En garde\n\nAu d\u00E9but de cette comp\u00E9tence, vous tenez votre \u00E9p\u00E9e \u00E0 l\u0027horizontale.\nEx\u00E9cutez une attaque normale pour briser la garde de l\u0027ennemi avec une frappe verticale, ou une attaque puissante pour porter un coup d\u0027estoc."
+      },
+      {
+        "ID": 116,
+        "Text": "Comp\u00E9tence\u00A0: Traque-G\u00E9ant\n\nComp\u00E9tence con\u00E7ue pour affronter des adversaires gigantesques.\nVous adoptez une posture basse et avancez, puis profitez de l\u0027\u00E9lan pour effectuer une rapide frappe verticale."
+      },
+      {
+        "ID": 117,
+        "Text": "Comp\u00E9tence\u00A0: Coup de torche\n\nBrandissez votre torche en avant pour mettre le feu \u00E0 vos ennemis.\nCette comp\u00E9tence est particuli\u00E8rement efficace contre les ennemis vuln\u00E9rables au feu."
+      },
+      {
+        "ID": 118,
+        "Text": "Comp\u00E9tence\u00A0: Entaille de Loretta\n\nTechnique de Loretta, chevaleresse royale.\nVous bondissez vers l\u0027avant en impr\u00E9gnant votre arme \u00E0 l\u0027aide d\u0027une pierre d\u0027\u00E9clat, puis retombez rapidement en ass\u00E9nant une attaque large."
+      },
+      {
+        "ID": 119,
+        "Text": "Comp\u00E9tence\u00A0: Envol venimeux\n\nVous ass\u00E9nez un coup apr\u00E8s avoir impr\u00E9gn\u00E9 votre arme de poison.\nSi l\u0027attaque suivante touche un ennemi empoisonn\u00E9, elle infligera d\u0027importants d\u00E9g\u00E2ts."
+      },
+      {
+        "ID": 120,
+        "Text": "Comp\u00E9tence\u00A0: Arme tournoyante\n\nComp\u00E9tence d\u00E9fensive employ\u00E9e par les princesses de Caria.\nVous faites flotter votre arme dans les airs avant de la faire tournoyer violemment. Tous les adversaires touch\u00E9s subissent des attaques successives."
+      },
+      {
+        "ID": 121,
+        "Text": null
+      },
+      {
+        "ID": 122,
+        "Text": "Comp\u00E9tence\u00A0: Piqu\u00E9 temp\u00E9tueux\n\nL\u0027une des comp\u00E9tences faisant appel aux temp\u00EAtes de Voilorage.\nVous vous entourez de rafales et bondissez vers l\u0027avant, la pointe de votre arme vers le bas. Cette attaque fait appara\u00EEtre d\u0027autres rafales au point d\u0027impact."
+      },
+      {
+        "ID": 123,
+        "Text": "Comp\u00E9tence\u00A0: Mande-orage\n\nL\u0027une des comp\u00E9tences faisant appel aux temp\u00EAtes de Voilorage. Vous faites tournoyer votre arme, cr\u00E9ant ainsi des temp\u00EAtes autour de vous. Encha\u00EEnez cette comp\u00E9tence pour ass\u00E9ner jusqu\u0027\u00E0 deux attaques suppl\u00E9mentaires."
+      },
+      {
+        "ID": 124,
+        "Text": "Comp\u00E9tence\u00A0: Danse des lames\n\nVous vous ruez vers l\u0027avant et effectuez une s\u00E9rie d\u0027attaques tournoyantes ascendantes.\nEncha\u00EEnez avec une autre attaque pour conclure avec une frappe de taille vers le bas."
+      },
+      {
+        "ID": 125,
+        "Text": "Comp\u00E9tence\u00A0: Cha\u00EEne tournoyante\n\nVous attaquez en faisant tournoyer le fl\u00E9au \u00E0 toute vitesse.\nEncha\u00EEnez avec une attaque normale ou puissante pour profiter de l\u0027\u00E9lan qu\u0027octroie cette comp\u00E9tence."
+      },
+      {
+        "ID": 200,
+        "Text": "Comp\u00E9tence\u00A0: Phalange de lam\u00E9clats\n\nComp\u00E9tence utilis\u00E9e par les chevaliers enchant\u00E9s servant la famille royale de Caria. Vous invoquez plusieurs lam\u00E9clats magiques au-dessus de vous qui attaquent les ennemis automatiquement. Encha\u00EEnez avec une attaque puissante pour ex\u00E9cuter une frappe d\u0027estoc."
+      },
+      {
+        "ID": 201,
+        "Text": "Comp\u00E9tence\u00A0: Lame sacr\u00E9e\n\nVous nimbez l\u0027arme de puissance sacr\u00E9e et projetez une lame dor\u00E9e.\nImpr\u00E8gne l\u0027arme de sacr\u00E9 pour une courte dur\u00E9e."
+      },
+      {
+        "ID": 202,
+        "Text": "Comp\u00E9tence\u00A0: Lance de glace\n\nComp\u00E9tence des guerriers servant la princesse de la lune Ranni.\nVous faites tournoyer votre arme pour canaliser la magie de glace et vous servez de cette derni\u00E8re pour cr\u00E9er une lance de glace per\u00E7ante."
+      },
+      {
+        "ID": 203,
+        "Text": "Comp\u00E9tence\u00A0: Fl\u00E8che de pierre d\u0027\u00E9clat\n\nComp\u00E9tence exploitant la sorcellerie des pierres d\u0027\u00E9clat homonyme.\nProfitez de l\u0027enchantement des pierres d\u0027\u00E9clat pr\u00E9sent sur votre arme pour encha\u00EEner avec une attaque puissante et ex\u00E9cuter une frappe d\u0027estoc d\u00E9vastatrice."
+      },
+      {
+        "ID": 204,
+        "Text": "Comp\u00E9tence\u00A0: Entaille sanglante\n\nComp\u00E9tence du Serment sanglant octroy\u00E9e par le seigneur du sang.\nVous fl\u00E9chissez vos jambes, enduisez votre arme de votre propre sang et effectuez une puissante attaque sanglante en arc de cercle devant vous."
+      },
+      {
+        "ID": 205,
+        "Text": "Comp\u00E9tence\u00A0: Poing sangsue\n\nComp\u00E9tence prouvant la grande ma\u00EEtrise des \u00E9nergies vitales de son utilisateur.\nVous vous concentrez pour donner un coup de poing lent, mais impr\u00E9gn\u00E9 d\u0027une \u00E9nergie qui plonge les ennemis dans l\u0027inconscience et draine leurs PV. Ne fonctionne que sur les ennemis humano\u00EFdes."
+      },
+      {
+        "ID": 206,
+        "Text": null
+      },
+      {
+        "ID": 207,
+        "Text": "Comp\u00E9tence\u00A0: \u00C9ruption\n\nComp\u00E9tence des chevaliers servant le Manoir du volcan.\nVous frappez le sol de votre arme, faisant appara\u00EEtre de grandes \u00E9ruptions de lave en fusion."
+      },
+      {
+        "ID": 208,
+        "Text": "Comp\u00E9tence\u00A0: Frappe pieuse\n\nVous brandissez votre arme en guise de pri\u00E8re, puis l\u0027abattez sur le sol.\nSi cette attaque pieuse atteint un ennemi, vos alli\u00E9s et vous r\u00E9cup\u00E9rez des PV."
+      },
+      {
+        "ID": 209,
+        "Text": "Comp\u00E9tence\u00A0: Gravit\u00E9\n\nComp\u00E9tence des seigneurs d\u0027alb\u00E2tre \u00E0 la peau de pierre.\nVous plantez votre arme dans le sol et cr\u00E9ez un puits gravitationnel.\nEn plus d\u0027infliger des d\u00E9g\u00E2ts \u00E0 l\u0027impact, cette attaque attire les ennemis."
+      },
+      {
+        "ID": 210,
+        "Text": "Comp\u00E9tence\u00A0: Lame-temp\u00EAte\n\nComp\u00E9tence oubli\u00E9e de Voilorage.\nVous entourez votre arme de temp\u00EAtes violentes que vous pouvez projeter devant vous.\nVous pouvez lancer rapidement plusieurs projectiles d\u0027affil\u00E9e."
+      },
+      {
+        "ID": 211,
+        "Text": null
+      },
+      {
+        "ID": 212,
+        "Text": "Comp\u00E9tence\u00A0: Tremblement de terre\n\nVous plantez votre arme dans le sol, puis rassemblez vos forces pour provoquer une onde sismique.\nEncha\u00EEnez avec une attaque puissante pour effectuer une frappe large."
+      },
+      {
+        "ID": 213,
+        "Text": "Comp\u00E9tence\u00A0: Terre dor\u00E9e\n\nVous enfoncez votre arme dans le sol, puis rassemblez vos forces pour lib\u00E9rer une onde d\u0027\u00E9nergie sacr\u00E9e qui se mat\u00E9rialise en une multitude de dards dor\u00E9s. Encha\u00EEnez avec une attaque puissante pour effectuer une frappe large."
+      },
+      {
+        "ID": 214,
+        "Text": "Comp\u00E9tence\u00A0: Frappe ardente\n\nComp\u00E9tence projetant un arc de flammes face \u00E0 vous.\nEncha\u00EEnez avec une attaque puissante pour avancer rapidement et effectuer une frappe large.\nImpr\u00E8gne votre arme de feu."
+      },
+      {
+        "ID": 215,
+        "Text": null
+      },
+      {
+        "ID": 216,
+        "Text": "Comp\u00E9tence\u00A0: \u00C9clair\n\nComp\u00E9tence employ\u00E9e par le culte de la capitale d\u00E9vou\u00E9 aux dragons anciens.\nVous brandissez votre arme et invoquez un \u00E9clair.\nVous pouvez cr\u00E9er rapidement plusieurs \u00E9clairs d\u0027affil\u00E9e."
+      },
+      {
+        "ID": 217,
+        "Text": "Comp\u00E9tence\u00A0: Entaille foudroyante\n\nVous utilisez votre arme pour canaliser un \u00E9clair avant de l\u0027abattre pour provoquer une explosion de foudre.\nImpr\u00E8gne l\u0027arme de foudre pour une courte dur\u00E9e."
+      },
+      {
+        "ID": 218,
+        "Text": "Comp\u00E9tence\u00A0: Grandeur de Caria\n\nTout le prestige royal de Caria dans une comp\u00E9tence.\nVous transformez votre arme en un espadon magique et l\u0027utilisez pour ass\u00E9ner un coup.\nChargez cette comp\u00E9tence pour augmenter la puissance et la taille de l\u0027\u00E9p\u00E9e un maximum de deux fois."
+      },
+      {
+        "ID": 219,
+        "Text": "Comp\u00E9tence\u00A0: Espadon de Caria\n\nTout le prestige royal de Caria dans une comp\u00E9tence.\nVous transformez votre arme en un espadon magique et l\u0027utilisez pour ass\u00E9ner un coup.\nChargez cette comp\u00E9tence pour augmenter sa puissance."
+      },
+      {
+        "ID": 220,
+        "Text": "Comp\u00E9tence\u00A0: Entaille du vide\n\nComp\u00E9tence oubli\u00E9e des h\u00E9ros de jadis.\nVous levez votre arme vers le ciel et l\u0027entourez d\u0027\u00E9nergie du vide, puis lancez face \u00E0 vous un projectile en forme d\u0027\u00E9p\u00E9e."
+      },
+      {
+        "ID": 221,
+        "Text": "Comp\u00E9tence\u00A0: Tornade de la Flamme noire\n\nVous faites tournoyer votre arme au-dessus de vous, puis la plantez dans le sol pour faire appara\u00EEtre un puissant vortex de flammes noires.\nMaintenez la commande enfonc\u00E9e pour commencer \u00E0 incanter une tornade de flammes tout en agitant l\u0027arme."
+      },
+      {
+        "ID": 222,
+        "Text": "Comp\u00E9tence\u00A0: Halo sacr\u00E9\n\nComp\u00E9tence utilis\u00E9e par les commandants des chevaliers de la Noble putr\u00E9faction. Vous impr\u00E9gnez votre arme d\u0027un halo sacr\u00E9, puis le projetez vers l\u0027avant.\nVous pouvez lancer rapidement plusieurs halos d\u0027affil\u00E9e."
+      },
+      {
+        "ID": 223,
+        "Text": "Comp\u00E9tence\u00A0: Souffle ardent\n\nVous soufflez sur les flammes de votre torche, projetant un large arc de flammes face \u00E0 vous. Les flammes persistent sur le sol pour une courte dur\u00E9e."
+      },
+      {
+        "ID": 224,
+        "Text": "Comp\u00E9tence\u00A0: Lame de sang\n\nVous vous blessez pour enduire votre arme de sang avant de projeter une lame de sang qui accumule du saignement.\nVous pouvez lancer rapidement plusieurs lames de sang d\u0027affil\u00E9e."
+      },
+      {
+        "ID": 225,
+        "Text": "Comp\u00E9tence\u00A0: Entaille fantomatique\n\nComp\u00E9tence inspir\u00E9e par les souvenirs chers aux cavaliers cr\u00E9pusculaires. Cr\u00E9e une apparition de l\u0027ancien ma\u00EEtre d\u0027armes de ces chevaliers. Appuyez \u00E0 nouveau sur la commande pour encha\u00EEner avec une attaque."
+      },
+      {
+        "ID": 226,
+        "Text": "Comp\u00E9tence\u00A0: Lance spectrale\n\nComp\u00E9tence des chevaliers ac\u00E9phales du Mausol\u00E9e.\nVous projetez une lance fantomatique sur vos ennemis."
+      },
+      {
+        "ID": 227,
+        "Text": "Comp\u00E9tence\u00A0: Brume de givre\n\nVous impr\u00E9gnez votre arme de froid et ass\u00E9nez un coup, cr\u00E9ant ainsi un nuage glacial devant vous.\nImpr\u00E8gne l\u0027arme de cong\u00E9lation pour une courte dur\u00E9e."
+      },
+      {
+        "ID": 228,
+        "Text": "Comp\u00E9tence\u00A0: Brume empoisonn\u00E9e\n\nVous enduisez votre arme de poison et ass\u00E9nez un coup, cr\u00E9ant ainsi un nuage toxique devant vous.\nImpr\u00E8gne l\u0027arme de poison pour une courte dur\u00E9e."
+      },
+      {
+        "ID": 300,
+        "Text": "Comp\u00E9tence\u00A0: Coup de bouclier\n\nVous vous campez fermement derri\u00E8re votre bouclier et vous jetez de tout votre poids sur vos ennemis, sans pour autant abaisser votre garde.\nRepousse les ennemis plus faibles, et peut m\u00EAme les d\u00E9s\u00E9quilibrer."
+      },
+      {
+        "ID": 301,
+        "Text": "Comp\u00E9tence\u00A0: Rempart in\u00E9branlable\n\nComp\u00E9tence popularis\u00E9e par le c\u00E9l\u00E8bre sire Neidhardt.\nVous concentrez votre \u00E9nergie dans votre bouclier, ce qui le renforce temporairement pour d\u00E9vier des coups plus puissants."
+      },
+      {
+        "ID": 302,
+        "Text": "Comp\u00E9tence\u00A0: Parade\n\nUtilisez cette comp\u00E9tence lors d\u0027une attaque ennemie au corps \u00E0 corps pour la parer et d\u00E9s\u00E9quilibrer l\u0027adversaire.\nVous aurez alors l\u0027occasion d\u0027ex\u00E9cuter un coup critique."
+      },
+      {
+        "ID": 303,
+        "Text": "Comp\u00E9tence\u00A0: Parade \u00E0 la rondache\n\nUtilisez cette comp\u00E9tence lors d\u0027une attaque ennemie au corps \u00E0 corps pour la parer et d\u00E9s\u00E9quilibrer l\u0027adversaire.\nCette technique est plus rapide qu\u0027une parade ordinaire."
+      },
+      {
+        "ID": 304,
+        "Text": "Comp\u00E9tence\u00A0: Parade\n\nUtilisez cette comp\u00E9tence lors d\u0027une attaque ennemie au corps \u00E0 corps pour la parer et d\u00E9s\u00E9quilibrer l\u0027adversaire.\nVous aurez alors l\u0027occasion d\u0027ex\u00E9cuter un coup critique."
+      },
+      {
+        "ID": 305,
+        "Text": "Comp\u00E9tence\u00A0: Repr\u00E9sailles de Caria\n\nVous brandissez votre bouclier pour dissiper les sorcelleries et incantations vous visant, transformant la magie en une riposte de lam\u00E9clats.\nPeut \u00E9galement faire office de parade ordinaire."
+      },
+      {
+        "ID": 306,
+        "Text": "Comp\u00E9tence\u00A0: Mur temp\u00E9tueux\n\nVous brandissez votre bouclier pour cr\u00E9er un mur de temp\u00EAte face \u00E0 vous, lequel renvoie les fl\u00E8ches et autres projectiles physiques.\nPeut \u00E9galement faire office de parade ordinaire."
+      },
+      {
+        "ID": 307,
+        "Text": "Comp\u00E9tence\u00A0: Parade dor\u00E9e\n\nVous entonnez une incantation de l\u0027Arbre-Monde, puis brandissez votre bouclier pour d\u00E9vier les attaques des ennemis et briser leur posture.\nEfficace m\u00EAme si votre cible est l\u00E9g\u00E8rement \u00E9loign\u00E9e."
+      },
+      {
+        "ID": 308,
+        "Text": "Comp\u00E9tence\u00A0: Fracas de bouclier\n\nVous saisissez votre bouclier \u00E0 deux mains et chargez vers l\u0027avant tout en maintenant votre garde. Repousse les ennemis plus faibles, et peut m\u00EAme les d\u00E9s\u00E9quilibrer.\nMaintenez la commande enfonc\u00E9e pour augmenter la dur\u00E9e de la charge."
+      },
+      {
+        "ID": 309,
+        "Text": "Comp\u00E9tence\u00A0: Champ de force de Thops\n\nVous brandissez votre bouclier pour faire appara\u00EEtre un champ de force capable de renvoyer les sorcelleries et incantations.\nPeut \u00E9galement faire office de parade ordinaire."
+      },
+      {
+        "ID": 400,
+        "Text": "Comp\u00E9tence\u00A0: Projectile perforant\n\nPuissante comp\u00E9tence d\u0027archerie consistant \u00E0 tenir un arc g\u00E9ant en se courbant l\u00E9g\u00E8rement.\nVous bandez votre grand arc, puis tordez sa corde pour effectuer un tir puissant capable de transpercer les ennemis."
+      },
+      {
+        "ID": 401,
+        "Text": "Comp\u00E9tence\u00A0: Barrage\n\nComp\u00E9tence d\u0027archerie consistant \u00E0 tenir son arc horizontalement.\nVous bandez votre arc, puis effectuez une s\u00E9rie de tirs tr\u00E8s rapides."
+      },
+      {
+        "ID": 402,
+        "Text": "Comp\u00E9tence\u00A0: Tir puissant\n\nComp\u00E9tence d\u0027archerie consistant \u00E0 tenir l\u0027arc en se courbant l\u00E9g\u00E8rement.\nVous bandez votre arc au maximum pour augmenter la puissance de votre tir et ainsi percer la garde des ennemis."
+      },
+      {
+        "ID": 403,
+        "Text": null
+      },
+      {
+        "ID": 404,
+        "Text": "Comp\u00E9tence\u00A0: Tir enchant\u00E9\n\nComp\u00E9tence d\u0027archerie consistant \u00E0 impr\u00E9gner la fl\u00E8che d\u0027une essence spirituelle.\nCela permet \u00E0 votre tir de couvrir une plus grande distance et de modifier sa trajectoire pour traquer sa cible."
+      },
+      {
+        "ID": 405,
+        "Text": "Comp\u00E9tence\u00A0: Tir c\u00E9leste\n\nComp\u00E9tence d\u0027archerie consistant \u00E0 tenir l\u0027arc en fl\u00E9chissant les jambes.\nVous bandez votre arc, puis tirez une fl\u00E8che dans les airs qui retombe ensuite sur les ennemis."
+      },
+      {
+        "ID": 406,
+        "Text": "Comp\u00E9tence\u00A0: Pluie de fl\u00E8ches\n\nComp\u00E9tence d\u0027archerie consistant \u00E0 tenir l\u0027arc en fl\u00E9chissant les jambes.\nVous bandez votre arc, puis tirez une multitude de fl\u00E8ches dans les airs qui s\u0027abattent ensuite sur les ennemis."
+      },
+      {
+        "ID": 407,
+        "Text": null
+      },
+      {
+        "ID": 501,
+        "Text": "Comp\u00E9tence\u00A0: Pi\u00E9tinement givrant\n\nVous frappez lourdement le sol et nimbez les alentours d\u0027une brume glaciale.\nAccumule de la cong\u00E9lation sur les ennemis dans sa zone d\u0027effet."
+      },
+      {
+        "ID": 502,
+        "Text": "Comp\u00E9tence\u00A0: Pi\u00E9tinement orageux\n\nUne des comp\u00E9tences faisant appel aux temp\u00EAtes de Voilorage.\nVous frappez lourdement le sol pour faire appara\u00EEtre momentan\u00E9ment une temp\u00EAte."
+      },
+      {
+        "ID": 503,
+        "Text": "Comp\u00E9tence\u00A0: Coup de pied\n\nVous repoussez un ennemi avec un coup de pied bien plac\u00E9.\nEfficace contre les ennemis en train de parer et pour briser les postures.\nParfois, les techniques les plus simples sont les meilleures."
+      },
+      {
+        "ID": 504,
+        "Text": "Comp\u00E9tence\u00A0: Roulade foudroyante\n\nComp\u00E9tence s\u0027inspirant des b\u00E9liers.\nVous laissez \u00E9chapper un b\u00EAlement avant de vous parer d\u0027\u00E9clairs et de vous laisser rouler vers l\u0027avant.\nVous pouvez encha\u00EEner rapidement les roulades."
+      },
+      {
+        "ID": 505,
+        "Text": "Comp\u00E9tence\u00A0: Flamme des Lions rouges\n\nComp\u00E9tence des Lions rouges ayant combattu aux c\u00F4t\u00E9s du g\u00E9n\u00E9ral Radahn.\nCr\u00E9e une puissante explosion de flammes dans un arc frontal."
+      },
+      {
+        "ID": 506,
+        "Text": "Comp\u00E9tence\u00A0: Bond fracassant\n\nVous bondissez haut en l\u0027air et retombez lourdement devant vous.\nL\u0027impact cr\u00E9e une puissante onde de choc qui se propage partout."
+      },
+      {
+        "ID": 507,
+        "Text": "Comp\u00E9tence\u00A0: Bond fracassant dor\u00E9\n\nComp\u00E9tence des avatars prot\u00E9geant les Arbres-Monde mineurs.\nVous bondissez haut en l\u0027air et retombez lourdement devant vous.\nL\u0027impact cr\u00E9e une puissante onde de choc dor\u00E9e qui se propage dans toutes les directions."
+      },
+      {
+        "ID": 508,
+        "Text": "Comp\u00E9tence\u00A0: Vagues t\u00E9n\u00E9breuses\n\nVous plantez votre arme dans le sol et projetez trois vagues t\u00E9n\u00E9breuses.\nEncha\u00EEnez avec une attaque puissante pour effectuer une frappe large."
+      },
+      {
+        "ID": 509,
+        "Text": "Comp\u00E9tence\u00A0: S\u00E9isme de Hoarah Loux\n\nVous frappez le sol de vos deux mains pour faire violemment trembler la terre et provoquer un s\u00E9isme.\nR\u00E9utilisez la comp\u00E9tence pour frapper le sol une seconde fois."
+      },
+      {
+        "ID": 600,
+        "Text": "Comp\u00E9tence\u00A0: D\u00E9termination\n\nL\u0027apanage des chevaliers.\nVous placez le plat de votre arme devant votre visage et proclamez votre r\u00E9solution, renfor\u00E7ant ainsi votre prochaine attaque."
+      },
+      {
+        "ID": 601,
+        "Text": "Comp\u00E9tence\u00A0: R\u00E9solution de chevalier royal\n\nComp\u00E9tence des chevaliers ayant jadis servi le Seigneur d\u0027Elden.\nVous placez le plat de votre arme devant votre visage et proclamez votre r\u00E9solution, renfor\u00E7ant ainsi grandement votre prochaine attaque."
+      },
+      {
+        "ID": 602,
+        "Text": "Comp\u00E9tence\u00A0: Man\u0153uvre d\u0027assassin\n\nComp\u00E9tence qui consiste \u00E0 s\u0027infliger une blessure pour se d\u00E9rober \u00E0 la vue de tous.\nOctroie une invisibilit\u00E9 quasi totale et rend vos d\u00E9placements silencieux."
+      },
+      {
+        "ID": 603,
+        "Text": "Comp\u00E9tence\u00A0: Serment dor\u00E9\n\nComp\u00E9tence transmise depuis des temps imm\u00E9moriaux parmi les chevaliers de la capitale.\nVous brandissez votre arme et jurez d\u0027honorer l\u0027Arbre-Monde au combat, ce qui augmente votre puissance d\u0027attaque et votre d\u00E9fense, ainsi que celles de vos alli\u00E9s proches."
+      },
+      {
+        "ID": 604,
+        "Text": "Comp\u00E9tence\u00A0: Ordre sacr\u00E9\n\nComp\u00E9tence des chevaliers fondamentalistes de l\u0027Ordre d\u0027or.\nVous saluez et impr\u00E9gnez votre arme d\u0027un pouvoir sacr\u00E9.\nTr\u00E8s efficace contre les non-morts."
+      },
+      {
+        "ID": 605,
+        "Text": "Comp\u00E9tence\u00A0: Ordre partag\u00E9\n\nComp\u00E9tence des chevaliers fondamentalistes de l\u0027Ordre d\u0027or.\nVous consacrez votre arme et celle de vos alli\u00E9s proches pour les impr\u00E9gner d\u0027un pouvoir sacr\u00E9.\nTr\u00E8s efficace contre les non-morts."
+      },
+      {
+        "ID": 606,
+        "Text": "Comp\u00E9tence\u00A0: Seppuku\n\nTechnique interdite des \u00E9p\u00E9istes des Terres des roseaux.\nVous enfoncez votre lame dans votre estomac pour la maculer de sang. Augmente votre puissance d\u0027attaque et l\u0027efficacit\u00E9 des effets de saignement."
+      },
+      {
+        "ID": 607,
+        "Text": "Comp\u00E9tence\u00A0: Lame rocheuse\n\nComp\u00E9tence de manipulation de la gravit\u00E9.\nVous plantez votre arme dans le sol et l\u0027impr\u00E9gnez de roche pour la renforcer. Augmente la puissance d\u0027attaque et vos chances de briser la posture des ennemis."
+      },
+      {
+        "ID": 650,
+        "Text": "Comp\u00E9tence\u00A0: Cri barbare\n\nVous poussez un cri bestial pour vous redonner du courage et augmenter votre puissance d\u0027attaque.\nTant que l\u0027effet est actif, convertit vos attaques puissantes en encha\u00EEnements de frappes brutales."
+      },
+      {
+        "ID": 651,
+        "Text": "Comp\u00E9tence\u00A0: Cri de guerre\n\nVous poussez un cri de guerre pour augmenter votre puissance d\u0027attaque.\nTant que l\u0027effet est actif, convertit vos attaques puissantes en charges vers l\u0027avant."
+      },
+      {
+        "ID": 652,
+        "Text": "Comp\u00E9tence\u00A0: Cri bestial\n\nVous poussez un hurlement de b\u00EAte, envoyant devant vous un projectile fendant l\u0027air."
+      },
+      {
+        "ID": 653,
+        "Text": "Comp\u00E9tence\u00A0: Cri de troll\n\nVous regardez au loin et poussez un cri assourdissant qui g\u00E9n\u00E8re une puissante onde de choc repoussant les ennemis proches.\nEncha\u00EEnez avec une attaque puissante pour abattre votre arme."
+      },
+      {
+        "ID": 654,
+        "Text": "Comp\u00E9tence\u00A0: Cri du h\u00E2bleur\n\nVous poussez un cri plein d\u0027entrain pour annoncer votre pr\u00E9sence.\nAugmente la puissance d\u0027attaque, la d\u00E9fense et la r\u00E9cup\u00E9ration d\u0027endurance."
+      },
+      {
+        "ID": 700,
+        "Text": "Comp\u00E9tence\u00A0: R\u00E9silience\n\nVous vous ancrez dans le sol et vous pr\u00E9parez \u00E0 encaisser les prochaines attaques, ce qui augmente bri\u00E8vement votre \u00E9quilibre.\nR\u00E9duit les d\u00E9g\u00E2ts subis pendant la dur\u00E9e de l\u0027effet."
+      },
+      {
+        "ID": 701,
+        "Text": "Comp\u00E9tence\u00A0: V\u0153u d\u0027inflexibilit\u00E9\n\nComp\u00E9tence des antiques guerriers de l\u0027Arbre-Monde.\nVous brandissez votre bouclier pour vous impr\u00E9gner du pouvoir d\u0027or, ce qui vous rend invincible pour une courte dur\u00E9e."
+      },
+      {
+        "ID": 702,
+        "Text": "Comp\u00E9tence\u00A0: Terre sacr\u00E9e\n\nVous levez votre bouclier pour consacrer les alentours au nom de l\u0027Arbre-Monde. Tant que vous ou vos alli\u00E9s demeurez dans la zone, vous r\u00E9cup\u00E9rez des PV et voyez votre d\u00E9fense renforc\u00E9e."
+      },
+      {
+        "ID": 800,
+        "Text": "Comp\u00E9tence\u00A0: Pas vif\n\nTechnique privil\u00E9gi\u00E9e des combattants prestes et roublards.\nVous effectuez un rapide pas de c\u00F4t\u00E9, tournant ainsi autour d\u0027une cible verrouill\u00E9e."
+      },
+      {
+        "ID": 801,
+        "Text": "Comp\u00E9tence\u00A0: Pas de Chevalier-limier\n\nVous rend temporairement invisible et vous permet d\u0027esquiver les attaques avec vivacit\u00E9. Permet de se d\u00E9placer plus vite qu\u0027un Pas vif ordinaire.\nCette comp\u00E9tence peut s\u0027utiliser pour tourner autour d\u0027une cible verrouill\u00E9e afin de la frapper dans le dos."
+      },
+      {
+        "ID": 802,
+        "Text": "Comp\u00E9tence\u00A0: Rapace des brumes\n\nVous vous baissez, ce qui dissimule momentan\u00E9ment votre pr\u00E9sence.\nSi une attaque vous touche, des ailes d\u0027oiseau vous permettront de vous \u00E9chapper en vous projetant dans les airs."
+      },
+      {
+        "ID": 850,
+        "Text": "Comp\u00E9tence\u00A0: Leurre blanc\n\nVous saisissez votre arme en silence en guise de pri\u00E8re et cr\u00E9ez une ombre blanche.\nCette derni\u00E8re attire l\u0027attention des ennemis humano\u00EFdes qui ne sont pas engag\u00E9s en combat. \u00C9galement efficace sur les semi-humains d\u00E9j\u00E0 en combat."
+      },
+      {
+        "ID": 1000,
+        "Text": "Comp\u00E9tence unique\u00A0: D\u00E9ferlement de foi\n\nVous puisez dans la foi de Birac et embrasez le r\u00E9ceptacle cr\u00E2nien, avant de le brandir dans les airs pour faire pleuvoir des boules de feu.\nR\u00E9p\u00E9tez cette action pour maintenir la coupe en l\u0027air et faire perdurer l\u0027effet de la comp\u00E9tence."
+      },
+      {
+        "ID": 1001,
+        "Text": "Comp\u00E9tence unique\u00A0: Orbe ardent\n\nVous brandissez le canon int\u00E9gr\u00E9 au bouclier pour projeter une boule de feu.\nCette derni\u00E8re explose \u00E0 l\u0027impact."
+      },
+      {
+        "ID": 1002,
+        "Text": "Comp\u00E9tence unique\u00A0: Langues de feu\n\nVous brandissez votre bouclier pour permettre aux langues qui sortent de ses m\u00E2choires de cracher de violents jets de flammes.\nMaintenez la commande enfonc\u00E9e pour continuer \u00E0 projeter du feu. Vous pouvez utiliser cette comp\u00E9tence en vous d\u00E9pla\u00E7ant."
+      },
+      {
+        "ID": 1003,
+        "Text": "Comp\u00E9tence unique\u00A0: Sph\u00E8re proph\u00E9tique\n\nVous jouez de la fl\u00FBte pour invoquer un orbe magique qui flotte dans les airs et avance vers les ennemis."
+      },
+      {
+        "ID": 1004,
+        "Text": "Comp\u00E9tence unique\u00A0: Pluie de sph\u00E8res\n\nVous jouez de la fl\u00FBte pour invoquer une \u00E9cume d\u0027orbes magiques qui flotte dans les airs, avant de fondre sur l\u0027ennemi."
+      },
+      {
+        "ID": 1005,
+        "Text": "Comp\u00E9tence unique\u00A0: Grande sph\u00E8re proph\u00E9tique\n\nVous jouez de la fl\u00FBte pour invoquer un \u00E9norme orbe magique qui flotte lentement jusqu\u0027\u00E0 sa cible."
+      },
+      {
+        "ID": 1006,
+        "Text": "Comp\u00E9tence unique\u00A0: Mer de magma\n\nVous donnez un coup de fouet en fusion qui r\u00E9pand temporairement de la lave dans les environs.\nMaintenez la commande enfonc\u00E9e pour continuer \u00E0 agiter le fouet de lave."
+      },
+      {
+        "ID": 1007,
+        "Text": "Comp\u00E9tence unique\u00A0: Morsure de vip\u00E8re\n\nVous secouez bri\u00E8vement votre bouclier pour donner temporairement vie au serpent de bronze, qui se d\u00E9cha\u00EEne et mord les ennemis."
+      },
+      {
+        "ID": 1008,
+        "Text": "Comp\u00E9tence unique\u00A0: \u00C9p\u00E9e du clair de lune\n\nVous levez votre lame vers la lune pour la baigner de sa lumi\u00E8re morne.\nAugmente temporairement la puissance d\u0027attaque magique et impr\u00E8gne la lame de cong\u00E9lation.\nLes attaques charg\u00E9es cr\u00E9ent des projections de lumi\u00E8re lunaire."
+      },
+      {
+        "ID": 1009,
+        "Text": "Comp\u00E9tence unique\u00A0: Vrille de Siluria\n\nVous effectuez une frappe d\u0027estoc vrill\u00E9e qui g\u00E9n\u00E8re une tornade autour de votre arme.\nLes attaques charg\u00E9es permettent de repousser les ennemis et de propulser la tornade vers l\u0027avant."
+      },
+      {
+        "ID": 1010,
+        "Text": "Comp\u00E9tence unique\u00A0: \u00C9tendard de ralliement\n\nVous d\u00E9ployez un \u00E9tendard de guerre et prononcez un discours de ralliement.\nAugmente votre puissance d\u0027attaque et votre d\u00E9fense, ainsi que celles de vos alli\u00E9s."
+      },
+      {
+        "ID": 1011,
+        "Text": "Comp\u00E9tence unique\u00A0: Soyez t\u00E9moins\u00A0!\n\nVous insufflez un soup\u00E7on de vie dans le petit dragon et le lancez dans les airs pour lui permettre de cracher un souffle de flammes sur une large zone frontale."
+      },
+      {
+        "ID": 1012,
+        "Text": "Comp\u00E9tence unique\u00A0: \u00C9p\u00E9e dansante d\u0027Eochaid\n\nVous insufflez de l\u0027\u00E9nergie dans l\u0027\u00E9p\u00E9e, puis la lancez tel un projectile tourbillonnant. L\u0027arme continuera de tournoyer, infligeant des d\u00E9g\u00E2ts continus.\nChargez la comp\u00E9tence pour accro\u00EEtre la port\u00E9e du projectile et la dur\u00E9e de tournoiement."
+      },
+      {
+        "ID": 1013,
+        "Text": "Comp\u00E9tence unique\u00A0: \u00C9trangle-\u00E2me\n\nVous d\u00E9ployez les ailes de l\u0027arme pour invoquer un miasme d\u0027agonie.\nR\u00E9duit temporairement la d\u00E9fense des ennemis dans la zone d\u0027effet."
+      },
+      {
+        "ID": 1014,
+        "Text": "Comp\u00E9tence unique\u00A0: Flammes du pillard\n\nVous brandissez l\u0027\u00E9p\u00E9e sacr\u00E9e dans les airs pour l\u0027entourer de flammes profanes, avant de l\u0027abattre, projetant ainsi une d\u00E9flagration face \u00E0 vous.\nVous volez des PV aux ennemis touch\u00E9s par cette comp\u00E9tence."
+      },
+      {
+        "ID": 1015,
+        "Text": "Comp\u00E9tence unique\u00A0: Cri de Milos\n\nVous poussez un atroce cri maudit qui r\u00E9duit la r\u00E9sistance \u00E0 tous les d\u00E9g\u00E2ts et aux alt\u00E9rations des ennemis proches.\nTant que cet effet est actif, vos attaques puissantes sont converties en encha\u00EEnements d\u0027attaques."
+      },
+      {
+        "ID": 1016,
+        "Text": "Comp\u00E9tence\u00A0: Lame de sang de Reduvia\n\nVous effectuez une attaque de taille avec cette inf\u00E2me dague et transformez les taches de sang qu\u0027elle arbore en lames de sang flottantes qui accumulent du saignement aux ennemis.\nCette comp\u00E9tence peut \u00EAtre encha\u00EEn\u00E9e rapidement."
+      },
+      {
+        "ID": 1017,
+        "Text": "Comp\u00E9tence unique\u00A0: Aiguillon de pierre d\u0027\u00E9clat\n\nCette comp\u00E9tence se base sur la Fl\u00E8che de pierre d\u0027\u00E9clat.\nChargez la comp\u00E9tence pour la transformer en Aiguillon de pierre d\u0027\u00E9clat.\nEncha\u00EEnez directement avec une attaque puissante pour effectuer une frappe d\u0027estoc."
+      },
+      {
+        "ID": 1018,
+        "Text": "Comp\u00E9tence unique\u00A0: Fouet d\u0027argent\n\nR\u00E9duit temporairement l\u0027arme \u00E0 l\u0027\u00E9tat liquide.\nVous utilisez votre arme comme s\u0027il s\u0027agissait d\u0027un fouet et ex\u00E9cutez une large attaque."
+      },
+      {
+        "ID": 1019,
+        "Text": "Comp\u00E9tence unique\u00A0: Posture nocteflamme\n\nVous saisissez votre \u00E9p\u00E9e et vous pr\u00E9parez \u00E0 lancer une sorcellerie.\nEx\u00E9cutez une attaque normale pour projeter une Com\u00E8te nocturne, ou une attaque puissante pour envoyer des flammes dans un arc de cercle."
+      },
+      {
+        "ID": 1020,
+        "Text": "Comp\u00E9tence unique\u00A0: Onde dor\u00E9e\n\nVous impr\u00E9gnez l\u0027\u00E9p\u00E9e de la gloire pass\u00E9e de l\u0027Ordre d\u0027or, avant de la projeter sous forme de projectile sur vos ennemis.\nL\u0027Onde dor\u00E9e se propage face \u00E0 vous et traverse tous les ennemis sur son passage."
+      },
+      {
+        "ID": 1021,
+        "Text": "Comp\u00E9tence unique\u00A0: Flammes de la ruine spectrales\n\nVous brandissez votre \u00E9p\u00E9e et l\u0027impr\u00E9gnez de flammes spectrales.\nLes flammes permettent \u00E0 vos attaques d\u0027infliger des d\u00E9g\u00E2ts magiques, ainsi qu\u0027un douloureux effet de morsure de froid."
+      },
+      {
+        "ID": 1022,
+        "Text": "Comp\u00E9tence unique\u00A0: Instauration de l\u0027Ordre\n\nVous brandissez votre arme en guise de salut, avant de cr\u00E9er une explosion dor\u00E9e.\nEncha\u00EEnez cette comp\u00E9tence pour projeter des ondes de lumi\u00E8re."
+      },
+      {
+        "ID": 1023,
+        "Text": "Comp\u00E9tence unique\u00A0: Brumes soporifiques\n\nR\u00E9pand une l\u00E9g\u00E8re brume pourpre dans une large zone frontale.\nLa brume a un effet de sommeil pour les ennemis dans sa zone d\u0027effet."
+      },
+      {
+        "ID": 1024,
+        "Text": "Comp\u00E9tence unique\u00A0: Rituel d\u0027invocation de lances\n\nVous brandissez votre lance en l\u0027air en guise de pri\u00E8re et invoquez un d\u00E9luge de lances spectrales."
+      },
+      {
+        "ID": 1025,
+        "Text": "Comp\u00E9tence unique\u00A0: Attaque lupine\n\nVous impr\u00E9gnez votre espadon de givre et effectuez une attaque saut\u00E9e vers l\u0027avant pour le planter dans le sol. Lorsque vous le retirez, vous provoquez une explosion de givre."
+      },
+      {
+        "ID": 1026,
+        "Text": "Comp\u00E9tence unique\u00A0: Forme orageuse\n\nVous vous transformez temporairement en un nuage rouge et flottez dans les airs, puis plongez avec une lame impr\u00E9gn\u00E9e de foudre.\nMaintenez la commande enfonc\u00E9e pour augmenter la port\u00E9e de la Forme orageuse."
+      },
+      {
+        "ID": 1027,
+        "Text": "Comp\u00E9tence unique\u00A0: Taillade de sang vici\u00E9\n\nVous agrippez votre arme, puis chargez vers l\u0027avant afin d\u0027effectuer une attaque de taille diagonale.\nLa lame laisse derri\u00E8re elle un sillage de sang qui s\u0027enflamme.\nEncha\u00EEnez cette comp\u00E9tence pour effectuer plusieurs attaques."
+      },
+      {
+        "ID": 1028,
+        "Text": "Comp\u00E9tence unique\u00A0: Danse des ans\u00E9riformes\n\nVous vous d\u00E9placez avec aisance tel un ans\u00E9riforme, avant d\u0027effectuer un encha\u00EEnement de coups de taille vif et gracieux.\nEncha\u00EEnez cette comp\u00E9tence pour ass\u00E9ner jusqu\u0027\u00E0 deux attaques suppl\u00E9mentaires."
+      },
+      {
+        "ID": 1029,
+        "Text": "Comp\u00E9tence unique\u00A0: Briseur d\u0027or\n\nVous bondissez, restez bri\u00E8vement en suspension en l\u0027air et insufflez de la lumi\u00E8re dans le fragment de rune, avant de retomber lourdement \u00E0 terre.\nL\u0027attaque embl\u00E9matique et h\u00E9ro\u00EFque de Radagon."
+      },
+      {
+        "ID": 1030,
+        "Text": "Comp\u00E9tence unique\u00A0: \u00C0 genoux, je te l\u0027ordonne\u00A0!\n\nVous frappez plusieurs fois le sol \u00E0 l\u0027aide de la Hache de Godrick pour g\u00E9n\u00E9rer deux ondes de choc.\nEncha\u00EEnez avec une autre attaque pour provoquer une onde suppl\u00E9mentaire."
+      },
+      {
+        "ID": 1031,
+        "Text": "Comp\u00E9tence unique\u00A0: Rugissement royal\n\nVous poussez un terrible cri de guerre tout en frappant le sol du pied, ce qui augmente votre puissance d\u0027attaque et envoie une onde de choc imparable. Tant que l\u0027effet est actif, les attaques puissantes sont pr\u00E9ced\u00E9es d\u0027un pi\u00E9tinement sismique."
+      },
+      {
+        "ID": 1032,
+        "Text": "Comp\u00E9tence unique\u00A0: Cri mande-\u00E9toile\n\nVous rassemblez les deux lames en poussant un rugissement, ce qui g\u00E9n\u00E8re un champ gravitationnel qui attire les ennemis.\nR\u00E9utilisez la comp\u00E9tence pour abattre les \u00E9p\u00E9es impr\u00E9gn\u00E9es de gravit\u00E9."
+      },
+      {
+        "ID": 1033,
+        "Text": "Comp\u00E9tence unique\u00A0: Onde destructrice\n\nVous levez votre \u00E9p\u00E9e au ciel, avant de l\u0027abattre sur le sol, cr\u00E9ant ainsi une onde de choc gravitationnelle."
+      },
+      {
+        "ID": 1034,
+        "Text": "Comp\u00E9tence unique\u00A0: Rituel de faveur sanguine\n\nVous brandissez la lance sacr\u00E9e et transpercez le corps de la M\u00E8re informe. Vous pouvez effectuer jusqu\u0027\u00E0 trois frappes, g\u00E9n\u00E9rant \u00E0 chaque fois une explosion de sang.\nCette comp\u00E9tence enduit votre arme de feu sanguin pour une courte dur\u00E9e."
+      },
+      {
+        "ID": 1035,
+        "Text": "Comp\u00E9tence unique\u00A0: Fl\u00E9au d\u0027argent\n\nR\u00E9duit temporairement l\u0027arme \u00E0 l\u0027\u00E9tat liquide. Vous utilisez votre arme comme s\u0027il s\u0027agissait d\u0027un fouet, avant d\u0027abattre sa t\u00EAte en forme de larme."
+      },
+      {
+        "ID": 1036,
+        "Text": "Comp\u00E9tence unique\u00A0: Lame de Mort\n\nVous d\u00E9cha\u00EEnez le pouvoir de la rune de Mort pour projeter une lame.\nEn plus d\u0027infliger des d\u00E9g\u00E2ts \u00E0 l\u0027impact, ce projectile r\u00E9duit les PV maximums des adversaires et leur fait subir des d\u00E9g\u00E2ts continus pour une courte dur\u00E9e."
+      },
+      {
+        "ID": 1037,
+        "Text": "Comp\u00E9tence unique\u00A0: Lame d\u0027or\n\nVous bondissez dans les airs et impr\u00E9gnez votre arme de flammes dor\u00E9es, qui sont ensuite projet\u00E9es sur votre adversaire sous forme d\u0027une unique lame.\nInflige des d\u00E9g\u00E2ts sacr\u00E9s."
+      },
+      {
+        "ID": 1038,
+        "Text": "Comp\u00E9tence unique\u00A0: Mort destin\u00E9e d\u00E9cha\u00EEn\u00E9e\n\nVous lib\u00E9rez les vestiges de la Mort destin\u00E9e en enfon\u00E7ant votre arme dans le sol afin d\u0027invoquer une myriade de lames. En plus d\u0027infliger des d\u00E9g\u00E2ts \u00E0 l\u0027impact, cette comp\u00E9tence r\u00E9duit les PV maximums des ennemis et leur fait subir des d\u00E9g\u00E2ts continus pour une courte dur\u00E9e."
+      },
+      {
+        "ID": 1039,
+        "Text": "Comp\u00E9tence unique\u00A0: Rouet tournoyant\n\nVous abattez le rouet sur le sol pour le faire tournoyer tr\u00E8s rapidement. Maintenez la commande enfonc\u00E9e pour continuer \u00E0 faire tourner le rouet. Utilisable tout en vous d\u00E9pla\u00E7ant, ce qui vous permet d\u0027entrer en collision avec les ennemis."
+      },
+      {
+        "ID": 1040,
+        "Text": "Comp\u00E9tence unique\u00A0: Vortex du seigneur d\u0027alb\u00E2tre\n\nVous plantez votre arme dans le sol et cr\u00E9ez un puits gravitationnel. En plus d\u0027infliger des d\u00E9g\u00E2ts \u00E0 l\u0027impact, cette attaque attire les ennemis.\nLa zone d\u0027effet de cette comp\u00E9tence est plus \u00E9tendue que celle de Gravit\u00E9."
+      },
+      {
+        "ID": 1041,
+        "Text": "Comp\u00E9tence unique\u00A0: R\u00E9pulsion du seigneur d\u0027onyx\n\nVous plantez votre arme dans le sol et cr\u00E9ez un puits gravitationnel. En plus d\u0027infliger des d\u00E9g\u00E2ts \u00E0 l\u0027impact, cette attaque repousse violemment les ennemis."
+      },
+      {
+        "ID": 1042,
+        "Text": "Comp\u00E9tence unique\u00A0: Serment de vengeance\n\nVous jurez sur votre espadon de venger le clan, ce qui augmente temporairement tous vos attributs. Tant que l\u0027effet du serment est actif, votre \u00E9quilibre est accru."
+      },
+      {
+        "ID": 1043,
+        "Text": "Comp\u00E9tence unique\u00A0: \u00C9p\u00E9e de givre \u00E9lectrifi\u00E9e\n\nVous canalisez un \u00E9clair de givre \u00E0 l\u0027int\u00E9rieur de votre arme, avant de l\u0027abattre sur vos ennemis.\nImpr\u00E8gne l\u0027arme de foudre et de givre pour une courte dur\u00E9e."
+      },
+      {
+        "ID": 1044,
+        "Text": "Comp\u00E9tence unique\u00A0: Griffes royales\n\nVous frappez le sol de votre marteau et le d\u00E9chirez \u00E0 l\u0027aide des cinq griffes de b\u00EAte qu\u0027arbore votre arme."
+      },
+      {
+        "ID": 1045,
+        "Text": "Comp\u00E9tence unique\u00A0: Danse des flammes\n\nVous impr\u00E9gnez la tresse rousse de la Flamme des G\u00E9ants et effectuez un encha\u00EEnement de frappes lestes dans une large zone."
+      },
+      {
+        "ID": 1046,
+        "Text": "Comp\u00E9tence unique\u00A0: Pichenette\n\nVous faites enfler le doigt, puis fl\u00E9chissez vos jambes pour accro\u00EEtre votre force, avant d\u0027ass\u00E9ner une pichenette d\u00E9vastatrice \u00E0 vos ennemis."
+      },
+      {
+        "ID": 1047,
+        "Text": "Comp\u00E9tence unique\u00A0: Amas stellaire\n\nVous impr\u00E9gnez les \u00E9toiles du Rejeton de magie, avant d\u0027effectuer une large attaque.\nCette comp\u00E9tence lib\u00E8re un sombre nuage d\u0027\u00E9toiles dans son sillage, lequel explose apr\u00E8s un bref instant."
+      },
+      {
+        "ID": 1048,
+        "Text": "Comp\u00E9tence unique\u00A0: Estoc de flammes spectrales\n\nVous portez un coup d\u0027estoc nimb\u00E9 de flammes spectrales.\nEncha\u00EEnez avec une attaque normale pour ex\u00E9cuter une large frappe de taille frontale, ou une attaque puissante pour frapper de haut en bas et d\u00E9clencher une explosion."
+      },
+      {
+        "ID": 1049,
+        "Text": "Comp\u00E9tence unique\u00A0: Lance du dragon ancien\n\nVous impr\u00E9gnez votre arme de la foudre rouge des dragons antiques, puis la projetez telle une lance.\nChargez la comp\u00E9tence pour en accro\u00EEtre la puissance."
+      },
+      {
+        "ID": 1050,
+        "Text": "Comp\u00E9tence unique\u00A0: Piqu\u00E9 de la Flamme exalt\u00E9e\n\nVous impr\u00E9gnez votre lance de la Flamme exalt\u00E9e et bondissez en avant pour l\u0027enfoncer dans le sol, provoquant ainsi une explosion ali\u00E9nante.\nCette comp\u00E9tence inflige de la d\u00E9mence \u00E0 son utilisateur et aux ennemis."
+      },
+      {
+        "ID": 1051,
+        "Text": "Comp\u00E9tence unique\u00A0: Halo de Miquella\n\nVous invoquez le halo lumineux de Miquella et le projetez devant vous.\nVous pouvez lancer plusieurs projectiles d\u0027affil\u00E9e."
+      },
+      {
+        "ID": 1052,
+        "Text": "Comp\u00E9tence unique\u00A0: Infusion d\u0027or\n\nVous croisez les deux \u00E9p\u00E9es pour les impr\u00E9gner d\u0027une essence divine.\nDurant cet effet, vos attaques puissantes se transforment en encha\u00EEnements d\u0027attaques ambidextres."
+      },
+      {
+        "ID": 1053,
+        "Text": "Comp\u00E9tence unique\u00A0: Derniers sacrements\n\nVous brandissez l\u0027\u00E9pitaphe pour octroyer \u00E0 vous-m\u00EAme et aux alli\u00E9s proches l\u0027effet de la comp\u00E9tence Ordre sacr\u00E9.\nParticuli\u00E8rement efficace contre les non-morts."
+      },
+      {
+        "ID": 1054,
+        "Text": "Comp\u00E9tence unique\u00A0: Lame imparable\n\nVous impr\u00E9gnez la lame de lumi\u00E8re pour l\u0027allonger, puis effectuez une attaque large et rapide.\nCette comp\u00E9tence est imparable."
+      },
+      {
+        "ID": 1055,
+        "Text": "Comp\u00E9tence unique\u00A0: \u00C9p\u00E9e dansante d\u0027Eochaid\n\nVous insufflez de l\u0027\u00E9nergie dans l\u0027\u00E9p\u00E9e, puis la lancez tel un projectile tourbillonnant. L\u0027arme continuera de tournoyer, infligeant des d\u00E9g\u00E2ts continus.\nChargez la comp\u00E9tence pour accro\u00EEtre la port\u00E9e du projectile et la dur\u00E9e de tournoiement."
+      },
+      {
+        "ID": 1167,
+        "Text": "Comp\u00E9tence unique\u00A0: Lame d\u0027adipocire\n\nComp\u00E9tence oubli\u00E9e des h\u00E9ros de jadis.\nVous brandissez votre \u00E9p\u00E9e pour d\u00E9cha\u00EEner la puissance de l\u0027adipocire, puis projetez face \u00E0 vous un projectile en forme de lame."
+      },
+      {
+        "ID": 1168,
+        "Text": "Comp\u00E9tence unique\u00A0: Temp\u00EAte de givre de Zamor\n\nVous plongez l\u0027\u00E9p\u00E9e courb\u00E9e dans le sol, puis concentrez votre puissance, avant de d\u00E9clencher une temp\u00EAte glaciale qui ravage les environs."
+      },
+      {
+        "ID": 1169,
+        "Text": "Comp\u00E9tence unique\u00A0: D\u00E9luge de Radahn\n\nComp\u00E9tence d\u0027archerie consistant \u00E0 tenir l\u0027arc en fl\u00E9chissant les jambes.\nVous bandez votre arc, puis tirez une multitude de fl\u00E8ches dans les airs qui s\u0027abattent ensuite sur les ennemis."
+      },
+      {
+        "ID": 1170,
+        "Text": "Comp\u00E9tence unique\u00A0: Flamme noire de la reine\n\nVous nimbez votre lame de la Flamme noire d\u00E9icide et ex\u00E9cutez une large frappe. Encha\u00EEnez cette comp\u00E9tence pour effectuer plusieurs attaques. La Flamme noire inflige des d\u00E9g\u00E2ts continus pour une courte dur\u00E9e."
+      },
+      {
+        "ID": 1171,
+        "Text": "Comp\u00E9tence unique\u00A0: Finesse dynastique\n\nVous \u00E9vitez agilement une attaque et cr\u00E9ez ainsi de la distance entre vous et vos adversaires. Encha\u00EEnez avec deux attaques puissantes pour effectuer une charge rapide, suivie d\u0027un large balayage."
+      },
+      {
+        "ID": 1172,
+        "Text": "Comp\u00E9tence unique\u00A0: Jet de magma\n\nVous ass\u00E9nez une attaque tourbillonnante \u00E0 vos ennemis et r\u00E9pandez de la lave autour de vous.\nAppuyez \u00E0 nouveau sur la commande pour encha\u00EEner avec une attaque."
+      },
+      {
+        "ID": 1173,
+        "Text": "Comp\u00E9tence unique\u00A0: Amas stellaire\n\nVous impr\u00E9gnez les ailes du Rejeton de magie et projetez un sombre nuage d\u0027\u00E9toiles, qui persiste bri\u00E8vement avant d\u0027exploser."
+      },
+      {
+        "ID": 1174,
+        "Text": "Comp\u00E9tence unique\u00A0: Flamboiement mortel\n\nVous embrasez le soleil terne \u00E0 l\u0027aide des flammes du Prince de la Mort, infligeant de la malemort aux ennemis touch\u00E9s.\nR\u00E9utilisez la comp\u00E9tence pour abattre l\u0027arme et d\u00E9clencher une explosion."
+      },
+      {
+        "ID": 1175,
+        "Text": "Comp\u00E9tence unique\u00A0: Finesse de Chevalier-limier\n\nVous frappez verticalement \u00E0 l\u0027aide du Croc de limier et profitez de l\u0027\u00E9lan pour cr\u00E9er de la distance avec votre adversaire en faisant un bond en arri\u00E8re. Encha\u00EEnez avec une attaque puissante pour ex\u00E9cuter un Pas de Chevalier-limier."
+      },
+      {
+        "ID": 1176,
+        "Text": "Comp\u00E9tence unique\u00A0: Guillotine de magma\n\nVous agrippez votre arme \u00E0 deux mains, tel un dragon qui l\u0027enserrerait entre ses crocs, et bondissez vers l\u0027avant pour l\u0027abattre au sol et cr\u00E9er une vague de lave. R\u00E9utilisez la comp\u00E9tence pour effectuer une attaque de taille."
+      },
+      {
+        "ID": 1177,
+        "Text": "Comp\u00E9tence unique\u00A0: Abattage sanglant\n\nVous fa\u00E7onnez une lame de sang vici\u00E9 pour porter une succession d\u0027attaques fluides. Appuyez \u00E0 nouveau sur la commande pour r\u00E9aliser un nouvel encha\u00EEnement."
+      },
+      {
+        "ID": 1178,
+        "Text": "Comp\u00E9tence unique\u00A0: Clair de lune \u00E9ph\u00E9m\u00E8re\n\nVous rengainez votre arme et la portez \u00E0 votre hanche pour vous pr\u00E9parer \u00E0 frapper.\nEncha\u00EEnez avec une attaque normale ou puissante pour d\u00E9gainer votre arme en un \u00E9clair et ass\u00E9ner une frappe de taille. Les deux attaques projettent une vague de lumi\u00E8re."
+      },
+      {
+        "ID": 1179,
+        "Text": "Comp\u00E9tence unique\u00A0: Danse des lames sanglantes\n\nVous bondissez sur votre adversaire et lui ass\u00E9nez une s\u00E9rie d\u0027attaques tourbillonnantes.\nR\u00E9utilisez la comp\u00E9tence pour effectuer une attaque s\u0027achevant sur une man\u0153uvre d\u0027esquive."
+      },
+      {
+        "ID": 1180,
+        "Text": null
+      },
+      {
+        "ID": 1181,
+        "Text": "Comp\u00E9tence\u00A0: Lame secr\u00E8te de Miquella\n\nVous invoquez une lame porteuse de la protection de Miquella, puis ex\u00E9cutez une attaque d\u00E9vastatrice contre les non-morts."
+      },
+      {
+        "ID": 1182,
+        "Text": "Comp\u00E9tence unique\u00A0: Le savoir avant tout\n\nVous brandissez le sceptre pour invoquer le royaume de l\u0027Omniscient. Quiconque demeure dans la zone d\u0027effet voit sa r\u00E9sistance aux d\u00E9g\u00E2ts sacr\u00E9s et magiques r\u00E9duite, y compris le lanceur du sort."
+      },
+      {
+        "ID": 1183,
+        "Text": "Comp\u00E9tence unique\u00A0: D\u00E9voreur de mondes\n\nVous insufflez de la magie dans le sceptre et l\u0027utilisez pour frapper le sol afin de voler des PV aux ennemis proches."
+      },
+      {
+        "ID": 1184,
+        "Text": "Comp\u00E9tence unique\u00A0: Ranc\u0153ur familiale\n\nVous faites s\u0027entrechoquer l\u00E9g\u00E8rement les t\u00EAtes de cuivre pour invoquer des esprits vengeurs venant traquer vos adversaires.\nUn terrible courroux n\u00E9 des tourments inflig\u00E9s \u00E0 une \u00E9pouse et \u00E0 de jeunes enfants."
+      },
+      {
+        "ID": 1185,
+        "Text": "Comp\u00E9tence unique\u00A0: Appel de Rosus\n\nVous brandissez votre hache pour invoquer ceux qui jamais ne trouv\u00E8rent le repos.\nFait appara\u00EEtre trois squelettes \u00E0 distance. Ils attaquent conjointement avant de dispara\u00EEtre."
+      },
+      {
+        "ID": 1186,
+        "Text": "Comp\u00E9tence unique\u00A0: Orage\n\nVous impr\u00E9gnez la lame ail\u00E9e de foudre et la faites tournoyer tout autour de vous pour g\u00E9n\u00E9rer un violent orage. R\u00E9utilisez la comp\u00E9tence pour effectuer jusqu\u0027\u00E0 deux attaques tournoyantes successives.\nL\u0027enchantement de foudre persiste sur la lame pour une courte dur\u00E9e."
+      },
+      {
+        "ID": 1187,
+        "Text": "Comp\u00E9tence unique\u00A0: Phalange sacr\u00E9e\n\nVous entonnez une incantation secr\u00E8te pour faire surgir face \u00E0 vous une rang\u00E9e de lances dor\u00E9es."
+      },
+      {
+        "ID": 1188,
+        "Text": "Comp\u00E9tence unique\u00A0: Chasse au grand serpent\n\nVous frappez devant vous de toutes vos forces, puis, en appuyant de nouveau sur la commande, effectuez une attaque d\u0027estoc vers le haut. Si vous faites face \u00E0 un grand serpent, une longue lame de lumi\u00E8re appara\u00EEt, r\u00E9v\u00E9lant ainsi la v\u00E9ritable nature de l\u0027arme."
+      },
+      {
+        "ID": 1189,
+        "Text": "Comp\u00E9tence unique\u00A0: Ailes ang\u00E9liques\n\nVous impr\u00E9gnez de lumi\u00E8re la lame ail\u00E9e de l\u0027arme et bondissez en l\u0027air, avant d\u0027ass\u00E9ner un coup de taille \u00E0 votre adversaire.\nLes ailes blanches bloquent l\u0027effet curateur des Fioles sacr\u00E9es."
+      },
+      {
+        "ID": 1190,
+        "Text": "Comp\u00E9tence unique\u00A0: Coup de pied foudroyant\n\nVous enfoncez votre proth\u00E8se de jambe dans le sol et g\u00E9n\u00E9rez un orage.\nEncha\u00EEnez avec une attaque puissante pour effectuer une frappe saut\u00E9e impr\u00E9gn\u00E9e de foudre."
+      },
+      {
+        "ID": 1191,
+        "Text": "Comp\u00E9tence unique\u00A0: Lame imparable\n\nVous impr\u00E9gnez la lame de lumi\u00E8re, puis vous \u00E9lancez pour porter une soudaine attaque per\u00E7ante.\nCette comp\u00E9tence est imparable."
+      },
+      {
+        "ID": 1192,
+        "Text": "Comp\u00E9tence unique\u00A0: Sorcellerie de la crosse\n\nVous canalisez de la magie \u00E0 l\u0027int\u00E9rieur de la pierre d\u0027\u00E9clat pour activer une antique sorcellerie, cr\u00E9ant ainsi plusieurs projectiles magiques flottants qui traquent les ennemis automatiquement."
+      },
+      {
+        "ID": 1193,
+        "Text": "Comp\u00E9tence unique\u00A0: Bond de l\u0027Arbre-Monde\n\nVous bondissez haut en l\u0027air, puis vous jetez au sol face \u00E0 vous. Cette chute g\u00E9n\u00E8re plusieurs ondes de choc dor\u00E9es dans toutes les directions.\nIl s\u0027agit l\u00E0 de la comp\u00E9tence d\u0027\u00E9crasement la plus puissante."
+      },
+      {
+        "ID": 1194,
+        "Text": "Comp\u00E9tence unique\u00A0: \u00C9clair gravitationnel\n\nVous impr\u00E9gnez la m\u00E2choire de la cr\u00E9ature stellaire de foudre gravitationnelle et envoyez un projectile qui s\u0027\u00E9crase non loin.\nCette comp\u00E9tence peut \u00EAtre encha\u00EEn\u00E9e rapidement."
+      },
+      {
+        "ID": 1195,
+        "Text": "Comp\u00E9tence unique\u00A0: Flammes soporifiques\n\nVous soufflez sur la flamme, recouvrant ainsi le sol devant vous de flammes violettes vaporeuses.\nCes derni\u00E8res infligent l\u0027alt\u00E9ration de sommeil aux ennemis."
+      },
+      {
+        "ID": 1196,
+        "Text": "Comp\u00E9tence unique\u00A0: Riposte dor\u00E9e\n\nVous levez votre bouclier pour lib\u00E9rer son incantation protectrice.\nCette comp\u00E9tence puise dans le pouvoir de l\u0027or pour dissiper toute sorcellerie ou incantation."
+      },
+      {
+        "ID": 1197,
+        "Text": "Comp\u00E9tence unique\u00A0: Fureur contagieuse\n\nVous faites appel au courroux de la m\u00E9duse et laissez sa fureur se propager en vous.\nAugmente la puissance d\u0027attaque pour une courte dur\u00E9e."
+      },
+      {
+        "ID": 1198,
+        "Text": "Comp\u00E9tence unique\u00A0: Vortex d\u0027Ordovis\n\nVous canalisez le pouvoir du Creuset primordial et faites tournoyer votre \u00E9p\u00E9e en l\u0027air, puis profitez de l\u0027\u00E9lan pour abattre votre arme sur le sol.\nChargez cette comp\u00E9tence pour augmenter sa puissance."
+      },
+      {
+        "ID": 1199,
+        "Text": "Comp\u00E9tence unique\u00A0: Sceptre tournoyant\n\nVous canalisez de la magie dans la pierre d\u0027\u00E9clat et faites flotter le sceptre dans les airs avant de le faire tournoyer violemment.\nTous les adversaires touch\u00E9s subissent des attaques magiques successives."
+      }
+    
+],
+    "Version": 2,
+    "BigEndian": false,
+    "Compression": 1
+  },
+  "FmgID": 43
+}

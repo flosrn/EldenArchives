@@ -1,0 +1,815 @@
+{
+  "Fmg": {
+    "Entries": [
+      {
+        "ID": 1,
+        "Text": null
+      },
+      {
+        "ID": 2,
+        "Text": null
+      },
+      {
+        "ID": 3,
+        "Text": null
+      },
+      {
+        "ID": 4,
+        "Text": null
+      },
+      {
+        "ID": 5,
+        "Text": null
+      },
+      {
+        "ID": 6,
+        "Text": null
+      },
+      {
+        "ID": 7,
+        "Text": null
+      },
+      {
+        "ID": 8,
+        "Text": null
+      },
+      {
+        "ID": 9,
+        "Text": null
+      },
+      {
+        "ID": 10,
+        "Text": "Aucune comp\u00E9tence"
+      },
+      {
+        "ID": 100,
+        "Text": "Griffe du lion"
+      },
+      {
+        "ID": 101,
+        "Text": "Empalement"
+      },
+      {
+        "ID": 102,
+        "Text": "Croc per\u00E7ant"
+      },
+      {
+        "ID": 103,
+        "Text": "Entaille tournoyante"
+      },
+      {
+        "ID": 104,
+        "Text": null
+      },
+      {
+        "ID": 105,
+        "Text": "Charge"
+      },
+      {
+        "ID": 106,
+        "Text": "Entaille ascendante"
+      },
+      {
+        "ID": 107,
+        "Text": "Balayage tournoyant"
+      },
+      {
+        "ID": 108,
+        "Text": "D\u00EEme de sang"
+      },
+      {
+        "ID": 109,
+        "Text": "Estoc r\u00E9p\u00E9t\u00E9"
+      },
+      {
+        "ID": 110,
+        "Text": "Frappes d\u00E9cha\u00EEn\u00E9es"
+      },
+      {
+        "ID": 111,
+        "Text": "Frappes tournoyantes"
+      },
+      {
+        "ID": 112,
+        "Text": "Encha\u00EEnement de tailles"
+      },
+      {
+        "ID": 113,
+        "Text": "Charge du pr\u00E9lat"
+      },
+      {
+        "ID": 114,
+        "Text": "D\u00E9gainer"
+      },
+      {
+        "ID": 115,
+        "Text": "En garde"
+      },
+      {
+        "ID": 116,
+        "Text": "Traque-G\u00E9ant"
+      },
+      {
+        "ID": 117,
+        "Text": "Coup de torche"
+      },
+      {
+        "ID": 118,
+        "Text": "Entaille de Loretta"
+      },
+      {
+        "ID": 119,
+        "Text": "Envol venimeux"
+      },
+      {
+        "ID": 120,
+        "Text": "Arme tournoyante"
+      },
+      {
+        "ID": 121,
+        "Text": null
+      },
+      {
+        "ID": 122,
+        "Text": "Piqu\u00E9 temp\u00E9tueux"
+      },
+      {
+        "ID": 123,
+        "Text": "Mande-orage"
+      },
+      {
+        "ID": 124,
+        "Text": "Danse des lames"
+      },
+      {
+        "ID": 125,
+        "Text": "Cha\u00EEne tournoyante"
+      },
+      {
+        "ID": 200,
+        "Text": "Phalange de lam\u00E9clats"
+      },
+      {
+        "ID": 201,
+        "Text": "Lame sacr\u00E9e"
+      },
+      {
+        "ID": 202,
+        "Text": "Lance de glace"
+      },
+      {
+        "ID": 203,
+        "Text": "Fl\u00E8che de pierre d\u0027\u00E9clat"
+      },
+      {
+        "ID": 204,
+        "Text": "Entaille sanglante"
+      },
+      {
+        "ID": 205,
+        "Text": "Poing sangsue"
+      },
+      {
+        "ID": 206,
+        "Text": null
+      },
+      {
+        "ID": 207,
+        "Text": "\u00C9ruption"
+      },
+      {
+        "ID": 208,
+        "Text": "Frappe pieuse"
+      },
+      {
+        "ID": 209,
+        "Text": "Gravit\u00E9"
+      },
+      {
+        "ID": 210,
+        "Text": "Lame-temp\u00EAte"
+      },
+      {
+        "ID": 211,
+        "Text": null
+      },
+      {
+        "ID": 212,
+        "Text": "Tremblement de terre"
+      },
+      {
+        "ID": 213,
+        "Text": "Terre dor\u00E9e"
+      },
+      {
+        "ID": 214,
+        "Text": "Frappe ardente"
+      },
+      {
+        "ID": 215,
+        "Text": null
+      },
+      {
+        "ID": 216,
+        "Text": "\u00C9clair"
+      },
+      {
+        "ID": 217,
+        "Text": "Entaille foudroyante"
+      },
+      {
+        "ID": 218,
+        "Text": "Grandeur de Caria"
+      },
+      {
+        "ID": 219,
+        "Text": "Espadon de Caria"
+      },
+      {
+        "ID": 220,
+        "Text": "Entaille du vide"
+      },
+      {
+        "ID": 221,
+        "Text": "Tornade de la Flamme noire"
+      },
+      {
+        "ID": 222,
+        "Text": "Halo sacr\u00E9"
+      },
+      {
+        "ID": 223,
+        "Text": "Souffle ardent"
+      },
+      {
+        "ID": 224,
+        "Text": "Lame de sang"
+      },
+      {
+        "ID": 225,
+        "Text": "Entaille fantomatique"
+      },
+      {
+        "ID": 226,
+        "Text": "Lance spectrale"
+      },
+      {
+        "ID": 227,
+        "Text": "Brume de givre"
+      },
+      {
+        "ID": 228,
+        "Text": "Brume empoisonn\u00E9e"
+      },
+      {
+        "ID": 300,
+        "Text": "Coup de bouclier"
+      },
+      {
+        "ID": 301,
+        "Text": "Rempart in\u00E9branlable"
+      },
+      {
+        "ID": 302,
+        "Text": "Parade"
+      },
+      {
+        "ID": 303,
+        "Text": "Parade \u00E0 la rondache"
+      },
+      {
+        "ID": 304,
+        "Text": "Parade"
+      },
+      {
+        "ID": 305,
+        "Text": "Repr\u00E9sailles de Caria"
+      },
+      {
+        "ID": 306,
+        "Text": "Mur temp\u00E9tueux"
+      },
+      {
+        "ID": 307,
+        "Text": "Parade dor\u00E9e"
+      },
+      {
+        "ID": 308,
+        "Text": "Fracas de bouclier"
+      },
+      {
+        "ID": 309,
+        "Text": "Champ de force de Thops"
+      },
+      {
+        "ID": 400,
+        "Text": "Projectile perforant"
+      },
+      {
+        "ID": 401,
+        "Text": "Barrage"
+      },
+      {
+        "ID": 402,
+        "Text": "Tir puissant"
+      },
+      {
+        "ID": 403,
+        "Text": null
+      },
+      {
+        "ID": 404,
+        "Text": "Tir enchant\u00E9"
+      },
+      {
+        "ID": 405,
+        "Text": "Tir c\u00E9leste"
+      },
+      {
+        "ID": 406,
+        "Text": "Pluie de fl\u00E8ches"
+      },
+      {
+        "ID": 407,
+        "Text": null
+      },
+      {
+        "ID": 501,
+        "Text": "Pi\u00E9tinement givrant"
+      },
+      {
+        "ID": 502,
+        "Text": "Pi\u00E9tinement orageux"
+      },
+      {
+        "ID": 503,
+        "Text": "Coup de pied"
+      },
+      {
+        "ID": 504,
+        "Text": "Roulade foudroyante"
+      },
+      {
+        "ID": 505,
+        "Text": "Flamme des Lions rouges"
+      },
+      {
+        "ID": 506,
+        "Text": "Bond fracassant"
+      },
+      {
+        "ID": 507,
+        "Text": "Bond fracassant dor\u00E9"
+      },
+      {
+        "ID": 508,
+        "Text": "Vagues t\u00E9n\u00E9breuses"
+      },
+      {
+        "ID": 509,
+        "Text": "S\u00E9isme de Hoarah Loux"
+      },
+      {
+        "ID": 600,
+        "Text": "D\u00E9termination"
+      },
+      {
+        "ID": 601,
+        "Text": "R\u00E9solut. de chevalier royal"
+      },
+      {
+        "ID": 602,
+        "Text": "Man\u0153uvre d\u0027assassin"
+      },
+      {
+        "ID": 603,
+        "Text": "Serment dor\u00E9"
+      },
+      {
+        "ID": 604,
+        "Text": "Ordre sacr\u00E9"
+      },
+      {
+        "ID": 605,
+        "Text": "Ordre partag\u00E9"
+      },
+      {
+        "ID": 606,
+        "Text": "Seppuku"
+      },
+      {
+        "ID": 607,
+        "Text": "Lame rocheuse"
+      },
+      {
+        "ID": 650,
+        "Text": "Cri barbare"
+      },
+      {
+        "ID": 651,
+        "Text": "Cri de guerre"
+      },
+      {
+        "ID": 652,
+        "Text": "Cri bestial"
+      },
+      {
+        "ID": 653,
+        "Text": "Cri de troll"
+      },
+      {
+        "ID": 654,
+        "Text": "Cri du h\u00E2bleur"
+      },
+      {
+        "ID": 700,
+        "Text": "R\u00E9silience"
+      },
+      {
+        "ID": 701,
+        "Text": "V\u0153u d\u0027inflexibilit\u00E9"
+      },
+      {
+        "ID": 702,
+        "Text": "Terre sacr\u00E9e"
+      },
+      {
+        "ID": 800,
+        "Text": "Pas vif"
+      },
+      {
+        "ID": 801,
+        "Text": "Pas de Chevalier-limier"
+      },
+      {
+        "ID": 802,
+        "Text": "Rapace des brumes"
+      },
+      {
+        "ID": 850,
+        "Text": "Leurre blanc"
+      },
+      {
+        "ID": 1000,
+        "Text": "D\u00E9ferlement de foi"
+      },
+      {
+        "ID": 1001,
+        "Text": "Orbe ardent"
+      },
+      {
+        "ID": 1002,
+        "Text": "Langues de feu"
+      },
+      {
+        "ID": 1003,
+        "Text": "Sph\u00E8re proph\u00E9tique"
+      },
+      {
+        "ID": 1004,
+        "Text": "Pluie de sph\u00E8res"
+      },
+      {
+        "ID": 1005,
+        "Text": "Grande sph\u00E8re proph."
+      },
+      {
+        "ID": 1006,
+        "Text": "Mer de magma"
+      },
+      {
+        "ID": 1007,
+        "Text": "Morsure de vip\u00E8re"
+      },
+      {
+        "ID": 1008,
+        "Text": "\u00C9p\u00E9e du clair de lune"
+      },
+      {
+        "ID": 1009,
+        "Text": "Vrille de Siluria"
+      },
+      {
+        "ID": 1010,
+        "Text": "\u00C9tendard de ralliement"
+      },
+      {
+        "ID": 1011,
+        "Text": "Soyez t\u00E9moins !"
+      },
+      {
+        "ID": 1012,
+        "Text": "\u00C9p\u00E9e dansante d\u0027Eochaid"
+      },
+      {
+        "ID": 1013,
+        "Text": "\u00C9trangle-\u00E2me"
+      },
+      {
+        "ID": 1014,
+        "Text": "Flammes du pillard"
+      },
+      {
+        "ID": 1015,
+        "Text": "Cri de Milos"
+      },
+      {
+        "ID": 1016,
+        "Text": "Lame de sang de Reduvia"
+      },
+      {
+        "ID": 1017,
+        "Text": "Aiguillon de pierre d\u0027\u00E9clat"
+      },
+      {
+        "ID": 1018,
+        "Text": "Fouet d\u0027argent"
+      },
+      {
+        "ID": 1019,
+        "Text": "Posture nocteflamme"
+      },
+      {
+        "ID": 1020,
+        "Text": "Onde dor\u00E9e"
+      },
+      {
+        "ID": 1021,
+        "Text": "Flam. de la ruine spectrales"
+      },
+      {
+        "ID": 1022,
+        "Text": "Instauration de l\u0027Ordre"
+      },
+      {
+        "ID": 1023,
+        "Text": "Brumes soporifiques"
+      },
+      {
+        "ID": 1024,
+        "Text": "Rituel d\u0027invocation de lances"
+      },
+      {
+        "ID": 1025,
+        "Text": "Attaque lupine"
+      },
+      {
+        "ID": 1026,
+        "Text": "Forme orageuse"
+      },
+      {
+        "ID": 1027,
+        "Text": "Taillade de sang vici\u00E9"
+      },
+      {
+        "ID": 1028,
+        "Text": "Danse des ans\u00E9riformes"
+      },
+      {
+        "ID": 1029,
+        "Text": "Briseur d\u0027or"
+      },
+      {
+        "ID": 1030,
+        "Text": "\u00C0 genoux, je te l\u0027ordonne\u00A0!"
+      },
+      {
+        "ID": 1031,
+        "Text": "Rugissement royal"
+      },
+      {
+        "ID": 1032,
+        "Text": "Cri mande-\u00E9toile"
+      },
+      {
+        "ID": 1033,
+        "Text": "Onde destructrice"
+      },
+      {
+        "ID": 1034,
+        "Text": "Rituel de faveur sanguine"
+      },
+      {
+        "ID": 1035,
+        "Text": "Fl\u00E9au d\u0027argent"
+      },
+      {
+        "ID": 1036,
+        "Text": "Lame de Mort"
+      },
+      {
+        "ID": 1037,
+        "Text": "Lame d\u0027or"
+      },
+      {
+        "ID": 1038,
+        "Text": "Mort destin\u00E9e d\u00E9cha\u00EEn\u00E9e"
+      },
+      {
+        "ID": 1039,
+        "Text": "Rouet tournoyant"
+      },
+      {
+        "ID": 1040,
+        "Text": "Vortex du seigneur d\u0027alb\u00E2tre"
+      },
+      {
+        "ID": 1041,
+        "Text": "R\u00E9pulsion du seigneur d\u0027onyx"
+      },
+      {
+        "ID": 1042,
+        "Text": "Serment de vengeance"
+      },
+      {
+        "ID": 1043,
+        "Text": "\u00C9p\u00E9e de givre \u00E9lectrifi\u00E9e"
+      },
+      {
+        "ID": 1044,
+        "Text": "Griffes royales"
+      },
+      {
+        "ID": 1045,
+        "Text": "Danse des flammes"
+      },
+      {
+        "ID": 1046,
+        "Text": "Pichenette"
+      },
+      {
+        "ID": 1047,
+        "Text": "Amas stellaire"
+      },
+      {
+        "ID": 1048,
+        "Text": "Estoc de flammes spectrales"
+      },
+      {
+        "ID": 1049,
+        "Text": "Lance du dragon ancien"
+      },
+      {
+        "ID": 1050,
+        "Text": "Piqu\u00E9 de la Flamme exalt\u00E9e"
+      },
+      {
+        "ID": 1051,
+        "Text": "Halo de Miquella"
+      },
+      {
+        "ID": 1052,
+        "Text": "Infusion d\u0027or"
+      },
+      {
+        "ID": 1053,
+        "Text": "Derniers sacrements"
+      },
+      {
+        "ID": 1054,
+        "Text": "Lame imparable"
+      },
+      {
+        "ID": 1055,
+        "Text": "\u00C9p\u00E9e dansante d\u0027Eochaid"
+      },
+      {
+        "ID": 1167,
+        "Text": "Lame d\u0027adipocire"
+      },
+      {
+        "ID": 1168,
+        "Text": "Temp\u00EAte de givre de Zamor"
+      },
+      {
+        "ID": 1169,
+        "Text": "D\u00E9luge de Radahn"
+      },
+      {
+        "ID": 1170,
+        "Text": "Flamme noire de la reine"
+      },
+      {
+        "ID": 1171,
+        "Text": "Finesse dynastique"
+      },
+      {
+        "ID": 1172,
+        "Text": "Jet de magma"
+      },
+      {
+        "ID": 1173,
+        "Text": "Amas stellaire"
+      },
+      {
+        "ID": 1174,
+        "Text": "Flamboiement mortel"
+      },
+      {
+        "ID": 1175,
+        "Text": "Finesse de Chevalier-limier"
+      },
+      {
+        "ID": 1176,
+        "Text": "Guillotine de magma"
+      },
+      {
+        "ID": 1177,
+        "Text": "Abattage sanglant"
+      },
+      {
+        "ID": 1178,
+        "Text": "Clair de lune \u00E9ph\u00E9m\u00E8re"
+      },
+      {
+        "ID": 1179,
+        "Text": "Danse des lames sanglantes"
+      },
+      {
+        "ID": 1180,
+        "Text": null
+      },
+      {
+        "ID": 1181,
+        "Text": null
+      },
+      {
+        "ID": 1182,
+        "Text": "Le savoir avant tout"
+      },
+      {
+        "ID": 1183,
+        "Text": "D\u00E9voreur de mondes"
+      },
+      {
+        "ID": 1184,
+        "Text": "Ranc\u0153ur familiale"
+      },
+      {
+        "ID": 1185,
+        "Text": "Appel de Rosus"
+      },
+      {
+        "ID": 1186,
+        "Text": "Orage"
+      },
+      {
+        "ID": 1187,
+        "Text": "Phalange sacr\u00E9e"
+      },
+      {
+        "ID": 1188,
+        "Text": "Chasse au grand serpent"
+      },
+      {
+        "ID": 1189,
+        "Text": "Ailes ang\u00E9liques"
+      },
+      {
+        "ID": 1190,
+        "Text": "Coup de pied foudroyant"
+      },
+      {
+        "ID": 1191,
+        "Text": "Lame imparable"
+      },
+      {
+        "ID": 1192,
+        "Text": "Sorcellerie de la crosse"
+      },
+      {
+        "ID": 1193,
+        "Text": "Bond de l\u0027Arbre-Monde"
+      },
+      {
+        "ID": 1194,
+        "Text": "\u00C9clair gravitationnel"
+      },
+      {
+        "ID": 1195,
+        "Text": "Flammes soporifiques"
+      },
+      {
+        "ID": 1196,
+        "Text": "Riposte dor\u00E9e"
+      },
+      {
+        "ID": 1197,
+        "Text": "Fureur contagieuse"
+      },
+      {
+        "ID": 1198,
+        "Text": "Vortex d\u0027Ordovis"
+      },
+      {
+        "ID": 1199,
+        "Text": "Arme tournoyante"
+      }
+    
+],
+    "Version": 2,
+    "BigEndian": false,
+    "Compression": 1
+  },
+  "FmgID": 42
+}
