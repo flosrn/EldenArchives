@@ -57,13 +57,18 @@ const loadTranslations = async (type: string): Promise<Translations> => {
   };
 };
 
-const fetchItems = async (type: string): Promise<Item[]> => {
-  const response = await fetch(`https://api.erdb.wiki/v1/latest/${type}/`, {
-    method: "GET",
-    headers: {
-      "Content-Type": "application/json",
-    },
-  });
+const fetchItems = async (type: string, category: string): Promise<Item[]> => {
+  const response = await fetch(
+    `https://api.erdb.wiki/v1/latest/${type}/${
+      category ? `?query=category%3A${category}` : ""
+    }`,
+    {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    }
+  );
 
   const items = await response.json();
   console.log("items : ", items);
@@ -92,10 +97,10 @@ const fetchItems = async (type: string): Promise<Item[]> => {
 };
 
 export default async function RoutePage({
-  searchParams: { type },
+  searchParams: { type, category },
 }: PageParams<{}>) {
   console.log("type : ", type);
-  const items = await fetchItems(type);
+  const items = await fetchItems(type, category);
   // console.log("items : ", items);
   return (
     <Layout>

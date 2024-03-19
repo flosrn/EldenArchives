@@ -66,19 +66,34 @@ export const DASHBOARD_LINKS: NavigationLinkGroups[] = [
         url: "/items?type=tools",
       },
       {
-        title: "Shop",
+        title: "Larmes de cristal",
         icon: <MessageSquareWarning />,
-        url: "/items?type=shop",
+        url: "/items?type=tools&category=Crystal Tear",
       },
       {
-        title: "Keys",
+        title: "Livre de sorts",
+        icon: <MessageSquareWarning />,
+        url: "/items?type=shop&category=Spellbook",
+      },
+      {
+        title: "Perles cinéraires",
+        icon: <MessageSquareWarning />,
+        url: "/items?type=shop&category=Bell Bearing",
+      },
+      {
+        title: "Livre de recettes",
+        icon: <MessageSquareWarning />,
+        url: "/items?type=shop&category=Cookbook",
+      },
+      {
+        title: "Items clé",
         icon: <MessageSquareWarning />,
         url: "/items?type=keys",
       },
       {
-        title: "Info",
+        title: "Indices",
         icon: <MessageSquareWarning />,
-        url: "/items?type=info",
+        url: "/items?type=info&category=Clue",
       },
       {
         title: "Gestures",
