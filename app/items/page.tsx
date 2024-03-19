@@ -62,7 +62,7 @@ const loadTranslations = async (
 const fetchItems = async (
   type: string | string[],
   category: string | string[]
-): Promise<Item[]> => {
+): Promise<{ items: Item[]; categories: { name: string; icon: number }[] }> => {
   const response = await fetch(
     `https://api.erdb.wiki/v1/latest/${type}/${
       category ? `?query=category%3A${category}` : ""
@@ -76,6 +76,15 @@ const fetchItems = async (
   );
 
   const items = await response.json();
+  const categories = Object.keys(items)
+    .map((key) => {
+      const item: Item = items[key];
+      return { name: item.category, icon: item.icon };
+    })
+    .filter((item, index, self) => {
+      return index === self.findIndex((t) => t.name === item.name);
+    });
+
   // console.log("items : ", items);
   const { titles, descriptions } = await loadTranslations(type);
 
@@ -98,13 +107,15 @@ const fetchItems = async (
     };
   });
 
-  return itemsWithTranslation;
+  // console.log("categories : ", categories);
+
+  return { items: itemsWithTranslation, categories };
 };
 
 export default async function RoutePage({
   searchParams: { type, category },
 }: PageParams<{}>) {
-  const items = await fetchItems(type || "", category || "");
+  const { items } = await fetchItems(type || "", category || "");
   // console.log("items : ", items);
   return (
     <Layout>
@@ -120,7 +131,9 @@ export default async function RoutePage({
             return (
               <Card key={key} className="space-y-8">
                 <CardTitle>
-                  <Badge className="ml-1">{item.category}</Badge>
+                  {item.category && (
+                    <Badge className="ml-1">{item.category}</Badge>
+                  )}
                   <div className="mt-8 flex justify-center">
                     <Avatar className="size-28 overflow-visible">
                       {imageUrl ? <AvatarImage src={imageUrl} /> : null}

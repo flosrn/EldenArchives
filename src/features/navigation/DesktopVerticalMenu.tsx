@@ -2,7 +2,7 @@
 
 import { cloneElement, Fragment } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 
 import { Separator } from "@/components/ui/separator";
 import { Typography } from "@/components/ui/typography";
@@ -11,8 +11,7 @@ import { cn } from "@/lib/utils";
 import { DASHBOARD_LINKS } from "../../../app/dashboard/dashboard-links";
 import type { NavigationLinkGroups } from "./navigation.type";
 
-const useCurrentPath = (links: NavigationLinkGroups[]) => {
-  const currentPath = usePathname();
+const useCurrentPath = (currentPath: string, links: NavigationLinkGroups[]) => {
   const pathSegments = currentPath.split("/");
   const allDashboardLinks = links.flatMap((section) => section.links);
 
@@ -41,7 +40,19 @@ export const DesktopVerticalMenu = ({
   links: NavigationLinkGroups[];
   className?: string;
 }) => {
-  const currentPath = useCurrentPath(links);
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  const type = searchParams.get("type");
+  let currentPath = "";
+  if (type) {
+    const category = searchParams.get("category");
+    currentPath = `${pathname}?type=${type}${
+      category ? `&category=${category}` : ""
+    }`;
+  } else {
+    currentPath = useCurrentPath(pathname, links);
+  }
 
   return (
     <nav className={cn("flex flex-col gap-4", className)}>
