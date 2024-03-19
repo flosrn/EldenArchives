@@ -1,4 +1,5 @@
 import fs from "fs/promises";
+import path from "path";
 import React from "react";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -23,6 +24,8 @@ type Translations = {
   titles: Translation[];
   descriptions: Translation[];
 };
+
+const translationsDirectory = path.join(process.cwd(), "content/translations");
 
 const loadTranslations = async (
   type: string | string[]
@@ -52,10 +55,12 @@ const loadTranslations = async (
     `${process.cwd()}/content/translations/titles/${itemType}.json`,
     "utf8"
   );
+  console.log("titlesFile : ", titlesFile);
   const descriptionsFile = await fs.readFile(
     `${process.cwd()}/content/translations/descriptions/${itemType}.json`,
     "utf8"
   );
+  console.log("descriptionsFile : ", descriptionsFile);
   const titles = JSON.parse(titlesFile).Fmg.Entries;
   const descriptions = JSON.parse(descriptionsFile).Fmg.Entries;
   return {
