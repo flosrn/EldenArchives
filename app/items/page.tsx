@@ -48,11 +48,11 @@ const loadTranslations = async (
     itemType = "armaments";
   }
   const titlesFile = await fs.readFile(
-    `${process.cwd()}/public/translations/titles/${itemType}.json`,
+    `${process.cwd()}/app/data/translations/titles/${itemType}.json`,
     "utf8"
   );
   const descriptionsFile = await fs.readFile(
-    `${process.cwd()}/public/translations/descriptions/${itemType}.json`,
+    `${process.cwd()}/app/data/translations/descriptions/${itemType}.json`,
     "utf8"
   );
   const titles = JSON.parse(titlesFile).Fmg.Entries;
