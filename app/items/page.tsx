@@ -117,10 +117,20 @@ export default async function RoutePage({
 }: PageParams<{}>) {
   const { items } = await fetchItems(type || "", category || "");
   // console.log("items : ", items);
+
+  const categoryTitle = (category as string | undefined)
+    ?.split("-")
+    .map((word) => word[0].toUpperCase() + word.slice(1))
+    .join(" ");
+  const typeTitle = (type as string | undefined)
+    ?.split("-")
+    .map((word) => word[0].toUpperCase() + word.slice(1))
+    .join(" ");
+
   return (
     <Layout>
       <LayoutHeader>
-        <LayoutTitle>Items</LayoutTitle>
+        <LayoutTitle>{categoryTitle || typeTitle}</LayoutTitle>
       </LayoutHeader>
       <LayoutContent>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
