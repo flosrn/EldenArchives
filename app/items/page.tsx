@@ -51,10 +51,12 @@ const loadTranslations = async (
     `${process.cwd()}/app/data/translations/titles/${itemType}.json`,
     "utf8"
   );
+  console.log("titlesFile : ", titlesFile);
   const descriptionsFile = await fs.readFile(
     `${process.cwd()}/app/data/translations/descriptions/${itemType}.json`,
     "utf8"
   );
+  console.log("descriptionsFile : ", descriptionsFile);
   const titles = JSON.parse(titlesFile).Fmg.Entries;
   const descriptions = JSON.parse(descriptionsFile).Fmg.Entries;
   return {
