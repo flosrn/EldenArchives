@@ -27,10 +27,10 @@ export const Hero = () => {
         </Typography>
 
         <Link
-          href="#pricing"
+          href="/items?type=armor"
           className={cn(buttonVariants({ size: "lg", variant: "default" }))}
         >
-          <Rocket size={20} className="mr-2" /> Rejoins maintenant
+          <Rocket size={20} className="mr-2" /> Explore now
         </Link>
 
         <ReviewSmall
