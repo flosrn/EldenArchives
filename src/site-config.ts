@@ -1,6 +1,7 @@
 export const SiteConfig = {
   title: "Elden Archives",
-  description: "A template description for Now.ts",
+  description:
+    "La plateforme communautaire française de référence sur Elden Ring.",
   prodUrl: "https://elden-archives.vercel.app",
   domain: "elden-archives.vercel.app",
   appIcon: "/logo/ER_Logo.png",
