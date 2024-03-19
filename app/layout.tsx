@@ -16,9 +16,47 @@ import { Providers } from "./providers";
 import "./code-theme.scss";
 import "./globals.scss";
 
+const image = `${SiteConfig.prodUrl}/og.png`;
+
 export const metadata: Metadata = {
   title: SiteConfig.title,
   description: SiteConfig.description,
+  keywords: [
+    "Midjourney",
+    "AI",
+    "Artificial Intelligence",
+    "Image",
+    "Image Processing",
+    "Image Generation",
+  ],
+  authors: [
+    {
+      name: "flosrn",
+      url: "https://github.com/flosrn",
+    },
+  ],
+  creator: "flosrn",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: SiteConfig.prodUrl,
+    title: SiteConfig.title,
+    description: SiteConfig.description,
+    siteName: SiteConfig.title,
+    images: [image],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SiteConfig.title,
+    description: SiteConfig.description,
+    images: [image],
+    creator: "@flosrn",
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
   metadataBase: new URL(getServerUrl()),
 };
 
