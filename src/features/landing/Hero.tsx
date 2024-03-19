@@ -9,7 +9,7 @@ import { Typography } from "../../components/ui/typography";
 
 export const Hero = () => {
   return (
-    <main className="relative my-16 flex min-h-[700px] max-w-2xl items-center gap-4 px-8 lg:ml-32">
+    <main className="relative flex min-h-[700px] max-w-2xl items-center gap-4 px-8 lg:my-16 lg:ml-32">
       <div className="relative flex flex-1 flex-col items-start gap-4 lg:gap-6 xl:gap-8">
         <Typography variant="h1" className="!leading-tight">
           Explorez le Lore de{" "}
