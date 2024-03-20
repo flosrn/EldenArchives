@@ -42,6 +42,7 @@ const fetchItems = async (
 
   const categories = getCategories(items);
   const { titles, descriptions } = await loadTranslations(type);
+
   const itemsWithTranslation = getItemsWithTranslations({
     items,
     type,
@@ -101,10 +102,12 @@ export default async function RoutePage({
             const item = items[key as keyof typeof items] as Item;
             if (!item.name && !item.description) return null;
             const imageUrl = `https://assets.erdb.workers.dev/icons/${type}/${item.icon}/low`;
-            const itemPath = `/items/${item.id}?type=${type}`;
+            const itemPath = `/items/${item.englishName}?type=${type}${
+              category ? `&category=${category}` : ""
+            }`;
             return (
-              <Link key={key} href={itemPath}>
-                <Card className="space-y-8 hover:bg-muted/50 hover:shadow-lg">
+              <Link key={key} href={itemPath} className="flex">
+                <Card className="w-full space-y-8 hover:bg-muted/50 hover:shadow-lg">
                   <CardTitle>
                     {item.category && categories.length > 1 && (
                       <Badge className="ml-1">{item.category}</Badge>

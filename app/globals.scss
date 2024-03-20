@@ -111,3 +111,8 @@
   );
   background-size: var(--size, 10px) var(--size, 10px);
 }
+
+[data-rmiz-modal-overlay="visible"] {
+  background: rgba(0, 0, 0, 0.5) !important;
+  backdrop-filter: blur(5px);
+}

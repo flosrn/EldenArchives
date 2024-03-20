@@ -71,6 +71,7 @@
     "react-email": "2.0.0",
     "react-hook-form": "^7.51.1",
     "react-markdown": "^9.0.1",
+    "react-medium-image-zoom": "^5.1.10",
     "rehype-prism-plus": "^2.0.0",
     "remark-gfm": "^3.0.1",
     "resend": "^3.2.0",

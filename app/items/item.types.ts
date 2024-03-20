@@ -23,8 +23,10 @@ export type Item = {
   full_hex_id: string;
   id: number;
   name: string;
+  englishName: string;
   summary: string;
   description?: string;
+  englishDescription?: string;
   is_tradable: boolean;
   price_sold: number;
   rarity: "Common" | "Rare" | "Epic" | "Legendary";
@@ -40,4 +42,5 @@ export type Item = {
   absorptions: Absorptions;
   resistances: Resistances;
   effects: never[];
+  fp_cost?: number;
 };

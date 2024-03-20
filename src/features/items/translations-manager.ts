@@ -71,8 +71,10 @@ export const getItemsWithTranslations = ({
     const description = descriptions.find((d) => d.ID === item.id);
     return {
       ...item,
-      name: title?.Text || item.name,
-      description: description?.Text || item.description,
+      name: title?.Text || "",
+      description: description?.Text || "",
+      englishName: item.name,
+      englishDescription: item.description,
     };
   });
 };
