@@ -18,6 +18,7 @@ import { ITEMS_LINKS } from "./items-links";
 
 export const ItemsNavigation = async (props: PropsWithChildren) => {
   const user = await auth();
+  const isDev = process.env.NODE_ENV === "development";
   return (
     <div className="flex h-full flex-col lg:flex-row lg:overflow-hidden">
       {/* Desktop ONLY Navigation bar */}
@@ -38,7 +39,7 @@ export const ItemsNavigation = async (props: PropsWithChildren) => {
           <DesktopVerticalMenu links={ITEMS_LINKS} />
         </ScrollArea>
         <div className="flex-1" />
-        {user && (
+        {isDev && user && (
           <UserDropdown>
             <Button variant="outline" size="sm">
               <Avatar className="mr-2 size-6">
@@ -72,7 +73,7 @@ export const ItemsNavigation = async (props: PropsWithChildren) => {
             <div className="flex flex-1 items-center justify-end space-x-4">
               {/* Mobile header */}
               <nav className="flex items-center space-x-1 lg:hidden">
-                <AuthButton />
+                {isDev && <AuthButton />}
                 <ThemeToggle />
                 <MobileDropdownMenu links={ITEMS_LINKS} />
               </nav>
