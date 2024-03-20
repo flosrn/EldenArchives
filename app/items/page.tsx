@@ -15,7 +15,6 @@ import {
   LayoutHeader,
   LayoutTitle,
 } from "@/features/page/Layout";
-import { logger } from "@/lib/logger";
 import type { PageParams } from "@/types/next";
 
 import type { Item } from "./item.types";
@@ -50,8 +49,8 @@ const loadTranslations = async (
   if (type === "ammo") {
     itemType = "armaments";
   }
-  path.join(process.cwd(), "content/translations");
 
+  path.join(process.cwd(), "content/translations");
   const titlesFile = await fs.readFile(
     `${process.cwd()}/content/translations/titles/${itemType}.json`,
     "utf8"
@@ -85,7 +84,6 @@ const fetchItems = async (
   );
 
   const items = await response.json();
-  logger.info("✅ fetching des items");
   const categories = Object.keys(items)
     .map((key) => {
       const item: Item = items[key];
