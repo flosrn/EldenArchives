@@ -1,12 +1,15 @@
-import fs from "fs/promises";
-import path from "path";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import { ItemCategoriesBadges } from "@/features/items/ItemCategoriesBadges";
+import {
+  getCategories,
+  getItemsWithTranslations,
+  loadTranslations,
+} from "@/features/items/translations-manager";
 import { BreadcrumbNavWithQueryParams } from "@/features/navigation/BreadcrumbNavWithQueryParams";
 import {
   Layout,
@@ -19,57 +22,10 @@ import type { PageParams } from "@/types/next";
 
 import type { Item } from "./item.types";
 import { ItemsSearch } from "./ItemsSearch";
-import type { Translation } from "./translation.types";
-
-type Translations = {
-  titles: Translation[];
-  descriptions: Translation[];
-};
-
-const loadTranslations = async (
-  type: string | string[]
-): Promise<Translations> => {
-  let itemType = type;
-  if (
-    type === "spells" ||
-    type === "spirit-ashes" ||
-    type === "tools" ||
-    type === "shop" ||
-    type === "keys" ||
-    type === "info" ||
-    type === "gestures" ||
-    type === "crafting-materials" ||
-    type === "bolstering-materials"
-  ) {
-    itemType = "goods";
-  }
-  if (type === "ashes-of-war") {
-    itemType = "sword-arts";
-  }
-  if (type === "ammo") {
-    itemType = "armaments";
-  }
-
-  path.join(process.cwd(), "content/translations");
-  const titlesFile = await fs.readFile(
-    `${process.cwd()}/content/translations/titles/${itemType}.json`,
-    "utf8"
-  );
-  const descriptionsFile = await fs.readFile(
-    `${process.cwd()}/content/translations/descriptions/${itemType}.json`,
-    "utf8"
-  );
-  const titles = JSON.parse(titlesFile).Fmg.Entries;
-  const descriptions = JSON.parse(descriptionsFile).Fmg.Entries;
-  return {
-    titles,
-    descriptions,
-  };
-};
 
 const fetchItems = async (
-  type: string | string[],
-  category: string | string[]
+  type: string,
+  category: string
 ): Promise<{ items: Item[]; categories: { name: string; icon: number }[] }> => {
   const response = await fetch(
     `https://api.erdb.wiki/v1/latest/${type}/${
@@ -82,36 +38,15 @@ const fetchItems = async (
       },
     }
   );
-
   const items = await response.json();
-  const categories = Object.keys(items)
-    .map((key) => {
-      const item: Item = items[key];
-      return { name: item.category, icon: item.icon };
-    })
-    .filter((item, index, self) => {
-      return index === self.findIndex((t) => t.name === item.name);
-    });
 
+  const categories = getCategories(items);
   const { titles, descriptions } = await loadTranslations(type);
-
-  const itemsWithTranslation = Object.keys(items).map((key) => {
-    const item = items[key];
-    if (type === "ashes-of-war") {
-      const itemId = item.id.toString().slice(0, -2);
-      item.id = Number(itemId);
-    }
-    const titleTranslation = titles.find(
-      (translation) => translation.ID === item.id
-    );
-    const descriptionTranslation = descriptions.find(
-      (translation) => translation.ID === item.id
-    );
-    return {
-      ...item,
-      name: titleTranslation ? titleTranslation.Text : null,
-      description: descriptionTranslation ? descriptionTranslation.Text : null,
-    };
+  const itemsWithTranslation = getItemsWithTranslations({
+    items,
+    type,
+    titles,
+    descriptions,
   });
 
   return { items: itemsWithTranslation, categories };
@@ -120,7 +55,10 @@ const fetchItems = async (
 export default async function RoutePage({
   searchParams: { type, category, search },
 }: PageParams<{}>) {
-  const { items, categories } = await fetchItems(type || "", category || "");
+  const { items, categories } = await fetchItems(
+    type as string,
+    category as string
+  );
 
   if (search) {
     Object.keys(items).forEach((key) => {
@@ -163,38 +101,41 @@ export default async function RoutePage({
             const item = items[key as keyof typeof items] as Item;
             if (!item.name && !item.description) return null;
             const imageUrl = `https://assets.erdb.workers.dev/icons/${type}/${item.icon}/low`;
+            const itemPath = `/items/${item.id}?type=${type}`;
             return (
-              <Card key={key} className="space-y-8">
-                <CardTitle>
-                  {item.category && categories.length > 1 && (
-                    <Badge className="ml-1">{item.category}</Badge>
-                  )}
-                  <div className="mt-8 flex justify-center">
-                    <Image
-                      src={imageUrl}
-                      alt={item.name}
-                      width={130}
-                      height={130}
-                    />
-                  </div>
-                </CardTitle>
-                <CardContent>
-                  <div className="flex flex-col items-center justify-center">
-                    <h3 className="text-center text-xl font-semibold tracking-tight">
-                      {item.name}
-                    </h3>
-                    <div className="space-y-1 text-center text-sm">
-                      {item.description
-                        ?.split("\n\n")
-                        .map((paragraph: string, index: number) => (
-                          <p key={index} className="my-2">
-                            {paragraph}
-                          </p>
-                        ))}
+              <Link key={key} href={itemPath}>
+                <Card className="space-y-8 hover:bg-muted/50 hover:shadow-lg">
+                  <CardTitle>
+                    {item.category && categories.length > 1 && (
+                      <Badge className="ml-1">{item.category}</Badge>
+                    )}
+                    <div className="mt-8 flex justify-center">
+                      <Image
+                        src={imageUrl}
+                        alt={item.name}
+                        width={130}
+                        height={130}
+                      />
                     </div>
-                  </div>
-                </CardContent>
-              </Card>
+                  </CardTitle>
+                  <CardContent>
+                    <div className="flex flex-col items-center justify-center">
+                      <h3 className="text-center text-xl font-semibold tracking-tight">
+                        {item.name}
+                      </h3>
+                      <div className="space-y-1 text-center text-sm">
+                        {item.description
+                          ?.split("\n\n")
+                          .map((paragraph: string, index: number) => (
+                            <p key={index} className="my-2">
+                              {paragraph}
+                            </p>
+                          ))}
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
             );
           })}
         </div>
