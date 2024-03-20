@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { AuthButton } from "@/features/auth/AuthButton";
 import { UserDropdown } from "@/features/auth/UserDropdown";
 import { ContactFeedbackPopover } from "@/features/contact/feedback/ContactFeedbackPopover";
 import { DesktopVerticalMenu } from "@/features/navigation/DesktopVerticalMenu";
@@ -71,6 +72,7 @@ export const ItemsNavigation = async (props: PropsWithChildren) => {
             <div className="flex flex-1 items-center justify-end space-x-4">
               {/* Mobile header */}
               <nav className="flex items-center space-x-1 lg:hidden">
+                <AuthButton />
                 <ThemeToggle />
                 <MobileDropdownMenu links={ITEMS_LINKS} />
               </nav>

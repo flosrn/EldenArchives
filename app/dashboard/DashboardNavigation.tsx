@@ -10,13 +10,13 @@ import { ContactFeedbackPopover } from "@/features/contact/feedback/ContactFeedb
 import { DesktopVerticalMenu } from "@/features/navigation/DesktopVerticalMenu";
 import { MobileDropdownMenu } from "@/features/navigation/MobileDropdownMenu";
 import { ThemeToggle } from "@/features/theme/ThemeToggle";
-import { requiredAuth } from "@/lib/auth/helper";
+import { requiredAdminAuth } from "@/lib/auth/helper";
 import { SiteConfig } from "@/site-config";
 
 import { DASHBOARD_LINKS } from "./dashboard-links";
 
 export const DashboardNavigation = async (props: PropsWithChildren) => {
-  const user = await requiredAuth();
+  const user = await requiredAdminAuth();
   return (
     <div className="flex h-full flex-col lg:flex-row lg:overflow-hidden">
       {/* Desktop ONLY Navigation bar */}
