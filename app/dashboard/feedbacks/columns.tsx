@@ -71,8 +71,8 @@ export const columns: ColumnDef<FeedbackWithUser>[] = [
     accessorKey: "user",
     cell: ({ row }) => {
       const feedback = row.original;
-      const username = feedback.user?.name || "Unknown";
-      return <div className="max-w-[140px] truncate">{username}</div>;
+      const email = feedback.user?.email || "Unknown";
+      return <div className="max-w-[140px] truncate">{email}</div>;
     },
   },
   {
