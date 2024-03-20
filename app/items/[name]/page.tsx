@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { CollectionDrawer } from "@/features/collections/CollectionDrawer";
 import {
   getItemsWithTranslations,
   loadTranslations,
@@ -8,6 +9,7 @@ import {
 import { BreadcrumbNavWithQueryParams } from "@/features/navigation/BreadcrumbNavWithQueryParams";
 import {
   Layout,
+  LayoutActions,
   LayoutContent,
   LayoutHeader,
   LayoutTitle,
@@ -56,11 +58,14 @@ export default async function RoutePage({
   const imageUrl = `https://assets.erdb.workers.dev/icons/${type}/${item.icon}/high`;
 
   return (
-    <Layout>
+    <Layout className="justify-between">
       <LayoutHeader>
         <LayoutTitle>{item.name}</LayoutTitle>
         <BreadcrumbNavWithQueryParams currentPageName={item.name} />
       </LayoutHeader>
+      <LayoutActions>
+        <CollectionDrawer {...item} image={imageUrl} />
+      </LayoutActions>
       <LayoutContent>
         <div className="mt-5 grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="flex justify-center">
