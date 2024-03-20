@@ -58,14 +58,14 @@ export default async function RoutePage({
   const imageUrl = `https://assets.erdb.workers.dev/icons/${type}/${item.icon}/high`;
 
   return (
-    <Layout className="justify-between">
-      <LayoutHeader>
-        <LayoutTitle>{item.name}</LayoutTitle>
-        <BreadcrumbNavWithQueryParams currentPageName={item.name} />
+    <Layout className="justify-between [&>div]:w-full">
+      <LayoutHeader className="w-full flex-row items-end justify-between">
+        <div className="flex flex-col gap-2">
+          <LayoutTitle>{item.name}</LayoutTitle>
+          <BreadcrumbNavWithQueryParams currentPageName={item.name} />
+        </div>
+        <CollectionDrawer {...item} type={type as string} image={imageUrl} />
       </LayoutHeader>
-      <LayoutActions>
-        <CollectionDrawer {...item} image={imageUrl} />
-      </LayoutActions>
       <LayoutContent>
         <div className="mt-5 grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="flex justify-center">

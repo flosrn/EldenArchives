@@ -1,11 +1,11 @@
 import { create } from "zustand";
 
 type ItemCollection = {
-  id: string;
+  id: number;
   name: string;
   type: string;
   image: string;
-  description: string;
+  description?: string;
   category?: string;
 };
 
