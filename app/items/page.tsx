@@ -15,6 +15,7 @@ import {
   LayoutHeader,
   LayoutTitle,
 } from "@/features/page/Layout";
+import { logger } from "@/lib/logger";
 import type { PageParams } from "@/types/next";
 
 import type { Item } from "./item.types";
@@ -84,6 +85,7 @@ const fetchItems = async (
   );
 
   const items = await response.json();
+  logger.info("✅ fetching des items");
   const categories = Object.keys(items)
     .map((key) => {
       const item: Item = items[key];
