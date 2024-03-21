@@ -139,7 +139,7 @@ export const FavoritesDrawer = (props: FavoritesDrawerProps) => {
                               </span>
                               <Image
                                 data-vaul-no-drag
-                                src={item.image}
+                                src={`${item.image}/low`}
                                 alt={item.name}
                                 width={100}
                                 height={100}

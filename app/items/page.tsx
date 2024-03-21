@@ -102,7 +102,7 @@ export default async function RoutePage({
           {Object.keys(items).map((key) => {
             const item = items[key as keyof typeof items] as Item;
             if (!item.name && !item.description) return null;
-            const imageUrl = `https://assets.erdb.workers.dev/icons/${type}/${item.icon}/low`;
+            const baseImageUrl = `https://assets.erdb.workers.dev/icons/${type}/${item.icon}`;
             const itemPath = `/items/${item.englishName}?type=${type}${
               category ? `&category=${category}` : ""
             }`;
@@ -114,7 +114,7 @@ export default async function RoutePage({
                 <AddToFavoriteButton
                   item={item}
                   type={type as string}
-                  image={imageUrl}
+                  image={baseImageUrl}
                   className="absolute right-1 top-1"
                 />
                 <Link href={itemPath}>
@@ -127,7 +127,7 @@ export default async function RoutePage({
                       )}
                       <div className="mt-8 flex justify-center">
                         <Image
-                          src={imageUrl}
+                          src={`${baseImageUrl}/low`}
                           alt={item.name}
                           width={130}
                           height={130}
