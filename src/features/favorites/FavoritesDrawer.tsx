@@ -4,7 +4,7 @@ import * as React from "react";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { SaveIcon, StarIcon, XCircle } from "lucide-react";
+import { PlusCircle, SaveIcon, StarIcon, XCircle } from "lucide-react";
 import { toast } from "sonner";
 
 import { Button } from "@/components/ui/button";
@@ -45,9 +45,9 @@ export const FavoritesDrawer = (props: FavoritesDrawerProps) => {
 
     // Maybe throttle the scroll event if there is a performance issue
     // https://www.embla-carousel.com/api/events/#scroll
-    api.on("scroll", () => {
-      setCurrentIndex(api.selectedScrollSnap());
-    });
+    // api.on("scroll", () => {
+    //   setCurrentIndex(api.selectedScrollSnap());
+    // });
   }, [api]);
 
   useEffect(() => {
@@ -73,12 +73,12 @@ export const FavoritesDrawer = (props: FavoritesDrawerProps) => {
         <Button
           variant="outline"
           size="icon"
-          className="fixed bottom-5 right-5"
+          className="fixed bottom-[22px] right-4 size-12 lg:bottom-9 lg:right-10"
         >
           <span className="absolute -top-2 right-0 rounded-full bg-primary px-2 text-[9px] text-primary-foreground">
             {favorites.length}
           </span>
-          <StarIcon size={20} />
+          <StarIcon size={24} />
         </Button>
       </DrawerTrigger>
       <DrawerContent>
@@ -193,7 +193,7 @@ export const FavoritesDrawer = (props: FavoritesDrawerProps) => {
               ) : (
                 <p>
                   Vous n'avez pas encore d'objets dans vos favoris. Cliquez sur
-                  le bouton <StarIcon size={16} className="inline" /> pour
+                  le bouton <PlusCircle size={16} className="inline" /> pour
                   ajouter un objet à vos favoris.
                 </p>
               )}

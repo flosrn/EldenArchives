@@ -18,7 +18,7 @@ export const Providers = ({ children }: PropsWithChildren) => {
       <PlausibleProvider domain={SiteConfig.domain}>
         <SessionProvider>
           <QueryClientProvider client={queryClient}>
-            <Toaster />
+            <Toaster richColors />
             <DialogRenderer />
             {children}
           </QueryClientProvider>

@@ -115,13 +115,15 @@ export default async function RoutePage({
                   item={item}
                   type={type as string}
                   image={imageUrl}
-                  className="absolute right-2 top-2"
+                  className="absolute right-1 top-1"
                 />
-                <Link href={itemPath} className="flex">
+                <Link href={itemPath}>
                   <div className="space-y-6">
                     <CardTitle>
                       {item.category && categories.length > 1 && (
-                        <Badge className="ml-1">{item.category}</Badge>
+                        <Badge variant="outline" className="ml-1">
+                          {item.category}
+                        </Badge>
                       )}
                       <div className="mt-8 flex justify-center">
                         <Image

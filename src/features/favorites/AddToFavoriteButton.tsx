@@ -1,6 +1,7 @@
 "use client";
 
 import * as React from "react";
+import { motion } from "framer-motion";
 import { PlusCircle } from "lucide-react";
 import { toast } from "sonner";
 
@@ -41,19 +42,31 @@ export const AddToFavoriteButton = ({
       category: item.category,
     });
     toast.success("New item added to favorites", {
-      position: "top-center",
+      position: "bottom-right",
+      className: "right-12 max-w-[calc(100%-90px)] lg:max-w-full lg:right-16",
     });
   };
 
+  const MotionButton = motion(Button);
+
   return (
-    <Button
+    <MotionButton
       onClick={handleAddToCollection}
-      className={cn("px-3 shadow-none", className)}
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+      className={cn(
+        "shadow-none",
+        {
+          "p-2 size-8": size === "small",
+          "p-3 h-12": size === "large",
+        },
+        className
+      )}
     >
-      <PlusCircle className="size-4" />
+      <PlusCircle />
       {size === "large" && (
         <span className="hidden lg:ml-2 lg:block">Add to Favorites</span>
       )}
-    </Button>
+    </MotionButton>
   );
 };
