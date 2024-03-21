@@ -106,70 +106,70 @@ export const FavoritesDrawer = (props: FavoritesDrawerProps) => {
               className="w-full max-w-lg"
             >
               <CarouselContent data-vaul-no-drag>
-                {favorites.length > 0
-                  ? favorites.map((item, index) => (
-                      <CarouselItem
-                        key={index}
-                        data-vaul-no-drag
-                        className="basis-1/2 lg:basis-1/3"
-                      >
-                        <div data-vaul-no-drag className="p-1">
-                          <Card
+                {favorites.length > 0 &&
+                  favorites.map((item, index) => (
+                    <CarouselItem
+                      key={index}
+                      data-vaul-no-drag
+                      className="basis-1/2 lg:basis-1/3"
+                    >
+                      <div data-vaul-no-drag className="p-1">
+                        <Card
+                          data-vaul-no-drag
+                          onClick={(event: React.MouseEvent<HTMLDivElement>) =>
+                            handleClickOnCard(event, index)
+                          }
+                          className={cn("cursor-pointer")}
+                        >
+                          <CardContent
                             data-vaul-no-drag
-                            onClick={(
-                              event: React.MouseEvent<HTMLDivElement>
-                            ) => handleClickOnCard(event, index)}
-                            className={cn("cursor-pointer")}
+                            className="relative flex aspect-square items-center justify-center p-6"
                           >
-                            <CardContent
-                              data-vaul-no-drag
-                              className="relative flex aspect-square items-center justify-center p-6"
+                            <motion.div
+                              onClick={() => handleDeleteItem(item.id)}
+                              whileHover={{ scale: 1.1 }}
+                              whileTap={{ scale: 0.9 }}
+                              className="absolute -right-1 -top-1"
                             >
-                              <motion.div
-                                onClick={() => handleDeleteItem(item.id)}
-                                whileHover={{ scale: 1.1 }}
-                                whileTap={{ scale: 0.9 }}
-                                className="absolute -right-1 -top-1"
-                              >
-                                <XCircle size={16} className="" />
-                              </motion.div>
-                              <span className="absolute bottom-1 left-1 text-xs font-semibold">
-                                {index + 1}
-                              </span>
-                              <Image
-                                data-vaul-no-drag
-                                src={`${item.image}/low`}
-                                alt={item.name}
-                                width={100}
-                                height={100}
-                              />
-                            </CardContent>
-                          </Card>
-                        </div>
-                      </CarouselItem>
-                    ))
-                  : Array.from({ length: 6 }).map((_, index) => (
-                      <CarouselItem
-                        key={index}
-                        data-vaul-no-drag
-                        className="basis-1/2 lg:basis-1/3"
-                      >
-                        <div data-vaul-no-drag className="p-1">
-                          <Card
-                            data-vaul-no-drag
-                            onClick={(
-                              event: React.MouseEvent<HTMLDivElement>
-                            ) => handleClickOnCard(event, index)}
-                            className={cn("cursor-pointer")}
-                          >
-                            <CardContent
+                              <XCircle size={16} className="" />
+                            </motion.div>
+                            <span className="absolute bottom-1 left-1 text-xs font-semibold">
+                              {index + 1}
+                            </span>
+                            <Image
                               data-vaul-no-drag
-                              className="relative flex aspect-square items-center justify-center p-6"
-                            ></CardContent>
-                          </Card>
-                        </div>
-                      </CarouselItem>
-                    ))}
+                              src={`${item.image}/low`}
+                              alt={item.name}
+                              width={100}
+                              height={100}
+                            />
+                          </CardContent>
+                        </Card>
+                      </div>
+                    </CarouselItem>
+                  ))}
+                {Array.from({ length: 3 }).map((_, index) => (
+                  <CarouselItem
+                    key={index}
+                    data-vaul-no-drag
+                    className="basis-1/2 lg:basis-1/3"
+                  >
+                    <div data-vaul-no-drag className="p-1">
+                      <Card
+                        data-vaul-no-drag
+                        onClick={(event: React.MouseEvent<HTMLDivElement>) =>
+                          handleClickOnCard(event, index + favorites.length)
+                        }
+                        className={cn("cursor-pointer")}
+                      >
+                        <CardContent
+                          data-vaul-no-drag
+                          className="relative flex aspect-square size-[150px] items-center justify-center p-6"
+                        ></CardContent>
+                      </Card>
+                    </div>
+                  </CarouselItem>
+                ))}
               </CarouselContent>
               <CarouselPrevious
                 onClick={() => {
