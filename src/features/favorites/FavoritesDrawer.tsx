@@ -82,8 +82,9 @@ export const FavoritesDrawer = (props: FavoritesDrawerProps) => {
           <DrawerHeader className="flex max-w-sm flex-col items-center justify-center">
             <DrawerTitle>Favoris</DrawerTitle>
             <DrawerDescription className="text-center">
-              Les favoris vous permettent de sauvegarder vos objets préférés.
-              Cliquez sur le bouton sauvegarder pour les retrouver plus tard.
+              Les favoris vous permettent de regrouper des objets pour en
+              déduire des théories. Cliquez sur le bouton save pour enregistrer
+              vos favoris dans une collection.
             </DrawerDescription>
           </DrawerHeader>
           <div
