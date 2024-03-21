@@ -24,6 +24,7 @@ type CollectionState = {
 
 type CollectionAction = {
   addToCollection: (item: ItemCollection) => void;
+
 };
 
 export const useCollectionStore = create<CollectionAction & CollectionState>()(

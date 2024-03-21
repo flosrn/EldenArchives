@@ -1,7 +1,8 @@
 import React from "react";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { CollectionDrawer } from "@/features/collections/CollectionDrawer";
+import { AddToFavoriteButton } from "@/features/favorites/AddToFavoriteButton";
+import { FavoritesDrawer } from "@/features/favorites/FavoritesDrawer";
 import {
   getItemsWithTranslations,
   loadTranslations,
@@ -54,7 +55,6 @@ export default async function RoutePage({
   category: string;
 }>) {
   const { item } = await fetchItem(name, type as string);
-  console.log("item : ", item);
   const imageUrl = `https://assets.erdb.workers.dev/icons/${type}/${item.icon}/high`;
 
   return (
@@ -64,7 +64,12 @@ export default async function RoutePage({
           <LayoutTitle>{item.name}</LayoutTitle>
           <BreadcrumbNavWithQueryParams currentPageName={item.name} />
         </div>
-        <CollectionDrawer {...item} type={type as string} image={imageUrl} />
+        <AddToFavoriteButton
+          size="large"
+          item={item}
+          type={type as string}
+          image={imageUrl}
+        />
       </LayoutHeader>
       <LayoutContent>
         <div className="mt-5 grid grid-cols-1 gap-4 md:grid-cols-2">
