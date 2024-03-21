@@ -11,6 +11,14 @@ import { cn } from "@/lib/utils";
 
 import type { Item } from "../../../app/items/item.types";
 
+const toastOptions: {
+  position: "bottom-right";
+  className: string;
+} = {
+  position: "bottom-right",
+  className: "right-12 max-w-[calc(100%-90px)] lg:max-w-full lg:right-16",
+};
+
 export type AddToFavoriteButtonProps = {
   item: Item;
   type: string;
@@ -26,13 +34,20 @@ export const AddToFavoriteButton = ({
   size = "small",
   className,
 }: AddToFavoriteButtonProps) => {
-  const [addToFavorites] = useFavoritesStore((state) => [state.addToFavorites]);
+  const [favorites, addToFavorites] = useFavoritesStore((state) => [
+    state.favorites,
+    state.addToFavorites,
+  ]);
 
-  const handleAddToCollection = (
-    event: React.MouseEvent<HTMLButtonElement>
-  ) => {
-    event.stopPropagation();
-    event.preventDefault();
+  const handleAddToCollection = () => {
+    const isAlreadyInFavorites = favorites.some(
+      (favorite) => favorite.id === item.id
+    );
+    if (isAlreadyInFavorites) {
+      toast.error("Item already in favorites", toastOptions);
+      return;
+    }
+
     addToFavorites({
       id: item.id,
       name: item.name,
@@ -42,10 +57,7 @@ export const AddToFavoriteButton = ({
       description: item.description,
       category: item.category,
     });
-    toast.success("New item added to favorites", {
-      position: "bottom-right",
-      className: "right-12 max-w-[calc(100%-90px)] lg:max-w-full lg:right-16",
-    });
+    toast.success("New item added to favorites", toastOptions);
   };
 
   const MotionButton = motion(Button);

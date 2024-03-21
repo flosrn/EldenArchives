@@ -3,7 +3,7 @@
 import * as React from "react";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { PlusCircle, SaveIcon, StarIcon, XCircle } from "lucide-react";
 import { toast } from "sonner";
 
@@ -42,9 +42,6 @@ export const FavoritesDrawer = (props: FavoritesDrawerProps) => {
 
   useEffect(() => {
     if (!api) return;
-
-    // Maybe throttle the scroll event if there is a performance issue
-    // https://www.embla-carousel.com/api/events/#scroll
     api.on("scroll", () => {
       setCurrentIndex(api.selectedScrollSnap());
     });
@@ -54,10 +51,7 @@ export const FavoritesDrawer = (props: FavoritesDrawerProps) => {
     setCurrentIndex(favorites.length === 1 ? 0 : favorites.length - 2);
   }, [favorites]);
 
-  const handleClickOnCard = (
-    event: React.MouseEvent<HTMLDivElement>,
-    index: number
-  ) => {
+  const handleSelectItem = (index: number) => {
     api?.scrollTo(index);
     setCurrentIndex(index);
   };
@@ -65,6 +59,8 @@ export const FavoritesDrawer = (props: FavoritesDrawerProps) => {
   const handleDeleteItem = (id: number) => {
     removeFromFavorites(id);
   };
+
+  const CardMotion = motion(Card);
 
   return (
     <Drawer>
@@ -114,11 +110,10 @@ export const FavoritesDrawer = (props: FavoritesDrawerProps) => {
                       className="basis-1/2 lg:basis-1/3"
                     >
                       <div data-vaul-no-drag className="p-1">
-                        <Card
+                        <CardMotion
+                          layoutId={item.id.toString()}
                           data-vaul-no-drag
-                          onClick={(event: React.MouseEvent<HTMLDivElement>) =>
-                            handleClickOnCard(event, index)
-                          }
+                          onClick={() => handleSelectItem(index)}
                           className={cn("cursor-pointer")}
                         >
                           <CardContent
@@ -144,7 +139,7 @@ export const FavoritesDrawer = (props: FavoritesDrawerProps) => {
                               height={100}
                             />
                           </CardContent>
-                        </Card>
+                        </CardMotion>
                       </div>
                     </CarouselItem>
                   ))}
@@ -157,8 +152,8 @@ export const FavoritesDrawer = (props: FavoritesDrawerProps) => {
                     <div data-vaul-no-drag className="p-1">
                       <Card
                         data-vaul-no-drag
-                        onClick={(event: React.MouseEvent<HTMLDivElement>) =>
-                          handleClickOnCard(event, index + favorites.length)
+                        onClick={() =>
+                          handleSelectItem(index + favorites.length)
                         }
                         className={cn("cursor-pointer")}
                       >
