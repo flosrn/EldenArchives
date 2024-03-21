@@ -68,7 +68,7 @@ export default async function RoutePage({
           size="large"
           item={item}
           type={type as string}
-          image={imageUrl}
+          image={baseImageUrl}
         />
       </LayoutHeader>
       <LayoutContent>
