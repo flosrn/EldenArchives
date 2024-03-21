@@ -5,6 +5,7 @@ type Favorite = {
   name: string;
   type: string;
   image: string;
+  icon?: number;
   description?: string;
   category?: string;
 };

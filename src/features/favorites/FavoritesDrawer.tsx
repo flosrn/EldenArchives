@@ -51,7 +51,7 @@ export const FavoritesDrawer = (props: FavoritesDrawerProps) => {
   }, [api]);
 
   useEffect(() => {
-    setCurrentIndex(favorites.length - 2);
+    setCurrentIndex(favorites.length === 1 ? 0 : favorites.length - 2);
   }, [favorites]);
 
   const handleClickOnCard = (

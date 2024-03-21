@@ -38,6 +38,7 @@ export const AddToFavoriteButton = ({
       name: item.name,
       type: type,
       image: image,
+      icon: item.icon,
       description: item.description,
       category: item.category,
     });
