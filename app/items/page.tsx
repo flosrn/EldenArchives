@@ -4,6 +4,7 @@ import Link from "next/link";
 
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
+import { AddToFavoriteButton } from "@/features/favorites/AddToFavoriteButton";
 import { ItemCategoriesBadges } from "@/features/items/ItemCategoriesBadges";
 import {
   getCategories,
@@ -106,39 +107,52 @@ export default async function RoutePage({
               category ? `&category=${category}` : ""
             }`;
             return (
-              <Link key={key} href={itemPath} className="flex">
-                <Card className="w-full space-y-8 hover:bg-muted/50 hover:shadow-lg">
-                  <CardTitle>
-                    {item.category && categories.length > 1 && (
-                      <Badge className="ml-1">{item.category}</Badge>
-                    )}
-                    <div className="mt-8 flex justify-center">
-                      <Image
-                        src={imageUrl}
-                        alt={item.name}
-                        width={130}
-                        height={130}
-                      />
-                    </div>
-                  </CardTitle>
-                  <CardContent>
-                    <div className="flex flex-col items-center justify-center">
-                      <h3 className="text-center text-xl font-semibold tracking-tight">
-                        {item.name}
-                      </h3>
-                      <div className="space-y-1 text-center text-sm">
-                        {item.description
-                          ?.split("\n\n")
-                          .map((paragraph: string, index: number) => (
-                            <p key={index} className="my-2">
-                              {paragraph}
-                            </p>
-                          ))}
+              <Card
+                key={key}
+                className="relative w-full hover:bg-muted/50 hover:shadow-lg"
+              >
+                <AddToFavoriteButton
+                  item={item}
+                  type={type as string}
+                  image={imageUrl}
+                  className="absolute right-1 top-1"
+                />
+                <Link href={itemPath}>
+                  <div className="space-y-6">
+                    <CardTitle>
+                      {item.category && categories.length > 1 && (
+                        <Badge variant="outline" className="ml-1">
+                          {item.category}
+                        </Badge>
+                      )}
+                      <div className="mt-8 flex justify-center">
+                        <Image
+                          src={imageUrl}
+                          alt={item.name}
+                          width={130}
+                          height={130}
+                        />
                       </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              </Link>
+                    </CardTitle>
+                    <CardContent>
+                      <div className="flex flex-col items-center justify-center">
+                        <h3 className="text-center text-xl font-semibold tracking-tight">
+                          {item.name}
+                        </h3>
+                        <div className="space-y-1 text-center text-sm">
+                          {item.description
+                            ?.split("\n\n")
+                            .map((paragraph: string, index: number) => (
+                              <p key={index} className="my-2">
+                                {paragraph}
+                              </p>
+                            ))}
+                        </div>
+                      </div>
+                    </CardContent>
+                  </div>
+                </Link>
+              </Card>
             );
           })}
         </div>

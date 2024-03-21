@@ -1,6 +1,8 @@
 import React from "react";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { AddToFavoriteButton } from "@/features/favorites/AddToFavoriteButton";
+import { FavoritesDrawer } from "@/features/favorites/FavoritesDrawer";
 import {
   getItemsWithTranslations,
   loadTranslations,
@@ -8,6 +10,7 @@ import {
 import { BreadcrumbNavWithQueryParams } from "@/features/navigation/BreadcrumbNavWithQueryParams";
 import {
   Layout,
+  LayoutActions,
   LayoutContent,
   LayoutHeader,
   LayoutTitle,
@@ -52,14 +55,21 @@ export default async function RoutePage({
   category: string;
 }>) {
   const { item } = await fetchItem(name, type as string);
-  console.log("item : ", item);
   const baseImageUrl = `https://assets.erdb.workers.dev/icons/${type}/${item.icon}`;
 
   return (
-    <Layout>
-      <LayoutHeader>
-        <LayoutTitle>{item.name}</LayoutTitle>
-        <BreadcrumbNavWithQueryParams currentPageName={item.name} />
+    <Layout className="justify-between [&>div]:w-full">
+      <LayoutHeader className="w-full flex-row items-end justify-between">
+        <div className="flex flex-col gap-2">
+          <LayoutTitle>{item.name}</LayoutTitle>
+          <BreadcrumbNavWithQueryParams currentPageName={item.name} />
+        </div>
+        <AddToFavoriteButton
+          size="large"
+          item={item}
+          type={type as string}
+          image={imageUrl}
+        />
       </LayoutHeader>
       <LayoutContent>
         <div className="mt-5 grid grid-cols-1 gap-4 md:grid-cols-2">
