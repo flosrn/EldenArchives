@@ -3,7 +3,7 @@
 import * as React from "react";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { PlusCircle, SaveIcon, StarIcon, XCircle } from "lucide-react";
 import { toast } from "sonner";
 

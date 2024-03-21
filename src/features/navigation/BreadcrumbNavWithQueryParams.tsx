@@ -21,6 +21,7 @@ export const BreadcrumbNavWithQueryParams = ({
   currentPageName,
 }: BreadcrumbNavProps) => {
   const pathname = usePathname();
+  const isNested = pathname.split("/").length > 2;
 
   const basePath = pathname.split("/")[1];
   const searchParams = useSearchParams();
@@ -34,7 +35,6 @@ export const BreadcrumbNavWithQueryParams = ({
   if (isSamePage) {
     paths = paths.slice(0, -1);
   }
-  // console.log("paths : ", paths);
 
   return (
     <Breadcrumb>
@@ -42,7 +42,7 @@ export const BreadcrumbNavWithQueryParams = ({
         {paths.map((path, index) => {
           const isLast = index === paths.length - 1;
           let pathLabel = path[0].toUpperCase() + path.slice(1);
-          const href = `/${basePath}?type=${type}${category && index === paths.length - 2 ? `&category=${category}` : ""}`;
+          const href = `/${basePath}?type=${type}${category && (index === paths.length - 1 || (isNested && index === paths.length - 2)) ? `&category=${category}` : ""}`;
 
           if (isLast && currentPageName) {
             pathLabel = currentPageName;

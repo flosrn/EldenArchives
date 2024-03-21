@@ -13,7 +13,7 @@ export const ITEMS_LINKS: NavigationLinkGroups[] = [
   //   ],
   // },
   {
-    title: "Items",
+    title: "Équipements",
     links: [
       {
         title: "Armes",
@@ -30,6 +30,11 @@ export const ITEMS_LINKS: NavigationLinkGroups[] = [
         icon: <ItemsLinksIcon id={18000} category="talismans" />,
         url: "/items?type=talismans",
       },
+    ],
+  },
+  {
+    title: "Sorts / Compétences",
+    links: [
       {
         title: "Sorcellerie",
         icon: <ItemsLinksIcon id={6015} category="spells" />,
@@ -41,11 +46,6 @@ export const ITEMS_LINKS: NavigationLinkGroups[] = [
         url: "/items?type=spells&category=Incantation",
       },
       {
-        title: "Items clé",
-        icon: <ItemsLinksIcon id={228} category="keys" />,
-        url: "/items?type=keys",
-      },
-      {
         title: "Cendres de guerre",
         icon: <ItemsLinksIcon id={8421} category="ashes-of-war" />,
         url: "/items?type=ashes-of-war",
@@ -55,16 +55,41 @@ export const ITEMS_LINKS: NavigationLinkGroups[] = [
         icon: <ItemsLinksIcon id={474} category="spirit-ashes" />,
         url: "/items?type=spirit-ashes",
       },
+    ],
+  },
+  {
+    title: "Objets",
+    links: [
+      {
+        title: "Items de quête",
+        icon: <ItemsLinksIcon id={3054} category="keys" />,
+        url: "/items?type=keys&category=Quest",
+      },
+      {
+        title: "Items clé",
+        icon: <ItemsLinksIcon id={228} category="keys" />,
+        url: "/items?type=keys",
+      },
+      {
+        title: "Outils",
+        icon: <ItemsLinksIcon id={213} category="tools" />,
+        url: "/items?type=tools",
+      },
+      {
+        title: "Indices",
+        icon: <ItemsLinksIcon id={3280} category="info" />,
+        url: "/items?type=info&category=Clue",
+      },
       {
         title: "Souvenirs",
         icon: <ItemsLinksIcon id={172} category="tools" />,
         url: "/items?type=tools&category=Rememberance",
       },
-      {
-        title: "Grande runes",
-        icon: <ItemsLinksIcon id={3201} category="tools" />,
-        url: "/items?type=tools&category=Great Rune",
-      },
+    ],
+  },
+  {
+    title: "Autres",
+    links: [
       {
         title: "Matériaux de fabrication",
         icon: <ItemsLinksIcon id={531} category="crafting-materials" />,
@@ -81,21 +106,6 @@ export const ITEMS_LINKS: NavigationLinkGroups[] = [
         url: "/items?type=tools&category=Crystal Tear",
       },
       {
-        title: "Outils",
-        icon: <ItemsLinksIcon id={213} category="tools" />,
-        url: "/items?type=tools",
-      },
-      {
-        title: "Livre de sorts",
-        icon: <ItemsLinksIcon id={316} category="shop" />,
-        url: "/items?type=shop&category=Spellbook",
-      },
-      {
-        title: "Indices",
-        icon: <ItemsLinksIcon id={3280} category="info" />,
-        url: "/items?type=info&category=Clue",
-      },
-      {
         title: "Perles cinéraires",
         icon: <ItemsLinksIcon id={3145} category="shop" />,
         url: "/items?type=shop&category=Bell Bearing",
@@ -104,6 +114,11 @@ export const ITEMS_LINKS: NavigationLinkGroups[] = [
         title: "Livre de recettes",
         icon: <ItemsLinksIcon id={3119} category="shop" />,
         url: "/items?type=shop&category=Cookbook",
+      },
+      {
+        title: "Livre de sorts",
+        icon: <ItemsLinksIcon id={316} category="shop" />,
+        url: "/items?type=shop&category=Spellbook",
       },
       {
         title: "Munitions",
