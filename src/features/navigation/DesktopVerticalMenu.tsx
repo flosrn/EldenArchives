@@ -56,7 +56,7 @@ export const DesktopVerticalMenu = ({
   }
 
   return (
-    <nav className={cn("flex flex-col gap-4", className)}>
+    <nav className={cn("flex flex-col h-full gap-4", className)}>
       {links.map((section, index) => (
         <Fragment key={index}>
           {section.title ? (
