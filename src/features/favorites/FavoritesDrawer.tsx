@@ -62,9 +62,8 @@ export const FavoritesDrawer = (props: FavoritesDrawerProps) => {
     setCurrentIndex(index);
   };
 
-  const handleDeleteItem = (event: React.MouseEvent<HTMLDivElement>) => {
-    event.stopPropagation();
-    removeFromFavorites(favorites[currentIndex].id);
+  const handleDeleteItem = (id: number) => {
+    removeFromFavorites(id);
   };
 
   return (
@@ -127,7 +126,7 @@ export const FavoritesDrawer = (props: FavoritesDrawerProps) => {
                               className="relative flex aspect-square items-center justify-center p-6"
                             >
                               <motion.div
-                                onClick={handleDeleteItem}
+                                onClick={() => handleDeleteItem(item.id)}
                                 whileHover={{ scale: 1.1 }}
                                 whileTap={{ scale: 0.9 }}
                                 className="absolute -right-1 -top-1"
