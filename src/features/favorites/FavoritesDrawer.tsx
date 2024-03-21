@@ -51,7 +51,7 @@ export const FavoritesDrawer = (props: FavoritesDrawerProps) => {
   }, [api]);
 
   useEffect(() => {
-    setCurrentIndex(favorites.length - 1);
+    setCurrentIndex(favorites.length - 2);
   }, [favorites]);
 
   const handleClickOnCard = (
@@ -101,7 +101,7 @@ export const FavoritesDrawer = (props: FavoritesDrawerProps) => {
                 align: "center",
                 dragFree: true,
                 containScroll: false,
-                startIndex: favorites.length > 0 ? favorites.length - 1 : 1,
+                startIndex: favorites.length > 0 ? favorites.length - 2 : 1,
               }}
               data-vaul-no-drag
               className="w-full max-w-lg"
