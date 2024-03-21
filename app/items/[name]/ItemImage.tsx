@@ -13,8 +13,8 @@ export type ItemImageProps = {
 
 export const ItemImage = ({ src, alt }: ItemImageProps) => {
   return (
-    <Zoom zoomImg={{ src: src, alt: alt }}>
-      <Image src={src} width={400} height={400} alt={alt} />
+    <Zoom zoomImg={{ src: `${src}/high`, alt: alt }}>
+      <Image src={`${src}/high`} width={400} height={400} alt={alt} />
     </Zoom>
   );
 };

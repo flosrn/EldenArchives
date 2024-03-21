@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useSession } from "next-auth/react";
 import type { VariantProps } from "class-variance-authority";
@@ -60,10 +61,20 @@ export const LoggedInButton = ({
     <UserDropdown>
       <Button variant="outline" size="sm">
         <Avatar className="size-6 bg-card lg:mr-2">
-          <AvatarFallback className="bg-card">
-            {user.email.slice(0, 1).toUpperCase()}
-          </AvatarFallback>
-          {user.image && <AvatarImage src={user.image} />}
+          {!user.image && (
+            <AvatarFallback className="bg-card">
+              {user.email.slice(0, 2).toUpperCase()}
+            </AvatarFallback>
+          )}
+          {user.image && (
+            <Image
+              src={user.image}
+              alt={displayName(user)}
+              width={24}
+              height={24}
+              className="aspect-square size-full"
+            />
+          )}
         </Avatar>
         <span className="max-lg:hidden">{displayName(user)}</span>
       </Button>

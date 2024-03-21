@@ -5,7 +5,8 @@ import { LandingHeader } from "@/features/landing/LandingHeader";
 
 export default function HomePage() {
   return (
-    <div className="flex h-fit flex-col gap-2">
+    // eslint-disable-next-line tailwindcss/no-contradicting-classname
+    <div className="flex h-dvh h-screen flex-col gap-2 overflow-hidden">
       <Image
         src="/images/Elden_Ring_Erdtree_4k.jpg"
         alt="Elden Ring Erdtree"

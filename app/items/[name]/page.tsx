@@ -55,7 +55,7 @@ export default async function RoutePage({
   category: string;
 }>) {
   const { item } = await fetchItem(name, type as string);
-  const imageUrl = `https://assets.erdb.workers.dev/icons/${type}/${item.icon}/high`;
+  const baseImageUrl = `https://assets.erdb.workers.dev/icons/${type}/${item.icon}`;
 
   return (
     <Layout className="justify-between [&>div]:w-full">
@@ -74,7 +74,7 @@ export default async function RoutePage({
       <LayoutContent>
         <div className="mt-5 grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="flex justify-center">
-            <ItemImage src={imageUrl} alt={item.name} />
+            <ItemImage src={baseImageUrl} alt={item.name} />
           </div>
           <Card className="h-fit py-5 lg:py-10">
             <CardHeader>

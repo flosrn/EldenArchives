@@ -12,6 +12,7 @@ import { DesktopVerticalMenu } from "@/features/navigation/DesktopVerticalMenu";
 import { MobileDropdownMenu } from "@/features/navigation/MobileDropdownMenu";
 import { ThemeToggle } from "@/features/theme/ThemeToggle";
 import { auth } from "@/lib/auth/helper";
+import { displayName } from "@/lib/format/displayName";
 import { SiteConfig } from "@/site-config";
 
 import { ITEMS_LINKS } from "./items-links";
@@ -43,10 +44,20 @@ export const ItemsNavigation = async (props: PropsWithChildren) => {
           <UserDropdown>
             <Button variant="outline" size="sm">
               <Avatar className="mr-2 size-6">
-                <AvatarFallback>
-                  {user.email ? user.email.slice(0, 2) : "??"}
-                </AvatarFallback>
-                {user.image && <AvatarImage src={user.image} />}
+                {!user.image && (
+                  <AvatarFallback>
+                    {user.email ? user.email.slice(0, 2).toUpperCase() : "??"}
+                  </AvatarFallback>
+                )}
+                {user.image && (
+                  <Image
+                    src={user.image}
+                    alt={displayName(user)}
+                    width={24}
+                    height={24}
+                    className="aspect-square size-full"
+                  />
+                )}
               </Avatar>
               <span className="max-lg:hidden">{user.name}</span>
             </Button>

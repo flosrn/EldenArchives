@@ -10,7 +10,7 @@ export const SiteConfig = {
     address: "1234 Main St, New York, NY 10001",
   },
   brand: {
-    primary: "#007291",
+    primary: "#5d4c3d",
   },
   email: {
     from: "Elden Archives <contact@eldenarchives.com>",

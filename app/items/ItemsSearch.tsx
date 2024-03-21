@@ -29,6 +29,7 @@ export const ItemsSearch = ({ placeholder }: ItemsSearchProps) => {
       placeholder={placeholder}
       onChange={(event) => handleSearch(event.target.value)}
       defaultValue={searchParams.get("search")?.toString()}
+      className="text-base"
     />
   );
 };

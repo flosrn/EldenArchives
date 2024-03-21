@@ -10,14 +10,10 @@ export default function RouteLoading() {
             <Skeleton className="h-9 w-24" />
             <Skeleton className="h-5 w-36" />
           </div>
-          <div className="flex items-end">
-            <Skeleton className="h-10 w-[195px]" />
-          </div>
         </div>
-        <Skeleton className="h-6 w-[300px]" />
-        <div className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {Array.from({ length: 9 }).map((_, index) => (
-            <Skeleton key={index} className="h-[350px]" />
+        <div className="mt-5 grid grid-cols-1 gap-4 md:grid-cols-2">
+          {Array.from({ length: 2 }).map((_, index) => (
+            <Skeleton key={index} className="h-[350px] w-full" />
           ))}
         </div>
       </LayoutContent>
