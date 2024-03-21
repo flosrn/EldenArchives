@@ -159,7 +159,7 @@ export const FavoritesDrawer = (props: FavoritesDrawerProps) => {
                       >
                         <CardContent
                           data-vaul-no-drag
-                          className="relative flex aspect-square size-[150px] items-center justify-center p-6"
+                          className="relative flex aspect-square size-[238px] items-center justify-center p-6 lg:size-[150px]"
                         ></CardContent>
                       </Card>
                     </div>
