@@ -45,9 +45,9 @@ export const FavoritesDrawer = (props: FavoritesDrawerProps) => {
 
     // Maybe throttle the scroll event if there is a performance issue
     // https://www.embla-carousel.com/api/events/#scroll
-    // api.on("scroll", () => {
-    //   setCurrentIndex(api.selectedScrollSnap());
-    // });
+    api.on("scroll", () => {
+      setCurrentIndex(api.selectedScrollSnap());
+    });
   }, [api]);
 
   useEffect(() => {
@@ -71,6 +71,7 @@ export const FavoritesDrawer = (props: FavoritesDrawerProps) => {
     <Drawer>
       <DrawerTrigger asChild>
         <Button
+          onClick={() => toast.dismiss()}
           variant="outline"
           size="icon"
           className="fixed bottom-[22px] right-4 size-12 lg:bottom-9 lg:right-10"
