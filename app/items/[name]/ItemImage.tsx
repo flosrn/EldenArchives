@@ -18,10 +18,7 @@ export const ItemImage = ({ src, alt }: ItemImageProps) => {
         src={`${src}/high`}
         width={400}
         height={400}
-        onError={(event) => {
-          console.error("Failed to load high quality image", event);
-          event.currentTarget.src = `${src}/low`;
-        }}
+        unoptimized
         alt={alt}
       />
     </Zoom>
