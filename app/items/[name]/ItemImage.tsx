@@ -14,7 +14,16 @@ export type ItemImageProps = {
 export const ItemImage = ({ src, alt }: ItemImageProps) => {
   return (
     <Zoom zoomImg={{ src: `${src}/high`, alt: alt }}>
-      <Image src={`${src}/high`} width={400} height={400} alt={alt} />
+      <Image
+        src={`${src}/high`}
+        width={400}
+        height={400}
+        onError={(event) => {
+          console.error("Failed to load high quality image", event);
+          event.currentTarget.src = `${src}/low`;
+        }}
+        alt={alt}
+      />
     </Zoom>
   );
 };
